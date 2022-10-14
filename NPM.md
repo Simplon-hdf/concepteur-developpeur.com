@@ -5,6 +5,7 @@
 - <a href='#whats-packages-fr'>Les paquets Node</a>
 - <a href='#node-modules-fr'>Les modules Node</a>
 - <a href='#package-json-fr'>Le fichier **package.json**</a>
+- <a href='#semantic-versionning-fr'>**Le versionnement sémantique**</a>
 
 # Qu'est ce que NPM (Node Package Manager) <a id='whats-npm-fr'></a>
 
@@ -88,3 +89,30 @@ Vous pourrez y mettre toutes les informations qui suivent (Et bien plus encore, 
 
 NPM se chargera de générer des valeurs par défaut à des champs non-renseignés, par exemple pour le champ ``` script ```.<br>
 NPM initialisera le champ avec une valeur de test.
+
+# Semantic Versioning ou Le versionnement sémantique <a id='semantic-versionning-fr'></a>
+
+Le versionnement sémantique est un standart que vous devez suivre lors de modifications significatives de votre package.<br>
+Il est recommandé de publier vos modifications avec différentes versions de votre package, champ ``` version ``` de votre **package.json**.<br>
+De ce fait, les autres développeurs utilisant votre package pourront comprendre l'étendue des modifications apportées pour chaque version de votre package.<br>
+Pour aborder ce qui suit, vous devez comprendre quelques termes :
+
+1. MAJOR : On appellera MAJOR une version qui ne sera pas rétrocompatible
+2. MINOR : On appellera MINOR une version qui modifiera votre code (Ajout d'une fonctionnalité par exemple) mais qui restera rétrocompatible
+3. PATCH : On appellera PATCH une version qui aura pour effet direct de corriger des bugs, tout en restant retrocompatible
+
+Recommandation : [Apprenez en plus sur les spécificités du Semantic Versioning](https://semver.org/)
+
+Voici les spécificités globales du versionnement sémantique : 
+
+- Il est recommandé de commencer le développement de votre package en version ``` 1.0.0 ```
+- Lorsque vous voudrez faire une mise à jour PATCH, votre package passera en version ``` 1.0.1 ```
+- Lorsque vous voudrez faire une mise à jour MINOR, votre package passera en version ``` 1.1.0 ``` comme vous pouvez le constater, le nombre de patch à été remis à 0
+- Lorsque vous voudrez faire une mise à jour MAJOR, votre package passera en version ``` 2.0.0 ``` comme vous pouvez le constater, le nombre de minor à été remis à 0
+
+Il est important de comprendre que lorsque vous sortez une mise à jour MAJOR, elle influe sur les MINOR ainsi que sur les versions PATCH.<br>
+Que lorsque vous sortez une mise à jour MINOR, elle influe sur les versions PATCH.<br>
+Note: Chaque chiffre n'est pas limité à 9, une version telle que ``` 2.3.19 ``` est une version totallement correcte.<br>
+
+Afin d'appronfondir sur le sujet, vous pouvez [cliquez ici](https://docs.npmjs.com/about-semantic-versioning#using-semantic-versioning-to-specify-update-types-your-package-can-accept)
+
