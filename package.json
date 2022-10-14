@@ -1,0 +1,19 @@
+{
+  "name": "concepteur-developpeur.com",
+  "version": "1.0.0",
+  "description": "Hello",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JordanMahaut/concepteur-developpeur.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JordanMahaut/concepteur-developpeur.com/issues"
+  },
+  "homepage": "https://github.com/JordanMahaut/concepteur-developpeur.com#readme"
+}
