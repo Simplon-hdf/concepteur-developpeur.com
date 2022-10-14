@@ -3,6 +3,7 @@
 - <a href='#whats-npm-fr'>Introduction a NPM</a>
 - - <a href='#whats-npx-fr'>Introduction d'NPX</a>
 - <a href='#whats-packages-fr'>Les paquets Node</a>
+- <a href='#node-modules-fr'>Les modules Node</a>
 
 # Qu'est ce que NPM (Node Package Manager) <a id='whats-npm-fr'></a>
 
@@ -29,7 +30,7 @@ NPX vous permettra ainsi de ne pas avoir à télécharger au préalable le paque
 
 <br>
 
-# Node Package ou Paquet Node <a id='whats-packages-fr'>
+# Node Package ou Paquet Node <a id='whats-packages-fr'></a>
 
 Un package node est un fichier ou un dossier décrit par un fichier **package.json**.<br>
 Le fichier **package.json** va donner des informations à propos de votre package, c'est pourquoi il faut que ce fichier contienne les informations les plus détaillées possible.<br>
@@ -41,3 +42,26 @@ Un package node peut être tout ce qui suit (Et bien plus encore) :
 2. Un fichier compressé contenant (1.)
 3. Une URL pointant vers 2.
 4. L'url d'un repos Github qui lorsque cloné donnera un fichier ou un dossier décrit par un fichier **package.json**
+
+<br>
+
+# Node Modules <a id='node-modules-fr'></a>
+
+Un module Node est une dépendance dont votre paquet aura besoin pour s'executer ou simplement qui vous sera nécessaire pour le développement de votre package.<br>
+
+Un module node peut être :
+
+- Un dossier (Structuré comme un Package)
+- Un fichier JS
+
+Vous pouvez voir les module node dans le dossier ``` node_modules ```.<br>
+Note : Il se peut qu'un module node ne se soit pas correctement installé, dans ce cas, il est conseillé de supprimer le dossier ``` node_modules ``` et de reinstaller tous les modules.<br>
+
+Puis-ce qu'une image vaut mieux que mille mots :
+
+![](https://guillaume-richard.fr/wp-content/uploads/2020/06/node-modules-app-performance.png)
+
+<br>
+
+Cette image explique à quel point les modules nodes sont une charge importante.<br>
+Note : Il est très important de ne pas omettre le ``` node_modules ``` dans votre .gitignore afin de ne pas envoyer tous les modules sur votre dêpot distant.<br>
