@@ -6,6 +6,7 @@
 - <a href='#node-modules-fr'>Les modules Node</a>
 - <a href='#package-json-fr'>Le fichier **package.json**</a>
 - <a href='#semantic-versionning-fr'>**Le versionnement sémantique**</a>
+- <a href='#diff-dependencies-fr'>Difference entre dependencies et devDependencies</a>
 
 # Qu'est ce que NPM (Node Package Manager) <a id='whats-npm-fr'></a>
 
@@ -116,3 +117,13 @@ Note: Chaque chiffre n'est pas limité à 9, une version telle que ``` 2.3.19 ``
 
 Afin d'appronfondir sur le sujet, vous pouvez [cliquez ici](https://docs.npmjs.com/about-semantic-versioning#using-semantic-versioning-to-specify-update-types-your-package-can-accept)
 
+# Difference entre ``` dependencies ``` et ``` devDependencies ``` <a id='diff-dependencies-fr'></a>
+
+Le champ ``` dependencies ``` vous permettra de lister les dépendances dont votre package aura besoin pour s'executer.<br>
+Le champ ``` devDependencies ``` quant à lui vous permettra de lister les dépendance dont vous aurez besoin afin de développer votre package.<br>
+
+Si vous voulez cuisiner un gâteau par exemple et le manger :
+
+Pour la préparations de votre gâteau, vous pourrez utiliser un batteur électrique ou simplement utiliser un fourchette.<br>
+Dans cette exemple, le batteur électrique représente une devDependencies, utile mais optionnel puis-ce qu'il vous est possible d'utiliser une fourchette.<br>
+Et la fourchette représente elle à la fois une devDependencies ainsi qu'une dépendance puis-ce que vous pourrez utiliser cette même fourchette pour manger votre gâteau.<br>
