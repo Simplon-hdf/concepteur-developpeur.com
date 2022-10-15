@@ -21,7 +21,7 @@ NPM se divisent en 3 grands axes :
 
 2. CLI ou l'Interface en Ligne de Commande
 
-    La CLI est une enorme partie du NPM puis-ce que c'est par le CLI que vous interragirez avec NPM et avec le Registry NPM afin<br> de télécharger des paquets s'y trouvant ou de publier vos paquets.
+    La CLI est une enorme partie du NPM puis-ce que c'est par le CLI que vous interragirez avec NPM et avec le Registry NPM afin<br> de télécharger des paquets s'y trouvant ou d'en publier.
 
 3. NPM Registry ou l'Enregisteur
 
@@ -29,8 +29,8 @@ NPM se divisent en 3 grands axes :
 
 ## Qu'est ce qu'NPX (Node Package Executer) <a id='whats-npx-fr'></a>
 
-Comme NPM est un gestionnaire de paquet Node, NPX est enfaite un executeur des paquets Node
-grace à NPX il vous sera possible d'executer des paquets Node directement depuis le Registry de NPM.<br>
+Tout comme NPM est un gestionnaire de paquet Node, NPX est en fait un executeur de paquets Node.
+Grace à NPX il vous sera possible d'executer des paquets Node directement depuis le Registry de NPM.<br>
 NPX vous permettra ainsi de ne pas avoir à télécharger au préalable le paquet Node pour l'executer<br>
 
 <br>
@@ -59,7 +59,7 @@ Un module node peut être :
 - Un dossier (Structuré comme un Package)
 - Un fichier JS
 
-Vous pouvez voir les module node dans le dossier ``` node_modules ```.<br>
+Vous pouvez voir les modules node dans le dossier ``` node_modules ```.<br>
 Note : Il se peut qu'un module node ne se soit pas correctement installé, dans ce cas, il est conseillé de supprimer le dossier ``` node_modules ``` et de reinstaller tous les modules.<br>
 
 Puis-ce qu'une image vaut mieux que mille mots :
