@@ -1,6 +1,6 @@
 # Sommaire <a id='summary-fr'></a>
 
-There is an <a href='#summary-en'>English Version</a> of this documentation.
+There is an <a href='#summary-en'>english Version</a> of this documentation.
 
 - <a href='#whats-npm-fr'>Introduction a NPM</a>
 - - <a href='#whats-npx-fr'>Introduction d'NPX</a>
@@ -160,7 +160,7 @@ Disclaimer : Les sources ci dessous sont exclusivement en anglais.<br>
 
 # Summary <a id='summary-en'></a>
 
-Il existe une <a href='summary-fr'>version française</a> de cette documentation.
+Il existe une <a href='#summary-fr'>version française</a> de cette documentation.
 
 - <a href='#whats-npm-en'>NPM Introduction</a>
 
