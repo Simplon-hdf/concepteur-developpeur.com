@@ -1,4 +1,4 @@
-# Sommaire
+# Sommaire <a id='summary-fr'></a>
 
 - <a href='#whats-npm-fr'>Introduction a NPM</a>
 - - <a href='#whats-npx-fr'>Introduction d'NPX</a>
@@ -8,6 +8,7 @@
 - <a href='#semantic-versionning-fr'>**Le versionnement sémantique**</a>
 - <a href='#diff-dependencies-fr'>Difference entre dependencies et devDependencies</a>
 - <a href='#package-lock-fr'>Package-lock.json</a>
+- <a href='#sources-fr'>Sources</a>
 
 # Qu'est ce que NPM (Node Package Manager) <a id='whats-npm-fr'></a>
 
@@ -141,3 +142,16 @@ Ce fichier est prévu pour être inclut au dêpot, il peut-être utilisé pour :
 - Optimiser l'installation des dépendances, afin de ne pas avoir à retélécharger les dépendances déjà installées.
 
 Le format du fichier **package-lock.json** ressemble fortement à celui du **package.json**, [En apprendre plus sur le format du **package-lock.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
+
+# Sources <a id='sources-fr'></a>
+
+Disclaimer : Les sources ci dessous sont exclusivement en anglais.<br>
+
+- [Qu'est ce que NPM](https://www.w3schools.com/whatis/whatis_npm.asp)
+- [Introduction à NPX](https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/)
+- [Module Node & Paquet Node](https://docs.npmjs.com/about-packages-and-modules)
+- [Le fichier **package.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-json)
+- [Le versionnement sémantique avec Node](https://docs.npmjs.com/about-semantic-versioning)
+- [Le versionnement sémantique](https://semver.org/)
+- [La différence entre les champs ``` dependencies ``` et ``` devDependencies ```](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
+- [Le fichier **package-lock.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
