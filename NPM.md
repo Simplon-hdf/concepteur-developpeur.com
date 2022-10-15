@@ -1,5 +1,7 @@
 # Sommaire <a id='summary-fr'></a>
 
+There is an <a href='#summary-en'>English Version</a> of this documentation.
+
 - <a href='#whats-npm-fr'>Introduction a NPM</a>
 - - <a href='#whats-npx-fr'>Introduction d'NPX</a>
 - <a href='#whats-packages-fr'>Les paquets Node</a>
@@ -155,3 +157,30 @@ Disclaimer : Les sources ci dessous sont exclusivement en anglais.<br>
 - [Le versionnement sémantique](https://semver.org/)
 - [La différence entre les champs ``` dependencies ``` et ``` devDependencies ```](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
 - [Le fichier **package-lock.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
+
+# Summary <a id='summary-en'></a>
+
+Il existe une <a href='summary-fr'>version française</a> de cette documentation.
+
+- <a href='#whats-npm-en'>NPM Introduction</a>
+
+# What's NPM (Node Package Manager) <a id='whats-npm-en'></a>
+
+NPM is an manager for Node Packages, used to publish packages and therefore share packages with other developpers using NPM<br>
+NPM is divided by 3 axes.
+
+1. NPM Website
+    
+    The [NPM](https://www.npmjs.com/) website is a usefull resource to see which packages are availables on the NPM Registry
+
+2. CLI or Command Line Interface
+
+    CLI's a very large part of NPM, because it's with CLI that you'll interact with NPM Registry.<br>
+    You're able to download NPM packages from CLI, send yours, execute downloaded packages, so, it's a realy big part
+    of NPM.
+
+3. NPM Registry
+
+    Registry is a huge database containing JS Packages, Registry can contain some JS applications or just some other packages
+    That you'll be able to manage, adapt at your needs and so use in your own project.<br>
+    But like it was said above, you can also get JS applications ready to use therefore, you can get applications and execute it
