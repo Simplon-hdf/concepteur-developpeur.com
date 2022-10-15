@@ -5,6 +5,7 @@
 - <a href='#node-packages'>Node Packages</a>
 - <a href='#node-modules'>Node Modules</a>
 - <a href='#package-json'>**package.json** file</a>
+- <a href='#semantic-versioning'>Semantic Versioning</a>
 
 # What's NPM (Node Package Manager) <a id='npm-introduction'></a>
 
@@ -92,3 +93,26 @@ You'll put in followings informations (Not exhaustive, and again more) :
 And many others again. <br>
 
 If you do not specify ``` scripts ``` for example, nmp will generate a default parameter, this way specifications arent required if you do not need to do specifics things.<br>
+
+# Semantic Versioning <a id='semantic-versioning'></a>
+
+Semantic Versioning is an standart that you'll must use when you'll put significative modification update to your own package.<br>
+It's recommanded to publish your changes with an different package version, ``` version ``` field in your **package.json**.<br>
+That way, other developpers who depends of your code can understand the extent of changes in a specific version.<br>
+
+There is something to know to abording following, you'll need to understand some terms :
+
+1. MAJOR : MAJOR version when your update will break dependencies
+2. MINOR : MINOR version when your update (Adding a feature for example) will be compatible with previous version
+3. PATCH : PATCH version when your update make backwards compatibles bug fixes
+
+You can also [take a look to semantic versioning specifications](https://semver.org/) to improve your knowledge on this.<br>
+
+There is specifications for semantic versioning in packages :
+
+- It's recommanded to start package versions at ``` 1.0.0 ```
+- When you'll do a MAJOR update, you'll increase by 1 the first digit ``` 2.0.0 ``` like's named, it's an major update
+- When you'll do a MINOR update, you'll increase by 1 the middle digit ``` 2.1.0 ``` like's named, it's an minor update
+- When you'll do a PATCH update, you'll increase by 1 the last digit ``` 2.1.1 ```
+
+To go deeper with semantic versioning using with NPM, you can consult this [Article](https://docs.npmjs.com/about-semantic-versioning#using-semantic-versioning-to-specify-update-types-your-package-can-accept) 
