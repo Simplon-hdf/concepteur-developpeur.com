@@ -1,9 +1,3 @@
-- [Les commandes NPM](#les-commandes-npm)
-- [Comment initialiser un projet avec NPM ?](#comment-initialiser-un-projet-avec-npm-)
-    - [Comment installer des modules ?](#comment-installer-des-modules-)
-        - [Exemple :](#exemple-)
-        - [Exemple :](#exemple--1)
-
 # Les commandes NPM
 
 # Comment initialiser un projet avec NPM ?
@@ -16,7 +10,7 @@ Le npm init va créer un fichier **package.json** qui va permettre d'obtenir des
 
 - ##### Pour pouvoir ajouter un nouveau pacquet à son projet il faudra utiliser :
 
-##### Exemple :
+**Exemple :**
 
 > **npm install express**
 OR 
@@ -34,6 +28,17 @@ Cette commande va permettre d'installer tous les pacquet et modules qui ont ét�
 
 - ##### Vous pouvez télécharger une version spécifique d'un package pour revenir à une version antérieur, il vous faudra donc utiliser :
 
-##### Exemple :
+**Exemple :**
 
 > **npm install express@1.0.2**
+
+
+### Comment installer les pacquet de dépendance de développement ?
+
+- ##### Pour installer les outils qui ne seront utilisés que dans l’environnement de développement, il faudra utiliser :
+
+##### Exemple : 
+
+> **npm install nodemon --save-dev**
+
+Il y aura donc dans le fichier **package.json** le **devDepencies** qui va être ajouter.
