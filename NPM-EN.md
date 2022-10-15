@@ -1,6 +1,7 @@
 # Summary
 
 - <a href='#npm-introduction'>NPM Introduction</a>
+- - <a href='#npx-introduction'>NPX Introduction</a>
 
 # What's NPM (Node Package Manager) <a id='npm-introduction'></a>
 
@@ -22,3 +23,11 @@ NPM is divided by 3 axes.
     Registry is a huge database containing JS Packages, Registry can contain some JS applications or just some other packages
     That you'll be able to manage, adapt at your needs and so use in your own project.<br>
     But like it was said above, you can also get JS applications ready to use therefore, you can get applications and execute it
+
+## What's NPX (Node Package Executer) <a id='npx-introduction'></a>
+
+Like NPM is an manager for packages, NPX is an executer for packages.<br>
+It means you're able to execute packages contained on NPM Registry without downloading them<br>
+Note: You can also install packages with NPM and run them with NPM, but you'll need to download packages firstly
+
+<br>
