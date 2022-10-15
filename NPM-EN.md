@@ -2,6 +2,7 @@
 
 - <a href='#npm-introduction'>NPM Introduction</a>
 - - <a href='#npx-introduction'>NPX Introduction</a>
+- <a href='#node-packages'>Node Packages</a>
 
 # What's NPM (Node Package Manager) <a id='npm-introduction'></a>
 
@@ -29,5 +30,20 @@ NPM is divided by 3 axes.
 Like NPM is an manager for packages, NPX is an executer for packages.<br>
 It means you're able to execute packages contained on NPM Registry without downloading them<br>
 Note: You can also install packages with NPM and run them with NPM, but you'll need to download packages firstly
+
+<br>
+
+# Node Packages <a id='node-packages'></a>
+
+An Node Package is a file or directory described in a **package.json** file
+The **package.json** file will give some informations about package, that's why you have to add this **package.json** with the most detailled informations.<br>
+A Node Package can also be private or public [Read More About Package visibility](https://docs.npmjs.com/about-private-packages), and scoped or unscoped [Read More About Package scopes](https://docs.npmjs.com/about-scopes)
+
+A node package can be all of following (And more) : 
+
+1. A folder containing program described by **package.json**
+2. An compressed file like .tgz (1.)
+3. An URL resolving to (2.)
+4. An GitHub URL that when cloned, will give you an folder containing program described by **package.json**
 
 <br>
