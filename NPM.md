@@ -32,7 +32,6 @@ Cette commande va permettre d'installer tous les pacquet et modules qui ont ét�
 
 > **npm install express@1.0.2**
 
-
 ### Comment installer les pacquet de dépendance de développement ?
 
 - ##### Pour installer les outils qui ne seront utilisés que dans l’environnement de développement, il faudra utiliser :
