@@ -4,6 +4,7 @@
 - - <a href='#npx-introduction'>NPX Introduction</a>
 - <a href='#node-packages'>Node Packages</a>
 - <a href='#node-modules'>Node Modules</a>
+- <a href='#package-json'>**package.json** file</a>
 
 # What's NPM (Node Package Manager) <a id='npm-introduction'></a>
 
@@ -67,4 +68,27 @@ An great resumed explanations of Node Modules could be : <br>
 
 <br>
 
-Because you're forced to download dependencies for each packages, who'll need some other packages
+Because you're forced to download dependencies for each packages, who'll need some other packages.
+
+# **package.json** <a id='package-json'></a>
+
+**package.json** as explained above is a file who'll be essential for your Node Package.<br>
+This file can be compared to a map of your Package, you'll provides a lot of informations in.<br>
+You'll put in followings informations (Not exhaustive, and again more) :
+
+- name : How is called your package
+- version : Version of current package
+- description : Put an description to your package
+- keywords : Pretty optionnal but if you want to share package with other developpers, it would be indispensable
+- homepage : It can be a github repos or a Website, just the web referer to your package
+- bugs : Where to report bugs, also can be a repos git to issues page
+- author : Some information about you
+- main : Used to entry point of your Node Package / Module
+- scripts : For advanced configuration of your package [Read More about script possibles values](https://docs.npmjs.com/cli/v8/using-npm/scripts)
+- dependencies : To add a dependency at your project with version as value ``` "express":"4.18.2" ``` will add depency of express version 4.18.2 for example 
+- devDependencies : To add a developpement depency on your package, see below
+- private : true ; To be sure your package can't be published if you want to keep it private
+
+And many others again. <br>
+
+If you do not specify ``` scripts ``` for example, nmp will generate a default parameter, this way specifications arent required if you do not need to do specifics things.<br>
