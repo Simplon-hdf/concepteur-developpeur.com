@@ -3,6 +3,7 @@
 - <a href='#npm-introduction'>NPM Introduction</a>
 - - <a href='#npx-introduction'>NPX Introduction</a>
 - <a href='#node-packages'>Node Packages</a>
+- <a href='#node-modules'>Node Modules</a>
 
 # What's NPM (Node Package Manager) <a id='npm-introduction'></a>
 
@@ -47,3 +48,23 @@ A node package can be all of following (And more) :
 4. An GitHub URL that when cloned, will give you an folder containing program described by **package.json**
 
 <br>
+
+# Node Modules <a id='node-modules'></a>
+
+A Node Module is an dependency that your own package will need to run
+It can be :
+
+- An folder (Structured like an Package)
+- An JS file
+
+You can see Node Modules in ``` node_modules ``` folder<br>
+Note: Sometimes an Node Module can be installed without some parts of, so you can delete ``` node_modules ``` folder to 
+redownload cleanly Node Modules required by your package.<br>
+
+An great resumed explanations of Node Modules could be : <br>
+
+![](https://guillaume-richard.fr/wp-content/uploads/2020/06/node-modules-app-performance.png)
+
+<br>
+
+Because you're forced to download dependencies for each packages, who'll need some other packages
