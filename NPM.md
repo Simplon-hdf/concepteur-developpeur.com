@@ -7,6 +7,7 @@
 - <a href='#package-json-fr'>Le fichier **package.json**</a>
 - <a href='#semantic-versionning-fr'>**Le versionnement sémantique**</a>
 - <a href='#diff-dependencies-fr'>Difference entre dependencies et devDependencies</a>
+- <a href='#package-lock-fr'>Package-lock.json</a>
 
 # Qu'est ce que NPM (Node Package Manager) <a id='whats-npm-fr'></a>
 
@@ -127,3 +128,16 @@ Si vous voulez cuisiner un gâteau par exemple et le manger :
 Pour la préparations de votre gâteau, vous pourrez utiliser un batteur électrique ou simplement utiliser un fourchette.<br>
 Dans cette exemple, le batteur électrique représente une devDependencies, utile mais optionnel puis-ce qu'il vous est possible d'utiliser une fourchette.<br>
 Et la fourchette représente elle à la fois une devDependencies ainsi qu'une dépendance puis-ce que vous pourrez utiliser cette même fourchette pour manger votre gâteau.<br>
+
+# package-lock.json <a id='package-lock-fr'></a>
+
+Le fichier **package-lock.json**  est automatiquement généré par NPM lorsqu'une opération affectant l'arboréscence du dossier ``` node_modules ``` ou le fichier ``` package.json ``` par NPM est effectuée.<br>
+Le **package-lock.json** va contenir une description exacte de l'arboréscence des dépendances.<br>
+Ce fichier est prévu pour être inclut au dêpot, il peut-être utilisé pour :
+
+- Obtenir une seule définition de l'arboréscence des dépendances, de cette façons tous les aspects de l'intégration continue sont assurés d'installer les mêmes dépendances.
+- Obtenir un moyen simple de retracer les états du ``` node_modules ```
+- Obtenir une meilleure visibilité des changements apportés à l'arboréscence
+- Optimiser l'installation des dépendances, afin de ne pas avoir à retélécharger les dépendances déjà installées.
+
+Le format du fichier **package-lock.json** ressemble fortement à celui du **package.json**, [En apprendre plus sur le format du **package-lock.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
