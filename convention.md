@@ -1,6 +1,10 @@
-# Les linters et formatters 
+Table of content: 
 
-### Dans quel but ? 
+1) Dans quel but?
+2) Les différentes conventions
+
+
+## Dans quel but ? 
 
 Il existe plusieurs façons d'écrire un même code. De façon à uniformiser le code de différents développeurs dans les entreprises, des **conventions** existent. Ces conventions permettent aux développeurs d'une équipe de rendre un code uniformisé, compréhensible par tous. 
 
@@ -19,6 +23,8 @@ Suivre ces règles de convention apporte différents avantages :
 - Améliore la readabilité du code pour d'autres ingénieurs logiciel et rends plus facile le peer review. 
 
 <br/>
+
+## Les différentes conventions: 
 
 Les plus grandes compagnies ont sorties leurs conventions respectives concernant Javascript:
 
