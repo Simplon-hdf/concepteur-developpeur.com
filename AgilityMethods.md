@@ -16,3 +16,11 @@
 - **L'équipe**
 
 >  Des individus et des interactions, plutôt que des processus et des outils.
+
+- **L’application**
+
+> C'est-à-dire des fonctionnalités opérationnelles plutôt que de la documentation exhaustive.
+
+- **La collaboration**
+
+> La collaboration avec les clients plus que la négociation contractuelle.
