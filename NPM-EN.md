@@ -2,6 +2,10 @@
 
 - <a href='#npm-introduction'>NPM Introduction</a>
 - - <a href='#npx-introduction'>NPX Introduction</a>
+- <a href='#node-packages'>Node Packages</a>
+- <a href='#node-modules'>Node Modules</a>
+- <a href='#package-json'>**package.json** file</a>
+- <a href='#semantic-versioning'>Semantic Versioning</a>
 
 # What's NPM (Node Package Manager) <a id='npm-introduction'></a>
 
@@ -31,3 +35,84 @@ It means you're able to execute packages contained on NPM Registry without downl
 Note: You can also install packages with NPM and run them with NPM, but you'll need to download packages firstly
 
 <br>
+
+# Node Packages <a id='node-packages'></a>
+
+An Node Package is a file or directory described in a **package.json** file
+The **package.json** file will give some informations about package, that's why you have to add this **package.json** with the most detailled informations.<br>
+A Node Package can also be private or public [Read More About Package visibility](https://docs.npmjs.com/about-private-packages), and scoped or unscoped [Read More About Package scopes](https://docs.npmjs.com/about-scopes)
+
+A node package can be all of following (And more) : 
+
+1. A folder containing program described by **package.json**
+2. An compressed file like .tgz (1.)
+3. An URL resolving to (2.)
+4. An GitHub URL that when cloned, will give you an folder containing program described by **package.json**
+
+<br>
+
+# Node Modules <a id='node-modules'></a>
+
+A Node Module is an dependency that your own package will need to run
+It can be :
+
+- An folder (Structured like an Package)
+- An JS file
+
+You can see Node Modules in ``` node_modules ``` folder<br>
+Note: Sometimes an Node Module can be installed without some parts of, so you can delete ``` node_modules ``` folder to 
+redownload cleanly Node Modules required by your package.<br>
+
+An great resumed explanations of Node Modules could be : <br>
+
+![](https://guillaume-richard.fr/wp-content/uploads/2020/06/node-modules-app-performance.png)
+
+<br>
+
+Because you're forced to download dependencies for each packages, who'll need some other packages.
+
+# **package.json** <a id='package-json'></a>
+
+**package.json** as explained above is a file who'll be essential for your Node Package.<br>
+This file can be compared to a map of your Package, you'll provides a lot of informations in.<br>
+You'll put in followings informations (Not exhaustive, and again more) :
+
+- name : How is called your package
+- version : Version of current package
+- description : Put an description to your package
+- keywords : Pretty optionnal but if you want to share package with other developpers, it would be indispensable
+- homepage : It can be a github repos or a Website, just the web referer to your package
+- bugs : Where to report bugs, also can be a repos git to issues page
+- author : Some information about you
+- main : Used to entry point of your Node Package / Module
+- scripts : For advanced configuration of your package [Read More about script possibles values](https://docs.npmjs.com/cli/v8/using-npm/scripts)
+- dependencies : To add a dependency at your project with version as value ``` "express":"4.18.2" ``` will add depency of express version 4.18.2 for example 
+- devDependencies : To add a developpement depency on your package, see below
+- private : true ; To be sure your package can't be published if you want to keep it private
+
+And many others again. <br>
+
+If you do not specify ``` scripts ``` for example, nmp will generate a default parameter, this way specifications arent required if you do not need to do specifics things.<br>
+
+# Semantic Versioning <a id='semantic-versioning'></a>
+
+Semantic Versioning is an standart that you'll must use when you'll put significative modification update to your own package.<br>
+It's recommanded to publish your changes with an different package version, ``` version ``` field in your **package.json**.<br>
+That way, other developpers who depends of your code can understand the extent of changes in a specific version.<br>
+
+There is something to know to abording following, you'll need to understand some terms :
+
+1. MAJOR : MAJOR version when your update will break dependencies
+2. MINOR : MINOR version when your update (Adding a feature for example) will be compatible with previous version
+3. PATCH : PATCH version when your update make backwards compatibles bug fixes
+
+You can also [take a look to semantic versioning specifications](https://semver.org/) to improve your knowledge on this.<br>
+
+There is specifications for semantic versioning in packages :
+
+- It's recommanded to start package versions at ``` 1.0.0 ```
+- When you'll do a MAJOR update, you'll increase by 1 the first digit ``` 2.0.0 ``` like's named, it's an major update
+- When you'll do a MINOR update, you'll increase by 1 the middle digit ``` 2.1.0 ``` like's named, it's an minor update
+- When you'll do a PATCH update, you'll increase by 1 the last digit ``` 2.1.1 ```
+
+To go deeper with semantic versioning using with NPM, you can consult this [Article](https://docs.npmjs.com/about-semantic-versioning#using-semantic-versioning-to-specify-update-types-your-package-can-accept) 
