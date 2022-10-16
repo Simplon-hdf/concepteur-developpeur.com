@@ -7,6 +7,7 @@
 - <a href='#package-json'>**package.json** file</a>
 - <a href='#semantic-versioning'>Semantic Versioning</a>
 - <a href='#diff-fields-dependencies'>Difference between ``` dependencies ``` and ``` devDependencies ```</a>
+- <a href='#package-lock-json'>Introducing **package-lock.json**</a>
 
 # What's NPM (Node Package Manager) <a id='npm-introduction'></a>
 
@@ -130,3 +131,23 @@ Where Beater is an devDependencies, usable but optional, you can also use a Fork
 Fork can be used to eat your cake too, it could be an Dependency too<br>
 
 <br>
+
+# **package-lock.json** <a id='package-lock-json'></a>
+
+**package-lock.json** is an automaticly generated file, it will be generated on any operations where NPM modify ``` node_modules ``` tree or ``` package.json ```.<br>
+**package-lock.json** contains an exact description of dependencies tree was generated. <br>
+This file is intended to be commited to repository could be usefull for :
+
+- Describe an single representation of dependency tree, that way every aspects of continuous intregration are guaranteed to install exactly the sames dependencies.
+- Provide an easy way for user to retrace the states of ``` node_modules ```.
+- Provide a greater visibility of tree changes
+- Optimize dependencies installation by allowing NPM to skip previously installed dependencies 
+
+**package-lock.json** format :
+
+- ``` name ``` : Will be same as field in ``` package.json ```
+- ``` version ``` : Will be same as field in ``` package.json ```
+- ``` lockfileVersion ``` : It's an integer version (Following same standart about semantic versions in ``` package.json ```)
+[Read more about](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json#lockfileversion) 
+
+And more about, [here](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json#packages)
