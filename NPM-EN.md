@@ -8,6 +8,7 @@
 - <a href='#semantic-versioning'>Semantic Versioning</a>
 - <a href='#diff-fields-dependencies'>Difference between ``` dependencies ``` and ``` devDependencies ```</a>
 - <a href='#package-lock-json'>Introducing **package-lock.json**</a>
+- <a href='#sources'>Sources</a>
 
 # What's NPM (Node Package Manager) <a id='npm-introduction'></a>
 
@@ -151,3 +152,14 @@ This file is intended to be commited to repository could be usefull for :
 [Read more about](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json#lockfileversion) 
 
 And more about, [here](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json#packages)
+
+# Sources <a id='sources'></a>
+
+- [What's NPM](https://www.w3schools.com/whatis/whatis_npm.asp)
+- [Introduction NPX](https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/)
+- [Node Modules & Node packages](https://docs.npmjs.com/about-packages-and-modules)
+- [**package.json** file](https://docs.npmjs.com/cli/v8/configuring-npm/package-json)
+- [Semantic Versioning with Node](https://docs.npmjs.com/about-semantic-versioning)
+- [Semantic Versioning](https://semver.org/)
+- [Difference between ``` dependencies ``` and ``` devDependencies ```](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
+- [**package-lock.json** file explanations](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
