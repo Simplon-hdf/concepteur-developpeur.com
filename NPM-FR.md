@@ -1,4 +1,4 @@
-# Sommaire <a id='summary-fr'></a>
+# Sommaire
 
 - <a href='#whats-npm-fr'>Introduction a NPM</a>
 - - <a href='#whats-npx-fr'>Introduction d'NPX</a>
