@@ -1,4 +1,4 @@
-Table of content: 
+Table des matières: 
 
 1) Dans quel but?
 2) Les différentes conventions
@@ -46,8 +46,8 @@ Les plus grandes compagnies ont sorties leurs conventions respectives concernant
     > https://github.com/airbnb/javascript
 
 * **Clean Code Style Guide**: Tiré du livre de Robert C. Martin, les principes de ce livre ont été repris et appliqués au Javascript. C'est une liste de bonnes pratiques pour une écriture lisible du JavaScript. 
-    >     >https://github.com/ryanmcdermott/clean-code-javascript
-https://github.com/ryanmcdermott/clean-code-javascript
+    > https://github.com/ryanmcdermott/clean-code-javascript
+
 
 
 #### **_Nous faisons le choix de suivre la convention proposée par AirBnb dans une stack JavaScript._**
