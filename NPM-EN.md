@@ -6,6 +6,7 @@
 - <a href='#node-modules'>Node Modules</a>
 - <a href='#package-json'>**package.json** file</a>
 - <a href='#semantic-versioning'>Semantic Versioning</a>
+- <a href='#diff-fields-dependencies'>Difference between ``` dependencies ``` and ``` devDependencies ```</a>
 
 # What's NPM (Node Package Manager) <a id='npm-introduction'></a>
 
@@ -116,3 +117,16 @@ There is specifications for semantic versioning in packages :
 - When you'll do a PATCH update, you'll increase by 1 the last digit ``` 2.1.1 ```
 
 To go deeper with semantic versioning using with NPM, you can consult this [Article](https://docs.npmjs.com/about-semantic-versioning#using-semantic-versioning-to-specify-update-types-your-package-can-accept) 
+
+# Difference between Dependencies and devDependencies <a id='diff-fields-dependencies'></a>
+
+Dependencies are some packages that you'll need to use to run your package.<br>
+DevDependencies are some packages that you'll need to use to work on your package.<br>
+
+For example, if you want to cook a cake and taste your cake :
+
+For cooking you'll be able to use an Beater or just an Fork.<br>
+Where Beater is an devDependencies, usable but optional, you can also use a Fork as devDependencies.<br>
+Fork can be used to eat your cake too, it could be an Dependency too<br>
+
+<br>
