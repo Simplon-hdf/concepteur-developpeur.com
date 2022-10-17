@@ -217,3 +217,45 @@ OR
 
 - Pour avoir de la documentation sur le package, il faudra utiliser :
 > npm **docs express**
+
+### Quels sont les commandes pour faire les mises à jours de NPM ?
+
+**IMPORTANT** : Il faut toujours vérifier que les modules et paquets sont à jours.
+
+- ##### Que faire avant de mettre à jour un paquet NPM ?
+
+- Avant de mettre à jour **les paquets NPM** il faut regarder si un paquet est expiré, il faudra utiliser : 
+
+> npm **outdated**
+
+Il faudra utilisé la commande depuis le répertoire racine.
+
+#### Il y a deux type d'update :
+
+- Pour mettre à jour tous les paquets du projet, il faudra utiliser :
+
+> npm **update**
+
+- Pour mettre à jour un paquet en particulier, il faudra utiliser : 
+
+> npm **update express**
+
+#### Mettre à jour la nouvelle version NPM :
+- Pour mettre à jour la nouvelle version de NPM, il faudra utiliser : 
+> npm **install npm@latest -g**
+
+#### Mettre à jour les packages de développement :
+- Pour mettre à jour un package en DevDepencies, il faudra utiliser :
+> npm **update --dev**
+
+### Quels sont les commandes pour désinstaller un package ?
+
+- Pour supprimer un package en local, il faudra utiliser la commande :
+
+> npm **uninstall express**
+
+OR
+> npm **un express**
+
+- Pour supprimer les packages du cache, il faudra utiliser la commande : 
+> npm cache clean
