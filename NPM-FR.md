@@ -42,6 +42,7 @@ Cette commande va permettre d'installer tous les pacquet et modules qui ont ét�
 
 Il y aura donc dans le fichier **package.json** le **devDepencies** qui va être ajouter.
 # Sommaire <a id='summary-fr'></a>
+# Sommaire
 
 - <a href='#whats-npm-fr'>Introduction a NPM</a>
 - - <a href='#whats-npx-fr'>Introduction d'NPX</a>
