@@ -200,3 +200,20 @@ Cette commande va permettre d'installer tous les pacquet et modules qui ont ét�
 > **npm install nodemon --save-dev**
 
 Il y aura donc dans le fichier **package.json** le **devDepencies** qui va être ajouter.
+
+### Comment listés des packages installés au projet ?
+
+- Pour lister les packages, au niveau local, il faudra utiliser la commande : 
+> **npm list**
+
+OR
+
+> **npm ls**
+
+### Obtenir des informations sur un package
+
+- Pour avoir des informations sur un package, il faudra utiliser :
+> npm **view express**
+
+- Pour avoir de la documentation sur le package, il faudra utiliser :
+> npm **docs express**
