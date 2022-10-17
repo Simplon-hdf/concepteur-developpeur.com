@@ -57,7 +57,7 @@ note: It is also possible to proceed to a global installation of ESlint (add -g)
    > touch .eslintrc   
      code .eslintrc
 
-4) In the config file _.eslintrc_, insert the following script: 
+4) In the config file _.eslintrc_, insert the following script:  
    >  {  
   "extends": ["airbnb-base"],  
   "env": {  
