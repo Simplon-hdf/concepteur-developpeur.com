@@ -10,6 +10,7 @@
       - [Créer un projet à partir d'un dépôt vide](#créer-un-projet-à-partir-dun-dépôt-vide)
   - [Branches](#branches)
   - [Pull request <a name="#Commande"></a>](#pull-request-)
+    - [Fonctionnement:](#fonctionnement)
 ##Introduction<a name="Introduction"></a>
 GIT a été créé en 2005 par Linus Torvalds, créateur de LINUX. 
 C'est un Logiciel libre, gratuit, permettant de travailler en collabaration et de sauvegarder son travail. Tout en protégeant le code source, il permet de suivre chaque changements apportés, de garder une trace et revenir en arrière si besoin.
@@ -99,3 +100,11 @@ Origin réprésente votre dépôt distant.
 Fork permet d'aller chercher un dépôt d'upstream vers origin.
 
 ![pull request](https://devopscube.com/wp-content/uploads/2021/02/git-forked-upstream-min.png.webp)
+
+### Fonctionnement:
+1) Fork un projet upstream vers origin
+2) Clone le nouveau projet dans le local
+3) Créer une new branche
+4) Push ton travail sur origin
+5) Proposer son projet à upstream
+6) Propiétaire soumet des vérifications à l'upstream
