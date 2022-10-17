@@ -14,6 +14,10 @@
     - [Initialisation de gitflow](#initialisation-de-gitflow)
     - [Démarrer une fonctionnalité](#démarrer-une-fonctionnalité)
       - [Terminer une fonctionnalité](#terminer-une-fonctionnalité)
+    - [Commencer une Livraison/release](#commencer-une-livraisonrelease)
+      - [Terminer une livraison](#terminer-une-livraison)
+    - [Commencer un correctif](#commencer-un-correctif)
+      - [Terminer un correctif](#terminer-un-correctif)
 
 ## Description
 
@@ -108,3 +112,76 @@ git branch -D feature/Myfeature
 ```
 
 </br>
+
+### Commencer une Livraison/release
+
+Gitflow permet aussi de gérer les versions avec la création de branche ==release==, pouvant être utilisé lors de la production.
+
+Pour crée une version lancer la commande :
+
+```
+git flow release start 1.0.0
+```
+
+L'extension crée une branche ==release== en ce plaçant sur la branche ==Develop==.
+
+</br>
+
+#### Terminer une livraison
+
+Après avoir effectué les actions voulues, vous devez lancer la commande :
+
+```
+git flow release finish 1.0.0
+```
+
+Cette commande merge la branche ==release== à la branche ==main==.
+
+**Commande correspondante sur Git :**
+
+```
+git checkout main
+git merge release/1.0.0
+```
+
+</br>
+
+### Commencer un correctif
+
+En cas d'erreur lors de la production, la création d'une branche ==hotfix== peut être crée.
+Pour cela lancer la commande :
+
+```
+git flow hotfix start myBranch
+```
+
+Cette commande crée une branche à partir de la branche ==main==.
+
+**Commande correspondante sur Git :**
+
+```
+git checkout main
+git checkout -b hotfix/myBranch
+```
+
+</br>
+
+#### Terminer un correctif
+
+Lorsque votre ==hotfix== est terminé lancer la commande :
+
+```
+git flow hotfix finish myBranch
+```
+
+Cette commande envoie les changements à la fois sur la branche ==main== et la branche ==Develop==.
+
+**Commande correspondante sur Git :**
+
+```
+git checkout master
+git merge hotfix/myBranch
+git checkout develop
+git merge hotfix/myBranch
+git branch -D hotfix/myBranch
+```
