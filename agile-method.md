@@ -36,7 +36,7 @@
 
 - Satisfaire le client avec un produit de qualité et de nécessité
 - Accueillir favorablement les demandes de changements
-- Mise à jour fonctionnelle fréquente
+- Mise à jour fonctionnelle fréquente git 
 - Collaboration quotidienne dev et client
 - Satisfaire les demandes des collaborateurs et créer un lien de confiance
 - Communication face à face
