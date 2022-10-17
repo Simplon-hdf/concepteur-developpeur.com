@@ -9,7 +9,7 @@
     - [Fonctionnement de GIT: <a name="#Commande"></a>](#fonctionnement-de-git-)
       - [Créer un projet à partir d'un dépôt vide](#créer-un-projet-à-partir-dun-dépôt-vide)
   - [Branches](#branches)
-
+  - [Pull request <a name="#Commande"></a>](#pull-request-)
 ##Introduction<a name="Introduction"></a>
 GIT a été créé en 2005 par Linus Torvalds, créateur de LINUX. 
 C'est un Logiciel libre, gratuit, permettant de travailler en collabaration et de sauvegarder son travail. Tout en protégeant le code source, il permet de suivre chaque changements apportés, de garder une trace et revenir en arrière si besoin.
@@ -90,3 +90,12 @@ git merge feature1  # fusionne sur la branche develop
 git branch -d feature1 # supprime la branche feature1
 ```
 ![Les branches](https://uploads.sitepoint.com/wp-content/uploads/2019/06/155993572204-gitflow.png)
+
+## Pull request <a name="#Commande"></a>
+Avec une collaboration sur un projet GIT il est nécessaire d'avoir un dépôt distant (Github).
+Récupère un projet upstream permettant de travailler en collaboration.
+Upstream représente un dépôt distant externe au votre.
+Origin réprésente votre dépôt distant.
+Fork permet d'aller chercher un dépôt d'upstream vers origin.
+
+![pull request](https://devopscube.com/wp-content/uploads/2021/02/git-forked-upstream-min.png.webp)
