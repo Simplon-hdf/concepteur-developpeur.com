@@ -8,7 +8,7 @@
     - [Principale commande de base :](#principale-commande-de-base-)
     - [Fonctionnement de GIT: <a name="#Commande"></a>](#fonctionnement-de-git-)
       - [Créer un projet à partir d'un dépôt vide](#créer-un-projet-à-partir-dun-dépôt-vide)
-  
+  - [Branches](#branches)
 
 ##Introduction<a name="Introduction"></a>
 GIT a été créé en 2005 par Linus Torvalds, créateur de LINUX. 
@@ -70,3 +70,23 @@ Si vous voulez add plusieurs dossiers en même-temps :
 ```
 git add .
 ```
+## Branches 
+Lors d'un travail à plusieurs, git permet d'identifier chaque modifications, sur un projet commun avec des commits et des branches différentes.
+Une branche contient plusieurs commits avec un pointeur, en avançant dans le projet, les commits augmentent sur la branche. 
+Travailler sur une branche secondaire permet de ne pas interférer dans le travail de la branche principale et de garder la meilleure version.
+Il existe plusieurs branches que l'on peut renommer comme l'on souhaite :  
+- La branche par défaut est "master" que l'on doit la renommer en "main". 
+- La branche "develop" créer à partir de "main".
+- Les branches "feature" à partir de "develop" pour travailler dessus et garder la meilleure version. 
+ 
+
+```sh
+git branch develop  #Créer une branche develop
+git checkout develop  #Change sur la branche develop
+git branch feature1 
+git chekckout feature1 
+git checkout develop 
+git merge feature1  # fusionne sur la branche develop
+git branch -d feature1 # supprime la branche feature1
+```
+![Les branches](https://uploads.sitepoint.com/wp-content/uploads/2019/06/155993572204-gitflow.png)
