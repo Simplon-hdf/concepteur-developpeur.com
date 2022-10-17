@@ -33,6 +33,7 @@
 > Il est préferable d'accepter le changement et de ne pas suivre de plan rigide.
 
 
+
 ---
 
 ## Les principes de la méthode agile <a name="pma"></a>
@@ -50,54 +51,6 @@
 - Auto-responsabilité des membres de l’équipe
 - Adaptation des comportement et du travail dans l’équipe régulièrement après debrief
 
-
-## Les fondamentaux de la méthode agile. <a name="fma"></a>
-
-
-### Productivité
-
-> Fournir fréquement des solutions fonctionnelles. <br />
-> Prioriser les solutions importantes. <br />
-> Segmenter la productions du projet. <br />
-> Une ligne de conduite rigoureuse lors du développement du projet. <br />
-> Productivité constante. <br />
-> La simplicité et l'art de maximisé la quantité de travail que on ne fait pas. <br />
-
-### Communication client
-
-> Le client fait partie de l'équipe. <br />
-> Communication permanante avec le client. <br />
-> Etablir une relation de confiance avec le client. <br />
-
-### Communication 
-
-> Adaptation et amélioration de l'équipe <br />
-> Privilégier le contacte humain. <br />
-> **Ex : L'envoie de mail ne retranscrit pas les sentiments réel d'une personne, le contacte humain facilite la compréhension.** <br />
-> Le contacte humain facilite la compréhension. <br />
-> Communication verbal et non verbal (communication face à face). <br />
-> Auto-responsabilisé les membres de l'équipe.
----
-
-
-## Les 4 valeurs de la méthode agile <a name="vma"></a>
-
-
-- **L'équipe**
-
->  Des individus et des interactions, plutôt que des processus et des outils.
-
-- **L’application**
-
-> C'est-à-dire des fonctionnalités opérationnelles plutôt que de la documentation exhaustive.
-
-- **La collaboration**
-
-> Définir correctement les besoins client, satisfaire pendant une démo technique.
-
-# La gestion de projet selon le Manifeste Agile
-
-> Plus souple et plus flexible, elle place les besoins du client au centre des priorités du projet. Elle se compose de 4 valeurs et de 12 principes.
 ### Satisfaire 
 ___
 1 - Notre principale priorité est de **satisfaire le client** en livrant rapidement et régulièrement des solutions qui apportent de la valeur.
@@ -139,5 +92,37 @@ ___
 ### Retrospection
 ___
 12 - À intervalles réguliers, l’équipe réfléchit aux façons de devenir plus **efficace**, puis **modifie son comportement** et l’ajuste en conséquence.
+
+
+
+## Les fondamentaux de la méthode agile. <a name="fma"></a>
+
+
+### Productivité
+
+> Fournir fréquement des solutions fonctionnelles. <br />
+> Prioriser les solutions importantes. <br />
+> Segmenter la productions du projet. <br />
+> Une ligne de conduite rigoureuse lors du développement du projet. <br />
+> Productivité constante. <br />
+> La simplicité et l'art de maximisé la quantité de travail que on ne fait pas. <br />
+
+### Communication client
+
+> Le client fait partie de l'équipe. <br />
+> Communication permanante avec le client. <br />
+> Etablir une relation de confiance avec le client. <br />
+
+### Communication 
+
+> Adaptation et amélioration de l'équipe <br />
+> Privilégier le contacte humain. <br />
+> **Ex : L'envoie de mail ne retranscrit pas les sentiments réel d'une personne, le contacte humain facilite la compréhension.** <br />
+> Le contacte humain facilite la compréhension. <br />
+> Communication verbal et non verbal (communication face à face). <br />
+> Auto-responsabilisé les membres de l'équipe.
+---
+
+
 
 
