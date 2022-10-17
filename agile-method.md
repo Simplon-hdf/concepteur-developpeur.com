@@ -25,8 +25,28 @@
 
 > La collaboration avec les clients plus que la négociation contractuelle.
 
+- **L’acceptation du changement**
 
-> Définir correctement les besoins client, satisfaire pendant une démo technique. <br />
+> Il est préferable d'accepter le changement et de ne pas suivre de plan rigide.
+
+
+---
+
+## Les principes de la méthode agile <a name="pma"></a>
+
+- Satisfaire le client avec un produit de qualité et de nécessité
+- Accueillir favorablement les demandes de changements
+- Mise à jour fonctionnelle fréquente
+- Collaboration quotidienne dev et client
+- Satisfaire les demandes des collaborateurs et créer un lien de confiance
+- Communication face à face
+- Priorisé la continuité face à la nouveauté
+- Faire avancé le projet avec un rythme constant
+- Rigueur technique et conception avancée qui renforce l’agilité
+- Minimiser le superflu pour se concentrer sur l’essentiel
+- Auto-responsabilité des membres de l’équipe
+- Adaptation des comportement et du travail dans l’équipe régulièrement après debrief
+
 
 ## Les fondamentaux de la méthode agile. <a name="fma"></a>
 
@@ -54,3 +74,22 @@
 > Le contacte humain facilite la compréhension. <br />
 > Communication verbal et non verbal (communication face à face). <br />
 > Auto-responsabilisé les membres de l'équipe.
+---
+
+
+## Les 4 valeurs de la méthode agile <a name="vma"></a>
+
+
+- **L'équipe**
+
+>  Des individus et des interactions, plutôt que des processus et des outils.
+
+- **L’application**
+
+> C'est-à-dire des fonctionnalités opérationnelles plutôt que de la documentation exhaustive.
+
+- **La collaboration**
+
+> Définir correctement les besoins client, satisfaire pendant une démo technique.
+
+
