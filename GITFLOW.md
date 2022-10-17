@@ -12,6 +12,8 @@
         - [Windows](#windows)
     - [Fonctionnement de Gitflow](#fonctionnement-de-gitflow)
     - [Initialisation de gitflow](#initialisation-de-gitflow)
+    - [Démarrer une fonctionnalité](#démarrer-une-fonctionnalité)
+      - [Terminer une fonctionnalité](#terminer-une-fonctionnalité)
 
 ## Description
 
@@ -63,5 +65,46 @@ git flow init
 ```
 
 L'extension propose de préfixer les branches de Gitflow. Il est conseillé de laisser les valeurs par défaut.(appuyer sur entrée à chaque proposition)
+
+</br>
+
+### Démarrer une fonctionnalité
+
+Pour gitflow démarrer une fonctionnalité correspond à la création d'une nouvelle branche de type ==feature==.Cela permet de développer plusieurs fonctionnalités en parallèle, souvent utilisé pour le travail en équipe.
+
+Pour démarrer une fonctionnalité, lancer la commande :
+
+```
+git flow feature start Myfeature
+```
+
+Cette commande créer une branche et se positionne sur celle-ci.
+
+**Commande correspondante sur Git :**
+
+```
+git checkout develop
+git checkout -b feature/Myfeature
+```
+
+</br>
+
+#### Terminer une fonctionnalité
+
+Lorsque votre fonctionnalité est finie, vous devez lancer la commande :
+
+```
+git flow feature finish Myfeature
+```
+
+Gitflow retourne sur la branche ==Develop== et merge la branche ==feature==/Myfeature, une fois le merge réussi la branche est supprimée.
+
+**Commande correspondante sur Git :**
+
+```
+git checkout develop
+git merge feature/Myfeature
+git branch -D feature/Myfeature
+```
 
 </br>
