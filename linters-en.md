@@ -1,4 +1,4 @@
-# Sommaire
+# Summary
 
 - [What is a linter](#whatisaLinter)  
 - [Difference between Linter & Debugger](#lintervsdebugger)  
@@ -24,3 +24,17 @@ It's not the same as the debugger and it can't replace it.
 
 _example :_
 > _A servor-side script can't use the window object. It is possibl to configure the linter to prevent this kind of error._
+
+### Difference between Linter and Debugger
+
+The Debugger can also be considered as an error management tool, but it's **dynamic**! Debugger allows us to decompose the execution of our code and it helps us to detect dynamics errors: variable type, memory gestion, ...
+
+### Existing linters
+
+Today, there are different linter: 
+
+* **JSLint**: 
+* **JSHint**:
+* **ESLint**: The most used and most known. It's a very versatile and configurable linter. It also contain a formatter. It can be integrated in your _continuous integration_
+
+_These three linters also allows us to correct our code directly in our browsers, but we don't recommand this practic._
