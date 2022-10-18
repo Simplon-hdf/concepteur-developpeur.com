@@ -38,3 +38,43 @@ Today, there are different linter:
 * **ESLint**: The most used and most known. It's a very versatile and configurable linter. It also contain a formatter. It can be integrated in your _continuous integration_
 
 _These three linters also allows us to correct our code directly in our browsers, but we don't recommand this practic._
+
+### Example with ESLint
+
+#### Installation & Configuration
+
+1) Create a directory for your project and configure your node environment. 
+   > mkdir newProject   
+     npm init -y
+
+2) Install ESLint and the Airbnb configuration
+   > npm i eslint eslint-config-airbnb-base eslint-plugin-import
+
+note: It is also possible to proceed to a global installation of ESlint (add -g), but this installation is not recommanded by the ESLint official documentation: 
+   > npm i eslint eslint-config-airbnb-base eslint-plugin-import -g
+
+3) We haven't config yet our ESLint. Let's create our config file: 
+   > touch .eslintrc   
+     code .eslintrc
+
+4) In the config file _.eslintrc_, insert the following script: 
+   >  {  
+  "extends": ["airbnb-base"],  
+  "env": {  
+    "node": true,  
+    "es6": true,  
+    "browser": true  
+  },  
+  "rules": {  
+    "no-console": "off"  
+  }  
+}  
+
+5) Now that you have ESLint installed and configured, install the "ESLint" extension. Close and restart, your ESLint is now available! 
+
+6) ESLint can also be used with CLI (_command line interface_): 
+    With a global config: 
+   > eslint index.js
+
+    With a local config: 
+   > npx eslint index.js
