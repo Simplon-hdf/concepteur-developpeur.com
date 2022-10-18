@@ -1,10 +1,12 @@
-- [Dans quel but ?](#dans-quel-but-)
-- [Les différentes conventions:](#les-différentes-conventions)
-
+## Tables des matières 
+<!-- TOC -->
+* [Dans quel but ?](#dans-quel-but)
+* [Les différentes conventions :](#diff)
+<!-- TOC -->
 
 # Dans quel but ? 
 
-Il existe plusieurs façons d'écrire un même code. De façon à uniformiser le code de différents développeurs dans les entreprises, des **conventions** existent. Ces conventions permettent aux développeurs d'une équipe de rendre un code uniformisé, compréhensible par tous. 
+Il existe plusieurs façons d'écrire un même code. De manière à uniformiser le code de différents développeurs dans les entreprises, des **conventions** existent. Ces conventions permettent aux développeurs d'une équipe de rendre un code uniformisé, compréhensible par tous. 
 
 Les conventions couvrent différents domaines :
 
@@ -13,32 +15,32 @@ Les conventions couvrent différents domaines :
 - commentaire et documentation du code source 
 - déclaration des variables
 
-Dans ce cadre, les **linter** et **formatteur** permettent de "modifier" un code source afin d'en rendre une version claire.
+Dans ce cadre, les **linters** et **formatteurs** permettent de "modifier" un code source afin d'en rendre une version claire.
 
 Suivre ces règles de convention apporte différents avantages : 
 
-- Une meilleure maintenance logicielle (40 à 80% de réduction du coût de maintenance)
-- Améliore la readabilité du code pour d'autres ingénieurs logiciel et rends plus facile le peer review. 
+- Une meilleure maintenance logicielle (40 à 80 % de réduction du coût de maintenance)
+- Améliore la lisibilité du code pour d'autres ingénieurs logiciel et rends plus facile le peer review. 
 
 <br/>
 
-# Les différentes conventions: 
+# <a name = "diff" ></a>Les différentes conventions: 
 
-Les plus grandes compagnies ont sorties leurs conventions respectives concernant Javascript:
+Les plus grandes compagnies ont sorti leurs conventions respectives concernant Javascript :
 
-* **Standard Style Guide** : Contient un linter et un formatter, suivi par Github, NPM, Heroku, MongoDB. De plus en plus utilisé dans l'OpenSource.
+* **Standard Style Guide **: Contient un linter et un formatter, suivi par Github, NPM, Heroku, MongoDB. De plus en plus utilisé dans l'OpenSource.
     - Pas de configuration, simple à utiliser et suivre.
-    - Formatte automatiquement le code
+    - Formatter automatiquement le code
     >https://github.com/standard/standard_
 
 * **Google Style Guide** : Google a sorti un guide pour Javascript, mais également pour HTML / CSS / C++ / TypeScript ou Angular. 
     - Fourni avec ESLint 
    > https://google.github.io/styleguide/
 
-* **Airbnb Style Guide**: Un des plus populaire. Très complet, des objets au testing. Propose des conventions CSS, JS, Ruby et React. Il est apprécié pour sa :
+* **Airbnb Style Guide**: Un des plus populaires. Très complet, des objets au testing. Propose des conventions CSS, JS, Ruby et React. Il est apprécié pour ça :
     - Consistence
-    - Readabilité
-    - Prédictabilité
+    - lisibilité
+    - Prédictibilité
     - Efficacité 
      
     > https://github.com/airbnb/javascript
