@@ -51,49 +51,7 @@
 - Auto-responsabilité des membres de l’équipe
 - Adaptation des comportement et du travail dans l’équipe régulièrement après debrief
 
-### Satisfaire 
-___
-1 - Notre principale priorité est de **satisfaire le client** en livrant rapidement et régulièrement des solutions qui apportent de la valeur.
-### Adaptation
-___
-2 - Accueillez chaleureusement les **changements de besoins**, même tardifs dans le développement. Les processus agiles tirent parti du changement pour renforcer l’avantage concurrentiel du client.
-### Mis a jour operationnelle
-___
-3 - Livrez souvent des **solutions opérationnelles**, à une fréquence allant de quelques semaines à quelques mois, avec une préférence pour les échelles de temps les plus courtes.
-### Communication Clientele
-___
-4 - Les personnes en charge du métier ou des affaires et les personnes en charge de la réalisation doivent **travailler ensemble** chaque jour, **tout au long du projet**.
-### Motivation
-___
-5 - Construisez les projets à partir de **personnes motivées**. Donnez-leur l’environnement et le soutien dont elles ont besoin et faites-leur confiance pour mener à bien le travail.
-### Communication
-___
-6 - La conversation en **face à face** est la méthode la plus efficace et la plus économique pour donner des informations à une équipe de réalisation, et pour **échanger des informations** à l’intérieur de l’équipe.
-### Progression
-___
-7 - La disponibilité de solutions opérationnelles est la principale mesure d’avancement.
-
-### Rythme
-___
-8 - Les processus agiles encouragent à respecter un **rythme soutenable** lors de la réalisation. Les commanditaires, les réalisateurs et les utilisateurs devraient pouvoir maintenir indéfiniment un **rythme constant**.
-
-### Optimisation
-___
-9 - Porter continuellement attention à **l’excellence technique** et à la qualité de la conception **renforce l’agilité**.
-
-### Essentiel
-___
-10 - La **simplicité** – l’art de maximiser la **quantité de travail** qu’on ne fait pas – est essentielle.
-
-### Organisation
-___
-11 - Les meilleures **architectures**, les meilleures **spécifications** de besoins, et les meilleures conceptions émergent d’équipes auto-organisées.
-
-### Retrospection
-___
-12 - À intervalles réguliers, l’équipe réfléchit aux façons de devenir plus **efficace**, puis **modifie son comportement** et l’ajuste en conséquence.
-
-
+---
 
 ## Les fondamentaux de la méthode agile. <a name="fma"></a>
 
@@ -122,21 +80,48 @@ ___
 > Communication verbal et non verbal (communication face à face). <br />
 > Auto-responsabilisé les membres de l'équipe.
 ---
-# Scrum - Definition mots cles
-___
-- Epic
-- User story
-- Product backlog
+
+## Le scrum <a name="scrum"></a>
+
+### Définition
+
+> Le scrum est une methode de travail simple permettant d'aborder des problématiques complexes, et les livrées de manière efficace.
+
+<div>
+<img src="images/scrum_schema.jpeg">
+</div>
+
+### Les roles
+
+- __**Product Owner**__
+
+> Personne ayant la responsabilité de produire et de maintenir à jour le carnet de produit. C'est lui qui détermine les priorités et qui prend les décisions d'orientation du projet.
+
+- __**Scrum Master**__
+
+> Membre de l'équipe dont l'objectif principal est de la protéger des perturbations extérieures. Il est complètement transparent pour la communication entre l'équipe et les clients et n'a aucun pouvoir hiérarchique sur l'équipe. C'est en revanche un facilitateur pour les problèmes non techniques de l'équipe.
 
 
-# Epic
-___
-> Les epics sont un moyen utile d'organiser votre travail sous une forme arborescente. L'idée est de découper le travail en morceaux livrables, pour réussir à terminer de gros projets en livrant tout au long de la valeur à vos clients. Les epics aident les équipes à découper leur travail tout en continuant à travailler vers un objectif plus grand
-# User story
-___
-> **user story** est une explication non formelle, générale d'une fonctionnalité logicielle écrite du point de vue de l'utilisateur final
+### Product Backlog
 
-# Product backlog
+> Le Product Backlog est une liste de tâche ordonnée à réaliser, elle sert à définir les attentes des développeurs, faire un classement par priorité, et un suivie des tâches.
+> Le backlog prend en compte le principe d'**Epic** et de User Story.
+>
+> - **Epic** : Une Epic est une tâche complexe qui peut être découpée en plusieurs User Story.
+> - **User Story** : Une User Story est une tâche simple qui peut être réalisée en une journée de travail.
+>
+> Il prend aussi en compte la correction des bugs à faire et les dettes techniques.
+>
+> - **Dettes techniques** : Une dette technique est une tâche qui n'est pas prioritaire mais qui doit être réalisée pour éviter des problèmes futurs.
+>
+> ![Product Backlog](https://assets.asana.biz/transform/9a0eb346-33af-405d-9e6f-f63aad872c48/inline-project-management-product-backlog-1-fr-2x?io=transform:fill,width:1680&format=webp)
+
+
+- __**Sprint backlog**__
+
+> **Sprint backlog** est une liste des tâches à effectuer pour livrer une fonctionnalité, une fois qu'un sprint est finis l'équipe définis les nouvelles tâches pour le prochain sprint.
+
+---
 ___
 >Dans le framework de projet Scrum, on distingue deux types de **backlogs**:
 - le **backlog de produit** (ou product backlog), qui est une liste de fonctionnalités attendues sur le produit (une fonctionnalité s’appelle généralement « user story »),
