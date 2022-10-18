@@ -2,7 +2,7 @@
 
 ## For what usage ? 
 
-It exists differents ways of writing code. In a way to uniform code between developpers, companies began to develop some conventions. This conventions are used by teams for making their code intelligible and readable for all. 
+It exists differents ways of writing code. In a way to uniform code between developpers, companies began to develop some conventions. These conventions are used by teams for making their code intelligible and readable for all. 
 
 Conventions covered differents domains: 
 
@@ -13,7 +13,7 @@ Conventions covered differents domains:
 
 In this context, **linters** and **formatters** both tries to modify our source code in order to make it clean. 
 
-Following this rules of convention gives lots of advantages like:
+Following these rules of convention gives lots of advantages like:
 
 - A better software maintenance (40 to 80 % less cost of maintenance)
 - Improve readabilty of code for other software engineers and make the process of _peer review_ easier.
@@ -22,7 +22,7 @@ Following this rules of convention gives lots of advantages like:
 
 The biggest tech compagnies developss their own conventions for Javascript writing: 
 
-* **Standard Style Guide** : Contains a linter and a formatter, follow by Github, NPM, Heroku or MongoDB.
+* **Standard Style Guide** : Contains a linter and a formatter, follow by GitHub, NPM, Heroku or MongoDB.
     - No configuration, easy to use. 
     - Automatically format your code.
         >https://github.com/standard/standard_
