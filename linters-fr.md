@@ -122,8 +122,8 @@ _ATTENTION: Ce tutoriel est écrit dans le cadre d'un projet Gitlab, Gitlab éta
     puis **_runners_**
  > Vous devriez voir apparaitre deux colonnes: **Shared** runners et **Specific** runners
 
-2) Les runners sont des machines virtuelles permettant d'executer une image de notre application sous **docker**. Le fichier de configuration _.gitlab-ci.yml_ permet de spécifier: 
-   - Quelle image utiliser?
+2) Les runners sont des machines virtuelles permettant d'exécuter une image de notre application sous **docker**. Le fichier de configuration _.gitlab-ci.yml_ permet de spécifier: 
+   - Quelle image utiliser ?
    - Quel script exécuter ? 
    - Quelles dépendances installer ? 
 
