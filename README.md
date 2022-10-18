@@ -21,6 +21,20 @@
 - [Présentation du Planning Poker (French)](planningPoker.md)
 - PLanning Poker presentation (English version not available at this moment)
 
+### Git et GitFlow / Git and GitFlow
+
+- [Documentation de Git (French)](git.md)
+- Documentation of Git (English version not available at this moment)
+- [Documentation de GitFLow (French)](gitflow.md)
+- Documentation of GitFlow (English version not available at this moment)
+
+### Node Package Manager (NPM)
+
+- [Documentation de NPM (French)](npm-fr.md)
+- [Documentation of NPM (English)](npm-en.md)
+- [Example **package.json** file](package.json)
+
+
 Site web (à venir) : http://concepteur-developpeur.com/
 
 
