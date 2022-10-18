@@ -40,7 +40,7 @@ Le débuggeur peut également être considéré comme un outil de gestion des er
 
 ### Les linters existants  <a href="linterExistant"></a>
 
-Il existe différents linter: 
+Il existe différents linters: 
 
 * **JSLint** : JSLint est un linter livré prêt à l'emploi et simple à utiliser. Il ne nécessite que peu de configurations (pas de fichier de config) et ne permets pas la personnalisation de règles personnelles. Ses explications concernant les erreurs sont parfois obscures. 
 * **JSHInt** : JSHint est un linter se plaçant entre JSLint et ESLint. S'il accepte un fichier de configurations, celles-ci restent limitées. La configuration de règles personnelles n'est pas disponible. Ce linter offre deux options d'utilisation, ce qui peut rendre son utilisation complexe. 
@@ -58,7 +58,7 @@ _Ces trois linters proposent une alternative de correction du code directement s
 
 <br/>
 
-<a name="#ESLint"/>
+<a name="#ESLint"></a>
 
 ## Exemple avec ESLint
 
@@ -109,16 +109,17 @@ note: Il est également possible d'installer ESlint en global avec cette command
 
 <br/>
 
-<a name="#IncorporationProccessIntegration"/>
+<a name="#IncorporationProccessIntegration"></a>
 
 ### Incorporation dans le processus d'intégration continue: 
 
 
 _ATTENTION: Ce tutoriel est écrit dans le cadre d'un projet Gitlab, Gitlab étant particulièrement permissif dans les outils Devops proposés._
 
-<!-- Insert about Github actions -->
+<!-- Insert about GitHub actions -->
 
-1) Sur Gitlab, ouvrir les **_settings_** de votre projet, puis aller dans **_CI/CD_**, puis **_runners_**
+1) Sur Gitlab, ouvrir les **_settings_** de votre projet, puis aller dans **_CI/CD_**, 
+    puis **_runners_**
  > Vous devriez voir apparaitre deux colonnes: **Shared** runners et **Specific** runners
 
 2) Les runners sont des machines virtuelles permettant d'executer une image de notre application sous **docker**. Le fichier de configuration _.gitlab-ci.yml_ permet de spécifier: 
