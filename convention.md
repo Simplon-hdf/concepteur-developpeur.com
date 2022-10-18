@@ -1,10 +1,8 @@
-Table des matières: 
-
-1) Dans quel but?
-2) Les différentes conventions
+- [Dans quel but ?](#dans-quel-but-)
+- [Les différentes conventions:](#les-différentes-conventions)
 
 
-## Dans quel but ? 
+# Dans quel but ? 
 
 Il existe plusieurs façons d'écrire un même code. De façon à uniformiser le code de différents développeurs dans les entreprises, des **conventions** existent. Ces conventions permettent aux développeurs d'une équipe de rendre un code uniformisé, compréhensible par tous. 
 
@@ -24,7 +22,7 @@ Suivre ces règles de convention apporte différents avantages :
 
 <br/>
 
-## Les différentes conventions: 
+# Les différentes conventions: 
 
 Les plus grandes compagnies ont sorties leurs conventions respectives concernant Javascript:
 
@@ -50,4 +48,4 @@ Les plus grandes compagnies ont sorties leurs conventions respectives concernant
 
 
 
-#### **_Nous faisons le choix de suivre la convention proposée par AirBnb dans une stack JavaScript._**
+**_Nous faisons le choix de suivre la convention proposée par AirBnb dans une stack JavaScript._**
