@@ -1,3 +1,12 @@
+
+<!-- TOC -->
+  * [Les formatteurs](#les-formatteurs)
+    * [Qu'est-ce qu'un formatter et pouquoi l'utiliser?](#quest-ce-qu--un-formatter-et-pouquoi-lutiliser)
+    * [Comment l'utiliser? L'exemple de Prettier](#comment-lutiliser-lexemple-de-prettier)
+    * [Configurer Prettier :](#configurer-prettier-)
+  * [Conclusion](#conclusion)
+<!-- TOC -->
+
 ## Les formatteurs
 
 ### Qu'est-ce qu'un formatter et pouquoi l'utiliser? 

@@ -155,3 +155,107 @@ Disclaimer : Les sources ci dessous sont exclusivement en anglais.<br>
 - [Le versionnement sémantique](https://semver.org/)
 - [La différence entre les champs ``` dependencies ``` et ``` devDependencies ```](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
 - [Le fichier **package-lock.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
+
+
+# Les commandes NPM
+
+# Comment initialiser un projet avec NPM ?
+
+> **npm init**
+
+Le npm init va créer un fichier **package.json** qui va permettre d'obtenir des informations sur son projet.
+
+### Comment installer des modules ?
+
+- ##### Pour pouvoir ajouter un nouveau pacquet à son projet il faudra utiliser :
+
+**Exemple :**
+
+> **npm install express**
+OR 
+> **npm i express**
+
+ 
+
+- ##### Pour pouvoir installer les pacquet déjà existants il faudra utiliser :
+
+> **npm install**
+OR
+**npm i**
+
+Cette commande va permettre d'installer tous les pacquet et modules qui ont été ajoutées au projet dans le fichier **package.json**.
+
+- ##### Vous pouvez télécharger une version spécifique d'un package pour revenir à une version antérieur, il vous faudra donc utiliser :
+
+**Exemple :**
+
+> **npm install express@1.0.2**
+
+### Comment installer les pacquet de dépendance de développement ?
+
+- ##### Pour installer les outils qui ne seront utilisés que dans l’environnement de développement, il faudra utiliser :
+
+##### Exemple : 
+
+> **npm install nodemon --save-dev**
+
+Il y aura donc dans le fichier **package.json** le **devDepencies** qui va être ajouter.
+
+### Comment listés des packages installés au projet ?
+
+- Pour lister les packages, au niveau local, il faudra utiliser la commande : 
+> **npm list**
+
+OR
+
+> **npm ls**
+
+### Obtenir des informations sur un package
+
+- Pour avoir des informations sur un package, il faudra utiliser :
+> npm **view express**
+
+- Pour avoir de la documentation sur le package, il faudra utiliser :
+> npm **docs express**
+
+### Quels sont les commandes pour faire les mises à jours de NPM ?
+
+**IMPORTANT** : Il faut toujours vérifier que les modules et paquets sont à jours.
+
+- ##### Que faire avant de mettre à jour un paquet NPM ?
+
+- Avant de mettre à jour **les paquets NPM** il faut regarder si un paquet est expiré, il faudra utiliser : 
+
+> npm **outdated**
+
+Il faudra utilisé la commande depuis le répertoire racine.
+
+#### Il y a deux type d'update :
+
+- Pour mettre à jour tous les paquets du projet, il faudra utiliser :
+
+> npm **update**
+
+- Pour mettre à jour un paquet en particulier, il faudra utiliser : 
+
+> npm **update express**
+
+#### Mettre à jour la nouvelle version NPM :
+- Pour mettre à jour la nouvelle version de NPM, il faudra utiliser : 
+> npm **install npm@latest -g**
+
+#### Mettre à jour les packages de développement :
+- Pour mettre à jour un package en DevDepencies, il faudra utiliser :
+> npm **update --dev**
+
+### Quels sont les commandes pour désinstaller un package ?
+
+- Pour supprimer un package en local, il faudra utiliser la commande :
+
+> npm **uninstall express**
+
+OR
+> npm **un express**
+
+- Pour supprimer les packages du cache, il faudra utiliser la commande : 
+> npm cache clean
