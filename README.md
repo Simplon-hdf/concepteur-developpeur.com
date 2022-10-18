@@ -1,15 +1,25 @@
 # Documentation pour le titre professionnel Concepteur Développeur d'Application
 ## Table des matières
-- [La méthode Agile](agile-method.md)
-- [Documentation sur Git](git.md)
-- [Documentation sur Gitflow](gitflow.md)
-- [Documentation sur NPM](npm-fr.md)
-- [Documentation about NPM](npm-en.md)
-- [Documentation sur les linters](linters-fr.md)
-- [Documentation about linters](linters-en.md)
-- [Introduction du planning poker](planningPoker.md)
-- [Les formatters avec prettier](prettier.md)
-- [La velocite dans Scrum](velocite.md)
+
+### Conventions et Outils / Conventions and Tools
+
+- [Les conventions (French)](convention.md)
+- [Conventions (English)](convention-en.md)
+- [Documentation des linters (French)](linters-fr.md)
+- [Documentation of linters (English)](linters-en.md)
+- [Les formatters avec Prettier (French)](prettier.md)
+- Formatters with Prettier (English version not available at this moment)
+
+### Méthode agile (SCRUM) / Agile method (SCRUM)
+
+- [La méthode agile (French)](agile-method.md)
+- Agile method (English version not available at this moment)
+- [Présentation de Jira (French)](jira-presentation.md)
+- Jira presentation (Engish version not available at this moment)
+- [La vélocité dans SCRUM (French)](velocite.md)
+- Velocity in SCRUM (English version not available at this moment)
+- [Présentation du Planning Poker (French)](planningPoker.md)
+- PLanning Poker presentation (English version not available at this moment)
 
 Site web (à venir) : http://concepteur-developpeur.com/
 
