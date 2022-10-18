@@ -1,7 +1,7 @@
 ![jira](https://wac-cdn.atlassian.com/dam/jcr:48f73fa9-325e-4663-a743-daba2a0f1397/jira-social%20@2x.png)
 
-> L'utilisation de l'outils jira est indispensable pour une collaboration optimale.
-Les outils mis a disposition pour nous pemettre de superviser l'evolution de notre projet en temps reel.
+> L'utilisation de l'outil jira est indispensable pour une collaboration optimale.
+Les outils mis à disposition pour nous pemettre de superviser l'évolution de notre projet en temps réel.
 
 ___
 > Jira est un système de suivi de bugs, de gestion des incidents et de gestion de projets.
@@ -12,7 +12,7 @@ ___
 
 ### Presentation
 
-> Jira permet aux équipes de planifier, d'assigner, de suivre, de créer des rapports et de gérer le travail, et les rassemble pour tout type de tâche, du développement de logiciels Agile au support client pour les start-ups comme les entreprises.
+> Jira permet aux équipes de planifier, d'assigner, de suivre, de créer des rapports et de gérer le travail et les rassembler pour tout type de tâche, du développement de logiciels Agile au support client pour les start-ups comme les entreprises.
 
 ___
 
@@ -23,16 +23,16 @@ ___
 - jira work manangement
 - jira align
 
-> Ces quatre principale services vont nous permettre de realiser un suivi quotidient de l'avancement des projets sur lesquels ont travail.
+> Ces quatre principaux services vont nous permettre de réaliser un suivi quotidien de l'avancement des projets sur lesquels nous travaillons.
 
 ___![jiraSoftware](https://www.eficode.com/hubfs/images/blogs/Imported_Blog_Media/jira-software-tips3.jpg)
 
-> Concus pour chaque menbre de l'equipe agile.
+> Conçu pour chaque membre de l'équipe agile.
 Planification, suivi et livraison sont de mise.
 ___
 ![servideManagement](https://www.clearvision-cm.com/wp-content/uploads/2020/11/jsm-reimagined.png)
 
-> Offrez a vos clients un moyen simple de demander de l'aide rapidement.
+> Offrez à vos clients un moyen simple de demander de l'aide rapidement.
 Mis en relation direct avec l'utilisateur.
 
 ![workManagement](https://i.ytimg.com/vi/JFZLY4SU6gk/maxresdefault.jpg)
@@ -42,7 +42,7 @@ Mis en relation direct avec l'utilisateur.
 ___
 ![jiraAlign](https://www.eficode.com/hubfs/jira%20align%20blog%20w600.png)
 
-> Plateforme de planification agile d'entreprise qui connect la strategie de produit, de programme et de portefeuille a l'execution technique, a grande echelle.
+> Plateforme de planification agile d'entreprise qui connecte la strategie de produit, de programme et de portefeuille à l'execution technique, à grande echelle.
 
 ___
 
