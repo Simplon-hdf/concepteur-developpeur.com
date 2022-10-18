@@ -23,7 +23,7 @@
 ### Qu'est-ce qu'un linter ?  <a name="whoisLinter"></a>
 
 Le linter est un outil automatisé d'analyse de code. Il analyse en temps réel notre code et prévient des erreurs, pour cela, il s'éxecute **avant** que le code ne soit compilé (ou exécuté - selon le langage utilisé). Le linter est donc un outil d'analyse **statique** du code. Il existe trois majeures façons d'utiliser un linter: En _ligne de commande_, dans une _extension_ de l'éditeur de code, ou dans le processus de _développement continu_. Cette dernière option permet à chaque commit d'être corrigé et formatté. 
-Le linter est souvent utilisé en parralèle d'un **formatter** et d'autres outils. C'est un outil différent qui ne remplace pas le débuggeur. 
+Le linter est souvent utilisé en parallèle d'un **formatter** et d'autres outils. C'est un outil différent qui ne remplace pas le débuggeur. 
 
 _exemple:_ 
 > _Un script déstiné à tourner sur serveur ne doit pas contenir l'objet window. Il est possible de configurer le linter pour nous prévenir de cette erreur._ 
