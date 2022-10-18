@@ -88,7 +88,7 @@
 > Le scrum est une methode de travail simple permettant d'aborder des problématiques complexes, et les livrées de manière efficace.
 
 <div>
-<img src="images/scrum_schema.jpeg">
+<img src="assets/scrum_schema.jpeg">
 </div>
 
 ### Les roles
@@ -125,10 +125,20 @@
 ___
 >Dans le framework de projet Scrum, on distingue deux types de **backlogs**:
 - le **backlog de produit** (ou product backlog), qui est une liste de fonctionnalités attendues sur le produit (une fonctionnalité s’appelle généralement « user story »),
-- le **sprint backlog** est une de liste de tâches en cours ou à réaliser par l’équipe de développement sur une période (itération).
-
 
 
 ![](https://bubbleplan.net/blog/wp-content/uploads/2018/05/430.jpeg)
 
+# Jira
+____
+> Suivi de projets et de tickets
+____
+![jira](https://support.seiitra.com/images/atlassian-jira-logo-large.png)
 
+
+___
+> Jira est un système de suivi de bugs, de gestion des incidents et de gestion de projets.
+
+# Fonctionnement
+___
+> L'outil Jira est destiné aux sociétés désireuses de mettre en place un fonctionnement en méthode agile et facilite le travail des utilisateurs concernés dans leur organisation. Il permet notamment la création et la planification de tâches.
