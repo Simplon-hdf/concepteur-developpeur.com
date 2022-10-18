@@ -3,6 +3,13 @@
 > L'utilisation de l'outils jira est indispensable pour une collaboration optimale.
 Les outils mis a disposition pour nous pemettre de superviser l'evolution de notre projet en temps reel.
 
+___
+> Jira est un système de suivi de bugs, de gestion des incidents et de gestion de projets.
+
+# Fonctionnement
+___
+> L'outil Jira est destiné aux sociétés désireuses de mettre en place un fonctionnement en méthode agile et facilite le travail des utilisateurs concernés dans leur organisation. Il permet notamment la création et la planification de tâches.
+
 ### Presentation
 
 > Jira permet aux équipes de planifier, d'assigner, de suivre, de créer des rapports et de gérer le travail, et les rassemble pour tout type de tâche, du développement de logiciels Agile au support client pour les start-ups comme les entreprises.
