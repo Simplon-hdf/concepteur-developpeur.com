@@ -23,3 +23,9 @@ ___![jiraSoftware](https://www.eficode.com/hubfs/images/blogs/Imported_Blog_Medi
 > Concus pour chaque menbre de l'equipe agile.
 Planification, suivi et livraison sont de mise.
 ___
+![servideManagement](https://www.clearvision-cm.com/wp-content/uploads/2020/11/jsm-reimagined.png)
+
+> Offrez a vos clients un moyen simple de demander de l'aide rapidement.
+Mis en relation direct avec l'utilisateur.
+
+___
