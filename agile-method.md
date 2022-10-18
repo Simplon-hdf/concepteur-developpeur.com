@@ -5,7 +5,7 @@
 ## Table des matières
 
 1. [Les valeurs de la méthode agile](#vma)
-2. [Les principes de la méthodes agile](#pma)
+2. [Les principes de la méthode agile](#pma)
 3. [Les fondamentaux de la méthode agile](#fma)
 4. [Le scrum](#scrum)
 
@@ -45,11 +45,11 @@
 - Satisfaire les demandes des collaborateurs et créer un lien de confiance
 - Communication face à face
 - Priorisé la continuité face à la nouveauté
-- Faire avancé le projet avec un rythme constant
+- Faire avancer le projet avec un rythme constant
 - Rigueur technique et conception avancée qui renforce l’agilité
 - Minimiser le superflu pour se concentrer sur l’essentiel
 - Auto-responsabilité des membres de l’équipe
-- Adaptation des comportement et du travail dans l’équipe régulièrement après debrief
+- Adaptation des comportements et du travail dans l’équipe régulièrement après debrief
 
 ---
 
@@ -63,7 +63,7 @@
 > Segmenter la productions du projet. <br />
 > Une ligne de conduite rigoureuse lors du développement du projet. <br />
 > Productivité constante. <br />
-> La simplicité et l'art de maximisé la quantité de travail que on ne fait pas. <br />
+> La simplicité et l'art de maximisé la quantité de travail qu’on ne fait pas. <br />
 
 ### Communication client
 
@@ -75,7 +75,8 @@
 
 > Adaptation et amélioration de l'équipe <br />
 > Privilégier le contacte humain. <br />
-> **Ex : L'envoie de mail ne retranscrit pas les sentiments réel d'une personne, le contacte humain facilite la compréhension.** <br />
+> **Ex : L'envoie de mails ne retranscrit pas les sentiments réels d'une personne, le 
+> contacte humain facilite la compréhension.** <br />
 > Le contacte humain facilite la compréhension. <br />
 > Communication verbal et non verbal (communication face à face). <br />
 > Auto-responsabilisé les membres de l'équipe.
@@ -85,10 +86,10 @@
 
 ### Définition
 
-> Le scrum est une methode de travail simple permettant d'aborder des problématiques complexes, et les livrées de manière efficace.
+> Le scrum est une methode de travail simple permettant d'aborder des problématiques complexes et les livrées de manière efficace.
 
 <div>
-<img src="assets/scrum_schema.jpeg">
+<img src="assets/scrum_schema.jpeg" alt="">
 </div>
 
 ### Les roles
@@ -104,22 +105,22 @@
 
 ### Product Backlog
 
-> Le Product Backlog est une liste de tâche ordonnée à réaliser, elle sert à définir les attentes des développeurs, faire un classement par priorité, et un suivie des tâches.
+> Le Product Backlog est une liste de tâche ordonnée à réaliser, elle sert à définir les attentes des développeurs, faire un classement par priorité et un suivi des tâches.
 > Le backlog prend en compte le principe d'**Epic** et de User Story.
 >
 > - **Epic** : Une Epic est une tâche complexe qui peut être découpée en plusieurs User Story.
 > - **User Story** : Une User Story est une tâche simple qui peut être réalisée en une journée de travail.
 >
-> Il prend aussi en compte la correction des bugs à faire et les dettes techniques.
+> Il prend aussi en compte la correction des bogues à faire et les dettes techniques.
 >
-> - **Dettes techniques** : Une dette technique est une tâche qui n'est pas prioritaire mais qui doit être réalisée pour éviter des problèmes futurs.
+> - **Dettes techniques** : Une dette technique est une tâche qui n'est pas prioritaire, mais qui doit être réalisée pour éviter des problèmes futurs.
 >
 > ![Product Backlog](https://assets.asana.biz/transform/9a0eb346-33af-405d-9e6f-f63aad872c48/inline-project-management-product-backlog-1-fr-2x?io=transform:fill,width:1680&format=webp)
 
 
 - __**Sprint backlog**__
 
-> **Sprint backlog** est une liste des tâches à effectuer pour livrer une fonctionnalité, une fois qu'un sprint est finis l'équipe définis les nouvelles tâches pour le prochain sprint.
+> **Sprint backlog** est une liste des tâches à effectuer pour livrer une fonctionnalité, une fois qu'un sprint est finis l'équipe définie les nouvelles tâches pour le prochain sprint.
 
 ---
 ___
@@ -137,7 +138,7 @@ ____
 
 
 ___
-> Jira est un système de suivi de bugs, de gestion des incidents et de gestion de projets.
+> Jira est un système de suivi de bogues, de gestion des incidents et de gestion de projets.
 
 # Fonctionnement
 ___

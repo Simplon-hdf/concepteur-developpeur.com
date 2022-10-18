@@ -19,19 +19,21 @@ NPM se divisent en 3 grands axes :
 
     Le site [NPM](https://www.npmjs.com/) sert à connaitre les paquets Node disponibles sur le Registry NPM.
 
-2. CLI ou l'Interface en Ligne de Commande
+2. CLI ou l’Interface en Ligne de Commande
 
-    La CLI est une enorme partie du NPM puis-ce que c'est par le CLI que vous interragirez avec NPM et avec le Registry NPM afin<br> de télécharger des paquets s'y trouvant ou de publier vos paquets.
+    La CLI est une énorme partie du NPM puis-ce que c'est par le CLI que vous interagissiez avec NPM et avec le Registry NPM afin<br> de télécharger des paquets s'y trouvant ou de publier 
+   vos paquets.
 
 3. NPM Registry ou l'Enregisteur
 
-    Le Registry NPM est enfaite une enorme base de donnée qui va contenir des applications prêtes à l'emploi,<br> ou simplement des paquets Node que vous pourrez télécharger afin de les utiliser ou les adapter à vos besoins pour les utiliser dans votre paquet.
+    Le Registry NPM est en faite une enorme base de donnée qui va contenir des 
+   applications prêtes à l'emploi,<br> ou simplement des paquets Node que vous pourrez télécharger afin de les utiliser ou les adapter à vos besoins pour les utiliser dans votre paquet.
 
 ## Qu'est ce qu'NPX (Node Package Executer) <a id='whats-npx-fr'></a>
 
-Comme NPM est un gestionnaire de paquet Node, NPX est enfaite un executeur des paquets Node
+Comme NPM est un gestionnaire de paquet Node, NPX est en faite un executeur des paquets Node
 grace à NPX il vous sera possible d'executer des paquets Node directement depuis le Registry de NPM.<br>
-NPX vous permettra ainsi de ne pas avoir à télécharger au préalable le paquet Node pour l'executer<br>
+NPX vous permettra ainsi de ne pas avoir à télécharger au préalable le paquet Node pour l'exécuter<br>
 
 <br>
 
@@ -52,7 +54,7 @@ Un package node peut être tout ce qui suit (Et bien plus encore) :
 
 # Node Modules <a id='node-modules-fr'></a>
 
-Un module Node est une dépendance dont votre paquet aura besoin pour s'executer ou simplement qui vous sera nécessaire pour le développement de votre package.<br>
+Un module Node est une dépendance dont votre paquet aura besoin pour s'exécuter ou simplement qui vous sera nécessaire pour le développement de votre package.<br>
 
 Un module node peut être :
 
@@ -62,7 +64,7 @@ Un module node peut être :
 Vous pouvez voir les module node dans le dossier ``` node_modules ```.<br>
 Note : Il se peut qu'un module node ne se soit pas correctement installé, dans ce cas, il est conseillé de supprimer le dossier ``` node_modules ``` et de reinstaller tous les modules.<br>
 
-Puis-ce qu'une image vaut mieux que mille mots :
+Puis-ce qu'une image vaut mieux que mille mots :
 
 ![](https://guillaume-richard.fr/wp-content/uploads/2020/06/node-modules-app-performance.png)
 
@@ -81,21 +83,21 @@ Vous pourrez y mettre toutes les informations qui suivent (Et bien plus encore, 
 - version : La version de votre package
 - description : La description de votre package
 - keywords : Ce champ est plutôt optionnel, cependant, si vous voulez partager votre package, il pourrait se révéler indispensable
-- homepage : Il peut s'agir d'un dêpot GitHub ou simplement un site, il s'agit simplement de la page de référence liée à votre package
+- homepage : Il peut s'agir d'un depot GitHub ou simplement un site, il s'agit simplement de la page de référence liée à votre package
 - bugs : Ce champ permet de renseigner où remonter les bugs liés à votre package
 - author : Quelques informations à propos de vous
-- main : Permet de définir le point d'entrée de votre package (Habituellement index.js)
+- main : Permet de définir le point d’entrée de votre package (Habituellement index.js)
 - scripts : Permet une configuration avancée pour votre package [En savoir plus sur les valeurs possibles de script](https://docs.npmjs.com/cli/v8/using-npm/scripts)
-- dependencies : Ce champ permet de renseigner une liste de dépendances dont votre package aura besoin afin de s'executer correctement, son format est le suivant : ``` "express":"4.18.3" ``` permettra de définir que votre package necessitera express en version ``` 4.18.3 ```
+- dependencies : Ce champ permet de renseigner une liste de dépendances dont votre package aura besoin afin de s’exécuter correctement, son format est le suivant : ``` "express":"4.18.3" ``` permettra de définir que votre package necessitera express en version ``` 4.18.3 ```
 - devDependencies : Ce champ permet de renseigner une liste de dépendances necessaires au développement de votre package
 - private : Renseigner ce champ permet de s'assurer que votre package ne sera pas publié. Il s'agit d'un booléen
 
-NPM se chargera de générer des valeurs par défaut à des champs non-renseignés, par exemple pour le champ ``` script ```.<br>
+NPM se chargera de générer des valeurs par défaut à des champs non renseignés, par exemple pour le champ ``` script ```.<br>
 NPM initialisera le champ avec une valeur de test.
 
 # Semantic Versioning ou Le versionnement sémantique <a id='semantic-versionning-fr'></a>
 
-Le versionnement sémantique est un standart que vous devez suivre lors de modifications significatives de votre package.<br>
+Le versionnement sémantique est un standard que vous devez suivre lors de modifications significatives de votre package.<br>
 Il est recommandé de publier vos modifications avec différentes versions de votre package, champ ``` version ``` de votre **package.json**.<br>
 De ce fait, les autres développeurs utilisant votre package pourront comprendre l'étendue des modifications apportées pour chaque version de votre package.<br>
 Pour aborder ce qui suit, vous devez comprendre quelques termes :
@@ -110,42 +112,42 @@ Voici les spécificités globales du versionnement sémantique :
 
 - Il est recommandé de commencer le développement de votre package en version ``` 1.0.0 ```
 - Lorsque vous voudrez faire une mise à jour PATCH, votre package passera en version ``` 1.0.1 ```
-- Lorsque vous voudrez faire une mise à jour MINOR, votre package passera en version ``` 1.1.0 ``` comme vous pouvez le constater, le nombre de patch à été remis à 0
-- Lorsque vous voudrez faire une mise à jour MAJOR, votre package passera en version ``` 2.0.0 ``` comme vous pouvez le constater, le nombre de minor à été remis à 0
+- Lorsque vous voudrez faire une mise à jour MINOR, votre package passera en version ``` 1.1.0 ``` comme vous pouvez le constater, le nombre de patch a été remis à 0.
+- Lorsque vous voudrez faire une mise à jour MAJOR, votre package passera en version ``` 2.0.0 ``` comme vous pouvez le constater, le nombre de minor a été remis à 0.
 
 Il est important de comprendre que lorsque vous sortez une mise à jour MAJOR, elle influe sur les MINOR ainsi que sur les versions PATCH.<br>
 Que lorsque vous sortez une mise à jour MINOR, elle influe sur les versions PATCH.<br>
 Note: Chaque chiffre n'est pas limité à 9, une version telle que ``` 2.3.19 ``` est une version totallement correcte.<br>
 
-Afin d'appronfondir sur le sujet, vous pouvez [cliquez ici](https://docs.npmjs.com/about-semantic-versioning#using-semantic-versioning-to-specify-update-types-your-package-can-accept)
+Afin d'appronfondir sur le sujet, vous pouvez [cliquer ici](https://docs.npmjs.com/about-semantic-versioning#using-semantic-versioning-to-specify-update-types-your-package-can-accept)
 
 # Difference entre ``` dependencies ``` et ``` devDependencies ``` <a id='diff-dependencies-fr'></a>
 
 Le champ ``` dependencies ``` vous permettra de lister les dépendances dont votre package aura besoin pour s'executer.<br>
-Le champ ``` devDependencies ``` quant à lui vous permettra de lister les dépendance dont vous aurez besoin afin de développer votre package.<br>
+Le champ ``` devDependencies ``` quant à lui vous permettra de lister les dépendances dont vous aurez besoin afin de développer votre package.<br>
 
 Si vous voulez cuisiner un gâteau par exemple et le manger :
 
-Pour la préparations de votre gâteau, vous pourrez utiliser un batteur électrique ou simplement utiliser un fourchette.<br>
-Dans cette exemple, le batteur électrique représente une devDependencies, utile mais optionnel puis-ce qu'il vous est possible d'utiliser une fourchette.<br>
-Et la fourchette représente elle à la fois une devDependencies ainsi qu'une dépendance puis-ce que vous pourrez utiliser cette même fourchette pour manger votre gâteau.<br>
+Pour la préparation de votre gâteau, vous pourrez utiliser un batteur électrique ou simplement utiliser une fourchette.<br>
+Dans cet exemple, le batteur électrique représente une devDependencies, utile, mais optionnel puis-ce qu'il vous est possible d'utiliser une fourchette.<br>
+Et la fourchette représente-t-elle à la fois une devDependencies ainsi qu’une dépendance ensuite que vous pourrez utiliser cette même fourchette pour manger votre gâteau.<br>
 
 # package-lock.json <a id='package-lock-fr'></a>
 
-Le fichier **package-lock.json**  est automatiquement généré par NPM lorsqu'une opération affectant l'arboréscence du dossier ``` node_modules ``` ou le fichier ``` package.json ``` par NPM est effectuée.<br>
-Le **package-lock.json** va contenir une description exacte de l'arboréscence des dépendances.<br>
-Ce fichier est prévu pour être inclut au dêpot, il peut-être utilisé pour :
+Le fichier **package-lock.json**  est automatiquement généré par NPM lorsqu’une opération affectant l'arborescence du dossier ``` node_modules ``` ou le fichier ``` package.json ``` par NPM est effectuée.<br>
+Le **package-lock.json** va contenir une description exacte de l'arborescence des dépendances.<br>
+Ce fichier est prévu pour être inclus au dêpot, il peut être utilisé pour :
 
-- Obtenir une seule définition de l'arboréscence des dépendances, de cette façons tous les aspects de l'intégration continue sont assurés d'installer les mêmes dépendances.
+- Obtenir une seule définition de l'arboréscence des dépendances, de cette façon tous les aspects de l'intégration continue sont assurés d'installer les mêmes dépendances.
 - Obtenir un moyen simple de retracer les états du ``` node_modules ```
-- Obtenir une meilleure visibilité des changements apportés à l'arboréscence
-- Optimiser l'installation des dépendances, afin de ne pas avoir à retélécharger les dépendances déjà installées.
+- Obtenir une meilleure visibilité des changements apportés à l'arborescence
+- Optimiser l'installation des dépendances, afin de ne pas avoir à re-télécharger les dépendances déjà installées.
 
 Le format du fichier **package-lock.json** ressemble fortement à celui du **package.json**, [En apprendre plus sur le format du **package-lock.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
 
 # Sources <a id='sources-fr'></a>
 
-Disclaimer : Les sources ci dessous sont exclusivement en anglais.<br>
+Disclaimer : Les sources ci-dessous sont exclusivement en anglais.<br>
 
 - [Qu'est ce que NPM](https://www.w3schools.com/whatis/whatis_npm.asp)
 - [Introduction à NPX](https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/)
@@ -185,7 +187,7 @@ OR
 
 Cette commande va permettre d'installer tous les pacquet et modules qui ont été ajoutées au projet dans le fichier **package.json**.
 
-- ##### Vous pouvez télécharger une version spécifique d'un package pour revenir à une version antérieur, il vous faudra donc utiliser :
+- ##### Vous pouvez télécharger une version spécifique d'un package pour revenir à une version antérieure, il vous faudra donc utiliser :
 
 **Exemple :**
 
@@ -199,9 +201,9 @@ Cette commande va permettre d'installer tous les pacquet et modules qui ont ét�
 
 > **npm install nodemon --save-dev**
 
-Il y aura donc dans le fichier **package.json** le **devDepencies** qui va être ajouter.
+Il y aura donc dans le fichier **package.json** le **devDepencies** qui va être ajouté.
 
-### Comment listés des packages installés au projet ?
+### Comment lister des packages installés au projet ?
 
 - Pour lister les packages, au niveau local, il faudra utiliser la commande : 
 > **npm list**
@@ -218,7 +220,7 @@ OR
 - Pour avoir de la documentation sur le package, il faudra utiliser :
 > npm **docs express**
 
-### Quels sont les commandes pour faire les mises à jours de NPM ?
+### Quels sont les commandes pour faire les mises à jour de NPM ?
 
 **IMPORTANT** : Il faut toujours vérifier que les modules et paquets sont à jours.
 
@@ -228,9 +230,9 @@ OR
 
 > npm **outdated**
 
-Il faudra utilisé la commande depuis le répertoire racine.
+Il faudra utiliser la commande depuis le répertoire racine.
 
-#### Il y a deux type d'update :
+#### Il y a deux types d'update :
 
 - Pour mettre à jour tous les paquets du projet, il faudra utiliser :
 
