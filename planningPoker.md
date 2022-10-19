@@ -62,7 +62,7 @@ Au début d'une session de planification du poker, le product owner ou le client
 ![](https://3.bp.blogspot.com/-unMY49BQD8M/W6koCL_u9yI/AAAAAAAAYMM/DmDyp-hYyZgdaj_8LP-1z4Pck5ct9Uo5ACLcBGAs/s1600/shutterstock_496292356.jpg)
 Les bonnes personnes doivent se joindre à la réunion, sinon il devient difficile de récolter les avantages décrits ci-dessus. Ces rôles cruciaux sont les suivants :
 - Membres de l'équipe Scrum : les membres de l'équipe Scrum fournissent les éléments du backlog de produit - une liste de produits à livrer (par exemple, les nouvelles fonctionnalités). Ils apportent également leur contribution aux discussions sur les story points.
-- Scrum master : un scrum leader est l'animateur des réunions agiles. Il doit participer à toutes les réunions standard.
+- Scrum master : un scrum leader c'est l'animateur des réunions agiles. Il doit participer à toutes les réunions standard.
 - Product Owner : le PO ou le gestionnaire décrira toutes les storys des utilisateurs à l'équipe et répondra à leurs questions.
 ## Quand organiser une session de poker de planification ?
 En général, les équipes organisent une session après avoir créé le backlog initial. Bien que les sessions puissent parfois prendre plus d'une journée, elles permettent d'élaborer des estimations initiales utiles pour le dimensionnement ou la délimitation du projet.
