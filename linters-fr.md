@@ -23,7 +23,7 @@
 ### Qu'est-ce qu'un linter ?  <a name="whoisLinter"></a>
 
 Le linter est un outil automatisé d'analyse de code. Il analyse en temps réel notre code et prévient des erreurs, pour cela, il s'éxecute **avant** que le code ne soit compilé (ou exécuté - selon le langage utilisé). Le linter est donc un outil d'analyse **statique** du code. Il existe trois majeures façons d'utiliser un linter: En _ligne de commande_, dans une _extension_ de l'éditeur de code, ou dans le processus de _développement continu_. Cette dernière option permet à chaque commit d'être corrigé et formatté. 
-Le linter est souvent utilisé en parralèle d'un **formatter** et d'autres outils. C'est un outil différent qui ne remplace pas le débuggeur. 
+Le linter est souvent utilisé en parallèle d'un **formatter** et d'autres outils. C'est un outil différent qui ne remplace pas le débuggeur. 
 
 _exemple:_ 
 > _Un script déstiné à tourner sur serveur ne doit pas contenir l'objet window. Il est possible de configurer le linter pour nous prévenir de cette erreur._ 
@@ -40,7 +40,7 @@ Le débuggeur peut également être considéré comme un outil de gestion des er
 
 ### Les linters existants  <a href="linterExistant"></a>
 
-Il existe différents linter: 
+Il existe différents linters: 
 
 * **JSLint** : JSLint est un linter livré prêt à l'emploi et simple à utiliser. Il ne nécessite que peu de configurations (pas de fichier de config) et ne permets pas la personnalisation de règles personnelles. Ses explications concernant les erreurs sont parfois obscures. 
 * **JSHInt** : JSHint est un linter se plaçant entre JSLint et ESLint. S'il accepte un fichier de configurations, celles-ci restent limitées. La configuration de règles personnelles n'est pas disponible. Ce linter offre deux options d'utilisation, ce qui peut rendre son utilisation complexe. 
@@ -58,7 +58,7 @@ _Ces trois linters proposent une alternative de correction du code directement s
 
 <br/>
 
-<a name="#ESLint"/>
+<a name="#ESLint"></a>
 
 ## Exemple avec ESLint
 
@@ -109,20 +109,21 @@ note: Il est également possible d'installer ESlint en global avec cette command
 
 <br/>
 
-<a name="#IncorporationProccessIntegration"/>
+<a name="#IncorporationProccessIntegration"></a>
 
 ### Incorporation dans le processus d'intégration continue: 
 
 
 _ATTENTION: Ce tutoriel est écrit dans le cadre d'un projet Gitlab, Gitlab étant particulièrement permissif dans les outils Devops proposés._
 
-<!-- Insert about Github actions -->
+<!-- Insert about GitHub actions -->
 
-1) Sur Gitlab, ouvrir les **_settings_** de votre projet, puis aller dans **_CI/CD_**, puis **_runners_**
+1) Sur Gitlab, ouvrir les **_settings_** de votre projet, puis aller dans **_CI/CD_**, 
+    puis **_runners_**
  > Vous devriez voir apparaitre deux colonnes: **Shared** runners et **Specific** runners
 
-2) Les runners sont des machines virtuelles permettant d'executer une image de notre application sous **docker**. Le fichier de configuration _.gitlab-ci.yml_ permet de spécifier: 
-   - Quelle image utiliser?
+2) Les runners sont des machines virtuelles permettant d'exécuter une image de notre application sous **docker**. Le fichier de configuration _.gitlab-ci.yml_ permet de spécifier: 
+   - Quelle image utiliser ?
    - Quel script exécuter ? 
    - Quelles dépendances installer ? 
 

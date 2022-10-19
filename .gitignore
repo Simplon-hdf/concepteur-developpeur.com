@@ -98,3 +98,8 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 .DS_STORE
+
+# Excluding node_modules
+
+node_modules
+package-lock.json
