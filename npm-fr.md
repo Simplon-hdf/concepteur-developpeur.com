@@ -261,3 +261,54 @@ OR
 
 - Pour supprimer les packages du cache, il faudra utiliser la commande : 
 > npm cache clean
+
+## Utilisation de script NPM
+
+##### Comment executer un script ?
+
+- Pour permettre d'éxecuter un script et le faire fonctionner, il faudra utiliser :
+
+> npm **run nodemon**
+
+OR
+
+> npm **run-script nodemon**
+
+#### Comment voir la liste des scripts ?
+
+- Pour pouvoir voir la liste des scripts à disponible, il faudra utiliser la commande :
+
+> npm run
+
+#### Quels sont les autres commandes ?
+
+- Certaines actions peuvent être exécutées directement sans forcément utiliser la commandes :
+
+> npm run **start.js**
+
+- ##### Quels sont les autres actions ?
+
+- Pour produire un fichier compressé des fichiers à déployer, il faudra utiliser :
+
+> npm **pack**
+
+- Pour publier un package, il faudra utiliser :
+
+> npm **pulish**
+
+- Pour exécuter le script **start** qui sert généralement pour stopper le serveur Node.js, il faudra utiliser :
+
+>npm **start**
+
+- Pour exécuter le script **stop** qui sert généralement pour stopper le serveur Node.js, il faudra utiliser :
+
+>npm **stop**
+
+- Le script **restart** va exécuté les scripts **stop** et **start**, il faudra donc utiliser la commande : 
+
+> npm **restart**
+
+- Pour supprimer un package qui a été publié, il faudra utiliser : 
+
+> npm **unpublish**
+ 
