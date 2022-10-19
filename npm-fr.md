@@ -1,7 +1,7 @@
 # Sommaire <a id='summary-fr'></a>
 
 - <a href='#whats-npm-fr'>Introduction a NPM</a>
-- - <a href='#whats-npx-fr'>Introduction d'NPX</a>
+- <a href='#whats-npx-fr'>Introduction d'NPX</a>
 - <a href='#whats-packages-fr'>Les paquets Node</a>
 - <a href='#node-modules-fr'>Les modules Node</a>
 - <a href='#package-json-fr'>Le fichier **package.json**</a>
