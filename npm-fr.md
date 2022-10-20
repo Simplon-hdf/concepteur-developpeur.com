@@ -1,7 +1,7 @@
 # Sommaire <a id='summary-fr'></a>
 
 - <a href='#whats-npm-fr'>Introduction a NPM</a>
-- <a href='#whats-npx-fr'>Introduction d'NPX</a>
+- - <a href='#whats-npx-fr'>Introduction d'NPX</a>
 - <a href='#whats-packages-fr'>Les paquets Node</a>
 - <a href='#node-modules-fr'>Les modules Node</a>
 - <a href='#package-json-fr'>Le fichier **package.json**</a>
@@ -21,7 +21,8 @@ NPM se divisent en 3 grands axes :
 
 2. CLI ou l’Interface en Ligne de Commande
 
-    La CLI est une enorme partie du NPM puis-ce que c'est par le CLI que vous interragirez avec NPM et avec le Registry NPM afin<br> de télécharger des paquets s'y trouvant ou de publier vos paquets.
+    La CLI est une énorme partie du NPM puis-ce que c'est par le CLI que vous interagissiez avec NPM et avec le Registry NPM afin<br> de télécharger des paquets s'y trouvant ou de publier 
+    vos paquets.
 
 3. NPM Registry ou l'Enregisteur
 
@@ -30,9 +31,9 @@ NPM se divisent en 3 grands axes :
 
 ## Qu'est ce qu'NPX (Node Package Executer) <a id='whats-npx-fr'></a>
 
-Comme NPM est un gestionnaire de paquet Node, NPX est enfaite un executeur des paquets Node
-grace à NPX il vous sera possible d'executer des paquets Node directement depuis le Registry de NPM.<br>
-NPX vous permettra ainsi de ne pas avoir à télécharger au préalable le paquet Node pour l'executer<br>
+Comme NPM est un gestionnaire de paquet Node, NPX est en faite un executeur des paquets Node
+grace à NPX il vous sera possible d'exécuter des paquets Node directement depuis le Registry de NPM.<br>
+NPX vous permettra ainsi de ne pas avoir à télécharger au préalable le paquet Node pour l'exécuter<br>
 
 <br>
 
@@ -61,7 +62,7 @@ Un module Node peut être :
 - Un fichier JS
 
 Vous pouvez voir les module node dans le dossier ``` node_modules ```.<br>
-Note : Il se peut qu'un module node ne se soit pas correctement installé, dans ce cas, il est conseillé de supprimer le dossier ``` node_modules ``` et de reinstaller tous les modules.<br>
+Note : Il se peut qu'un module node ne se soit pas correctement installé, dans ce cas, il est conseillé de supprimer le dossier ``` node_modules ``` et de réinstaller tous les modules.<br>
 
 Puis-ce qu'une image vaut mieux que mille mots :
 

@@ -1,7 +1,7 @@
 # Summary
 
 - <a href='#npm-introduction'>NPM Introduction</a>
-- <a href='#npx-introduction'>NPX Introduction</a>
+- - <a href='#npx-introduction'>NPX Introduction</a>
 - <a href='#node-packages'>Node Packages</a>
 - <a href='#node-modules'>Node Modules</a>
 - <a href='#package-json'>**package.json** file</a>
