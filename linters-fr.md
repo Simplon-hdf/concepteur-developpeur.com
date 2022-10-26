@@ -95,16 +95,16 @@ note: Il est également possible d'installer ESlint en global avec cette command
 
    ```json
    {  
-  "extends": ["airbnb-base"],  
-  "env": {  
-    "node": true,  
-    "es6": true,  
-    "browser": true  
-  },  
-  "rules": {  
-    "no-console": "off"  
-  }  
-}  
+    "extends": ["airbnb-base"],  
+    "env": {  
+      "node": true,  
+      "es6": true,  
+      "browser": true  
+     },  
+    "rules": {  
+      "no-console": "off"  
+     }  
+    }  
 ```
 
 5) Installer l'extension "Eslint" sur votre éditeur de code favori. Fermer puis relancer, votre Eslint est maintenant disponible! 
