@@ -65,14 +65,20 @@ _Ces trois linters proposent une alternative de correction du code directement s
 ### Installation et configuration : Projet vs. Global
 
 1) Créer un dossier projet, puis y adjoindre un environnement node. 
-   > mkdir newProject  
+  ```console
+    mkdir newProject  
     npm init -y
+  ```
 
 2.1) Installer ESlint en configuration par défaut
-   > npm init @eslint/config  
+   ```console
+   npm init @eslint/config  
+   ```
    
 2.2) **OU** Installer Eslint avec sa configuration Airbnb
-   > npm i eslint eslint-config-airbnb-base eslint-plugin-import
+  ```console
+  npm i eslint eslint-config-airbnb-base eslint-plugin-import
+  ```
 
 note: Il est également possible d'installer ESlint en global avec cette commande (ajout du -g), mais cette installation est déconseillée par la documentation officielle Eslint :  
    > npm i eslint eslint-config-airbnb-base eslint-plugin-import -g
