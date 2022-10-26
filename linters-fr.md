@@ -67,6 +67,7 @@ _Ces trois linters proposent une alternative de correction du code directement s
 1) Créer un dossier projet, puis y adjoindre un environnement node. 
   ```console
     mkdir newProject  
+    cd newProject
     npm init -y
   ```
 
@@ -81,15 +82,19 @@ _Ces trois linters proposent une alternative de correction du code directement s
   ```
 
 note: Il est également possible d'installer ESlint en global avec cette commande (ajout du -g), mais cette installation est déconseillée par la documentation officielle Eslint :  
-   > npm i eslint eslint-config-airbnb-base eslint-plugin-import -g
+  ```console
+  npm i eslint eslint-config-airbnb-base eslint-plugin-import -g
+  ```
 
 3) En l'absence de configuration officielle lors de l'installation d'EsLint, il est important de créer son fichier de configuration. 
-   > touch .eslintrc  
-     code .eslintrc
+   ```console
+   touch .eslintrc  
+   ```
 
 4) Dans le fichier de configuration, insérer la configuration suivante: 
 
-   > {  
+   ```json
+   {  
   "extends": ["airbnb-base"],  
   "env": {  
     "node": true,  
@@ -100,18 +105,25 @@ note: Il est également possible d'installer ESlint en global avec cette command
     "no-console": "off"  
   }  
 }  
+```
 
 5) Installer l'extension "Eslint" sur votre éditeur de code favori. Fermer puis relancer, votre Eslint est maintenant disponible! 
 
 6) Il est également possible d'utiliser Eslint en ligne de commande directement depuis votre terminal: 
     Pour une installation **globale**: 
-> eslint index.js  
+  ```console
+  eslint index.js  
+  ```
 
-    Pour une installation **locale**: 
-> npx eslint index.js  
+   Pour une installation **locale**: 
+    ```console
+    npx eslint index.js  
+    ```
 
 7) Il est à savoir qu'il existe de nombreux flags permettant de spécifier les actions à effectuer. La liste complète des flags est disponible avec cette commande. 
-> npx eslint -h
+  ```console
+    npx eslint -h
+  ```
 
 <br/>
 
@@ -133,7 +145,9 @@ _ATTENTION: Ce tutoriel est écrit dans le cadre d'un projet Gitlab, Gitlab éta
    - Quel script exécuter ? 
    - Quelles dépendances installer ? 
 
-  > touch .gitlab-ci.yml
+  ```console
+    touch .gitlab-ci.yml
+  ```
 
 3) Remplir le fichier de configuration : 
   > image: node  
