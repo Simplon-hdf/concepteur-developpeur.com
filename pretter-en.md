@@ -85,3 +85,38 @@ Note: You're able to manage the extension settings, and so manage your prettier 
     Note: You cannot use --check flag and --write in same time.<br>
     The ```no-config``` flag will force prettier to use basic configuration.<br>
     Some more flags are availables at <a href='#sources'>sources</a>¹ section
+
+## How to configure Prettier <a id='config-prettier'></a>
+
+This example will used the 'air_bnb' convention.<br>
+
+1) Global installation
+    Prettier use a file nammed ```.prettierrc``` to manage his configuration.<br>
+
+    In ```.prettierrc``` file (If it doesn't exist, create it with a touch), paste it: 
+    ```json
+    {  
+    "semi": false,  
+    "tabWidth": 2,  
+    "singleQuote": true  
+    }
+    ```
+2) VSCode extension configuration
+    - Check the 'Pretter: semi' case
+    - Check the 'Single Quote' case
+    - And in 'Prettier: Tab Width' text box, enter wanted value
+
+    It's even possible to acceed at extension configuration file using this command: 
+    ```sh
+    code . /home/$USER/prettierrc.json
+    ```
+
+## Conclusion <a id='conclusion'></a>
+
+Feel free to learn more on formatters by yourself.<br>
+
+## Sources <a id='sources'></a>
+<strong>
+<a href='https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode'>Prettier - Code Formatter</a><br>
+<a href='https://runebook.dev/fr/docs/prettier/cli'>Prettier with CLI</a> <br>
+</strong>
