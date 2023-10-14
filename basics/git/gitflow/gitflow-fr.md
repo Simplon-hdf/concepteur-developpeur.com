@@ -6,20 +6,22 @@
 
 <!-- TOC -->
 
+- [Sommaire](#sommaire)
 - [Description](#description)
 - [Installation](#installation)
-_ [Commande d'installation](#commande-dinstallation)
-_ [Mac OS](#mac-os)
-_ [Linux](#linux)
-_ [Windows](#windows)
-_ [Fonctionnement de Gitflow](#fonctionnement-de-gitflow)
-_ [Initialisation de Gitflow](#initialisation-de-gitflow)
-_ [Créer une fonctionnalité](#dmarrer-une-fonctionnalit)
-_ [Terminer une fonctionnalité](#terminer-une-fonctionnalit)
-_ [Commencer une Livraison/release](#commencer-une-livraisonrelease)
-_ [Terminer une livraison](#terminer-une-livraison)
-_ [Commencer un correctif](#commencer-un-correctif)
-_ [Terminer un correctif](#terminer-un-correctif)
+  - [Commande d'installation](#commande-dinstallation)
+    - [Mac OS](#mac-os)
+      - [Linux](#linux)
+      - [Windows](#windows)
+  - [Fonctionnement de Gitflow](#fonctionnement-de-gitflow)
+  - [Initialisation de gitflow](#initialisation-de-gitflow)
+  - [Créer une fonctionnalité](#créer-une-fonctionnalité)
+    - [Terminer une fonctionnalité](#terminer-une-fonctionnalité)
+  - [Commencer une Livraison/release](#commencer-une-livraisonrelease)
+    - [Terminer une livraison](#terminer-une-livraison)
+  - [Commencer un correctif](#commencer-un-correctif)
+    - [Terminer un correctif](#terminer-un-correctif)
+- [Références](#références)
 <!-- TOC -->
 
 ## Description
