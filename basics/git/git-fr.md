@@ -79,19 +79,15 @@ Le local repo est la validation du fichier par la commande git commit.
 Le remote repo est un serveur sur le quelle nous envoyons nos fichiers depuis local repo.
 
 ### Créer un dépôt vide
-ë
-Créer un nouveau dépôt dans Github
+
+Pour créer un dépôt vide avec Git, vous pouvez procéder comme suit :
+
 ```sh
-git init
-git branch -M my_branch
-git add my_file_name
-git commit -m my_commit_message
-git remote add origin my_repository_URL
-git push -u origin my_branch
-```
-Si vous voulez add plusieurs dossiers en même-temps :
-```
-git add .
+git init # Doit être exécutée dans le dossier dont vous voulez vous servir en guise de racine pour votre projet
+git remote add <remote repository alias> <remote repository URI> # Conventionnellement, l'alias est 'origin'
+git add <files to stage> # Il peut s'agir d'un nom de dossier, d'un ou plusieurs nom de fichier ou '.' qui équivaut à "tout"
+git commit -m "my commit message" # Cette commande sert a commit les modifications qui se trouvent dans la zone de stage
+git push <remote repository alias> <branch_name> # Envoie les modifications commitées vers le dépôt distant
 ```
 
 ### Branches
