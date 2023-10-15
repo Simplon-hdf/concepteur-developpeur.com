@@ -77,6 +77,16 @@ This section will bring you some informations to get started with Git.
 
 ## Create empty repository
 
+To create a new repository from scrath with Git you can proceed as follow : 
+
+```sh
+git init # Has to be executed in the folder you want to use a root for your project
+git remote add <remote repository alias> <remote repository URI> # Conventionnaly alias is 'origin' for your remote repository
+git add <files to stage> # This can be an folder name, multiples file names or '.' which is equal to 'all'
+git commit -m "my commit message" # This is used to commit your staged changes, use quotes is recommended, and -m flag will permit you to specify directly the commit message but it's optionnal to use this flag
+git push <remote repository alias> <branch_name> # Send local commited changes to remote repo
+```
+
 ## Branches
 
 ## Pull Request
