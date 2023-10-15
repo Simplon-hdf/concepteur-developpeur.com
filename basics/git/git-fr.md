@@ -15,10 +15,11 @@
 
 ## Introduction<a name="Introduction"></a>
 
-GIT a été créé en 2005 par Linus Torvalds, créateur de LINUX.
-C'est un Logiciel libre, gratuit, permettant de travailler en collaboration et de sauvegarder son travail. 
-Tout en protégeant le code source, il permet de suivre chaque changements apportés, de garder une trace et revenir en arrière si besoin.
-Git permet de travailler en local sans nécessité de se connecter à internet.
+Git est un logiciel libre (License GNU) et gratuit ayant été crée en 2005 par Linus Torvals (Le créateur de Linux).
+
+Il est utilisé pour versionner son code et permettre à ses utilisateurs de collaborer facilement sur un projet.
+
+Git permet de partager son code avec une équipe (en corrélation avec d'autres plateformes/services), de plus, Git n'a pas besoin de connexion Internet pour fonctionner.
 
 ## Installation <a name="Installation"></a>
 
