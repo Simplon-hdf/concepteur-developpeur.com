@@ -1,39 +1,43 @@
 ## Tables des matières
-<!-- TOC -->
+
 - [Tables des matières](#tables-des-matières)
 - [Introduction](#introduction)
 - [Installation ](#installation-)
-    - [linux :](#linux-)
-    - [Mac :](#mac-)
-    - [Windows:](#windows)
-  - [Principale commande de base :](#principale-commande-de-base-)
-  - [Fonctionnement de GIT: ](#fonctionnement-de-git-)
-    - [Créer un projet à partir d'un dépôt vide](#créer-un-projet-à-partir-dun-dépôt-vide)
-- [Branches](#branches)
-- [Pull request ](#pull-request-)
-<!-- TOC -->
+  - [Windows](#windows)
+  - [Mac](#mac)
+  - [Linux](#linux)
+- [Prise en main](#prise-en-main)
+  - [Commandes](#commandes)
+  - [Créer un dépôt vide](#créer-un-dépôt-vide)
+  - [Branches](#branches)
 
 ## Introduction<a name="Introduction"></a>
+
 GIT a été créé en 2005 par Linus Torvalds, créateur de LINUX. 
 C'est un Logiciel libre, gratuit, permettant de travailler en collaboration et de sauvegarder son travail. Tout en protégeant le code source, il permet de suivre chaque changements apportés, de garder une trace et revenir en arrière si besoin.
 Git permet de travailler en local sans nécessité de se connecter à internet. 
-  
-
 
 ## Installation <a name="Installation"></a>
-#### linux : 
+
+### Windows
+
+[Téléchargez-le](https://git-scm.com/download/win)
+
+### Mac
+Homebrew:
+```
+brew install git
+```
+
+### Linux
+
 ```
 sudo dnf install git-all
 ```
-#### Mac : 
-  Homebrew:
- ```
-  brew install git
- ```
-#### Windows: 
-[Téléchargez-le](https://git-scm.com/download/win)
 
-### Principale commande de base : 
+## Prise en main
+
+### Commandes
 
 | Commande     | Description                                                                                                                                                 |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -43,7 +47,7 @@ sudo dnf install git-all
 | git add      | Ajoute un ou plusieurs fichier(s) au stage : vous pouvez choisir de prendre un ou plusieurs fichiers avant de le mettre dans le dépôt local et de le commit |
 | git commit   | Envoi le fichier dans le dépôt local tout en détaillant les modifications apportés au code                                                                  |
 | git remote   | Lie votre dépôt local à votre dépôt distant, permettant d'envoyer votre fichier sur le dépôt distant                                                        |
-| git push     | Permet d'envoyer les changements apportés à votre dépôt local vers le dépôt distant                                                                         |
+| git push     | Permet d'envoyer les changements apportés à v  jñêïœotre dépôt local vers le dépôt distant                                                                  |
 | git pull     | Lors d'une collaboration met à jour le dépot local depuis le dépôt distant                                                                                  |
 | git fetch    | Récupère toutes les données des commits effectuées sur la branche courante qui n'existe pas encore en dépôt local                                           |
 | git clone    | Clone un dépôt distant à partir d'une URL existante(github) vers le dépôt local                                                                             |
@@ -57,10 +61,10 @@ Le working directory est comme un espace de travail où vous travaillez sur un f
 Le staging area est comme une salle d'attente avant que le fichier ne soit indexé par la commande git add.
 Le local repo est la validation du fichier par la commande git commit.
 Le remote repo est un serveur sur le quelle nous envoyons nos fichiers depuis local repo.
-### Fonctionnement de GIT: <a name="#Commande"></a>
 
-#### Créer un projet à partir d'un dépôt vide
- Créer un nouveau dépôt dans Github
+### Créer un dépôt vide
+ë
+Créer un nouveau dépôt dans Github
 ```sh
 git init 
 git branch -M my_branch
@@ -73,7 +77,9 @@ Si vous voulez add plusieurs dossiers en même-temps :
 ```
 git add .
 ```
-## Branches 
+
+### Branches 
+
 Lors d'un travail à plusieurs, git permet d'identifier chaque modification, sur un projet commun avec des commits et des branches différentes.
 Une branche contient plusieurs commits avec un pointeur, en avançant dans le projet, les commits augmentent sur la branche. 
 Travailler sur une branche secondaire permet de ne pas interférer dans le travail de la branche principale et de garder la meilleure version.
@@ -93,12 +99,3 @@ git merge feature1  # fusionne sur la branche develop
 git branch -d feature1 # supprime la branche feature1
 ```
 ![Les branches](https://uploads.sitepoint.com/wp-content/uploads/2019/06/155993572204-gitflow.png)
-
-## Pull request <a name="#Commande"></a>
-Avec une collaboration sur un projet GIT il est nécessaire d'avoir un dépôt distant (Github).
-Récupère un projet upstream permettant de travailler en collaboration.
-Upstream représente un dépôt distant externe au votre.
-Origin réprésente votre dépôt distant.
-Fork permet d'aller chercher un dépôt d'upstream vers origin.
-
-![pull request](https://devopscube.com/wp-content/uploads/2021/02/git-forked-upstream-min.png.webp)
