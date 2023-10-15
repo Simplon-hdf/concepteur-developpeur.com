@@ -15,6 +15,12 @@
 
 # Introduction
 
+Git is a software which was created in 2005 by Linus Torvalds (The Linux creator)
+
+Git is a free soft, used to bring versionning of code and to permit to users to collaborate easyly on a project.
+
+It make user to be able to share their code through a whole team (using some other platform/services) plus, Git do not need Internet connection to be used
+
 # Installation
 
 ## Windows
