@@ -12,6 +12,7 @@
   - [Commands](#commands)
   - [Create empty repository](#create-empty-repository)
   - [Branches](#branches)
+- [Angular Style Commit](#angular-style-commit)
 
 # Introduction
 
@@ -92,3 +93,7 @@ Branches are a system allowing you to separate clearly your work with work of yo
 Branches is useful to be safe on work already made, with using branch, you're not working directly on already existing code, but with a kind of copy of that work.
 
 When your work is done, you can merge your branch with the 'develop' or 'main' one, depending if you're using GitFlow workflow or no.
+
+# Angular Style Commit
+
+[Angular Style](https://www.conventionalcommits.org/en/v1.0.0-beta.4/) is a formatting commit method to identify clearly which changes a commit bring.

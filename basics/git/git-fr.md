@@ -1,19 +1,19 @@
 ## Tables des matières
 
-- [Tables des matières](#tables-des-matières)
 - [Introduction](#introduction)
 - [Installation ](#installation-)
-- [Windows](#windows)
-- [Mac](#mac)
-- [Linux](#linux)
-  - [Avec APT](#avec-apt)
-  - [Avec Pacman](#avec-pacman)
+  - [Windows](#windows)
+  - [Mac](#mac)
+  - [Linux](#linux)
+    - [Avec APT](#avec-apt)
+    - [Avec Pacman](#avec-pacman)
 - [Prise en main](#prise-en-main)
   - [Commandes](#commandes)
   - [Créer un dépôt vide](#créer-un-dépôt-vide)
   - [Branches](#branches)
+- [Angular Style Commit](#angular-style-commit)
 
-## Introduction<a name="Introduction"></a>
+# Introduction<a name="Introduction"></a>
 
 Git est un logiciel libre (License GNU) et gratuit ayant été créé en 2005 par Linus Torvals (Le créateur de Linux).
 
@@ -21,7 +21,7 @@ Il est utilisé pour versionner son code et permettre à ses utilisateurs de col
 
 Git permet de partager son code avec une équipe (en corrélation avec d'autres plateformes/services), de plus, Git n'a pas besoin de connexion Internet pour fonctionner.
 
-## Installation <a name="Installation"></a>
+# Installation <a name="Installation"></a>
 
 ## Windows
 
@@ -51,9 +51,9 @@ sudo apt-get install git
 sudo pacman -S git
 ```
 
-## Prise en main
+# Prise en main
 
-### Commandes
+## Commandes
 
 | Commande                                       | Description                                                                                                                                                       |
 | ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -78,7 +78,7 @@ Le staging area est comme une salle d'attente avant que le fichier ne soit index
 Le local repo est la validation du fichier par la commande git commit.
 Le remote repo est un serveur sur le quelle nous envoyons nos fichiers depuis local repo.
 
-### Créer un dépôt vide
+## Créer un dépôt vide
 
 Pour créer un dépôt vide avec Git, vous pouvez procéder comme suit :
 
@@ -90,10 +90,14 @@ git commit -m "my commit message" # Cette commande sert a commit les modificatio
 git push <remote repository alias> <branch_name> # Envoie les modifications commitées vers le dépôt distant
 ```
 
-### Branches
+## Branches
 
 Les branches sont un système qui vous permet de séparer clairement votre travail de celui de vos collègues, en ce sens vous pouvez travailler de façon à être sûr que vous n'affectez pas leur travail, cependant, il arrive que vous deviez travailler sur la même fonctionnalité, dans ce cas, vous partagerez sûrement une branche, vous devrez donc faire attention aux modifications qu'ont apportés les personnes avec qui vous partagez cette branche avant de push.
 
 Les branches sont aussi utiles afin de permettre de travailler en toute sécurité, quand vous travaillez sur une branche, vous ne travaillez pas directement sur le code déjà réalisé mais sur une copie en quelque sorte.
 
 Quand votre travail est terminé vous pouver merge votre branche avec la 'develop' ou la 'main', selon si vous utilisez GitFlow ou non.
+
+# Angular Style Commit
+
+[Le style Angular](https://www.conventionalcommits.org/fr/v1.0.0-beta.4/) est une méthode de formattage des commits permettant d'identifier clairement les modifications apportées par un commit.
