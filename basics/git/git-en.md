@@ -62,7 +62,7 @@ This section will bring you some informations to get started with Git.
 | git init                                  | Will create a .git folder for git in the folder where it is executed                                |
 | git config                                | Will permit you to modify current repository configuration                                          |
 | git status                                | Displays the status of stage area, with each file which is staged ant each file which is not staged |
-| git add <filename>                        | Will add the specified file to stage                                                                |
+| git add <filename>                        | Will add the specified file to stage area                                                           |
 | git commit                                | Will send stage area content to local repository area                                               |
 | git remote -add <alias> <remote_repo_uri> | Will bind your local repository to a remote repository                                              |
 | git push <remote_alias>                   | Will send your local repository fresh content to remote repository                                  |
@@ -78,9 +78,9 @@ This section will bring you some informations to get started with Git.
 To create a new repository from scrath with Git you can proceed as follow : 
 
 ```sh
-git init # Has to be executed in the folder you want to use a root for your project
-git remote add <remote repository alias> <remote repository URI> # Conventionnaly alias is 'origin' for your remote repository
-git add <files to stage> # This can be an folder name, multiples file names or '.' which is equal to 'all'
+git init # Has to be executed in the folder you want to use as root for your project
+git remote add <remote repository alias> <remote repository URI> # Alias is conventionaly named 'origin' for your remote repository
+git add <files to stage> # This can be an folder name, one or several filenames or '.' which is equal to 'all'
 git commit -m "my commit message" # This is used to commit your staged changes, use quotes is recommended, and -m flag will permit you to specify directly the commit message but it's optionnal to use this flag
 git push <remote repository alias> <branch_name> # Send local commited changes to remote repo
 ```
