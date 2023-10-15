@@ -15,7 +15,7 @@
 
 ## Introduction<a name="Introduction"></a>
 
-Git est un logiciel libre (License GNU) et gratuit ayant été crée en 2005 par Linus Torvals (Le créateur de Linux).
+Git est un logiciel libre (License GNU) et gratuit ayant été créé en 2005 par Linus Torvals (Le créateur de Linux).
 
 Il est utilisé pour versionner son code et permettre à ses utilisateurs de collaborer facilement sur un projet.
 
