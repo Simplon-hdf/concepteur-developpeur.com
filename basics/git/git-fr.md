@@ -3,9 +3,11 @@
 - [Tables des matières](#tables-des-matières)
 - [Introduction](#introduction)
 - [Installation ](#installation-)
-  - [Windows](#windows)
-  - [Mac](#mac)
-  - [Linux](#linux)
+- [Windows](#windows)
+- [Mac](#mac)
+- [Linux](#linux)
+  - [Avec APT](#avec-apt)
+  - [Avec Pacman](#avec-pacman)
 - [Prise en main](#prise-en-main)
   - [Commandes](#commandes)
   - [Créer un dépôt vide](#créer-un-dépôt-vide)
@@ -13,47 +15,60 @@
 
 ## Introduction<a name="Introduction"></a>
 
-GIT a été créé en 2005 par Linus Torvalds, créateur de LINUX. 
-C'est un Logiciel libre, gratuit, permettant de travailler en collaboration et de sauvegarder son travail. Tout en protégeant le code source, il permet de suivre chaque changements apportés, de garder une trace et revenir en arrière si besoin.
-Git permet de travailler en local sans nécessité de se connecter à internet. 
+GIT a été créé en 2005 par Linus Torvalds, créateur de LINUX.
+C'est un Logiciel libre, gratuit, permettant de travailler en collaboration et de sauvegarder son travail. 
+Tout en protégeant le code source, il permet de suivre chaque changements apportés, de garder une trace et revenir en arrière si besoin.
+Git permet de travailler en local sans nécessité de se connecter à internet.
 
 ## Installation <a name="Installation"></a>
 
-### Windows
+## Windows
 
-[Téléchargez-le](https://git-scm.com/download/win)
+Pour installer Git sous Windows, vous pouvez [le télécharger ici](https://git-scm.com/download/win)
 
-### Mac
-Homebrew:
-```
+## Mac
+
+Pour Mac, en utilisant `Homebrew`
+
+```sh
 brew install git
 ```
 
-### Linux
+## Linux
 
+Pour Linux, cela dépends de votre gestionnaire de paquet (en fonction de votre distribution)
+
+### Avec APT
+
+```sh
+sudo apt-get install git
 ```
-sudo dnf install git-all
+
+### Avec Pacman
+
+```sh
+sudo pacman -S git
 ```
 
 ## Prise en main
 
 ### Commandes
 
-| Commande     | Description                                                                                                                                                 |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| git init     | Initialise git dans un dossier                                                                                                                              |
-| git config   | Permet de modifier la configuration git en insérant des valeurs à des clés                                                                                  |
-| git status   | Obtient la liste dans le stage                                                                                                                              |
-| git add      | Ajoute un ou plusieurs fichier(s) au stage : vous pouvez choisir de prendre un ou plusieurs fichiers avant de le mettre dans le dépôt local et de le commit |
-| git commit   | Envoi le fichier dans le dépôt local tout en détaillant les modifications apportés au code                                                                  |
-| git remote   | Lie votre dépôt local à votre dépôt distant, permettant d'envoyer votre fichier sur le dépôt distant                                                        |
-| git push     | Permet d'envoyer les changements apportés à v  jñêïœotre dépôt local vers le dépôt distant                                                                  |
-| git pull     | Lors d'une collaboration met à jour le dépot local depuis le dépôt distant                                                                                  |
-| git fetch    | Récupère toutes les données des commits effectuées sur la branche courante qui n'existe pas encore en dépôt local                                           |
-| git clone    | Clone un dépôt distant à partir d'une URL existante(github) vers le dépôt local                                                                             |
-| git branch   | Créer une branche                                                                                                                                           |
-| git checkout | Change de branche                                                                                                                                           |
-| git merge    | Fusionne l'historique d'une branche dans la branche actuelle                                                                                                |
+| Commande                                       | Description                                                                                                                                                       |
+| ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| git init                                       | Créer un dossier .git pour git dans le dossier dans lequel la commande a été exécutée                                                                             |
+| git config                                     | Permet de modifier la configuration git dans le dépôt actuel                                                                                                      |
+| git status                                     | Affiche le statut de la zone stage, avec chaque fichier ayant subi des modifications, ainsi que chaque fichier modifié qui ne se trouve pas dans la zone de stage |
+| git add <nom_du_fichier>                       | Ajoute le(s) fichier(s) spécifié(s) à la zone de stage                                                                                                            |
+| git commit                                     | Envoi le contenu de la zone de stage dans le dépôt local                                                                                                          |
+| git remote -add <alias> <uri_du_dépôt_distant> | Lie votre dépôt local à un dépôt distant                                                                                                                          |
+| git push <alias_du_dépôt_distant>              | Permet d'envoyer les modifications qui ont fait l'objet d'un commit sur le dépôt distant                                                                          |
+| git pull <alias_du_dépôt_distant>              | Récupère les modifications du dépôt distant vers le dépôt local                                                                                                   |
+| git fetch <alias_du_dépôt_distant>             | Récupére toutes les modifications du dépôt distant (comme les branches et les commits)                                                                            |
+| git clone <uri_du_dépôt_distant>               | Récupère un dépôt distant complet et le transfère dans un dossier nommé comme le depôt distant                                                                    |
+| git branch <nom_de_la_branche>                 | Créer une branche                                                                                                                                                 |
+| git checkout <nom_de_la_branche>               | Change de branche                                                                                                                                                 |
+| git merge <nom_de_la_branche_à_fusionner>      | Fusionne les modifications de la branche visée avec celles de la branche sur laquelle vous vous trouvez                                                           |
 
 ![commande de base ](https://blog.freelancerepublik.com/wp-content/uploads/2021/12/Git-Architechture.png)
 
@@ -66,7 +81,7 @@ Le remote repo est un serveur sur le quelle nous envoyons nos fichiers depuis lo
 ë
 Créer un nouveau dépôt dans Github
 ```sh
-git init 
+git init
 git branch -M my_branch
 git add my_file_name
 git commit -m my_commit_message
@@ -78,23 +93,22 @@ Si vous voulez add plusieurs dossiers en même-temps :
 git add .
 ```
 
-### Branches 
+### Branches
 
 Lors d'un travail à plusieurs, git permet d'identifier chaque modification, sur un projet commun avec des commits et des branches différentes.
-Une branche contient plusieurs commits avec un pointeur, en avançant dans le projet, les commits augmentent sur la branche. 
-Travailler sur une branche secondaire permet de ne pas interférer dans le travail de la branche principale et de garder la meilleure version.
-Il existe plusieurs branches que l'on peut renommer comme l'on souhaite :  
-- La branche par défaut est "master" que l'on doit la renommer en "main". 
+Une branche contient plusieurs commits avec un pointeur, en avançant dans le projet, les commits augmentent sur la branche.
+Travailler sur une branche secondaire permet de ne pas interférer dans le travail de la branche principale et de garder la meilleure version. Il existe plusieurs branches que l'on peut renommer comme l'on souhaite :
+- La branche par défaut est "master" que l'on doit la renommer en "main".
 - La branche "develop" créer à partir de "main".
-- Les branches "feature" à partir de "develop" pour travailler dessus et garder la meilleure version. 
- 
+- Les branches "feature" à partir de "develop" pour travailler dessus et garder la meilleure version.
+
 
 ```sh
 git branch develop  #Créer une branche develop
 git checkout develop  #Change sur la branche develop
-git branch feature1 
-git chekckout feature1 
-git checkout develop 
+git branch feature1
+git chekckout feature1
+git checkout develop
 git merge feature1  # fusionne sur la branche develop
 git branch -d feature1 # supprime la branche feature1
 ```
