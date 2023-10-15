@@ -12,8 +12,6 @@
   - [Commands](#commands)
   - [Create empty repository](#create-empty-repository)
   - [Branches](#branches)
-  - [Pull Request](#pull-request)
-    - [How it works](#how-it-works)
 
 # Introduction
 
@@ -89,6 +87,8 @@ git push <remote repository alias> <branch_name> # Send local commited changes t
 
 ## Branches
 
-## Pull Request
+Branches are a system allowing you to separate clearly your work with work of your workmates, that way you are able to work safely and being sure that your not affecting the work of other team member, but sometimes, when you work with somebody on the same feature, you'll share your branch with somebody else, so you have to be careful on which changes that these peoples have brang to your branch before pushing.
 
-### How it works
+Branches is useful to be safe on work already made, with using branch, you're not working directly on already existing code, but with a kind of copy of that work.
+
+When your work is done, you can merge your branch with the 'develop' or 'main' one, depending if you're using GitFlow workflow or no.
