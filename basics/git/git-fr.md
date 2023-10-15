@@ -1,17 +1,16 @@
 ## Tables des matières
 <!-- TOC -->
-  * [Tables des matières](#tables-des-matires)
-  * [Introduction<a name="Introduction"></a>](#introduction-a-nameintroduction-a)
-  * [Installation <a name="Installation"></a>](#installation-a-nameinstallation-a)
-      * [linux :](#linux-)
-      * [Mac :](#mac-)
-      * [Windows:](#windows-)
-    * [Principale commande de base :](#principale-commande-de-base-)
-    * [Fonctionnement de GIT: <a name="#Commande"></a>](#fonctionnement-de-git--a-name#commande-a)
-      * [Créer un projet à partir d'un dépôt vide](#crer-un-projet--partir-dun-dpt-vide)
-  * [Branches](#branches)
-  * [Pull request <a name="#Commande"></a>](#pull-request-a-name#commande-a)
-    * [Fonctionnement:](#fonctionnement-)
+- [Tables des matières](#tables-des-matières)
+- [Introduction](#introduction)
+- [Installation ](#installation-)
+    - [linux :](#linux-)
+    - [Mac :](#mac-)
+    - [Windows:](#windows)
+  - [Principale commande de base :](#principale-commande-de-base-)
+  - [Fonctionnement de GIT: ](#fonctionnement-de-git-)
+    - [Créer un projet à partir d'un dépôt vide](#créer-un-projet-à-partir-dun-dépôt-vide)
+- [Branches](#branches)
+- [Pull request ](#pull-request-)
 <!-- TOC -->
 
 ## Introduction<a name="Introduction"></a>
@@ -37,7 +36,7 @@ sudo dnf install git-all
 ### Principale commande de base : 
 
 | Commande     | Description                                                                                                                                                 |
-|--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | git init     | Initialise git dans un dossier                                                                                                                              |
 | git config   | Permet de modifier la configuration git en insérant des valeurs à des clés                                                                                  |
 | git status   | Obtient la liste dans le stage                                                                                                                              |
@@ -103,11 +102,3 @@ Origin réprésente votre dépôt distant.
 Fork permet d'aller chercher un dépôt d'upstream vers origin.
 
 ![pull request](https://devopscube.com/wp-content/uploads/2021/02/git-forked-upstream-min.png.webp)
-
-### Fonctionnement:
-1) Fork un projet upstream vers origin
-2) Clone le nouveau projet dans le local
-3) Créer une new branche
-4) Push ton travail sur origin
-5) Proposer son projet à upstream
-6) Propiétaire soumet des vérifications à l'upstream
