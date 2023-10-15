@@ -92,21 +92,8 @@ git push <remote repository alias> <branch_name> # Envoie les modifications comm
 
 ### Branches
 
-Lors d'un travail à plusieurs, git permet d'identifier chaque modification, sur un projet commun avec des commits et des branches différentes.
-Une branche contient plusieurs commits avec un pointeur, en avançant dans le projet, les commits augmentent sur la branche.
-Travailler sur une branche secondaire permet de ne pas interférer dans le travail de la branche principale et de garder la meilleure version. Il existe plusieurs branches que l'on peut renommer comme l'on souhaite :
-- La branche par défaut est "master" que l'on doit la renommer en "main".
-- La branche "develop" créer à partir de "main".
-- Les branches "feature" à partir de "develop" pour travailler dessus et garder la meilleure version.
+Les branches sont un système qui vous permet de séparer clairement votre travail de celui de vos collègues, en ce sens vous pouvez travailler de façon à être sûr que vous n'affectez pas leur travail, cependant, il arrive que vous deviez travailler sur la même fonctionnalité, dans ce cas, vous partagerez sûrement une branche, vous devrez donc faire attention aux modifications qu'ont apportés les personnes avec qui vous partagez cette branche avant de push.
 
+Les branches sont aussi utiles afin de permettre de travailler en toute sécurité, quand vous travaillez sur une branche, vous ne travaillez pas directement sur le code déjà réalisé mais sur une copie en quelque sorte.
 
-```sh
-git branch develop  #Créer une branche develop
-git checkout develop  #Change sur la branche develop
-git branch feature1
-git chekckout feature1
-git checkout develop
-git merge feature1  # fusionne sur la branche develop
-git branch -d feature1 # supprime la branche feature1
-```
-![Les branches](https://uploads.sitepoint.com/wp-content/uploads/2019/06/155993572204-gitflow.png)
+Quand votre travail est terminé vous pouver merge votre branche avec la 'develop' ou la 'main', selon si vous utilisez GitFlow ou non.
