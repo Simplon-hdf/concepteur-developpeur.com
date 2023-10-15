@@ -23,8 +23,8 @@
 
 ### Git et GitFlow / Git and GitFlow
 
-- [Documentation de Git (French)](git.md)
-- Documentation of Git (English version not available at this moment)
+- [Documentation de Git (French)](./basics/git/git-fr.md)
+- [Git Documentation (English)](./basics/git/git-en.md)
 - [Documentation de GitFLow (French)](gitflow.md)
 - Documentation of GitFlow (English version not available at this moment)
 
