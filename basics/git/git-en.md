@@ -8,9 +8,9 @@
   - [Linux](#linux)
     - [Using APT](#using-apt)
     - [Using Pacman](#using-pacman)
-- [Basics features](#basics-features)
-  - [How does git works](#how-does-git-works)
+- [Get Started](#get-started)
   - [Commands](#commands)
+  - [Create empty repository](#create-empty-repository)
   - [Branches](#branches)
   - [Pull Request](#pull-request)
     - [How it works](#how-it-works)
@@ -53,11 +53,29 @@ sudo apt-get install git
 sudo pacman -S git
 ```
 
-# Basics features
+# Get Started
 
-## How does git works
+This section will bring you some informations to get started with Git.
 
 ## Commands
+
+| Commande                                  | Description                                                                                         |
+| ----------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| git init                                  | Will create a .git folder for git in the folder where it is executed                                |
+| git config                                | Will permit you to modify current repository configuration                                          |
+| git status                                | Displays the status of stage area, with each file which is staged ant each file which is not staged |
+| git add <filename>                        | Will add the specified file to stage                                                                |
+| git commit                                | Will send stage area content to local repository area                                               |
+| git remote -add <alias> <remote_repo_uri> | Will bind your local repository to a remote repository                                              |
+| git push <remote_alias>                   | Will send your local repository fresh content to remote repository                                  |
+| git pull <remote_alias>                   | Will get the remote repository fresh content to your local repository                               |
+| git fetch <remote_alias>                  | Will get any changes from the remote repository (like branches and commits)                         |
+| git clone <remote_repo_uri>               | Will get a whole remote repository and send it into a created folder (named as remote repo)         |
+| git branch <branch_name>                  | Create new branch                                                                                   |
+| git checkout <branch_name>                | Will change working branch                                                                          |
+| git merge <branch_to_merge>               | Will bring all commits from a branch to current branch                                              |
+
+## Create empty repository
 
 ## Branches
 
