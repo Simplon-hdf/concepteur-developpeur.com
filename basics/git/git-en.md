@@ -6,6 +6,8 @@
   - [Windows](#windows)
   - [Mac](#mac)
   - [Linux](#linux)
+    - [Using APT](#using-apt)
+    - [Using Pacman](#using-pacman)
 - [Basics features](#basics-features)
   - [How does git works](#how-does-git-works)
   - [Commands](#commands)
@@ -25,9 +27,31 @@ It make user to be able to share their code through a whole team (using some oth
 
 ## Windows
 
+To install Git under Windows, you can click [this link](https://git-scm.com/download/win)
+
 ## Mac
 
+For Mac using `Homebrew`
+
+```sh
+brew install git
+```
+
 ## Linux
+
+For Linux it depends on your Linux Package Manager (based on your distribution)
+
+### Using APT
+
+```sh
+sudo apt-get install git
+```
+
+### Using Pacman
+
+```sh
+sudo pacman -S git
+```
 
 # Basics features
 
