@@ -78,6 +78,10 @@ For the rest, you can set the name that you want, although the default name are 
 
 ## Features Branches
 
+Features branches are useful when you have to start new feature development, although they're just basic branches, they bring semantical information about what changes are made throught those branches.
+
+They indicate clearly to everybody that the changes made into them will concern a new feature development.
+
 ### Creation
 
 ### Finalisation
