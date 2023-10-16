@@ -1,4 +1,5 @@
 # Documentation pour le titre professionnel Concepteur Développeur d'Application
+
 ## Table des matières
 
 ### Conventions et Outils / Conventions and Tools
@@ -6,7 +7,7 @@
 - [Les conventions (French)](convention.md)
 - [Conventions (English)](convention-en.md)
 - [Documentation des linters (French)](linters-fr.md)
-- [Documentation of linters (English)](linters-en.md)
+- [Linters Documentation (English)](linters-en.md)
 - [Les formatters avec Prettier (French)](prettier.md)
 - Formatters with Prettier (English version not available at this moment)
 
@@ -26,7 +27,7 @@
 - [Documentation de Git (French)](./basics/git/git-fr.md)
 - [Git Documentation (English)](./basics/git/git-en.md)
 - [Documentation de GitFLow (French)](gitflow.md)
-- Documentation of GitFlow (English version not available at this moment)
+- [GitFlow Documentation](./basics/git/gitflow/gitflow-en.md)
 
 ### Node Package Manager (NPM)
 
