@@ -25,6 +25,10 @@ Le linter peut intervenir dans divers contexte tels que :
 
 # Linter != Debbuger
 
+Le linter et le debbuger sont 2 programmes bien distincts, là où le linter s'occupe de gérer les erreurs du code en édition de ce dernier (pré-compilation / pré-transpilation), le debbuger intervient lors de l'étape de conversion du code source en code machine, le debbuger permet alors d'identifier certains type d'erreur dont le linter ne s'occupe pas.
+
+De plus le debbuger permet de lire des informations sur certains processus, tel que la pile d'appel par exemple.
+
 # Les linters les plus utilisés
 
 ## JSLint
