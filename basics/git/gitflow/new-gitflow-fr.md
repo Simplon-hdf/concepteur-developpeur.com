@@ -66,6 +66,20 @@ sudo pacman -S git-flow
 
 ### Initialisation
 
+Afin d'initialiser GitFlow il vous suffit d'entrer la commande :
+
+```sh
+git flow init
+```
+
+Dans un dossier qui peut déjà être un dépôt Git, ou non.
+
+![git init](assets/gitflow-init.png)
+
+Il est recommandé de nommer la branche de principale `main`.
+
+Puis pour tout le reste, il n'appartient qu'à vous de décider le nom des branches, bien qu'en pratique, les noms par défaut soit gardés.
+
 ### Branches Features
 
 #### Création
