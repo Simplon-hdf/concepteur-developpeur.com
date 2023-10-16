@@ -122,6 +122,8 @@ git branch -D feature/add-cancel-button
 
 ### Branches Correctives
 
+Les branches correctives (`hotfix`) ont elles aussi une utilité sémantique, elles servent à apporter des corrections à une ou plusieurs fonctionalités ou système au sein de votre projet.
+
 #### Création
 
 #### Terminaison
