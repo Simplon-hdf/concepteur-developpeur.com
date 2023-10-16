@@ -6,15 +6,13 @@
 
 # Sommaire
 
-- [Qu'est-ce qu'un linter](#whoisLinter)  
-- [Linter VS. Débugger](#lintervsdebugger)  
-- [Linters existants](#linterExistant)
-  - [JSLint](#linterExistant)
-  - [JSHint](#linterExistant)
-  - [ESLint](#linterExistant)
-  - [Comparaison des différents linters](#differenceBetween)
-- [Exemple avec ESLint](#ESLint)
-- [Incorporation dans le processus d'intégration continue](#IncorporationProccessIntegration)
+- [Sommaire](#sommaire)
+    - [Qu'est-ce qu'un linter ?  ](#quest-ce-quun-linter---)
+    - [Différence avec un débugger ](#différence-avec-un-débugger-)
+    - [Les linters existants  ](#les-linters-existants--)
+  - [Exemple avec ESLint](#exemple-avec-eslint)
+    - [Installation et configuration : Projet vs. Global](#installation-et-configuration--projet-vs-global)
+    - [Incorporation dans le processus d'intégration continue:](#incorporation-dans-le-processus-dintégration-continue)
 
 
 <br/>
@@ -49,10 +47,10 @@ Il existe différents linters:
 <a href="differenceBetween"></a>
 
 |        | Facilité d'utilisation | Configurable | Documentation | Clareté des explications | Extensible | Support ES6 / JSX |
-|:------:|:----------------------:|:------------:|:-------------:|:------------------------:|:----------:|:-----------------:|
-| JSLint |            ✔️           |       ❌      |       ❌       |             😐            |      ❌     |        ES6        |
-| JSHint |            😐           |       😐      |       ✔️       |             😐            |      😐     |        ES6        |
-| ESLint |            😐           |       ✔️      |       ✔️       |             ✔️            |      ✔️     |     ES6 + JSX     |
+| :----: | :--------------------: | :----------: | :-----------: | :----------------------: | :--------: | :---------------: |
+| JSLint |           ✔️            |      ❌       |       ❌       |            😐             |     ❌      |        ES6        |
+| JSHint |           😐            |      😐       |       ✔️       |            😐             |     😐      |        ES6        |
+| ESLint |           😐            |      ✔️       |       ✔️       |            ✔️             |     ✔️      |     ES6 + JSX     |
 
 _Ces trois linters proposent une alternative de correction du code directement sur navigateur, nous ne recommandons pas cette pratique aux développeurs._ 
 
