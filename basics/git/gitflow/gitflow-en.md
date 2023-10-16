@@ -62,6 +62,20 @@ sudo pacman -S git-flow
 
 ## Initialisation
 
+To initialise GitFlow, you have to execute the command :
+
+```sh
+git flow init
+```
+
+In a folder whose can already be a git repository, or no.
+
+![git init](assets/gitflow-init.png)
+
+It's recommended to name main branch as `main` instead of `master`.
+
+For the rest, you can set the name that you want, although the default name are preferred to be keep in most cases.
+
 ## Features Branches
 
 ### Creation
