@@ -50,6 +50,16 @@ Il est possible de configurer des règles concernant les erreurs dans un fichier
 
 ## Analyse comparatives
 
+📕 : Non<br/>
+📙 : Partiellement<br/>
+📗 : Oui<br/>
+󠀠
+| Linter | Facilité d'utilisation󠀠󠀠 󠀠󠀠󠀠󠀠󠀠󠀠󠀠 | Configurable󠀠 | Documentation󠀠 | Clareté des explications󠀠 | Extensible 󠀠 | 󠀠Support ES6 / JSX |
+| ------ | ----------------------- | ------------ | ------------- | ------------------------ | ----------- | ------------------ |
+| JSLint | 📗                   󠀠    | 📕            | 📕             | 📙                        | 📕           | ES6    󠀠            |
+| JSHint | 📙                       | 📙            | 📗             | 📙                        | 📙           | ES6                |
+| ESLint | 📙                       | 📗            | 📗             | 📗                        | 📗           | ES6 + JSX          |
+
 # ESLint en pratique
 
 ## Prise en main
