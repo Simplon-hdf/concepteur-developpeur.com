@@ -26,7 +26,7 @@
 GitFlow est un **workflow** (flux de travail) qui permet travailler d'une façon à séparer le travail réalisé sur des branches bien distinctes.
 
 En adoptant GitFlow, il est possible de travailler de façon optimale sur un projet afin de bien identifié à quel étape d'un projet nous nous trouvons. 
-Ainsi que d'identifier et d'indiquer clairement sur quel type de tâche on travaille.
+Ainsi que d'identifier et d'indiquer clairement sur quel type de tâche nous travaillons.
 
 Bien que GitFlow ne soit rien de plus qu'une manière de travailler avec Git sur un projet, un programme a été développé afin de mettre en place GitFlow de manière optimale.
 
@@ -78,7 +78,7 @@ Dans un dossier qui peut déjà être un dépôt Git, ou non.
 
 Il est recommandé de nommer la branche de principale `main`.
 
-Puis pour tout le reste, il n'appartient qu'à vous de décider le nom des branches, bien qu'en pratique, les noms par défaut soit gardés.
+Puis pour tout le reste, il n'appartient qu'à vous de décider du nom des branches, bien qu'en pratique, les noms par défaut soit gardés.
 
 ### Branches Features
 
