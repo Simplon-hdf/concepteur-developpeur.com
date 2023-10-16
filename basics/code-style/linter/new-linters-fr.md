@@ -2,7 +2,7 @@
 
 - [Table des matières](#table-des-matières)
 - [Introduction](#introduction)
-- [Linter != Debbuger](#linter--debbuger)
+- [Linter != Débogueur / Débugueur (Debugger)](#linter--débogueur--débugueur-debugger)
 - [Les linters les plus utilisés](#les-linters-les-plus-utilisés)
   - [JSLint](#jslint)
   - [JSHint](#jshint)
@@ -23,11 +23,11 @@ Le linter peut intervenir dans divers contexte tels que :
 - Dans un processus de developpement partagé (Tels que sur GitHub par exemple)
 - Être exécuté dans un terminal de façon manuelle, ou automatique avant la transpilation du code source
 
-# Linter != Debbuger
+# Linter != Débogueur / Débugueur (Debugger) 
 
-Le linter et le debbuger sont 2 programmes bien distincts, là où le linter s'occupe de gérer les erreurs du code en édition de ce dernier (pré-compilation / pré-transpilation), le debbuger intervient lors de l'étape de conversion du code source en code machine, le debbuger permet alors d'identifier certains type d'erreur dont le linter ne s'occupe pas.
+Le linter et le debugger sont 2 programmes bien distincts, là où le linter s'occupe de gérer les erreurs du code en édition de ce dernier (pré-compilation / pré-transpilation), le debugger intervient lors de l'étape de conversion du code source en code machine, le debugger permet alors d'identifier certains type d'erreur dont le linter ne s'occupe pas.
 
-De plus le debbuger permet de lire des informations sur certains processus, tel que la pile d'appel par exemple.
+De plus le debugger permet de lire des informations sur certains processus, tel que la pile d'appel par exemple.
 
 # Les linters les plus utilisés
 
