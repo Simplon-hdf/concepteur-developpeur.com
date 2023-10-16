@@ -1,212 +1,154 @@
-![!](https://res.cloudinary.com/jerrick/image/upload/f_jpg,fl_progressive,q_auto,w_1024/60cba00bd11dde001d9e55c0.png)
+# Table des matières
 
-## Sommaire
+- [Table des matières](#table-des-matières)
+- [Introduction](#introduction)
+  - [Installation](#installation)
+    - [Windows](#windows)
+    - [Mac](#mac)
+    - [Linux](#linux)
+      - [Apt](#apt)
+      - [Pacman](#pacman)
+  - [Prise en main](#prise-en-main)
+    - [Initialisation](#initialisation)
+    - [Branches Features](#branches-features)
+      - [Création](#création)
+      - [Terminaison](#terminaison)
+    - [Branches Correctives](#branches-correctives)
+      - [Création](#création-1)
+      - [Terminaison](#terminaison-1)
 
----
+# Introduction
 
-<!-- TOC -->
+GitFlow est un **workflow** (flux de travail) qui permet travailler d'une façon à séparer le travail réalisé sur des branches bien distinctes.
 
-- [Sommaire](#sommaire)
-- [Description](#description)
-- [Installation](#installation)
-  - [Commande d'installation](#commande-dinstallation)
-    - [Mac OS](#mac-os)
-      - [Linux](#linux)
-      - [Windows](#windows)
-  - [Fonctionnement de Gitflow](#fonctionnement-de-gitflow)
-  - [Initialisation de gitflow](#initialisation-de-gitflow)
-  - [Créer une fonctionnalité](#créer-une-fonctionnalité)
-    - [Terminer une fonctionnalité](#terminer-une-fonctionnalité)
-  - [Commencer une Livraison/release](#commencer-une-livraisonrelease)
-    - [Terminer une livraison](#terminer-une-livraison)
-  - [Commencer un correctif](#commencer-un-correctif)
-    - [Terminer un correctif](#terminer-un-correctif)
-- [Références](#références)
-<!-- TOC -->
+En adoptant GitFlow, il est possible de travailler de façon optimale sur un projet afin de bien identifié à quel étape d'un projet nous nous trouvons. 
+Ainsi que d'identifier et d'indiquer clairement sur quel type de tâche nous travaillons.
 
-## Description
-
----
-
-Cette extension permet de traiter le versioning d'un projet et pose un cadre de travail.
-Les développeurs qui travaillent sur un projet géré par Gitflow doivent suivre un Workflow établi et éprouvé.
+Bien que GitFlow ne soit rien de plus qu'une manière de travailler avec Git sur un projet, un programme a été développé afin de mettre en place GitFlow de manière optimale.
 
 ## Installation
 
----
+### Windows
 
-- Une installation fonctionnelle de Git est requise
-- Gitflow fonctionne sur macOS, Linux et Windows
+Sous Windows, Git comporte déjà le module GitFlow, donc si vous avez déjà installé Git, vous possédez déjà GitFlow, si vous n'avez pas encore installé Git, [Téléchargez-le](https://git-scm.com/download/win)
 
-### Commande d'installation
+### Mac 
 
-#### Mac OS
+Pour installer GitFlow sous Mac avec HomeBrew :
 
-_Homebrew_
-
-```
-brew install git-flow-avh
+```sh
+brew install git-flow
 ```
 
-##### Linux
+### Linux
 
+#### Apt
+
+Pour installer GitFlow sous Linux avec Apt :
+
+```sh
+sudo apt-get install git-flow
 ```
-apt-get install git-flow
+
+#### Pacman
+
+Pour installer GitFlow sous Linux avec Pacman :
+
+```sh
+sudo pacman -S git-flow
 ```
 
-##### Windows
+## Prise en main
 
-Sous Windows, vous devrez télécharger et installer git-flow.
-[Installation GitFlow](https://git-scm.com/download/win)
+### Initialisation
 
-### Fonctionnement de Gitflow
+Afin d'initialiser GitFlow il vous suffit d'entrer la commande :
 
----
-
-![!](https://wac-cdn.atlassian.com/dam/jcr:a13c18d6-94f3-4fc4-84fb-2b8f1b2fd339/01%20How%20it%20works.svg?cdnVersion=584)
-
-Gitflow est un ensemble de règles simples qui se basent sur le fonctionnement par branche de Git.
-Gitflow génére de manière automatique de multiple chose dont les branches ==Main== et ==Develop==.
-La branche ==Main== est la branche dite principale souvent utilisée lors de la production.
-La branche ==Develop== rassemble toutes les fonctionnalités, mais il est recommandé de ne pas faire de modification directement dans cette branche
-Il permet de réaliser plusieurs commandes git en une seule ligne.
-
-### Initialisation de gitflow
-
----
-
-Pour lancer l'initialisation, lancez la commande :
-
-```
+```sh
 git flow init
 ```
 
-L'extension propose de préfixer les branches de Gitflow. Il est conseillé de laisser les valeurs par défaut.(appuyer sur entrée à chaque proposition)
+Dans un dossier qui peut déjà être un dépôt Git, ou non.
 
-### Créer une fonctionnalité
+![git init](assets/gitflow-init.png)
 
----
+Il est recommandé de nommer la branche de principale `main`.
 
-![!](https://wac-cdn.atlassian.com/dam/jcr:34c86360-8dea-4be4-92f7-6597d4d5bfae/02%20Feature%20branches.svg?cdnVersion=584)
+Puis pour tout le reste, il n'appartient qu'à vous de décider du nom des branches, bien qu'en pratique, les noms par défaut soit gardés.
 
-Pour gitflow créer une fonctionnalité correspond à la création d'une nouvelle branche de type ==feature==.Cela permet de développer plusieurs fonctionnalités en parallèle, souvent utilisé pour le travail en équipe.
+### Branches Features
 
-Pour créer une fonctionnalité, lancer la commande :
+Les branches Features sont des branches qui seront utiles afin de développer de nouvelles fonctionnalités à votre projet, bien qu'elles ne soient rien d'autres que des branches, elles permettent d'indiquer sémantiquement que les modifications apportées au sein de ces branches seront des modifications concernant l'ajout d'une fonctionnalités.
 
+#### Création
+
+Pour créer une branche de type `Feature` rien de plus simple, exécutez simplement la commande :
+
+```sh
+git flow feature start <nom_de_la_branche>
 ```
-git flow feature start Myfeature
-```
 
-Cette commande créer une branche et se positionne sur celle-ci.
+![git feature](assets/gitflow-feature.png)
 
-**Commande correspondante sur Git :**
+**Commandes correspondantes sans GitFlow**
 
-```
+```sh
 git checkout develop
-git checkout -b feature/Myfeature
+git branch -b feature/add-cancel-button
 ```
 
-#### Terminer une fonctionnalité
+#### Terminaison
 
-Lorsque votre fonctionnalité est finie, vous devez lancer la commande :
+Lorsque votre travail est terminé, vous voulez que ce dernier soit ajouté à la branche `develop` dans ce cas, la procédure à suivre est simple.
 
+```sh
+git flow feature finish <nom_de_la_branche>
+git pull origin develop
 ```
-git flow feature finish Myfeature
-```
 
-Gitflow retourne sur la branche ==Develop== et merge la branche ==feature==/Myfeature, une fois le merge réussi la branche est supprimée.
+En faisant ça, vous allez merge votre travail sur la branche `develop` et récupérer celui qui a été produit en parallèle.
 
-**Commande correspondante sur Git :**
+**Commandes correspondantes sans GitFlow**
 
-```
+```sh
 git checkout develop
-git merge feature/Myfeature
-git branch -D feature/Myfeature
+git merge feature/add-cancel-button
+git branch -D feature/add-cancel-button
 ```
 
-### Commencer une Livraison/release
+### Branches Correctives
 
----
+Les branches correctives (`hotfix`) ont elles aussi une utilité sémantique, elles servent à apporter des corrections à une ou plusieurs fonctionalités ou système au sein de votre projet.
 
-![!](https://wac-cdn.atlassian.com/dam/jcr:8f00f1a4-ef2d-498a-a2c6-8020bb97902f/03%20Release%20branches.svg?cdnVersion=584)
+#### Création
 
-Gitflow permet aussi de gérer les versions avec la création de branche ==release==, pouvant être utilisé lors de la production.
+Pour créer une branche `hotfix` c'est simple, il suffit d'exécuter la commande :
 
-Pour créer une version lancer la commande :
-
-```
-git flow release start 1.0.0
+```sh
+git flow hotfix start <nom_de_la_branch>
 ```
 
-L'extension crée une branche ==release== en se plaçant sur la branche ==Develop==.
+Cette commande aura pour effet de créer une branche du type `hotfix`.
 
-#### Terminer une livraison
+**Commandes correspondantes sans GitFlow**
 
-Après avoir effectué les actions voulues, vous devez lancer la commande :
-
-```
-git flow release finish 1.0.0
-```
-
-Cette commande merge la branche ==release== à la branche ==main==.
-
-**Commande correspondante sur Git :**
-
-```
-git checkout main
-git merge release/1.0.0
+```sh
+git branch -b hotfix/fix-cancel-button
+git checkout hotfix/fix-cancel-button
 ```
 
-### Commencer un correctif
+#### Terminaison
 
----
+Lorsque votre travail est terminé, vous n'avez plus qu'à fermer votre branch en exécutant la commande :
 
-![!](https://wac-cdn.atlassian.com/dam/jcr:cc0b526e-adb7-4d45-874e-9bcea9898b4a/04%20Hotfix%20branches.svg?cdnVersion=584)
-
-En cas d'erreur lors de la production, la création d'une branche ==hotfix== peut être créé.
-Pour cela lancer la commande :
-
-```
-git flow hotfix start myBranch
+```sh
+git flow hotfix finish <nom_de_la_branche>
 ```
 
-Cette commande crée une branche à partir de la branche ==main==.
+**Commandes correspondantes sans GitFlow**
 
-**Commande correspondante sur Git :**
-
-```
-git checkout main
-git checkout -b hotfix/myBranch
-```
-
-#### Terminer un correctif
-
-Lorsque votre ==hotfix== est terminé lancer la commande :
-
-```
-git flow hotfix finish myBranch
-```
-
-Cette commande envoie les changements à la fois sur la branche ==main== et la branche ==Develop==.
-
-**Commande correspondante sur Git :**
-
-```
-git checkout master
-git merge hotfix/myBranch
+```sh
 git checkout develop
-git merge hotfix/myBranch
-git branch -D hotfix/myBranch
+git merge hotfix/fix-cancel-button
+git branch -D hotfix/fix-cancel-button
 ```
-
-## Références
-
----
-
-- [Explication du modèle](https://nvie.com/posts/a-successful-git-branching-model/) (Auteur de gitflow)
-
-- [Cheat Sheet](http://danielkummer.github.io/git-flow-cheatsheet/index.fr_FR.html)
-
-- [Tutoriel](https://jeffkreeftmeijer.com/git-flow/)
-
-- [Tutoriel vidéo](https://www.youtube.com/watch?v=ZQAQ4HcskAY)
