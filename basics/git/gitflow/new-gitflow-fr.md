@@ -38,6 +38,12 @@ Sous Windows, Git comporte déjà le module GitFlow, donc si vous avez déjà in
 
 ### Mac 
 
+Pour installer GitFlow sous Mac avec HomeBrew :
+
+```sh
+brew install git-flow
+```
+
 ### Linux
 
 #### Apt
