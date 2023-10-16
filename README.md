@@ -13,20 +13,20 @@
 
 ### Méthode agile (SCRUM) / Agile method (SCRUM)
 
-- [La méthode agile (French)](agile-method.md)
+- [La méthode agile (French)](./basics/methodology/agile-method.md)
 - Agile method (English version not available yet)
-- [Présentation de Jira (French)](jira-presentation.md)
+- [Présentation de Jira (French)](./basics/methodology/jira-presentation.md)
 - Jira presentation (Engish version not available yet)
-- [La vélocité dans SCRUM (French)](velocite.md)
+- [La vélocité dans SCRUM (French)](./basics/methodology/velocite.md)
 - Velocity in SCRUM (English version not available yet)
-- [Présentation du Planning Poker (French)](planningPoker.md)
+- [Présentation du Planning Poker (French)](./basics/methodology/planningPoker.md)
 - Planning Poker presentation (English version not available yet)
 
 ### Git et GitFlow / Git and GitFlow
 
 - [Documentation de Git (French)](./basics/git/git-fr.md)
 - [Git Documentation (English)](./basics/git/git-en.md)
-- [Documentation de GitFLow (French)](gitflow.md)
+- [Documentation de GitFlow (French)](gitflow.md)
 - [GitFlow Documentation](./basics/git/gitflow/gitflow-en.md)
 
 ### Node Package Manager (NPM)
