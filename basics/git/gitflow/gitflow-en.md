@@ -30,6 +30,8 @@ Although the fact that GitFlow is just an method to work, a program exists to us
 
 ## Windows
 
+Under Windows, Git already contains GitFlow module, so, if you've already installed Git, you can use GitFlow module, otherwise, [install Git here](https://git-scm.com/download/win).
+
 ## Mac
 
 ## Linux
