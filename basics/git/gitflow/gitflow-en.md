@@ -44,7 +44,19 @@ brew install git-flow
 
 ### Apt
 
+To install GitFlow module under Linux using Apt :
+
+```sh
+sudo apt-get install git-flow
+```
+
 ### Pacman
+
+To install GitFlow module under Linux using Pacman :
+
+```sh
+sudo pacman -S git-flow
+```
 
 # Get Started
 
