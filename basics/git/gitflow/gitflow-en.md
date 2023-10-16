@@ -84,6 +84,21 @@ They indicate clearly to everybody that the changes made into them will concern 
 
 ### Creation
 
+To create a `feature` branch, nothing more easy, just run the command :
+
+```sh
+git flow feature start <name_of_branch>
+```
+
+![git feature](assets/gitflow-feature.png)
+
+**Associated commands without using GitFlow module**
+
+```sh
+git checkout develop
+git branch -b feature/add-cancel-button
+```
+
 ### Finalisation
 
 ## Fixes Branches
