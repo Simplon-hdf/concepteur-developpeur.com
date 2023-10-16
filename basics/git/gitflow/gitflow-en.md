@@ -120,6 +120,8 @@ git branch -D feature/add-cancel-button
 
 ## Fixes Branches
 
+Fixes branches (`hotfix`) have semantical utility too, they're used to bring fix on features or systems involved in your project.
+
 ### Creation
 
 ### Finalisation
