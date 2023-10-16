@@ -82,7 +82,24 @@ Puis pour tout le reste, il n'appartient qu'à vous de décider du nom des branc
 
 ### Branches Features
 
+Les branches Features sont des branches qui seront utiles afin de développer de nouvelles fonctionnalités à votre projet, bien qu'elles ne soient rien d'autres que des branches, elles permettent d'indiquer sémantiquement que les modifications apportées au sein de ces branches seront des modifications concernant l'ajout d'une fonctionnalités.
+
 #### Création
+
+Pour créer une branche de type `Feature` rien de plus simple, exécutez simplement la commande :
+
+```sh
+git flow feature start <nom_de_la_branche>
+```
+
+![git feature](assets/gitflow-feature.png)
+
+**Commandes correspondantes sans GitFlow**
+
+```sh
+git checkout develop
+git branch -b feature/add-cancel-button
+```
 
 #### Terminaison
 
