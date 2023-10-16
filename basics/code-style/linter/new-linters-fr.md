@@ -8,10 +8,8 @@
   - [JSHint](#jshint)
   - [ESLint](#eslint)
   - [Analyse comparatives](#analyse-comparatives)
-- [ESLint en pratique](#eslint-en-pratique)
-  - [Prise en main](#prise-en-main)
-    - [Installation](#installation)
-    - [Configuration](#configuration)
+- [Prise en main d'ESLint](#prise-en-main-deslint)
+  - [Initialisation](#initialisation)
 
 # Introduction
 
@@ -60,10 +58,42 @@ Il est possible de configurer des règles concernant les erreurs dans un fichier
 | JSHint | 📙                       | 📙            | 📗             | 📙                        | 📙           | ES6                |
 | ESLint | 📙                       | 📗            | 📗             | 📗                        | 📗           | ES6 + JSX          |
 
-# ESLint en pratique
+# Prise en main d'ESLint
 
-## Prise en main
+## Initialisation
 
-### Installation
+Pour initialiser ESLint il vous faut un projet Node.
 
-### Configuration
+Puis vous devez exécuter la commande suivante dans la racine de votre projet Node :
+
+```sh
+npm init @eslint/config
+```
+
+Ce qui aura pour effet de vous demandez si vous voulez installer le module ESLint, si vous ne l'avez pas déjà.
+
+Puis vous aurez une liste de paramètre à définir, si vous avez envie, il existe une alternative plus courte qui consiste à exécuter une installation préfaite :
+
+```sh
+npm install eslint eslint-config-airbnb-base eslint-plugin-import
+```
+
+Puis vous pouvez créer le fichier de configuration d'ESLint `.eslintrc.json` et y insérez le code suivant :
+
+```json
+{  
+"extends": ["airbnb-base"],  
+"env": {  
+  "node": true,  
+  "es6": true,  
+  "browser": true  
+  },  
+"rules": {  
+  "no-console": "off"  
+  }  
+}  
+```
+
+Ce qui aura pour effet de configurer ESLint avec la convention Airbnb de base.
+
+Voila, ESLint est initialisé pour votre projet et vous notifiera des erreurs de code.
