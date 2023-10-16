@@ -87,7 +87,7 @@ They indicate clearly to everybody that the changes made into them will concern 
 To create a `feature` branch, nothing more easy, just run the command :
 
 ```sh
-git flow feature start <name_of_branch>
+git flow feature start <branch_name>
 ```
 
 ![git feature](assets/gitflow-feature.png)
@@ -100,6 +100,23 @@ git branch -b feature/add-cancel-button
 ```
 
 ### Finalisation
+
+When your work's done, you want to add it to `develop` branch, you just have to do :
+
+```sh
+git flow feature finish <branch_name>
+git pull origin develop
+```
+
+That way, you'll merge the changes you'd done and pull the changes that other ones did on `develop` branch.
+
+**Associated commands without using GitFlow module**
+
+```sh
+git checkout develop
+git merge feature/add-cancel-button
+git branch -D feature/add-cancel-button
+```
 
 ## Fixes Branches
 
