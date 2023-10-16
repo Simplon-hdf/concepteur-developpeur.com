@@ -19,6 +19,13 @@
 
 # Introduction
 
+GitFlow is a **workflow** whose permitting to work on separated branches, in that way it will semantically be easy to identificate what changes are brang by branches.
+
+Using GitFlow is an way to work optimally on a project, using specific branches for specific kind of changes.
+It's telling to everyone by the nature of the branch, what kind of work has been achieved throught this branch.
+
+Although the fact that GitFlow is just an method to work, a program exists to use Git automated for GitFlow way.
+
 # Installation
 
 ## Windows
