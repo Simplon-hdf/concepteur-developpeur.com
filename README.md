@@ -26,16 +26,13 @@
 
 - [Documentation de Git (French)](./basics/git/git-fr.md)
 - [Git Documentation (English)](./basics/git/git-en.md)
-- [Documentation de GitFlow (French)](gitflow.md)
+- [Documentation de GitFlow (French)](./basics/git/git-fr.md)
 - [GitFlow Documentation](./basics/git/gitflow/gitflow-en.md)
 
 ### Node Package Manager (NPM)
 
-- [Documentation de NPM (French)](npm-fr.md)
-- [Documentation of NPM (English)](npm-en.md)
+- [Documentation de NPM (French)](./basics/npm/npm-fr.md)
+- [NPM Documentation (English)](./basics/npm/npm-en.md)
 - [Example **package.json** file](package.json)
 
-
 Site web (à venir) : http://concepteur-developpeur.com/
-
-
