@@ -138,3 +138,17 @@ git checkout hotfix/fix-cancel-button
 ```
 
 ### Finalisation
+
+When your work's done, you have to close this branch running :
+
+```sh
+git flow hotfix finish <branch_name>
+```
+
+**Associated commands without using GitFlow module**
+
+```sh
+git checkout develop
+git merge hotfix/fix-cancel-button
+git branch -D hotfix/fix-cancel-button
+```
