@@ -15,6 +15,14 @@
 
 # Introduction
 
+Un linter est un programme qui analyse en **temps réel** le code écrit par un développeur, de sortes à notifier le développeur des potentielles erreurs qui pourrait se produire, comme l'appelle à une fonction qui n'existe pas par exemple.
+
+Le linter peut intervenir dans divers contexte tels que :
+
+- Au sein de l'éditeur de code
+- Dans un processus de developpement partagé (Tels que sur GitHub par exemple)
+- Être exécuté dans un terminal de façon manuelle, ou automatique avant la transpilation du code source
+
 # Linter != Debbuger
 
 # Les linters les plus utilisés
