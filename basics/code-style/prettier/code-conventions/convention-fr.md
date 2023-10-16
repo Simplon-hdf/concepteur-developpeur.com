@@ -1,53 +1,42 @@
-## Tables des matières 
-<!-- TOC -->
-* [Dans quel but ?](#dans-quel-but)
-* [Les différentes conventions :](#diff)
-<!-- TOC -->
+## Tables des matières
 
-# Dans quel but ? 
+- [Définition](#définition)
+- [Les conventions les plus couramment utilisées](#les-conventions-les-plus-couramment-utilisées)
 
-Il existe plusieurs façons d'écrire un même code. De manière à uniformiser le code de différents développeurs dans les entreprises, des **conventions** existent. Ces conventions permettent aux développeurs d'une équipe de rendre un code uniformisé, compréhensible par tous. 
+# Définition 
+
+Il existe plusieurs façons d'écrire un même code. De manière à uniformiser le code de différents développeurs dans les entreprises, des **conventions** existent. Ces conventions permettent aux développeurs d'uniformiser le code.
 
 Les conventions couvrent différents domaines :
 
 - Style d'indentation
-- convention de nommage et d'organisation des fichiers (architecture projet)
-- commentaire et documentation du code source 
-- déclaration des variables
+- Type de déclaration des variables
+- Agencement organisationnelle / structurelle (Qui concernent la façon de le projet sera agencé) 
 
-Dans ce cadre, les **linters** et **formatteurs** permettent de "modifier" un code source afin d'en rendre une version claire.
+Dans ce cadre, les **linters** et **formatteurs** permettent de "modifier" un code source afin de l'uniformiser de façon constante.
 
 Suivre ces règles de convention apporte différents avantages : 
 
 - Une meilleure maintenance logicielle (40 à 80 % de réduction du coût de maintenance)
-- Améliore la lisibilité du code pour d'autres ingénieurs logiciel et rends plus facile le peer review. 
+- Améliore la lisibilité du code pour d'autres ingénieurs logiciel et rends plus facile la code review. 
 
-<br/>
-
-# <a name = "diff" ></a>Les différentes conventions: 
+# Les conventions les plus couramment utilisées 
 
 Les plus grandes compagnies ont sorti leurs conventions respectives concernant Javascript :
 
-* **Standard Style Guide **: Contient un linter et un formatter, suivi par Github, NPM, Heroku, MongoDB. De plus en plus utilisé dans l'OpenSource.
-    - Pas de configuration, simple à utiliser et suivre.
-    - Formatter automatiquement le code
-    >https://github.com/standard/standard_
+- [**Standard Style Guide**](https://github.com/standard/standard) : Contient un linter et un formatter, suivi par Github, NPM, Heroku, MongoDB. De plus en plus utilisé dans l'OpenSource.
+  - Pas de configuration, simple à utiliser et suivre.
+  - Formatter automatiquement le code
 
-* **Google Style Guide** : Google a sorti un guide pour Javascript, mais également pour HTML / CSS / C++ / TypeScript ou Angular. 
-    - Fourni avec ESLint 
-   > https://google.github.io/styleguide/
+- [**Google Style Guide**](https://google.github.io/styleguide/) : Google a sorti un guide pour Javascript, mais également pour HTML / CSS / C++ / TypeScript ou Angular. 
+  - Pris en charge par ESLint. 
 
-* **Airbnb Style Guide**: Un des plus populaires. Très complet, des objets au testing. Propose des conventions CSS, JS, Ruby et React. Il est apprécié pour ça :
+- [**Airbnb Style Guide**](https://github.com/airbnb/javascript) : Un des plus populaires. Très complet, des objets au testing. Propose des conventions CSS, JS, Ruby et React. Il est apprécié pour ça :
     - Consistence
     - lisibilité
     - Prédictibilité
     - Efficacité 
-     
-    > https://github.com/airbnb/javascript
 
-* **Clean Code Style Guide**: Tiré du livre de Robert C. Martin, les principes de ce livre ont été repris et appliqués au Javascript. C'est une liste de bonnes pratiques pour une écriture lisible du JavaScript. 
-    > https://github.com/ryanmcdermott/clean-code-javascript
-
-
+- [**Clean Code Style Guide**](https://github.com/ryanmcdermott/clean-code-javascript) : Tiré du livre de Robert C. Martin, les principes de ce livre ont été repris et appliqués au Javascript. C'est une liste de bonnes pratiques pour une écriture lisible du JavaScript.
 
 **_Nous faisons le choix de suivre la convention proposée par AirBnb dans une stack JavaScript._**
