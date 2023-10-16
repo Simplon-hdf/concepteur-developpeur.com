@@ -126,7 +126,7 @@ Les branches correctives (`hotfix`) ont elles aussi une utilité sémantique, el
 
 #### Création
 
-Pour créer une branche `hotfix` c'est simple, il suffit d'entrer la commande :
+Pour créer une branche `hotfix` c'est simple, il suffit d'exécuter la commande :
 
 ```sh
 git flow hotfix start <nom_de_la_branch>
@@ -142,6 +142,20 @@ git checkout hotfix/fix-cancel-button
 ```
 
 #### Terminaison
+
+Lorsque votre travail est terminé, vous n'avez plus qu'à fermer votre branch en exécutant la commande :
+
+```sh
+git flow hotfix finish <nom_de_la_branche>
+```
+
+**Commandes correspondantes sans GitFlow**
+
+```sh
+git checkout develop
+git merge hotfix/fix-cancel-button
+git branch -D hotfix/fix-cancel-button
+```
 
 ### Branches Releases / Livraison
 
