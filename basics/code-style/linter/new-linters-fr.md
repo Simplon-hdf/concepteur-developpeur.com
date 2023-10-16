@@ -39,6 +39,10 @@ Ses explications concernant les erreurs sont parfois obscures.
 
 ## JSHint
 
+JSHint est un linter livré prêt à l'emploi et simple à utiliser. 
+Il ne nécessite pas de configuration mais en contre partie il ne permet pas de définir des critères concernant les erreurs. 
+Ses explications concernant les erreurs sont parfois obscures.
+
 ## ESLint
 
 ## Analyse comparatives
