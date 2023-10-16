@@ -34,6 +34,8 @@ Bien que GitFlow ne soit rien de plus qu'une manière de travailler avec Git sur
 
 ### Windows
 
+Sous Windows, Git comporte déjà le module GitFlow, donc si vous avez déjà installé Git, vous possédez déjà GitFlow, si vous n'avez pas encore installé Git, [Téléchargez-le](https://git-scm.com/download/win)
+
 ### Mac 
 
 ### Linux
