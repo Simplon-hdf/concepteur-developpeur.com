@@ -103,6 +103,23 @@ git branch -b feature/add-cancel-button
 
 #### Terminaison
 
+Lorsque votre travail est terminé, vous voulez que ce dernier soit ajouté à la branche `develop` dans ce cas, la procédure à suivre est simple.
+
+```sh
+git flow feature finish <nom_de_la_branche>
+git pull origin develop
+```
+
+En faisant ça, vous allez merge votre travail sur la branche `develop` et récupérer celui qui a été produit en parallèle.
+
+**Commandes correspondantes sans GitFlow**
+
+```sh
+git checkout develop
+git merge feature/add-cancel-button
+git branch -D feature/add-cancel-button
+```
+
 ### Branches Correctives
 
 #### Création
