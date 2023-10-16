@@ -23,6 +23,11 @@
 
 # Introduction
 
+GitFlow est un **workflow** (flux de travail) qui permet travailler d'une façon à séparer le travail réalisé sur des branches bien distinctes.
+
+En adoptant GitFlow, il est possible de travailler de façon optimale sur un projet afin de bien identifié à quel étape d'un projet nous nous trouvons. 
+Ainsi que d'identifier et d'indiquer clairement sur quel type de tâche on travaille.
+
 ## Installation
 
 ### Windows
