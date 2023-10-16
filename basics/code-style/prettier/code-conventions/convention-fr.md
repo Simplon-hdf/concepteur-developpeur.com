@@ -32,10 +32,10 @@ Les plus grandes compagnies ont sorti leurs conventions respectives concernant J
   - Pris en charge par ESLint. 
 
 - [**Airbnb Style Guide**](https://github.com/airbnb/javascript) : Un des plus populaires. Très complet, des objets au testing. Propose des conventions CSS, JS, Ruby et React. Il est apprécié pour ça :
-    - Consistence
-    - lisibilité
-    - Prédictibilité
-    - Efficacité 
+  - Consistence
+  - lisibilité
+  - Prédictibilité
+  - Efficacité
 
 - [**Clean Code Style Guide**](https://github.com/ryanmcdermott/clean-code-javascript) : Tiré du livre de Robert C. Martin, les principes de ce livre ont été repris et appliqués au Javascript. C'est une liste de bonnes pratiques pour une écriture lisible du JavaScript.
 
