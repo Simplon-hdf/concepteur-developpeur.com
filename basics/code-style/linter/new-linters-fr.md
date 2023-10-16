@@ -45,6 +45,9 @@ Ses explications concernant les erreurs sont parfois obscures.
 
 ## ESLint
 
+**ESLint** est un linter extrêmement flexible et configurable qui peut faire office de formatter. 
+Il est possible de configurer des règles concernant les erreurs dans un fichier de configuration.
+
 ## Analyse comparatives
 
 # ESLint en pratique
