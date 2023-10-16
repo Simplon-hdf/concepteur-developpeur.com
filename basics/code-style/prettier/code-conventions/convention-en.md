@@ -13,7 +13,7 @@ Conventions covered differents domains:
 - Indentation style
 - Variable declaration type
 - Organisationnal / Structural arrangment
-- 
+
 In this context, **linters** and **formatters** both modify our source code in order to make it clean and consistent. 
 
 Following these rules of convention bring a lot of advantages like:
