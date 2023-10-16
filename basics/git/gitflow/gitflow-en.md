@@ -124,4 +124,17 @@ Fixes branches (`hotfix`) have semantical utility too, they're used to bring fix
 
 ### Creation
 
+To create a `hotfix` branch, it's easy, you just have to run :
+
+```sh
+git flow hotfix start <branch_name>
+```
+
+**Associated commands without using GitFlow module**
+
+```sh
+git branch -b hotfix/fix-cancel-button
+git checkout hotfix/fix-cancel-button
+```
+
 ### Finalisation
