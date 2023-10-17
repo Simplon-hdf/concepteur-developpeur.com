@@ -19,6 +19,9 @@
     - [Le Daily Meeting](#le-daily-meeting)
     - [La Sprint Review](#la-sprint-review)
     - [La Sprint Retrospective](#la-sprint-retrospective)
+- [Outils Organisationnels](#outils-organisationnels)
+  - [Jira](#jira)
+    - [Découverte](#découverte)
 
 # Manifeste Agile et Gestion de projet
 
@@ -145,3 +148,44 @@ Ce rituel réunit :
 L'idée de ce rituel n'est pas de mettre en évidence ce qui n'a pas fonctionné mais de **mettre en lumière ce qui s'est bien passé** et vers quels axes d'**amélioration le SCRUM Master peut emmener l'équipe** afin de corriger ce qui s'est mal passé.
 
 Ce rituel peut durer jusqu'à **4 heures** en raison de sa nature.
+
+# Outils Organisationnels
+
+## Jira
+
+![Jira Illustration](assets/jira/illu.jpg)
+
+Jira est un service collaboratif permettant d'appliquer la méthodologie Agile de par son design.
+Il peut être utilisé avec le Framework SCRUM et avec KANBAN (Bien qu'il n'est pas était conçu dans ce but).
+Si vous devez travaillez en méthodologie Agile en utilisant le framework SCRUM, Jira est de très loin le meilleur candidat et il est pour ainsi dire Mandatory dans toutes entreprises du domaine qui se respecte.
+
+### Découverte
+
+Jira est un service en ligne, avec Jira vous disposez de tout un tas d'outil simple d'utilisation et accessible via une interface épurée et ergonomique.
+
+Bien qu'il puisse parraitre complexe d'utilisation de prime abord, il s'agit d'un outil très complet qui vous fera gagner beaucoup de temps dans la gestion de projet.
+
+Voyons l'interface de base de Jira :
+
+![Base Interface](assets/jira/basic-interface.png)
+
+Voici donc l'interface à laquelle les développeurs sont le plus souvent confrontés, notez d'ailleurs que cette interface est celle dans un projet SCRUM, cette dernière est différente pour un projet Kanban.
+
+Voici l'interface utilisée lors du **Sprint Planning** :
+
+![Backlog](assets/jira/product-backlog.png)
+
+Cette interface est une celle du **Product Backlog** et sert donc à transférer les tâches dans le **Sprint Backlog**.
+De cette façon, l'équipe prends les tâches prioritaires et le glisse dans l'espace du Sprint, une fois que le Sprint démarre les tâches sont directement transférées au **Board**.
+
+Voici un apercu de ce à quoi ressemble le **Board** lorsqu'un **Sprint** débute :
+
+![Sprint Board](assets/jira/sprint-board.png)
+
+Ça ressemble à un Kanban.
+
+À la fin du sprint (la date de fin est définissable lors de la création du sprint), les tâches n'ayant pas été achevées retourne au **Product Backlog**.
+
+Jira n'est absolument pas beaucoup plus compliqué que ça dans le cadre de l'utilisation d'un développeur.
+
+Notons, que ce document sert de découverte et que par souci d'exhaustivité, il ne traite que les aspects de base, cependant, Jira est extrêmement complet, et ne s'arrête pas simplement à ce qui a été montré ici.
