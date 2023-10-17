@@ -8,7 +8,7 @@
     - [Productivité](#productivité)
     - [Communication client](#communication-client)
     - [Communication](#communication)
-  - [Le scrum ](#le-scrum-)
+  - [Le scrum](#le-scrum)
     - [Définition](#définition)
     - [Les roles](#les-roles)
     - [Product Backlog](#product-backlog)
@@ -59,28 +59,26 @@ Il est préferable d'accepter le changement et de ne pas suivre de plan rigide.
 
 - Fournir fréquement des solutions fonctionnelles.
 - Prioriser les solutions importantes.
-- Segmenter la productions du projet.
+- Segmenter la production du projet.
 - Une ligne de conduite rigoureuse lors du développement du projet.
 - Productivité constante.
 - La simplicité et l'art de maximisé la quantité de travail qu’on ne fait pas.
 
 ### Communication client
 
-- Le client fait partie de l'équipe. <br />
-- Communication permanante avec le client. <br />
-- Etablir une relation de confiance avec le client. <br />
+- Le client fait partie de l'équipe.
+- Communication permanante avec le client.
+- Établir une relation de confiance avec le client.
 
 ### Communication 
 
-- Adaptation et amélioration de l'équipe <br />
-- Privilégier le contacte humain. <br />
-- **Ex : L'envoie de mails ne retranscrit pas les sentiments réels d'une personne, le 
-- contacte humain facilite la compréhension.** <br />
-- Le contacte humain facilite la compréhension. <br />
-- Communication verbal et non verbal (communication face à face). <br />
+- Adaptation et amélioration de l'équipe.
+- Privilégier le contact humain.
+- Le contact humain facilite la compréhension des différentes contraintes de chaque partie prenantes.
+- Communication verbal et non verbal (communication face à face).
 - Auto-responsabilisé les membres de l'équipe.
 
-## Le scrum <a name="scrum"></a>
+## Le scrum
 
 ### Définition
 
