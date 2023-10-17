@@ -3,8 +3,7 @@
 - [Table des matières](#table-des-matières)
 - [La gestion de projet selon le Manifeste Agile](#la-gestion-de-projet-selon-le-manifeste-agile)
 - [Les 4 valeurs de la méthode agile](#les-4-valeurs-de-la-méthode-agile)
-  - [Les principes de la méthode agile ](#les-principes-de-la-méthode-agile-)
-  - [Les fondamentaux de la méthode agile. ](#les-fondamentaux-de-la-méthode-agile-)
+  - [Les principes fondamentaux de la méthode agile. ](#les-principes-fondamentaux-de-la-méthode-agile-)
     - [Productivité](#productivité)
     - [Communication client](#communication-client)
     - [Communication](#communication)
@@ -14,7 +13,7 @@
     - [Scrum Master](#scrum-master)
     - [L'équipe de développement](#léquipe-de-développement)
   - [Le Product Backlog](#le-product-backlog)
-  - [Le Sprint backlog](#le-sprint-backlog)
+  - [Le Sprint Backlog](#le-sprint-backlog)
   - [Les rituels / cérémonies](#les-rituels--cérémonies)
     - [Le sprint planning](#le-sprint-planning)
     - [Le daily meeting](#le-daily-meeting)
@@ -46,22 +45,7 @@ Une collaboration avec les clients plus qu'une négociation contractuelle.
 
 Il est préferable d'accepter le changement et de ne pas suivre de plan rigide.
 
-## Les principes de la méthode agile <a name="pma"></a>
-
-- Satisfaire le client avec un produit de qualité et répondant au besoin
-- Accueillir les demandes de changements
-- Mise à jour fonctionnelle fréquente 
-- Collaboration quotidienne au sein de l'équipe
-- Créer un lien de confiance
-- Communication face à face
-- Prioriser la continuité face à la nouveauté
-- Faire avancer le projet avec un rythme constant
-- Rigueur technique et conception avancée qui renforce l’agilité
-- Minimiser le superflu pour se concentrer sur l’essentiel
-- Auto-responsabilité des membres de l’équipe
-- Adaptation des comportements et du travail dans l’équipe régulièrement après les rituels
-
-## Les fondamentaux de la méthode agile. <a name="fma"></a>
+## Les principes fondamentaux de la méthode agile. <a name="fma"></a>
 
 ### Productivité
 
@@ -118,7 +102,7 @@ Le PB est rempli par le Product Owner et peut contenir :
 
 ![Product Backlog](assets/backlog.png)
 
-## Le Sprint backlog
+## Le Sprint Backlog
 
 Le **Sprint backlog** est un registre contenant des tâches à effectuer pour livrer une fonctionnalité, une fois qu'un sprint est terminé l'équipe, se réunie afin pour les rituels agiles retrospéctif afin d'identifier différents axes d'amélioration et définie les nouvelles tâches pour le prochain sprint.
 
