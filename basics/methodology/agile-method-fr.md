@@ -137,6 +137,17 @@ Le sprint planning est un rituel SCRUM qui réunit le Product Owner et l'équipe
 
 ### Le daily meeting
 
+Le daily meeting est un rituel dont la charge revient à l'équipe de développement et comme son nom l'indique, il a lieu tout les jours, en générale avant de commencer à travailler sur le projet (vous pourrez aussi entendre parler de Stand Up Meeting).
+Ce rituel ne doit pas dépasser 15 minutes dans un soucis d'efficacité.
+Lors de ce rituel les membres de l'équipe doivent répondre aux questions :
+
+- Qu'est ce que j'ai fais hier ?
+- Quels obstacles ai-je rencontré ?
+- Qu'est ce que je vais faire aujourd'hui ?
+
+Si une problématique notable est relevée, elle doit faire l'objet d'une réunion ultérieure afin d'être résolue.
+
+
 ### La sprint Review
 
 ### La sprint Retrospective
