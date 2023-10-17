@@ -165,3 +165,14 @@ Avec ce rituel, toutes les parties prenantes s'assurent que le projet avance dan
 De plus, il peut arriver qu'à l'issue d'un sprint, le product owner annule ce rituel pour certaines raisons, nottament lorsque le sprint à rencontré des difficultés à être achevé et n'est donc pas présentable.
 
 ### La sprint Retrospective
+
+La sprint retrospective et est un rituel qui sert à l'équipe de développement d'identifier ce qui s'est passé durant le dernier sprint.
+
+Ce rituel réunit :
+
+- Le SCRUM Master
+- L'équipe de développement
+
+L'idée de ce rituel n'est pas de mettre en évidence ce qui n'a pas fonctionné mais de mettre en lumière ce qui s'est bien passé et vers quels axes d'amélioration le SCRUM Master peut emmener l'équipe afin de corriger ce qui s'est mal passé.
+
+Ce rituel peut durer jusqu'à 4 heures en raison de sa nature.
