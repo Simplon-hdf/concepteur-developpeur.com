@@ -69,7 +69,7 @@ Un package node peut être tout ce qui suit (Et plus encore) :
 
 # Node Modules
 
-Un module Node est une dépendance dont votre package aura besoin pour s'exécuter ou simplement qui vous sera nécessaire pour le développement de votre package.<br>
+Un module Node est une dépendance dont votre package aura besoin pour s'exécuter ou simplement qui vous sera nécessaire pour le développement de votre package.
 
 Un module Node peut être :
 
@@ -90,8 +90,8 @@ Note : Il est très important de ne pas omettre le `node_modules` dans votre .gi
 
 # **package.json**
 
-Comme expliqué plus haut, le fichier **package.json** est un fichier qui est essentiel à votre package Node.<br>
-Ce fichier fait office de carte pour votre package, vous aller renseignez beaucoup d'informations dans ce fichier.<br>
+Comme expliqué plus haut, le fichier **package.json** est un fichier qui est essentiel à votre package Node.
+Ce fichier fait office de carte pour votre package, vous aller renseignez beaucoup d'informations dans ce fichier.
 Vous pourrez y mettre toutes les informations qui suivent (Et bien plus encore, liste non exhaustive) :
 
 - name : Le nom de votre package
@@ -107,14 +107,14 @@ Vous pourrez y mettre toutes les informations qui suivent (Et bien plus encore, 
 - devDependencies : Ce champ permet de renseigner une liste de dépendances necessaires au développement de votre package
 - private : Renseigner ce champ permet de s'assurer que votre package ne sera pas publié. Il s'agit d'un booléen
 
-NPM se chargera de générer des valeurs par défaut à des champs non renseignés, par exemple pour le champ `script`.<br>
+NPM se chargera de générer des valeurs par défaut à des champs non renseignés, par exemple pour le champ `script`.
 NPM initialisera le champ avec une valeur de test.
 
 # Semantic Versioning ou Le versionnement sémantique
 
-Le versionnement sémantique est un standard que vous devez suivre lors de modifications significatives de votre package.<br>
-Il est recommandé de publier vos modifications avec différentes versions de votre package, champ `version` de votre **package.json**.<br>
-De ce fait, les autres développeurs utilisant votre package pourront comprendre l'étendue des modifications apportées pour chaque version de votre package.<br>
+Le versionnement sémantique est un standard que vous devez suivre lors de modifications significatives de votre package.
+Il est recommandé de publier vos modifications avec différentes versions de votre package, champ `version` de votre **package.json**.
+De ce fait, les autres développeurs utilisant votre package pourront comprendre l'étendue des modifications apportées pour chaque version de votre package.
 Pour aborder ce qui suit, vous devez comprendre quelques termes :
 
 1. MAJOR : On appellera MAJOR une version qui ne sera pas rétrocompatible
@@ -130,27 +130,27 @@ Voici les spécificités globales du versionnement sémantique :
 - Lorsque vous voudrez faire une mise à jour MINOR, votre package passera en version `1.1.0` comme vous pouvez le constater, le nombre de patch a été remis à 0.
 - Lorsque vous voudrez faire une mise à jour MAJOR, votre package passera en version `2.0.0` comme vous pouvez le constater, le nombre de minor a été remis à 0.
 
-Il est important de comprendre que lorsque vous sortez une mise à jour MAJOR, elle influe sur les MINOR ainsi que sur les versions PATCH.<br>
-Que lorsque vous sortez une mise à jour MINOR, elle influe sur les versions PATCH.<br>
-Note: Chaque chiffre n'est pas limité à 9, une version telle que `2.3.19` est une version totalement correcte.<br>
+Il est important de comprendre que lorsque vous sortez une mise à jour MAJOR, elle influe sur les MINOR ainsi que sur les versions PATCH.
+Que lorsque vous sortez une mise à jour MINOR, elle influe sur les versions PATCH.
+Note: Chaque chiffre n'est pas limité à 9, une version telle que `2.3.19` est une version totalement correcte.
 
 Afin d'appronfondir sur le sujet, vous pouvez [cliquer ici](https://docs.npmjs.com/about-semantic-versioning#using-semantic-versioning-to-specify-update-types-your-package-can-accept)
 
 # Difference entre `dependencies` et `devDependencies`
 
-Le champ `dependencies` vous permettra de lister les dépendances dont votre package aura besoin pour s'exécuter.<br>
-Le champ `devDependencies` quant à lui vous permettra de lister les dépendances dont vous aurez besoin afin de développer votre package.<br>
+Le champ `dependencies` vous permettra de lister les dépendances dont votre package aura besoin pour s'exécuter.
+Le champ `devDependencies` quant à lui vous permettra de lister les dépendances dont vous aurez besoin afin de développer votre package.
 
 Si vous voulez cuisiner un gâteau par exemple et le manger :
 
-Pour la préparation de votre gâteau, vous pourrez utiliser un batteur électrique ou simplement utiliser une fourchette.<br>
-Dans cet exemple, le batteur électrique représente une devDependencies, utile, mais optionnel puis-ce qu'il vous est possible d'utiliser une fourchette.<br>
-Et la fourchette représente elle, à la fois une devDependencies ainsi qu’une dépendance puisque vous pourrez utiliser cette même fourchette pour manger votre gâteau.<br>
+Pour la préparation de votre gâteau, vous pourrez utiliser un batteur électrique ou simplement utiliser une fourchette.
+Dans cet exemple, le batteur électrique représente une devDependencies, utile, mais optionnel puis-ce qu'il vous est possible d'utiliser une fourchette.
+Et la fourchette représente elle, à la fois une devDependencies ainsi qu’une dépendance puisque vous pourrez utiliser cette même fourchette pour manger votre gâteau.
 
 # package-lock.json
 
-Le fichier **package-lock.json**  est automatiquement généré par NPM lorsqu’une opération affectant l'arborescence du dossier `node_modules` ou le fichier `package.json` par NPM est effectuée.<br>
-Le **package-lock.json** va contenir une description exacte de l'arborescence des dépendances.<br>
+Le fichier **package-lock.json**  est automatiquement généré par NPM lorsqu’une opération affectant l'arborescence du dossier `node_modules` ou le fichier `package.json` par NPM est effectuée.
+Le **package-lock.json** va contenir une description exacte de l'arborescence des dépendances.
 Ce fichier est prévu pour être inclus au dêpôt, il peut être utilisé pour :
 
 - Obtenir une seule définition de l'arborescence des dépendances, de cette façon tous les aspects de l'intégration continue sont assurés d'installer les mêmes dépendances.
@@ -162,7 +162,7 @@ Le format du fichier **package-lock.json** ressemble fortement à celui du **pac
 
 # Sources
 
-Disclaimer : Les sources ci-dessous sont exclusivement en anglais.<br>
+Disclaimer : Les sources ci-dessous sont exclusivement en anglais.
 
 - [Qu'est ce que NPM](https://www.w3schools.com/whatis/whatis_npm.asp)
 - [Introduction à NPX](https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/)
