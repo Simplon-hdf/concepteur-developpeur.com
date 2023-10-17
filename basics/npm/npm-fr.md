@@ -1,16 +1,34 @@
-# Sommaire <a id='summary-fr'></a>
+# Sommaire
 
-- <a href='#whats-npm-fr'>Introduction a NPM</a>
-- - <a href='#whats-npx-fr'>Introduction d'NPX</a>
-- <a href='#whats-packages-fr'>Les paquets Node</a>
-- <a href='#node-modules-fr'>Les modules Node</a>
-- <a href='#package-json-fr'>Le fichier **package.json**</a>
-- <a href='#semantic-versionning-fr'>**Le versionnement sémantique**</a>
-- <a href='#diff-dependencies-fr'>Difference entre dependencies et devDependencies</a>
-- <a href='#package-lock-fr'>Package-lock.json</a>
-- <a href='#sources-fr'>Sources</a>
+- [Sommaire](#sommaire)
+- [Qu'est ce que NPM (Node Package Manager)](#quest-ce-que-npm-node-package-manager)
+  - [Qu'est ce qu'NPX (Node Package Executer)](#quest-ce-qunpx-node-package-executer)
+- [Node Package ou Paquet Node](#node-package-ou-paquet-node)
+- [Node Modules](#node-modules)
+- [**package.json**](#packagejson)
+- [Semantic Versioning ou Le versionnement sémantique](#semantic-versioning-ou-le-versionnement-sémantique)
+- [Difference entre ```dependencies``` et ```devDependencies```](#difference-entre-dependencies-et-devdependencies)
+- [package-lock.json ](#package-lockjson-)
+- [Sources](#sources)
+- [Les commandes NPM](#les-commandes-npm)
+- [Comment initialiser un projet avec NPM ?](#comment-initialiser-un-projet-avec-npm-)
+    - [Comment installer des modules ?](#comment-installer-des-modules-)
+    - [Comment installer les package de dépendance de développement ?](#comment-installer-les-package-de-dépendance-de-développement-)
+        - [Exemple :](#exemple-)
+    - [Comment lister des packages installés au projet ?](#comment-lister-des-packages-installés-au-projet-)
+    - [Obtenir des informations sur un package](#obtenir-des-informations-sur-un-package)
+    - [Quels sont les commandes pour faire les mises à jour de NPM ?](#quels-sont-les-commandes-pour-faire-les-mises-à-jour-de-npm-)
+      - [Il y a deux types d'update :](#il-y-a-deux-types-dupdate-)
+      - [Mettre à jour la nouvelle version NPM :](#mettre-à-jour-la-nouvelle-version-npm-)
+      - [Mettre à jour les package de développement :](#mettre-à-jour-les-package-de-développement-)
+    - [Quels sont les commandes pour désinstaller un paquet ?](#quels-sont-les-commandes-pour-désinstaller-un-paquet-)
+  - [Utilisation de script NPM](#utilisation-de-script-npm)
+        - [Comment executer un script ?](#comment-executer-un-script-)
+      - [Comment voir la liste des scripts ?](#comment-voir-la-liste-des-scripts-)
+      - [Quels sont les autres commandes ?](#quels-sont-les-autres-commandes-)
 
-# Qu'est ce que NPM (Node Package Manager) <a id='whats-npm-fr'></a>
+
+# Qu'est ce que NPM (Node Package Manager)
 
 NPM est un manager de paquet Node utilisé pour télécharger et publier des paquets Node avec les autres developpeurs qui utilisent NPM<br>
 NPM se divisent en 3 grands axes :
@@ -29,7 +47,7 @@ NPM se divisent en 3 grands axes :
     Le Registry NPM est en fait une enorme base de donnée qui va contenir des 
     applications prêtes à l'emploi,<br> ou simplement des paquets Node que vous pourrez télécharger afin de les utiliser ou les adapter à vos besoins pour les utiliser dans votre paquet.
 
-## Qu'est ce qu'NPX (Node Package Executer) <a id='whats-npx-fr'></a>
+## Qu'est ce qu'NPX (Node Package Executer)
 
 Comme NPM est un gestionnaire de paquet Node, NPX est en faite un executeur des paquets Node
 grace à NPX il vous sera possible d'exécuter des paquets Node directement depuis le Registry de NPM.<br>
@@ -37,7 +55,7 @@ NPX vous permettra ainsi de ne pas avoir à télécharger au préalable le paque
 
 <br>
 
-# Node Package ou Paquet Node <a id='whats-packages-fr'></a>
+# Node Package ou Paquet Node
 
 Un package node est un fichier ou un dossier décrit par un fichier **package.json**.<br>
 Le fichier **package.json** va donner des informations à propos de votre package, c'est pourquoi il faut que ce fichier contienne les informations les plus détaillées possible.<br>
@@ -52,7 +70,7 @@ Un package node peut être tout ce qui suit (Et bien plus encore) :
 
 <br>
 
-# Node Modules <a id='node-modules-fr'></a>
+# Node Modules
 
 Un module Node est une dépendance dont votre package aura besoin pour s'exécuter ou simplement qui vous sera nécessaire pour le développement de votre package.<br>
 
@@ -73,7 +91,7 @@ Puis-ce qu'une image vaut mieux que mille mots :
 Cette image explique à quel point les modules nodes sont une charge importante.<br>
 Note : Il est très important de ne pas omettre le ``` node_modules ``` dans votre .gitignore afin de ne pas envoyer tous les modules sur votre dêpot distant.<br>
 
-# **package.json** <a id='package-json-fr'></a>
+# **package.json**
 
 Comme expliqué plus haut, le fichier **package.json** est un fichier qui est essentiel à votre package Node.<br>
 Ce fichier fait office de carte pour votre package, vous aller renseignez beaucoup d'informations dans ce fichier.<br>
@@ -95,7 +113,7 @@ Vous pourrez y mettre toutes les informations qui suivent (Et bien plus encore, 
 NPM se chargera de générer des valeurs par défaut à des champs non renseignés, par exemple pour le champ ``` script ```.<br>
 NPM initialisera le champ avec une valeur de test.
 
-# Semantic Versioning ou Le versionnement sémantique <a id='semantic-versionning-fr'></a>
+# Semantic Versioning ou Le versionnement sémantique
 
 Le versionnement sémantique est un standard que vous devez suivre lors de modifications significatives de votre package.<br>
 Il est recommandé de publier vos modifications avec différentes versions de votre package, champ ``` version ``` de votre **package.json**.<br>
@@ -121,7 +139,7 @@ Note: Chaque chiffre n'est pas limité à 9, une version telle que ``` 2.3.19 ``
 
 Afin d'appronfondir sur le sujet, vous pouvez [cliquer ici](https://docs.npmjs.com/about-semantic-versioning#using-semantic-versioning-to-specify-update-types-your-package-can-accept)
 
-# Difference entre ``` dependencies ``` et ``` devDependencies ``` <a id='diff-dependencies-fr'></a>
+# Difference entre ``` dependencies ``` et ``` devDependencies ```
 
 Le champ ``` dependencies ``` vous permettra de lister les dépendances dont votre package aura besoin pour s'exécuter.<br>
 Le champ ``` devDependencies ``` quant à lui vous permettra de lister les dépendances dont vous aurez besoin afin de développer votre package.<br>
@@ -145,7 +163,7 @@ Ce fichier est prévu pour être inclus au dêpôt, il peut être utilisé pour 
 
 Le format du fichier **package-lock.json** ressemble fortement à celui du **package.json**, [En apprendre plus sur le format du **package-lock.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
 
-# Sources <a id='sources-fr'></a>
+# Sources
 
 Disclaimer : Les sources ci-dessous sont exclusivement en anglais.<br>
 
