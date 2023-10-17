@@ -19,6 +19,8 @@
     - [Le Daily Meeting](#le-daily-meeting)
     - [La Sprint Review](#la-sprint-review)
     - [La Sprint Retrospective](#la-sprint-retrospective)
+- [Outils Organisationnels](#outils-organisationnels)
+  - [Jira](#jira)
 
 # Manifeste Agile et Gestion de projet
 
@@ -145,3 +147,7 @@ Ce rituel réunit :
 L'idée de ce rituel n'est pas de mettre en évidence ce qui n'a pas fonctionné mais de **mettre en lumière ce qui s'est bien passé** et vers quels axes d'**amélioration le SCRUM Master peut emmener l'équipe** afin de corriger ce qui s'est mal passé.
 
 Ce rituel peut durer jusqu'à **4 heures** en raison de sa nature.
+
+# Outils Organisationnels
+
+## Jira
