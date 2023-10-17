@@ -14,6 +14,7 @@
       - [Scrum Master](#scrum-master)
       - [L'équipe de développement](#léquipe-de-développement)
     - [Le Product Backlog](#le-product-backlog)
+    - [Le Sprint backlog](#le-sprint-backlog)
 
 
 # La gestion de projet selon le Manifeste Agile
@@ -112,11 +113,13 @@ Le PB est rempli par le Product Owner et peut contenir :
 
 ![Product Backlog](assets/backlog.png)
 
-- __**Sprint backlog**__
+### Le Sprint backlog
 
-**Sprint backlog** est une liste des tâches à effectuer pour livrer une fonctionnalité, une fois qu'un sprint est finis l'équipe définie les nouvelles tâches pour le prochain sprint.
+Le **Sprint backlog** est un registre contenant des tâches à effectuer pour livrer une fonctionnalité, une fois qu'un sprint est terminé l'équipe, se réunie afin pour les rituels agiles retrospéctif afin d'identifier différents axes d'amélioration et définie les nouvelles tâches pour le prochain sprint.
 
-Dans le framework de projet Scrum, on distingue deux types de **backlogs** :
-le **backlog de produit** (ou product backlog), qui est une liste de fonctionnalités attendues sur le produit (une fonctionnalité s’appelle généralement « user story »),
+Dans le framework Scrum, on distingue deux types de **backlogs** :
+
+- Le **registre de produit** (ou product backlog)
+- Le **sprint backlog** (registre d'itération)
 
 ![](https://bubbleplan.net/blog/wp-content/uploads/2018/05/430.jpeg)
