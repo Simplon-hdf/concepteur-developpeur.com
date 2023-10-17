@@ -8,14 +8,17 @@
     - [Productivité](#productivité)
     - [Communication client](#communication-client)
     - [Communication](#communication)
-  - [Le scrum (La mêlée)](#le-scrum-la-mêlée)
+  - [SCRUM (La mêlée)](#scrum-la-mêlée)
     - [Les roles](#les-roles)
+      - [Product Owner](#product-owner)
+      - [Scrum Master](#scrum-master)
+      - [L'équipe de développement](#léquipe-de-développement)
     - [Product Backlog](#product-backlog)
 
 
 # La gestion de projet selon le Manifeste Agile
 
-La gestion d'un projet suivant le manisfeste Agile place le client au centre du cycle de vie de ce dernier, en incluant le client au proccessus de mise en place du projet, l'equipe Agile peut ajuster le développement du projet en fonction de l'évolution du besoin du client dans le temps.
+La gestion d'un projet suivant le manisfeste Agile place le client au centre du cycle de vie de ce dernier, en incluant le client au proccessus de mise en place du projet, l'équipe Agile peut ajuster le développement du projet en fonction de l'évolution du besoin du client dans le temps.
 
 La méthode Agile se compose de 4 valeurs et de 12 principes.
 
@@ -77,7 +80,7 @@ Il est préferable d'accepter le changement et de ne pas suivre de plan rigide.
 - Communication verbal et non verbal (communication face à face).
 - Auto-responsabilisé les membres de l'équipe.
 
-## Le scrum (La mêlée)
+## SCRUM (La mêlée)
 
 SCRUM est un **framework** (cadre de travail) permettant de mettre en place la methodologie Agile de façon incrémentale et itérative.
 
@@ -85,14 +88,17 @@ SCRUM est un **framework** (cadre de travail) permettant de mettre en place la m
 
 ### Les roles
 
-- __**Product Owner**__
+#### Product Owner
 
-Personne ayant la responsabilité de produire et de maintenir à jour le carnet de produit. C'est lui qui détermine les priorités et qui prend les décisions d'orientation du projet.
+Le Product Owner (PO) est un membre névralgique sur lequel repose une charge de travail très importante, en effet, il se charge de la communication entre le client et l'équipe, il organise le Product Backlog en fonction des tâches à prioriser et régit globalement le cycle de vie du projet.
 
-- __**Scrum Master**__
+#### Scrum Master
 
-Membre de l'équipe dont l'objectif principal est de la protéger des perturbations extérieures. Il est complètement transparent pour la communication entre l'équipe et les clients et n'a aucun pouvoir hiérarchique sur l'équipe. C'est en revanche un facilitateur pour les problèmes non techniques de l'équipe.
+Le SCRUM master a pour rôle de s'assurer que le framework SCRUM est bien mis en application, il est aussi responsable de l'animation des rituels Agile.
 
+#### L'équipe de développement
+
+L'équipe de développement est composée de developpeur qui auront à leur charges de développer les fonctionnalités du projet.
 
 ### Product Backlog
 
