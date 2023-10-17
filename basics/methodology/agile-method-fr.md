@@ -2,7 +2,7 @@
 
 - [Table des matières](#table-des-matières)
 - [La gestion de projet selon le Manifeste Agile](#la-gestion-de-projet-selon-le-manifeste-agile)
-- [Les 4 valeurs de la méthode agile ](#les-4-valeurs-de-la-méthode-agile-)
+- [Les 4 valeurs de la méthode agile](#les-4-valeurs-de-la-méthode-agile)
   - [Les principes de la méthode agile ](#les-principes-de-la-méthode-agile-)
   - [Les fondamentaux de la méthode agile. ](#les-fondamentaux-de-la-méthode-agile-)
     - [Productivité](#productivité)
@@ -20,8 +20,7 @@ La gestion d'un projet suivant le manisfeste Agile place le client au centre du 
 
 La méthode Agile se compose de 4 valeurs et de 12 principes.
 
-# Les 4 valeurs de la méthode agile <a name="vma"></a>
-
+# Les 4 valeurs de la méthode agile
 
 - **L'équipe**
 
@@ -29,11 +28,11 @@ Des individus et des interactions, plutôt que des processus et des outils.
 
 - **L’application**
 
-C'est-à-dire des fonctionnalités opérationnelles plutôt que de la documentation exhaustive.
+Des fonctionnalités opérationnelles plutôt que de la documentation exhaustive.
 
 - **La collaboration**
 
-La collaboration avec les clients plus que la négociation contractuelle.
+Une collaboration avec les clients plus qu'une négociation contractuelle.
 
 - **L’acceptation du changement**
 
@@ -41,18 +40,18 @@ Il est préferable d'accepter le changement et de ne pas suivre de plan rigide.
 
 ## Les principes de la méthode agile <a name="pma"></a>
 
-- Satisfaire le client avec un produit de qualité et de nécessité
-- Accueillir favorablement les demandes de changements
-- Mise à jour fonctionnelle fréquente git 
-- Collaboration quotidienne dev et client
-- Satisfaire les demandes des collaborateurs et créer un lien de confiance
+- Satisfaire le client avec un produit de qualité et répondant au besoin
+- Accueillir les demandes de changements
+- Mise à jour fonctionnelle fréquente 
+- Collaboration quotidienne au sein de l'équipe
+- Créer un lien de confiance
 - Communication face à face
-- Priorisé la continuité face à la nouveauté
+- Prioriser la continuité face à la nouveauté
 - Faire avancer le projet avec un rythme constant
 - Rigueur technique et conception avancée qui renforce l’agilité
 - Minimiser le superflu pour se concentrer sur l’essentiel
 - Auto-responsabilité des membres de l’équipe
-- Adaptation des comportements et du travail dans l’équipe régulièrement après debrief
+- Adaptation des comportements et du travail dans l’équipe régulièrement après les rituels
 
 ## Les fondamentaux de la méthode agile. <a name="fma"></a>
 
