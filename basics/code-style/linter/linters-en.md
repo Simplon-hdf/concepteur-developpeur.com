@@ -43,6 +43,9 @@ Error logging can be kinda weird.
 
 ## ESLint
 
+ESLint is a highly configurable linter which can be used as a formatter too.
+It provide configuration of errors triggers rules in a configuration file.
+
 ## Benchmark
 
 # Get started with ESLint
