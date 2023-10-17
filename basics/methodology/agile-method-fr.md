@@ -151,3 +151,9 @@ Ce rituel peut durer jusqu'à **4 heures** en raison de sa nature.
 # Outils Organisationnels
 
 ## Jira
+
+![Jira Illustration](assets/jira/illu.jpg)
+
+Jira est un service collaboratif permettant d'appliquer la méthodologie Agile de par son design.
+Il peut être utilisé avec le Framework SCRUM et avec KANBAN (Bien qu'il n'est pas était conçu dans ce but).
+Si vous devez travaillez en méthodologie Agile en utilisant le framework SCRUM, Jira est de très loin le meilleur candidat et il est pour ainsi dire Mandatory dans toutes entreprises du domaine qui se respecte.
