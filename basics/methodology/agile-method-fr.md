@@ -110,8 +110,7 @@ Le PB est rempli par le Product Owner et peut contenir :
 
 - Des **Epics** : Les Epics sont un ensemble d'user-stories, en générale, les Epics représentent une fonctionnalités complète là où les user-stories représentes des fragment de fonctionnalités. Une Epic pourrait être `Identification des utilisateurs` et pourrait contenir l'user-story dans l'exemple de user-story.
 
-![Product Backlog](https://assets.asana.biz/transform/9a0eb346-33af-405d-9e6f-f63aad872c48/inline-project-management-product-backlog-1-fr-2x?io=transform:fill,width:1680&format=webp)
-
+![Product Backlog](assets/backlog.png)
 
 - __**Sprint backlog**__
 
