@@ -23,6 +23,10 @@ Linters can be configured to work in some context as following :
 
 # Linter != Debugger
 
+Linter and Debugger are 2 distincts programs, linter will manage errors during edidion (before transpilation or compilation), the debbuger will manage errors during compilation / transpilation process, it will permit to identificate other kind of errors whose are ignored by linter.
+
+Debbuger can provide more detailed informations on errors and bring some process obsvervation, like call stack for example.
+
 # Most popular Linters
 
 ## JSLint
