@@ -8,13 +8,19 @@
     - [Productivité](#productivité)
     - [Communication client](#communication-client)
     - [Communication](#communication)
-  - [SCRUM (La mêlée)](#scrum-la-mêlée)
-    - [Les roles](#les-roles)
-      - [Product Owner](#product-owner)
-      - [Scrum Master](#scrum-master)
-      - [L'équipe de développement](#léquipe-de-développement)
-    - [Le Product Backlog](#le-product-backlog)
-    - [Le Sprint backlog](#le-sprint-backlog)
+- [SCRUM (La mêlée)](#scrum-la-mêlée)
+  - [Les roles](#les-roles)
+    - [Product Owner](#product-owner)
+    - [Scrum Master](#scrum-master)
+    - [L'équipe de développement](#léquipe-de-développement)
+  - [Le Product Backlog](#le-product-backlog)
+  - [Le Sprint backlog](#le-sprint-backlog)
+  - [Les rituels / cérémonies](#les-rituels--cérémonies)
+    - [Le sprint](#le-sprint)
+    - [Le sprint planning](#le-sprint-planning)
+    - [Le daily meeting](#le-daily-meeting)
+    - [La sprint Review](#la-sprint-review)
+    - [La sprint Retrospective](#la-sprint-retrospective)
 
 
 # La gestion de projet selon le Manifeste Agile
@@ -81,27 +87,27 @@ Il est préferable d'accepter le changement et de ne pas suivre de plan rigide.
 - Communication verbal et non verbal (communication face à face).
 - Auto-responsabilisé les membres de l'équipe.
 
-## SCRUM (La mêlée)
+# SCRUM (La mêlée)
 
 SCRUM est un **framework** (cadre de travail) permettant de mettre en place la methodologie Agile de façon incrémentale et itérative.
 
 ![Scrum](assets/scrum_schema.jpeg)
 
-### Les roles
+## Les roles
 
-#### Product Owner
+### Product Owner
 
 Le Product Owner (PO) est un membre névralgique sur lequel repose une charge de travail très importante, en effet, il se charge de la communication entre le client et l'équipe, il organise le Product Backlog en fonction des tâches à prioriser et régit globalement le cycle de vie du projet.
 
-#### Scrum Master
+### Scrum Master
 
 Le SCRUM master a pour rôle de s'assurer que le framework SCRUM est bien mis en application, il est aussi responsable de l'animation des rituels Agile.
 
-#### L'équipe de développement
+### L'équipe de développement
 
 L'équipe de développement est composée de developpeur qui auront à leur charges de développer les fonctionnalités du projet.
 
-### Le Product Backlog
+## Le Product Backlog
 
 Le product backlog est un registre dans lequel l'équipe pioche des tâches à réaliser.
 
@@ -113,7 +119,7 @@ Le PB est rempli par le Product Owner et peut contenir :
 
 ![Product Backlog](assets/backlog.png)
 
-### Le Sprint backlog
+## Le Sprint backlog
 
 Le **Sprint backlog** est un registre contenant des tâches à effectuer pour livrer une fonctionnalité, une fois qu'un sprint est terminé l'équipe, se réunie afin pour les rituels agiles retrospéctif afin d'identifier différents axes d'amélioration et définie les nouvelles tâches pour le prochain sprint.
 
@@ -123,3 +129,15 @@ Dans le framework Scrum, on distingue deux types de **backlogs** :
 - Le **sprint backlog** (registre d'itération)
 
 ![](https://bubbleplan.net/blog/wp-content/uploads/2018/05/430.jpeg)
+
+## Les rituels / cérémonies
+
+### Le sprint
+
+### Le sprint planning
+
+### Le daily meeting
+
+### La sprint Review
+
+### La sprint Retrospective
