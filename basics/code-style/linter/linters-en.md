@@ -48,6 +48,16 @@ It provide configuration of errors triggers rules in a configuration file.
 
 ## Benchmark
 
+📕 : No<br/>
+📙 : Partially<br/>
+📗 : Yes<br/>
+󠀠
+| Linter | Ease of use 󠀠󠀠󠀠󠀠󠀠󠀠󠀠 | Configurability | Documentation󠀠 | Extensibility 󠀠 | 󠀠Support ES6 / JSX |
+| ------ | ------------ | --------------- | ------------- | -------------- | ------------------ ||
+| JSLint | 📗                   󠀠 | 📕               | 📕             | 📕           | ES6    󠀠            |
+| JSHint | 📙                    | 📙               | 📗             | 📙           | ES6                |
+| ESLint | 📙                    | 📗               | 📗             | 📗           | ES6 + JSX          |
+
 # Get started with ESLint
 
 ## Initialisation
