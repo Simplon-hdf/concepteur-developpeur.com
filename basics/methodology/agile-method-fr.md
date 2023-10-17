@@ -3,7 +3,7 @@
 - [Table des matières](#table-des-matières)
 - [La gestion de projet selon le Manifeste Agile](#la-gestion-de-projet-selon-le-manifeste-agile)
 - [Les 4 valeurs de la méthode agile](#les-4-valeurs-de-la-méthode-agile)
-  - [Les principes fondamentaux de la méthode agile. ](#les-principes-fondamentaux-de-la-méthode-agile-)
+  - [Les principes fondamentaux de la méthode agile.](#les-principes-fondamentaux-de-la-méthode-agile)
     - [Productivité](#productivité)
     - [Communication client](#communication-client)
     - [Communication](#communication)
@@ -19,7 +19,6 @@
     - [Le daily meeting](#le-daily-meeting)
     - [La sprint Review](#la-sprint-review)
     - [La sprint Retrospective](#la-sprint-retrospective)
-
 
 # La gestion de projet selon le Manifeste Agile
 
@@ -45,7 +44,7 @@ Une collaboration avec les clients plus qu'une négociation contractuelle.
 
 Il est préferable d'accepter le changement et de ne pas suivre de plan rigide.
 
-## Les principes fondamentaux de la méthode agile. <a name="fma"></a>
+## Les principes fondamentaux de la méthode agile.
 
 ### Productivité
 
@@ -111,7 +110,7 @@ Dans le framework Scrum, on distingue deux types de **backlogs** :
 - Le **registre de produit** (ou product backlog)
 - Le **sprint backlog** (registre d'itération)
 
-![](https://bubbleplan.net/blog/wp-content/uploads/2018/05/430.jpeg)
+![SCRUM Cycle](./assets/cycle.jpeg)
 
 ## Les rituels / cérémonies
 
