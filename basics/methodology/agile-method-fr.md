@@ -16,7 +16,9 @@
 
 # La gestion de projet selon le Manifeste Agile
 
-Plus souple et plus flexible, elle place les besoins du client au centre des priorités du projet. Elle se compose de 4 valeurs et de 12 principes
+La gestion d'un projet suivant le manisfeste Agile place le client au centre du cycle de vie de ce dernier, en incluant le client au proccessus de mise en place du projet, l'equipe Agile peut ajuster le développement du projet en fonction de l'évolution du besoin du client dans le temps.
+
+La méthode Agile se compose de 4 valeurs et de 12 principes.
 
 # Les 4 valeurs de la méthode agile <a name="vma"></a>
 
