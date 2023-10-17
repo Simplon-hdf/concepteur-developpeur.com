@@ -16,7 +16,6 @@
   - [Le Product Backlog](#le-product-backlog)
   - [Le Sprint backlog](#le-sprint-backlog)
   - [Les rituels / cérémonies](#les-rituels--cérémonies)
-    - [Le sprint](#le-sprint)
     - [Le sprint planning](#le-sprint-planning)
     - [Le daily meeting](#le-daily-meeting)
     - [La sprint Review](#la-sprint-review)
@@ -132,9 +131,9 @@ Dans le framework Scrum, on distingue deux types de **backlogs** :
 
 ## Les rituels / cérémonies
 
-### Le sprint
-
 ### Le sprint planning
+
+Le sprint planning est un rituel SCRUM qui réunit le Product Owner et l'équipe de développement afin de plannifier le Sprint à venir, ensemble ils établissent une liste de tâche à mettre dans le Sprint Backlog en se basant sur la priorité des tâches ou en fonction de la dernière itération, à la fin du sprint planning, l'équipe de développement sait quelles tâches devront être réalisées lors du prochain sprint.
 
 ### Le daily meeting
 
