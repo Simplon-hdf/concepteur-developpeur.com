@@ -8,8 +8,7 @@
     - [Productivité](#productivité)
     - [Communication client](#communication-client)
     - [Communication](#communication)
-  - [Le scrum](#le-scrum)
-    - [Définition](#définition)
+  - [Le scrum (La mêlée)](#le-scrum-la-mêlée)
     - [Les roles](#les-roles)
     - [Product Backlog](#product-backlog)
 
@@ -78,15 +77,11 @@ Il est préferable d'accepter le changement et de ne pas suivre de plan rigide.
 - Communication verbal et non verbal (communication face à face).
 - Auto-responsabilisé les membres de l'équipe.
 
-## Le scrum
+## Le scrum (La mêlée)
 
-### Définition
+SCRUM est un **framework** (cadre de travail) permettant de mettre en place la methodologie Agile de façon incrémentale et itérative.
 
-Le scrum est une methode de travail simple permettant d'aborder des problématiques complexes et les livrées de manière efficace.
-
-<div>
-<img src="assets/scrum_schema.jpeg" alt="">
-</div>
+![Scrum](assets/scrum_schema.jpeg)
 
 ### Les roles
 
