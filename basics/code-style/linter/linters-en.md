@@ -1,98 +1,99 @@
-# Summary
+# Table Of Contents
 
-- [What is a linter](#whatisaLinter)  
-  - [Linters difference table](#differenceBetween)  
-- [Difference between Linter & Debugger](#lintervsdebugger)  
-- [Existing linters](#existinglinters)
-  - [JSLint](#existinglinters)
-  - [JSHint](#existinglinters)
-  - [ESLint](#existinglinters)
-  - [Comparaison des différents linters](#differenceBetween)
-- [Example with ESLint](#ESLint)
-  - [Installation & Configuration](#Installandconfig)
-- [Incorporation dans le processus d'intégration continue](#IncorporationProccessIntegration)
-- [Sources](#Sources)
+- [Table Of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Linter != Debugger](#linter--debugger)
+- [Most popular Linters](#most-popular-linters)
+  - [JSLint](#jslint)
+  - [JSHint](#jshint)
+  - [ESLint](#eslint)
+  - [Benchmark](#benchmark)
+- [Get started with ESLint](#get-started-with-eslint)
+  - [Initialisation](#initialisation)
 
-## Linters
+# Introduction
 
-### What is a linter? <a name="whatisaLinter"></a>
+A linter is a program which anaylize in **real time** code written by a developper, to prevent of potentials error can occured, as call to non existing function for example.
 
-A linter is an automatic tool for code analysis. It analyses in live our code and warns us about errors. It runs **before** the compilation (or execution - according to your language). In this context, the linter is considered as a static tool.
-Linter is often used with a **formatter** and other tools.
-It exists three main ways of using a linter: With _command line interface_, in an _extension_ of your code editor, or in the process of _continuous integration_. This last option coupled to the formatter can automatically correct and format every new commit. 
+Linters can be configured to work in some context as following :
 
-It's not the same as the debugger and it can't replace it. 
+- In the code editor
+- In a shared code process (As in GitHub for example)
+- In a terminal manually triggered by a command, or automatically before transpilation 
 
-_example :_
-> _A servor-side script can't use the window object. It is possibl to configure the linter to prevent this kind of error._
+# Linter != Debugger
 
-### Difference between Linter and Debugger
+Linter and Debugger are 2 distincts programs, linter will manage errors during edidion (before transpilation or compilation), the debbuger will manage errors during compilation / transpilation process, it will permit to identificate other kind of errors whose are ignored by linter.
 
-The Debugger can also be considered as an error management tool, but it's **dynamic**! Debugger allows us to decompose the execution of our code and it helps us to detect dynamics errors: variable type, memory gestion, ...
+Debbuger can provide more detailed informations on errors and bring some process obsvervation, like call stack for example.
 
-### Existing linters
+# Most popular Linters
 
-Today, there are different linter: 
+## JSLint
 
-* **JSLint**: JSLint is a linter that is delivered ready to use and simple to use. It requires little configuration (no config file) and does not allow customization of personal rules. Its explanations about errors are sometimes obscure. 
-* **JSHint**: JSHint is a linter between JSLint and ESLint. If it accepts a configuration file, it is limited. Personal rule configuration is not available. This linter offers two usage options, which can make its use complex. 
-* **ESLint**: The most used and most known. It's a very versatile and configurable linter. It also contain a formatter. It can be integrated in your _continuous integration_
+JSLint is a ready to use linter, right after installation. 
+It do not requires configuration, but therefore, it do not allow you to define personnalized rules.
+Error logging can be kinda weird.
 
-_These three linters also allows us to correct our code directly in our browsers, but we don't recommand this practic._
+## JSHint
 
-<a href="differenceBetween"></a>
+JSHint is a ready to use linter, right after installation. 
+It do not requires configuration, but therefore, it do not allow you to define personnalized rules.
+Error logging can be kinda weird.
 
-|        | Ease of use | Configurable | Documentation | Clarity of explanations | Extensible | Support ES6 / JSX |
-|:------:|:----------------------:|:------------:|:-------------:|:------------------------:|:----------:|:-----------------:|
-| JSLint |            ✔️           |       ❌      |       ❌       |             😐            |      ❌     |        ES6        |
-| JSHint |            😐           |       😐      |       ✔️       |             😐            |      😐     |        ES6        |
-| ESLint |            😐           |       ✔️      |       ✔️       |             ✔️            |      ✔️     |     ES6 + JSX     |
+## ESLint
 
-_These three linters offer an alternative to correct the code directly on the browser, we do not recommend this practice to developers._ 
+ESLint is a highly configurable linter which can be used as a formatter too.
+It provide configuration of errors triggers rules in a configuration file.
 
-### Example with ESLint
+## Benchmark
 
-#### Installation & Configuration
+📕 : No<br/>
+📙 : Partially<br/>
+📗 : Yes<br/>
+󠀠
+| Linter | Ease of use 󠀠󠀠󠀠󠀠󠀠󠀠󠀠 | Configurability | Documentation󠀠 | Extensibility 󠀠 | 󠀠Support ES6 / JSX |
+| ------ | ------------ | --------------- | ------------- | -------------- | ------------------ ||
+| JSLint | 📗                   󠀠 | 📕               | 📕             | 📕           | ES6    󠀠            |
+| JSHint | 📙                    | 📙               | 📗             | 📙           | ES6                |
+| ESLint | 📙                    | 📗               | 📗             | 📗           | ES6 + JSX          |
 
-1) Create a directory for your project and configure your node environment. 
-   > mkdir newProject   
-     npm init -y
+# Get started with ESLint
 
-2) Install ESLint and the Airbnb configuration
-   > npm i eslint eslint-config-airbnb-base eslint-plugin-import
+## Initialisation
 
-note: It is also possible to proceed to a global installation of ESlint (add -g), but this installation is not recommanded by the ESLint official documentation: 
-   > npm i eslint eslint-config-airbnb-base eslint-plugin-import -g
+To initialize ESLint, you need a Node project.
 
-3) We haven't config yet our ESLint. Let's create our config file: 
-   > touch .eslintrc   
-     code .eslintrc
+You have to run following command into the project root :
 
-4) In the config file _.eslintrc_, insert the following script: 
-   >  {  
-  "extends": ["airbnb-base"],  
-  "env": {  
-    "node": true,  
-    "es6": true,  
-    "browser": true  
+```sh
+npm init @eslint/config
+```
+
+NPM will ask you if you want to install ESLint if it didn't installed yet.
+
+You'd see a list of parameters to set, set them and ESLint will create your personnal configuration based on parameters you's set.
+
+A shorter way exists to install a pre made configuration :
+
+```sh
+npm install eslint eslint-config-airbnb-base eslint-plugin-import
+```
+
+Now, create a file named `.eslintrc.json` to the project root and insert this code :
+
+```json
+{  
+"extends": ["airbnb-base"],  
+"env": {  
+  "node": true,  
+  "es6": true,  
+  "browser": true  
   },  
-  "rules": {  
-    "no-console": "off"  
+"rules": {  
+  "no-console": "off"  
   }  
 }  
+```
 
-5) Now that you have ESLint installed and configured, install the "ESLint" extension. Close and restart, your ESLint is now available! 
-
-6) ESLint can also be used with CLI (_command line interface_): 
-    With a global config: 
-   > eslint index.js
-
-    With a local config: 
-   > npx eslint index.js
-
-_ _ _ 
-
-sources: 
-> https://medium.com/medvine/install-eslint-global-with-airbnb-style-guide-and-use-it-in-vscode-d752dfa40b    
-  https://eslint.org/docs/latest/user-guide/getting-started   
-  [1] https://runebook.dev/fr/docs/prettier/cli
+There you go, ESLint is now configured with Airbnb convention for your project.
