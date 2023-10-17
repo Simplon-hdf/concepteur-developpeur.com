@@ -61,3 +61,39 @@ It provide configuration of errors triggers rules in a configuration file.
 # Get started with ESLint
 
 ## Initialisation
+
+To initialize ESLint, you need a Node project.
+
+You have to run following command into the project root :
+
+```sh
+npm init @eslint/config
+```
+
+NPM will ask you if you want to install ESLint if it didn't installed yet.
+
+You'd see a list of parameters to set, set them and ESLint will create your personnal configuration based on parameters you's set.
+
+A shorter way exists to install a pre made configuration :
+
+```sh
+npm install eslint eslint-config-airbnb-base eslint-plugin-import
+```
+
+Now, create a file named `.eslintrc.json` to the project root and insert this code :
+
+```json
+{  
+"extends": ["airbnb-base"],  
+"env": {  
+  "node": true,  
+  "es6": true,  
+  "browser": true  
+  },  
+"rules": {  
+  "no-console": "off"  
+  }  
+}  
+```
+
+There you go, ESLint is now configured with Airbnb convention for your project.
