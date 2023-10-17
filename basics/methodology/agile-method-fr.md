@@ -13,7 +13,7 @@
       - [Product Owner](#product-owner)
       - [Scrum Master](#scrum-master)
       - [L'équipe de développement](#léquipe-de-développement)
-    - [Product Backlog](#product-backlog)
+    - [Le Product Backlog](#le-product-backlog)
 
 
 # La gestion de projet selon le Manifeste Agile
@@ -100,15 +100,15 @@ Le SCRUM master a pour rôle de s'assurer que le framework SCRUM est bien mis en
 
 L'équipe de développement est composée de developpeur qui auront à leur charges de développer les fonctionnalités du projet.
 
-### Product Backlog
+### Le Product Backlog
 
-Le Product Backlog est une liste de tâche ordonnée à réaliser, elle sert à définir les attentes des développeurs, faire un classement par priorité et un suivi des tâches.
-Le backlog prend en compte le principe d'**Epic** et de User Story.
-- **Epic** : Une Epic est une tâche complexe qui peut être découpée en plusieurs User Story.
-- **User Story** : Une User Story est une tâche simple qui peut être réalisée en une journée de travail.
+Le product backlog est un registre dans lequel l'équipe pioche des tâches à réaliser.
 
-Il prend aussi en compte la correction des bogues à faire et les dettes techniques.
-- **Dettes techniques** : Une dette technique est une tâche qui n'est pas prioritaire, mais qui doit être réalisée pour éviter des problèmes futurs.
+Le PB est rempli par le Product Owner et peut contenir :
+
+- Des **user-stories** : Les user-stories sont des tâches simples expliquant une fonctionnalité du produit, les user-stories peuvent se décomposer en sous-tâche qui serviront d'étapes à l'accomplissement de la user-story liée. Les user-stories sont formattées comme suit "En tant que .. je peux .. afin de .." ou "En tant que .. je dois .. afin de ..", voici un exemple concret : "En tant qu'apprenant je dois m'identifier afin de participer à ma promotion". De cette façon les développeurs savent ce qu'ils doivent faire pour cette fonctionnalité, l'user-story répond à : `Qui ? Quoi ? Pourquoi ?` Il ne restent plus qu'au développeur de répondre au `Comment ?`.
+
+- Des **Epics** : Les Epics sont un ensemble d'user-stories, en générale, les Epics représentent une fonctionnalités complète là où les user-stories représentes des fragment de fonctionnalités. Une Epic pourrait être `Identification des utilisateurs` et pourrait contenir l'user-story dans l'exemple de user-story.
 
 ![Product Backlog](https://assets.asana.biz/transform/9a0eb346-33af-405d-9e6f-f63aad872c48/inline-project-management-product-backlog-1-fr-2x?io=transform:fill,width:1680&format=webp)
 
