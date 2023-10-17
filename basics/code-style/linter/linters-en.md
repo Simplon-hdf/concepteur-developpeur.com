@@ -33,9 +33,13 @@ Debbuger can provide more detailed informations on errors and bring some process
 
 JSLint is a ready to use linter, right after installation. 
 It do not requires configuration, but therefore, it do not allow you to define personnalized rules.
-Error logging can be kinda weird. 
+Error logging can be kinda weird.
 
 ## JSHint
+
+JSHint is a ready to use linter, right after installation. 
+It do not requires configuration, but therefore, it do not allow you to define personnalized rules.
+Error logging can be kinda weird.
 
 ## ESLint
 
