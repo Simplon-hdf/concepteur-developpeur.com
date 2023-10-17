@@ -147,7 +147,21 @@ Lors de ce rituel les membres de l'équipe doivent répondre aux questions :
 
 Si une problématique notable est relevée, elle doit faire l'objet d'une réunion ultérieure afin d'être résolue.
 
-
 ### La sprint Review
+
+La sprint Review est le seul rituel qui incluent les parties prenantes du projet, ce rituel réunit :
+
+- Le client
+- Le SCRUM Master
+- Le Product Owner
+- L'équipe de développement
+
+Il faut compter 1 heure par tranche d'1 semaine de sprint, c'est à dire que si un sprint a une durée de 2 semaines, la review durera 2 heures.
+
+Ce rituel sert à l'équipe de présenter l'état d'avancement du projet à toutes les parties prenantes, de cette façon, le client peut faire part de ses impressions quant au projet, ou dire que le projet nécéssite quelques ajustements.
+
+Avec ce rituel, toutes les parties prenantes s'assurent que le projet avance dans la bonne direction.
+
+De plus, il peut arriver qu'à l'issue d'un sprint, le product owner annule ce rituel pour certaines raisons, nottament lorsque le sprint à rencontré des difficultés à être achevé et n'est donc pas présentable.
 
 ### La sprint Retrospective
