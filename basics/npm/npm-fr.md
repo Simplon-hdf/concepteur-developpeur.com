@@ -10,19 +10,19 @@
 - [Difference entre `dependencies` et `devDependencies`](#difference-entre-dependencies-et-devdependencies)
 - [package-lock.json](#package-lockjson)
 - [Sources](#sources)
-- [Les commandes NPM](#les-commandes-npm)
-- [Comment initialiser un projet avec NPM ?](#comment-initialiser-un-projet-avec-npm-)
+- [Les commandes Npm](#les-commandes-npm)
+- [Comment initialiser un projet avec Npm ?](#comment-initialiser-un-projet-avec-npm-)
     - [Comment installer des modules ?](#comment-installer-des-modules-)
     - [Comment installer les package de dépendance de développement ?](#comment-installer-les-package-de-dépendance-de-développement-)
         - [Exemple :](#exemple-)
     - [Comment lister des packages installés au projet ?](#comment-lister-des-packages-installés-au-projet-)
     - [Obtenir des informations sur un package](#obtenir-des-informations-sur-un-package)
-    - [Quels sont les commandes pour faire les mises à jour de NPM ?](#quels-sont-les-commandes-pour-faire-les-mises-à-jour-de-npm-)
+    - [Quels sont les commandes pour faire les mises à jour de Npm ?](#quels-sont-les-commandes-pour-faire-les-mises-à-jour-de-npm-)
       - [Il y a deux types d'update :](#il-y-a-deux-types-dupdate-)
-      - [Mettre à jour la nouvelle version NPM :](#mettre-à-jour-la-nouvelle-version-npm-)
+      - [Mettre à jour la nouvelle version Npm :](#mettre-à-jour-la-nouvelle-version-npm-)
       - [Mettre à jour les package de développement :](#mettre-à-jour-les-package-de-développement-)
     - [Quels sont les commandes pour désinstaller un paquet ?](#quels-sont-les-commandes-pour-désinstaller-un-paquet-)
-  - [Utilisation de script NPM](#utilisation-de-script-npm)
+  - [Utilisation de script Npm](#utilisation-de-script-npm)
         - [Comment executer un script ?](#comment-executer-un-script-)
       - [Comment voir la liste des scripts ?](#comment-voir-la-liste-des-scripts-)
       - [Quels sont les autres commandes ?](#quels-sont-les-autres-commandes-)
@@ -34,7 +34,7 @@ Npm est un **manager de paquet Node** utilisé pour importer ou publier des paqu
 
 Npm se divise en 3 grands axes :
 
-1. **Le site NPM**
+1. **Le site Npm**
 
     Le site [Npm](https://www.npmjs.com/) sert à connaitre les paquets Node disponibles sur le Registry Npm.
 
@@ -153,7 +153,7 @@ Et la fourchette représente elle, à la fois une devDependencies ainsi qu’une
 
 # package-lock.json
 
-Le fichier **package-lock.json**  est automatiquement généré par NPM lorsqu’une opération affectant l'arborescence du dossier `node_modules` ou le fichier `package.json` par NPM est effectuée.
+Le fichier **package-lock.json**  est automatiquement généré par Npm lorsqu’une opération affectant l'arborescence du dossier `node_modules` ou le fichier `package.json` par Npm est effectuée.
 Le **package-lock.json** va contenir une description exacte de l'arborescence des dépendances.
 Ce fichier est prévu pour être inclus au dêpôt, il peut être utilisé pour :
 
@@ -168,7 +168,7 @@ Le format du fichier **package-lock.json** ressemble fortement à celui du **pac
 
 Disclaimer : Les sources ci-dessous sont exclusivement en anglais.
 
-- [Qu'est ce que NPM](https://www.w3schools.com/whatis/whatis_npm.asp)
+- [Qu'est ce que Npm](https://www.w3schools.com/whatis/whatis_npm.asp)
 - [Introduction à NPX](https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/)
 - [Module Node & Paquet Node](https://docs.npmjs.com/about-packages-and-modules)
 - [Le fichier **package.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-json)
@@ -178,9 +178,9 @@ Disclaimer : Les sources ci-dessous sont exclusivement en anglais.
 - [Le fichier **package-lock.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
 
 
-# Les commandes NPM
+# Les commandes Npm
 
-# Comment initialiser un projet avec NPM ?
+# Comment initialiser un projet avec Npm ?
 
 > **npm init**
 
@@ -239,13 +239,13 @@ OR
 - Pour obtenir la documentation du package, il faudra utiliser :
 > npm **docs express**
 
-### Quels sont les commandes pour faire les mises à jour de NPM ?
+### Quels sont les commandes pour faire les mises à jour de Npm ?
 
 **IMPORTANT** : Il faut toujours vérifier que les modules et les packages sont à jours.
 
-- ##### Que faire avant de mettre à jour un package NPM ?
+- ##### Que faire avant de mettre à jour un package Npm ?
 
-- Avant de mettre à jour **les paquets NPM** il faut regarder si un package est expiré, il faudra alors utiliser : 
+- Avant de mettre à jour **les paquets Npm** il faut regarder si un package est expiré, il faudra alors utiliser : 
 
 > npm **outdated**
 
@@ -261,8 +261,8 @@ Il faudra utiliser la commande depuis le répertoire racine.
 
 > npm **update express**
 
-#### Mettre à jour la nouvelle version NPM :
-- Pour mettre à jour la nouvelle version de NPM, il faudra utiliser : 
+#### Mettre à jour la nouvelle version Npm :
+- Pour mettre à jour la nouvelle version de Npm, il faudra utiliser : 
 > npm **install npm@latest -g**
 
 #### Mettre à jour les package de développement :
@@ -281,7 +281,7 @@ OR
 - Pour supprimer les packages du cache, il faudra utiliser la commande : 
 > npm cache clean
 
-## Utilisation de script NPM
+## Utilisation de script Npm
 
 ##### Comment executer un script ?
 
