@@ -1,7 +1,7 @@
 # Sommaire
 
 - [Sommaire](#sommaire)
-- [Qu'est ce que NPM (Node Package Manager)](#quest-ce-que-npm-node-package-manager)
+- [Qu'est ce que Npm (Node Package Manager)](#quest-ce-que-npm-node-package-manager)
   - [Qu'est ce qu'NPX (Node Package Executer)](#quest-ce-qunpx-node-package-executer)
 - [Node Package ou Paquet Node](#node-package-ou-paquet-node)
 - [Node Modules](#node-modules)
@@ -28,23 +28,23 @@
       - [Quels sont les autres commandes ?](#quels-sont-les-autres-commandes-)
 
 
-# Qu'est ce que NPM (Node Package Manager)
+# Qu'est ce que Npm (Node Package Manager)
 
-NPM est un manager de paquet Node utilisé pour télécharger et publier des paquets Node avec les autres developpeurs qui utilisent NPM.
+Npm est un manager de paquet Node utilisé pour importer ou publier des paquets Node avec les autres developpeurs qui utilisent Npm.
 
-NPM se divisent en 3 grands axes :
+Npm se divise en 3 grands axes :
 
 1. Le site NPM
 
-    Le site [NPM](https://www.npmjs.com/) sert à connaitre les paquets Node disponibles sur le Registry NPM.
+    Le site [Npm](https://www.npmjs.com/) sert à connaitre les paquets Node disponibles sur le Registry Npm.
 
 2. CLI ou l’Interface en Ligne de Commande
 
-    La CLI est une énorme partie du NPM puis-ce que c'est par la CLI que vous interagissez avec NPM et avec le Registry NPM afin de télécharger des paquets s'y trouvant ou de publier vos paquets.
+    La CLI est une énorme partie du Npm puisque c'est par la CLI que vous interagissez avec Npm et avec le Registry Npm afin d'importer des paquets s'y trouvant ou de publier vos paquets.
 
-1. NPM Registry ou l'Enregisteur
+1. Npm Registry ou le Dépôt
 
-    Le Registry NPM est en fait une enorme base de donnée qui va contenir des applications prêtes à l'emploi, ou simplement des paquets Node que vous pourrez télécharger afin de les utiliser ou les adapter à vos besoins pour les utiliser dans votre paquet.
+    Le Registry Npm est en fait une énorme base de données qui va contenir des applications prêtes à l'emploi, ou simplement des paquets Node que vous pourrez télécharger afin de les utiliser ou les adapter à vos besoins pour les utiliser dans votre paquet.
 
 ## Qu'est ce qu'NPX (Node Package Executer)
 
