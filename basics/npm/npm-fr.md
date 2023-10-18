@@ -92,24 +92,27 @@ Note : Il est très important de ne pas omettre le `node_modules` dans votre .gi
 # **package.json**
 
 Comme expliqué plus haut, le fichier **package.json** est un fichier qui est essentiel à votre package Node.
+
 Ce fichier fait office de carte pour votre package, vous aller renseignez beaucoup d'informations dans ce fichier.
 Vous pourrez y mettre toutes les informations qui suivent (Et bien plus encore, liste non exhaustive) :
 
-- name : Le nom de votre package
-- version : La version de votre package
-- description : La description de votre package
-- keywords : Ce champ est plutôt optionnel, cependant, si vous voulez partager votre package, il pourrait se révéler indispensable
-- homepage : Il peut s'agir d'un dépôt GitHub ou simplement un site, il s'agit simplement de la page de référence liée à votre package
-- bugs : Ce champ permet de renseigner ou remonter les bugs liés à votre package
-- author : Quelques informations à propos de vous
-- main : Permet de définir le point d’entrée de votre package (Habituellement index.js)
-- scripts : Permet une configuration avancée pour votre package [En savoir plus sur les valeurs possibles de script](https://docs.npmjs.com/cli/v8/using-npm/scripts)
-- dependencies : Ce champ permet de renseigner une liste de dépendances dont votre package aura besoin afin de s’exécuter correctement, son format est le suivant : `"express":"4.18.3"` permettra de définir que votre package necessitera express en version `4.18.3`
-- devDependencies : Ce champ permet de renseigner une liste de dépendances necessaires au développement de votre package
-- private : Renseigner ce champ permet de s'assurer que votre package ne sera pas publié. Il s'agit d'un booléen
+```json
+- "name" : Le nom de votre package
+- "version" : La version de votre package
+- "description" : La description de votre package
+- "keywords" : Ce champ est plutôt optionnel, cependant, si vous voulez partager votre package, il pourrait se révéler indispensable
+- "homepage" : Il peut s'agir d'un dépôt GitHub ou simplement un site, il s'agit simplement de la page de référence liée à votre package
+- "bugs" : Ce champ permet de renseigner ou remonter les bugs liés à votre package
+- "author" : Quelques informations à propos de vous
+- "main" : Permet de définir le point d’entrée de votre package (Habituellement index.js)
+- "scripts" : Permet une configuration avancée pour votre package [En savoir plus sur les valeurs possibles de script](https://docs.npmjs.com/cli/v8/using-npm/scripts)
+- "dependencies" : Ce champ permet de renseigner une liste de dépendances dont votre package aura besoin afin de s’exécuter correctement, son format est le suivant : `"express":"4.18.3"` permettra de définir que votre package necessitera express en version `4.18.3`
+- "devDependencies" : Ce champ permet de renseigner une liste de dépendances necessaires au développement de votre package
+- "private" : Renseigner ce champ permet de s'assurer que votre package ne sera pas publié. Il s'agit d'un booléen
+```
 
-NPM se chargera de générer des valeurs par défaut à des champs non renseignés, par exemple pour le champ `script`.
-NPM initialisera le champ avec une valeur de test.
+Npm se chargera de générer des valeurs par défaut à des champs non renseignés, par exemple pour le champ `script`.
+Npm initialisera le champ avec une valeur de test.
 
 # Semantic Versioning ou Le versionnement sémantique
 
