@@ -2,7 +2,7 @@
 
 - [Sommaire](#sommaire)
 - [Qu'est ce que Npm (Node Package Manager)](#quest-ce-que-npm-node-package-manager)
-  - [Qu'est ce qu'NPX (Node Package Executer)](#quest-ce-qunpx-node-package-executer)
+  - [Qu'est ce qu'Npx (Node Package Executer)](#quest-ce-qunpx-node-package-executer)
 - [Node Package ou Paquet Node](#node-package-ou-paquet-node)
 - [Node Modules](#node-modules)
 - [**package.json**](#packagejson)
@@ -46,11 +46,12 @@ Npm se divise en 3 grands axes :
 
     Le **Registry Npm** est en fait une énorme **base de données** qui va contenir des **applications prêtes à l'emploi**, ou simplement des **paquets Node** que vous pourrez **télécharger** afin de les utiliser ou les **adapter** à vos besoins pour les utiliser **dans votre paquet**.
 
-## Qu'est ce qu'NPX (Node Package Executer)
+## Qu'est ce qu'Npx (Node Package Executer)
 
-Comme NPM est un gestionnaire de paquet Node, NPX est en fait un exécuteur des paquets Node grace à NPX il vous sera possible d'exécuter des paquets Node directement depuis le Registry de NPM.
+Npx est en fait un exécuteur des paquets Node.
+Grâce à Npx il est possible d'exécuter des packages Node depuis le registry plutôt que de le télécharger pour pouvoir l'exécuter, cette approche est intéressante dans le cadre où vous voudriez utiliser une application Node, vous n'auriez alors pas besoin de télécharger quoi que ce soit pour pouvoir utiliser l'application.
 
-NPX vous permettra ainsi de ne pas avoir à télécharger au préalable le paquet Node pour l'exécuter.
+Notez qu'en général, cette approche est préférée pour des applications légères.
 
 # Node Package ou Paquet Node
 
