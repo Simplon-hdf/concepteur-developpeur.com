@@ -30,21 +30,21 @@
 
 # Qu'est ce que Npm (Node Package Manager)
 
-Npm est un manager de paquet Node utilisé pour importer ou publier des paquets Node avec les autres developpeurs qui utilisent Npm.
+Npm est un **manager de paquet Node** utilisé pour importer ou publier des paquets Node avec les autres developpeurs qui utilisent Npm.
 
 Npm se divise en 3 grands axes :
 
-1. Le site NPM
+1. **Le site NPM**
 
     Le site [Npm](https://www.npmjs.com/) sert à connaitre les paquets Node disponibles sur le Registry Npm.
 
-2. CLI ou l’Interface en Ligne de Commande
+2. **CLI ou l’Interface en Ligne de Commande**
 
-    La CLI est une énorme partie du Npm puisque c'est par la CLI que vous interagissez avec Npm et avec le Registry Npm afin d'importer des paquets s'y trouvant ou de publier vos paquets.
+    La CLI est une énorme partie du Npm puisque c'est par la **CLI** que vous **interagissez avec Npm** et avec le Registry Npm afin d'**importer des paquets** s'y trouvant ou de **publier vos paquets**.
 
-1. Npm Registry ou le Dépôt
+1. **Npm Registry ou le Dépôt**
 
-    Le Registry Npm est en fait une énorme base de données qui va contenir des applications prêtes à l'emploi, ou simplement des paquets Node que vous pourrez télécharger afin de les utiliser ou les adapter à vos besoins pour les utiliser dans votre paquet.
+    Le **Registry Npm** est en fait une énorme **base de données** qui va contenir des **applications prêtes à l'emploi**, ou simplement des **paquets Node** que vous pourrez **télécharger** afin de les utiliser ou les **adapter** à vos besoins pour les utiliser **dans votre paquet**.
 
 ## Qu'est ce qu'NPX (Node Package Executer)
 
