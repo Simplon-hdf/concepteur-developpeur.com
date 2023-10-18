@@ -3,7 +3,7 @@
 - [Sommaire](#sommaire)
 - [Qu'est ce que Npm (Node Package Manager)](#quest-ce-que-npm-node-package-manager)
   - [Qu'est ce qu'Npx (Node Package Executer)](#quest-ce-qunpx-node-package-executer)
-- [Node Package ou Paquet Node](#node-package-ou-paquet-node)
+- [Node Packages (Paquet Node)](#node-packages-paquet-node)
 - [Node Modules](#node-modules)
 - [**package.json**](#packagejson)
 - [Semantic Versioning ou Le versionnement sémantique](#semantic-versioning-ou-le-versionnement-sémantique)
@@ -53,9 +53,9 @@ Grâce à Npx il est possible d'exécuter des packages Node depuis le registry p
 
 Notez qu'en général, cette approche est préférée pour des applications légères.
 
-# Node Package ou Paquet Node
+# Node Packages (Paquet Node)
 
-Un package node est un fichier ou un dossier décrit par un fichier **package.json**.
+Un package Node est un fichier ou un dossier décrit par un fichier **package.json** (Le plus souvent un dossier).
 
 Le fichier **package.json** va donner des informations à propos de votre package, c'est pourquoi il faut que ce fichier contienne les informations les plus détaillées possible.
 
@@ -70,14 +70,14 @@ Un package node peut être tout ce qui suit (Et plus encore) :
 
 # Node Modules
 
-Un module Node est une dépendance dont votre package aura besoin pour s'exécuter ou simplement qui vous sera nécessaire pour le développement de votre package.
+Les modules Node sont des dépendance dont votre package aura besoin pour s'exécuter ou simplement qui vous seront nécessaire pour le développement de votre package.
 
 Un module Node peut être :
 
-- Un dossier (Structuré comme un Package)
+- Un dossier
 - Un fichier JS
 
-Vous pouvez voir les module node dans le dossier `node_modules`.
+Vous pouvez voir les modules Node dans le dossier `node_modules`.
 
 Note : Il se peut qu'un module node ne se soit pas correctement installé, dans ce cas, il est conseillé de supprimer le dossier `node_modules` et de réinstaller tous les modules.
 
@@ -85,7 +85,7 @@ Puis-ce qu'une image vaut mieux que mille mots :
 
 ![](https://guillaume-richard.fr/wp-content/uploads/2020/06/node-modules-app-performance.png)
 
-Cette image explique à quel point les modules nodes sont lourds.
+Cette image explique à quel point les modules Node sont lourds.
 
 Note : Il est très important de ne pas omettre le `node_modules` dans votre .gitignore afin de ne pas envoyer tous les modules sur votre dêpot distant.
 
