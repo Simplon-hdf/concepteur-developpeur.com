@@ -151,6 +151,7 @@ Si vous voulez cuisiner un gâteau par exemple et le manger :
 
 Pour la préparation de votre gâteau, vous pourrez utiliser un batteur électrique ou simplement utiliser une fourchette.
 Dans cet exemple, le batteur électrique représente une devDependencies, utile, mais optionnel puis-ce qu'il vous est possible d'utiliser une fourchette.
+
 Et la fourchette représente elle, à la fois une devDependencies ainsi qu’une dépendance puisque vous pourrez utiliser cette même fourchette pour manger votre gâteau.
 
 # package-lock.json
