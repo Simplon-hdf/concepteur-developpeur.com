@@ -6,7 +6,7 @@
 - [Node Packages (Paquet Node)](#node-packages-paquet-node)
 - [Node Modules](#node-modules)
 - [**package.json**](#packagejson)
-- [Semantic Versioning ou Le versionnement sémantique](#semantic-versioning-ou-le-versionnement-sémantique)
+- [Semantic Versioning ou le Versionnage sémantique](#semantic-versioning-ou-le-versionnage-sémantique)
 - [Difference entre `dependencies` et `devDependencies`](#difference-entre-dependencies-et-devdependencies)
 - [package-lock.json](#package-lockjson)
 - [Sources](#sources)
@@ -114,9 +114,10 @@ Vous pourrez y mettre toutes les informations qui suivent (Et bien plus encore, 
 Npm se chargera de générer des valeurs par défaut à des champs non renseignés, par exemple pour le champ `script`.
 Npm initialisera le champ avec une valeur de test.
 
-# Semantic Versioning ou Le versionnement sémantique
+# Semantic Versioning ou le Versionnage sémantique
 
-Le versionnement sémantique est un standard que vous devez suivre lors de modifications significatives de votre package.
+Le versionnage sémantique est un standard que vous devez suivre lors de modifications significatives de votre package.
+
 Il est recommandé de publier vos modifications avec différentes versions de votre package, champ `version` de votre **package.json**.
 De ce fait, les autres développeurs utilisant votre package pourront comprendre l'étendue des modifications apportées pour chaque version de votre package.
 Pour aborder ce qui suit, vous devez comprendre quelques termes :
@@ -127,7 +128,7 @@ Pour aborder ce qui suit, vous devez comprendre quelques termes :
 
 Recommandation : [Apprenez en plus sur les spécificités du Semantic Versioning](https://semver.org/)
 
-Voici les spécificités globales du versionnement sémantique : 
+Voici les spécificités globales du versionnage sémantique : 
 
 - Il est recommandé de commencer le développement de votre package en version `1.0.0`
 - Lorsque vous voudrez faire une mise à jour PATCH, votre package passera en version `1.0.1`
@@ -136,7 +137,8 @@ Voici les spécificités globales du versionnement sémantique :
 
 Il est important de comprendre que lorsque vous sortez une mise à jour MAJOR, elle influe sur les MINOR ainsi que sur les versions PATCH.
 Que lorsque vous sortez une mise à jour MINOR, elle influe sur les versions PATCH.
-Note: Chaque chiffre n'est pas limité à 9, une version telle que `2.3.19` est une version totalement correcte.
+
+Note : Chaque chiffre n'est pas limité à 9, une version telle que `2.3.19` est une version totalement correcte.
 
 Afin d'appronfondir sur le sujet, vous pouvez [cliquer ici](https://docs.npmjs.com/about-semantic-versioning#using-semantic-versioning-to-specify-update-types-your-package-can-accept)
 
@@ -172,8 +174,8 @@ Disclaimer : Les sources ci-dessous sont exclusivement en anglais.
 - [Introduction à NPX](https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/)
 - [Module Node & Paquet Node](https://docs.npmjs.com/about-packages-and-modules)
 - [Le fichier **package.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-json)
-- [Le versionnement sémantique avec Node](https://docs.npmjs.com/about-semantic-versioning)
-- [Le versionnement sémantique](https://semver.org/)
+- [Le versionnage sémantique avec Node](https://docs.npmjs.com/about-semantic-versioning)
+- [Le versionnage sémantique](https://semver.org/)
 - [La différence entre les champs `dependencies` et `devDependencies`](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
 - [Le fichier **package-lock.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
 
