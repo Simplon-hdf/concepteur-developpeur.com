@@ -9,6 +9,7 @@
 - [Semantic Versioning ou le Versionnage sémantique](#semantic-versioning-ou-le-versionnage-sémantique)
 - [Difference entre `dependencies` et `devDependencies`](#difference-entre-dependencies-et-devdependencies)
 - [package-lock.json](#package-lockjson)
+- [Commandes](#commandes)
 - [Sources](#sources)
 - [Les commandes Npm](#les-commandes-npm)
 - [Comment initialiser un projet avec Npm ?](#comment-initialiser-un-projet-avec-npm-)
@@ -166,6 +167,10 @@ Ce fichier est prévu pour être inclus au dêpôt, il peut être utilisé pour 
 - Optimiser l'installation des dépendances, afin de ne pas avoir à re-télécharger les dépendances déjà installées.
 
 Le format du fichier **package-lock.json** ressemble fortement à celui du **package.json**, [En apprendre plus sur le format du **package-lock.json**](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
+
+# Commandes
+
+Il existe une flopée de commandes pour interagir avec Npm, vous trouverez dans la suivante section certaines commandes qui pourraient s'avérer utile.
 
 # Sources
 
