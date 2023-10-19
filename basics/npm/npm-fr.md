@@ -11,6 +11,7 @@
 - [package-lock.json](#package-lockjson)
 - [Commandes](#commandes)
   - [Initialiser un projet Npm](#initialiser-un-projet-npm)
+  - [Installer des dépendances (modules)](#installer-des-dépendances-modules)
 - [Sources](#sources)
 - [Les commandes Npm](#les-commandes-npm)
 - [Comment initialiser un projet avec Npm ?](#comment-initialiser-un-projet-avec-npm-)
@@ -182,6 +183,24 @@ npm init
 ```
 
 Cette commande doit être exécutée dans le dossier racine de votre projet, et sert à créer le fichier **package.json** qui servira (entre autres) à Npm de savoir qu'il s'agit d'un projet Node.Js.
+
+## Installer des dépendances (modules)
+
+Vous serez sans doute amener à importer des dépendances dans vos projets, vous devrez donc utiliser :
+
+```sh
+npm install <nom_du_package>
+```
+
+Exemple pour utiliser la librairie Express dans votre projet :
+
+```sh
+npm i express
+```
+
+Note : Que vous utilisiez `install` ou `i`, le résultat sera le même.
+
+Cette commande aura pour effet de télécharger les fichiers d'Express dans le dossier `node_modules` (dossier qui sera créer automatiquement à la racine de votre projet s'il n'existe pas).
 
 # Sources
 
