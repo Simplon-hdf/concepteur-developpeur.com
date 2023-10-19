@@ -11,7 +11,7 @@
 - [package-lock.json](#package-lockjson)
 - [Commandes](#commandes)
   - [Initialiser un projet Npm](#initialiser-un-projet-npm)
-  - [Installer des dépendances (modules)](#installer-des-dépendances-modules)
+  - [Installer des dépendances de production (modules)](#installer-des-dépendances-de-production-modules)
 - [Sources](#sources)
 - [Les commandes Npm](#les-commandes-npm)
 - [Comment initialiser un projet avec Npm ?](#comment-initialiser-un-projet-avec-npm-)
@@ -184,7 +184,7 @@ npm init
 
 Cette commande doit être exécutée dans le dossier racine de votre projet, et sert à créer le fichier **package.json** qui servira (entre autres) à Npm de savoir qu'il s'agit d'un projet Node.Js.
 
-## Installer des dépendances (modules)
+## Installer des dépendances de production (modules)
 
 Vous serez sans doute amener à importer des dépendances dans vos projets, vous devrez donc utiliser :
 
