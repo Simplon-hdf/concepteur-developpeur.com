@@ -59,6 +59,25 @@ A Node package can be all following (And even more) :
 
 # Node Modules
 
+Node modules are dependencies that your package may have to need to run, or just used for development cycle of your package/application.
+
+A Node Module can be :
+
+- A folder
+- A `.js` file
+
+You can see modules in `node_modules` folder.
+
+Note : A node module can be incompletely download for some reason, in that case, it's recommended to remove `node_modules` folder and reinstall packages by using [this command](#reinstalling-dependencies)
+
+As an image's worth than thousand words : 
+
+![](https://guillaume-richard.fr/wp-content/uploads/2020/06/node-modules-app-performance.png)
+
+This image explains how heavy are Node modules.
+
+Note : It hardly recommended to do not forget omitting `node_modules` folder in your `.gitignore` to do not push them in your remote repository.
+
 # The package.json file
 
 # Semantic Versioning
