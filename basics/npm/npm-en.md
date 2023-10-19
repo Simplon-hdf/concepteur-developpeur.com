@@ -19,6 +19,22 @@
 
 # What is Npm (Node Package Manager)
 
+Npm is a **node package manager** used to import or publish Node packages with other developpers who uses Npm.
+
+Npm is divided in 3 majors parts :
+
+1. **Npm Website**
+
+    The [Npm](https://www.npmjs.com/) website is useful to know which Node packages are availables on the Registry.
+
+2. **CLI (Command Line Interface)**
+
+    The CLI's the biggest part of Npm, because it's by the CLI that you'll **interact with Npm** and with the registry to **import packages** or **publish your packages**.
+
+3. **Npm Registry**
+
+    The **Npm registry** is a kind of a huge **database** who store **complete functionals application** and mostly **node packages** that you'll can **download** to use or **adapt** them to your needs.
+
 # What is Npx (Node Package Executer)
 
 # Node Packages
