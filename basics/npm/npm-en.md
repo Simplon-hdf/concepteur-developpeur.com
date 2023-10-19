@@ -80,6 +80,28 @@ Note : It hardly recommended to do not forget omitting `node_modules` folder in 
 
 # The package.json file
 
+As explained above, the **package.json** file is essential to your Node package.
+
+This file is like a map to your package, you'll provide 
+many informations in this file.
+
+```json
+- "name" : Your package name
+- "version" : Your package version
+- "description" : The package description
+- "keywords" : This field can be omitted, but it may be useful for peoples whose searching for your package, if you wish to publish it. 
+- "homepage" : Can be a GitHub repository URL or just Website URL, it's represent the reference page of your package
+- "bugs" : This field provide informations on where users have to go to ask for bugs fixes
+- "author" : Some informations about you
+- "main" : Will be used to run your package, it refers to your application entry point
+- "scripts" : Allow an advanced configuration, [learn more](https://docs.npmjs.com/cli/v8/using-npm/scripts)
+- "dependencies" : This field allow you to indicate Npm, which packages are needed to run yours.
+- "devDependencies" : This field allow you to indicate Npm, which packages are useful / required for development phase
+- "private" : This champ is used to ensure that your package is private or no (It's a boolean)
+```
+
+Npm will set default values to skiped fields, for instance, for the `script` field, Npm will set a test default value for this field.
+
 # Semantic Versioning
 
 # Differences between `dependencies` and `devDependencies`
