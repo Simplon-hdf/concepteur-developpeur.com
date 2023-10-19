@@ -44,6 +44,19 @@ Please note that generally, we prefer perform remote run on light applications.
 
 # Node Packages
 
+A Node package si a file or a folder described by a file named **package.json** (Most often a folder)
+
+The **package.json** file will provides several informations about your package, that's why you must fill it carefully with detailed informations.
+
+A Node package can be public or private, [Read more about package visibilty](https://docs.npmjs.com/about-private-packages), it can also be restrained to a particulous scope. [Read more about packages scopes](https://docs.npmjs.com/about-scopes)
+
+A Node package can be all following (And even more) :
+
+1. A file or a folder described by a **package.json** file
+2. A compressed file containing (1.)
+3. An URL pointing to (2.)
+4. An URL of GitHub repository that when cloned result to something formed as (1.)
+
 # Node Modules
 
 # The package.json file
