@@ -13,6 +13,7 @@
   - [Initialiser un projet Npm](#initialiser-un-projet-npm)
   - [Installer des dépendances de production (modules)](#installer-des-dépendances-de-production-modules)
   - [Installer des dépendances (devDependencies) de développement](#installer-des-dépendances-devdependencies-de-développement)
+  - [Réinstaller les dépendances d'un projet](#réinstaller-les-dépendances-dun-projet)
 - [Sources](#sources)
 - [Les commandes Npm](#les-commandes-npm)
 - [Comment initialiser un projet avec Npm ?](#comment-initialiser-un-projet-avec-npm-)
@@ -218,6 +219,16 @@ npm install Winston --save-dev
 ```
 
 Cette commande téléchargera `Winston` dans votre `node_modules` et le répertoriera dans la section `devDependencies` de votre `package.json`.
+
+## Réinstaller les dépendances d'un projet
+
+Dans le cas où vous voudriez importer un projet Node.Js sans `node_modules` ou que vous viendriez à perdre votre dossier, vous pourriez avoir besoin de réimporter les dépedances du projet, pour ça, vous pouvez utiliser la commande :
+
+```sh
+npm install
+```
+
+Ce qui aura pour effet de télécharger toutes les dépendances connues du projet (Npm se base sur les sections `dependencies` et `devDependencies` de votre `package.json`).
 
 # Sources
 
