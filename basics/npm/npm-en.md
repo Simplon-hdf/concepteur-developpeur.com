@@ -37,6 +37,11 @@ Npm is divided in 3 majors parts :
 
 # What is Npx (Node Package Executer)
 
+Npx is a **Node package executer** (...).
+Npx allow you to run remote packages, that means you didn' have to **download** them to **run**, you can just run package remotely by your **CLI** from the **registry**, it can be useful to run **complete functionals application**.
+
+Please note that generally, we prefer perform remote run on light applications.
+
 # Node Packages
 
 # Node Modules
