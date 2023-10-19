@@ -12,6 +12,7 @@
 - [Commandes](#commandes)
   - [Initialiser un projet Npm](#initialiser-un-projet-npm)
   - [Installer des dépendances de production (modules)](#installer-des-dépendances-de-production-modules)
+  - [Installer des dépendances (devDependencies) de développement](#installer-des-dépendances-devdependencies-de-développement)
 - [Sources](#sources)
 - [Les commandes Npm](#les-commandes-npm)
 - [Comment initialiser un projet avec Npm ?](#comment-initialiser-un-projet-avec-npm-)
@@ -201,6 +202,22 @@ npm i express
 Note : Que vous utilisiez `install` ou `i`, le résultat sera le même.
 
 Cette commande aura pour effet de télécharger les fichiers d'Express dans le dossier `node_modules` (dossier qui sera créer automatiquement à la racine de votre projet s'il n'existe pas).
+
+## Installer des dépendances (devDependencies) de développement
+
+Il est possible que vous ayez besoin de dependances uniquement pour le cycle de développement de votre projet dans ce cas il est utile de savoir comment définir le type de dépendances, si vous souhaitez importer des dépendances uniquement pour le développement, utilisez cette commande :
+
+```sh
+npm install <nom_du_package> --save-dev
+```
+
+Exemple concret :
+
+```sh
+npm install Winston --save-dev
+```
+
+Cette commande téléchargera `Winston` dans votre `node_modules` et le répertoriera dans la section `devDependencies` de votre `package.json`.
 
 # Sources
 
