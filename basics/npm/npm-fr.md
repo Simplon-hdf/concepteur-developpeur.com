@@ -10,6 +10,7 @@
 - [Difference entre `dependencies` et `devDependencies`](#difference-entre-dependencies-et-devdependencies)
 - [package-lock.json](#package-lockjson)
 - [Commandes](#commandes)
+  - [Initialiser un projet Npm](#initialiser-un-projet-npm)
 - [Sources](#sources)
 - [Les commandes Npm](#les-commandes-npm)
 - [Comment initialiser un projet avec Npm ?](#comment-initialiser-un-projet-avec-npm-)
@@ -171,6 +172,16 @@ Le format du fichier **package-lock.json** ressemble fortement à celui du **pac
 # Commandes
 
 Il existe une flopée de commandes pour interagir avec Npm, vous trouverez dans la suivante section certaines commandes qui pourraient s'avérer utile.
+
+## Initialiser un projet Npm
+
+Si vous voulez initialiser un projet Node.Js vous devez utiliser la commande :
+
+```sh
+npm init
+```
+
+Cette commande doit être exécutée dans le dossier racine de votre projet, et sert à créer le fichier **package.json** qui servira (entre autres) à Npm de savoir qu'il s'agit d'un projet Node.Js.
 
 # Sources
 
