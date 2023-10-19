@@ -3,12 +3,12 @@
 - [Sommaire](#sommaire)
 - [Qu'est ce que Npm (Node Package Manager)](#quest-ce-que-npm-node-package-manager)
   - [Qu'est ce qu'Npx (Node Package Executer)](#quest-ce-qunpx-node-package-executer)
-- [Node Packages (Paquet Node)](#node-packages-paquet-node)
+- [Node Packages (Paquets Node)](#node-packages-paquets-node)
 - [Node Modules](#node-modules)
-- [**package.json**](#packagejson)
+- [Le fichier **package.json**](#le-fichier-packagejson)
 - [Semantic Versioning ou le Versionnage sémantique](#semantic-versioning-ou-le-versionnage-sémantique)
 - [Difference entre `dependencies` et `devDependencies`](#difference-entre-dependencies-et-devdependencies)
-- [package-lock.json](#package-lockjson)
+- [Le fichier package-lock.json](#le-fichier-package-lockjson)
 - [Commandes](#commandes)
   - [Initialiser un projet Npm](#initialiser-un-projet-npm)
   - [Installer des dépendances (modules)](#installer-des-dépendances-modules)
@@ -43,7 +43,7 @@ Grâce à Npx il est possible d'exécuter des packages Node depuis le registry p
 
 Notez qu'en général, cette approche est préférée pour des applications légères.
 
-# Node Packages (Paquet Node)
+# Node Packages (Paquets Node)
 
 Un package Node est un fichier ou un dossier décrit par un fichier **package.json** (Le plus souvent un dossier).
 
@@ -60,7 +60,7 @@ Un package node peut être tout ce qui suit (Et plus encore) :
 
 # Node Modules
 
-Les modules Node sont des dépendance dont votre package aura besoin pour s'exécuter ou simplement qui vous seront nécessaire pour le développement de votre package.
+Les modules Node sont des dépendances dont votre package aura besoin pour s'exécuter ou simplement qui vous seront nécessaire pour le développement de votre package.
 
 Un module Node peut être :
 
@@ -69,7 +69,7 @@ Un module Node peut être :
 
 Vous pouvez voir les modules Node dans le dossier `node_modules`.
 
-Note : Il se peut qu'un module node ne se soit pas correctement installé, dans ce cas, il est conseillé de supprimer le dossier `node_modules` et de réinstaller tous les modules.
+Note : Il se peut qu'un module Node ne se soit pas correctement installé, dans ce cas, il est conseillé de supprimer le dossier `node_modules` et de réinstaller tous les modules.
 
 Puis-ce qu'une image vaut mieux que mille mots :
 
@@ -79,7 +79,7 @@ Cette image explique à quel point les modules Node sont lourds.
 
 Note : Il est très important de ne pas omettre le `node_modules` dans votre .gitignore afin de ne pas envoyer tous les modules sur votre dêpot distant.
 
-# **package.json**
+# Le fichier **package.json**
 
 Comme expliqué plus haut, le fichier **package.json** est un fichier qui est essentiel à votre package Node.
 
@@ -92,11 +92,11 @@ Vous pourrez y mettre toutes les informations qui suivent (Et bien plus encore, 
 - "description" : La description de votre package
 - "keywords" : Ce champ est plutôt optionnel, cependant, si vous voulez partager votre package, il pourrait se révéler indispensable
 - "homepage" : Il peut s'agir d'un dépôt GitHub ou simplement un site, il s'agit simplement de la page de référence liée à votre package
-- "bugs" : Ce champ permet de renseigner ou remonter les bugs liés à votre package
+- "bugs" : Ce champ permet de renseigner où remonter les bugs liés à votre package
 - "author" : Quelques informations à propos de vous
 - "main" : Permet de définir le point d’entrée de votre package (Habituellement index.js)
 - "scripts" : Permet une configuration avancée pour votre package [En savoir plus sur les valeurs possibles de script](https://docs.npmjs.com/cli/v8/using-npm/scripts)
-- "dependencies" : Ce champ permet de renseigner une liste de dépendances dont votre package aura besoin afin de s’exécuter correctement, son format est le suivant : `"express":"4.18.3"` permettra de définir que votre package necessitera express en version `4.18.3`
+- "dependencies" : Ce champ permet de renseigner une liste de dépendances dont votre package aura besoin afin de s’exécuter correctement, le format de ses entrées est le suivant : `"express":"4.18.3"` permettra de définir que votre package nécessitera express en version `4.18.3`
 - "devDependencies" : Ce champ permet de renseigner une liste de dépendances necessaires au développement de votre package
 - "private" : Renseigner ce champ permet de s'assurer que votre package ne sera pas publié. Il s'agit d'un booléen
 ```
@@ -106,7 +106,7 @@ Npm initialisera le champ avec une valeur de test.
 
 # Semantic Versioning ou le Versionnage sémantique
 
-Le versionnage sémantique est un standard que vous devez suivre lors de modifications significatives de votre package.
+Le versionnage sémantique est un standard que vous devriez suivre lors de modifications significatives de votre package.
 
 Il est recommandé de publier vos modifications avec différentes versions de votre package, champ `version` de votre **package.json**.
 De ce fait, les autres développeurs utilisant votre package pourront comprendre l'étendue des modifications apportées pour chaque version de votre package.
@@ -144,9 +144,9 @@ Dans cet exemple, le batteur électrique représente une devDependencies, utile,
 
 Et la fourchette représente elle, à la fois une devDependencies ainsi qu’une dépendance puisque vous pourrez utiliser cette même fourchette pour manger votre gâteau.
 
-# package-lock.json
+# Le fichier package-lock.json
 
-Le fichier **package-lock.json**  est automatiquement généré par Npm lorsqu’une opération affectant l'arborescence du dossier `node_modules` ou le fichier `package.json` par Npm est effectuée.
+Le fichier **package-lock.json**  est automatiquement généré par Npm lorsqu’une opération affectant l'arborescence du dossier `node_modules` ou le fichier `package.json` est effectuée.
 Le **package-lock.json** va contenir une description exacte de l'arborescence des dépendances.
 Ce fichier est prévu pour être inclus au dêpôt, il peut être utilisé pour :
 
