@@ -10,15 +10,15 @@
 
 # Qu'est ce que la Vélocité dans la méthode SCRUM
 
-La vélocité est un indicateur utilisé sur des projets gérés à l’aide d’une méthode agile, par exemple avec le framework SCRUM. La vélocité agile permet de déterminer l’effort qu’est capable de fournir une équipe de développement pour la réalisation des tâches programmées dans un sprint. Elle est exprimée en nombre de points.
+**La vélocité** est un indicateur utilisé sur des projets gérés à l'aide d'une méthode agile, par exemple avec le framework **SCRUM**. La vélocité agile permet de déterminer l'effort qu'est capable de fournir une équipe de développement pour la réalisation des tâches programmées dans un sprint. Elle est exprimée en nombre de points.
 
-Le Product Owner place dans le Product Backlog un certain nombre de fonctionnalités à réaliser ou items généralement formalisés sous la forme d’user stories. L’équipe de développement attribue à chaque Product Backlog Item (PBI) un certain nombre de points. Ces points représentent à la fois la complexité et la durée de la réalisation du PBI estimée de façon empirique. Il ne s’agit pas d’une échelle linéaire. La suite de Fibonacci est souvent utilisée.
+Le **Product Owner** place dans le **Product Backlog** un certain nombre de fonctionnalités à réaliser ou items généralement formalisés sous la forme d'*user stories*. L'équipe de développement attribue à chaque **Product Backlog Item (PBI)** un certain nombre de points. Ces points représentent à la fois la complexité et la durée de la réalisation du PBI estimée de façon empirique. Il ne s'agit pas d'une échelle linéaire. La suite de *Fibonacci* est souvent utilisée.
 
 Aussi, les valeurs pouvant être attribuées sont :
 
-- 1 pour une tâche extrêmement simple, comme la correction d’un libellé par exemple,
-- 2, 3, 5 pour une tâche légèrement plus complexe, comme la création d’un formulaire de saisie simple,
-- 8, 13, 21, 34, 55, 89, 144 si l’on ne dispose pas de suffisamment d’informations pour estimer correctement cette tâche.
+- *1* pour une tâche extrêmement simple, comme la correction d'un libellé par exemple,
+- *2, 3, 5* pour une tâche légèrement plus complexe, comme la création d'un formulaire de saisie simple,
+- *8, 13, 21, 34, 55, 89, 144* si l'on ne dispose pas de suffisamment d'informations pour estimer correctement cette tâche.
 
 ![](./assets/what-is-velocity.png)
 
