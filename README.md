@@ -18,7 +18,7 @@
 - [Présentation de Jira (French)](./basics/methodology/agile-method/agile-method-fr.md#jira)
 - [Jira presentation](./basics/methodology/agile-method/agile-method-en.md#jira)
 - [La vélocité dans SCRUM (French)](./basics/methodology/velocity/velocity-fr.md)
-- Velocity in SCRUM (English version not available yet)
+- [Velocity in SCRUM](./basics/methodology/velocity/velocity-en.md)
 - [Présentation du Planning Poker (French)](./basics/methodology/planning-poker/planning-poker-fr.md)
 - [Planning Poker presentation (English)](/basics/methodology/planning-poker/planning-poker-en.md)
 
