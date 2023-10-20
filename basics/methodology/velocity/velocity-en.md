@@ -7,6 +7,7 @@
 - [Agile Velocity Chart](#agile-velocity-chart)
 - [What Are the Benefits of Measuring Velocity?](#what-are-the-benefits-of-measuring-velocity)
 - [What Are the Drawbacks?](#what-are-the-drawbacks)
+- [Conclusion](#conclusion)
 
 # What is Velocity in the SCRUM Method?
 
@@ -86,3 +87,9 @@ Velocity is often based on *story points*, which are subjective to the team. Tea
 
 - **Downtime Is Not Accounted For**:
   A sprint is not limited to delivery or production. Many things happen between the two, such as email exchanges, stand-up meetings, etc. If these elements are not considered in the sprint duration, velocity may weaken.
+
+# Conclusion
+
+Velocity is an important measure used by Scrum Masters and Product Owners to track their team's progress and ensure project success. Agile's fast response, rapid delivery, incremental, and iterative framework ensures rapid releases, quality products, and customer satisfaction.
+
+Velocity helps determine project timelines and allows product owners to provide accurate estimates without falling into the overcommitment trap.
