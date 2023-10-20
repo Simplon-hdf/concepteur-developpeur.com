@@ -70,11 +70,15 @@ Une user story est une explication générale et informelle d'une fonctionnalit�
     - Identifier les lacunes dans les exigences et la mise en œuvre. Lorsque les participants divulguent leurs estimations, ils doivent les étayer en expliquant pourquoi elles sont élevées ou faibles. Cela peut susciter des questions sur les exigences et la mise en œuvre - une boucle de rétroaction qui permet de détecter les lacunes.
 
 ## Qui inclure dans les réunions de planification du poker ?
+
 ![](https://3.bp.blogspot.com/-unMY49BQD8M/W6koCL_u9yI/AAAAAAAAYMM/DmDyp-hYyZgdaj_8LP-1z4Pck5ct9Uo5ACLcBGAs/s1600/shutterstock_496292356.jpg)
+
 Les bonnes personnes doivent se joindre à la réunion, sinon il devient difficile de récolter les avantages décrits ci-dessus. Ces rôles cruciaux sont les suivants :
 - Membres de l'équipe Scrum : les membres de l'équipe Scrum fournissent les éléments du backlog de produit - une liste de produits à livrer (par exemple, les nouvelles fonctionnalités). Ils apportent également leur contribution aux discussions sur les story points.
 - Scrum master : un scrum leader est l'animateur des réunions agiles. Il doit participer à toutes les réunions standard.
 - Product Owner : le PO ou le gestionnaire décrira toutes les storys des utilisateurs à l'équipe et répondra à leurs questions.
+
 ## Quand organiser une session de poker de planification ?
+
 En général, les équipes organisent une session après avoir créé le backlog initial. Bien que les sessions puissent parfois prendre plus d'une journée, elles permettent d'élaborer des estimations initiales utiles pour le dimensionnement ou la délimitation du projet.
 Les éléments sont ajoutés au backlog du produit de manière incrémentielle tout au long de la durée de vie du projet. C'est pourquoi il est généralement plus pratique pour les équipes de mener des sessions une fois par itération. Dans la plupart des cas, cela se produit à quelques jours après la fin de l'itération. De même, il se produit aussi juste après un standup quotidien (un type de réunion agile) parce que toute l'équipe est présente.
