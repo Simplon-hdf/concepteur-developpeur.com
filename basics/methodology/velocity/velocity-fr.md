@@ -73,16 +73,17 @@ Un *diagramme de vélocité* est un excellent moyen de suivre l'état d'avanceme
 
 Mesurer les progrès sur la base de la vélocité :
 
-Si la vélocité est un excellent outil pour mesurer la progression de l'équipe, il ne faut pas oublier qu'il s'agit d'une mesure empirique, ce qui signifie qu'elle peut être utilisée pour l'estimation, mais pas comme norme finale pour mesurer la progression de l'équipe. La vélocité est souvent basée sur les story points, qui sont subjectifs pour l'équipe. Les équipes peuvent avoir leurs propres valeurs de points de story pour les storys d'utilisateur et donc définir leur propre vélocité et portée du travail. La vélocité est ainsi une variable changeante qui ne doit pas être utilisée comme critère de mesure de la progression de l'équipe.
+Si la vélocité est un excellent indicateur pour mesurer la progression de l'équipe, il ne faut pas oublier qu'il s'agit d'une mesure empirique, ce qui signifie qu'elle peut être utilisée pour l'estimation, mais pas comme norme finale pour mesurer la progression de l'équipe.
 
-- Problèmes de démarrage :
+La vélocité est souvent basée sur les *story points*, qui sont subjectifs pour l'équipe. Les équipes peuvent avoir leurs propres valeurs de points de *story* pour les *stories d'utilisateur* et donc définir leur propre vélocité et portée du travail. La vélocité est ainsi une variable qui ne doit pas être utilisée comme critère **absolu** de mesure de la progression de l'équipe.
+
+- **Problèmes de démarrage**:
   La vélocité est mieux estimée par les équipes Scrum matures et bien rodées. Les équipes nouvelles ou en transition et les équipes qui se lancent dans de nouveaux projets auront besoin d'un certain temps pour devenir une machine bien huilée et obtenir une vélocité précise.
 
-- Des tâches importantes :
-  Scrum/Agile fonctionne sur le principe de la décomposition de grands projets en 
-  petits morceaux et d'un produit livrable à la fin de chaque morceau. Un projet Scrum est généralement décomposé en épopées, sprints, user stories et tâches. Si les épopées ne sont pas suffisamment décomposées, cela aura un impact direct sur la vélocité et les équipes peuvent voir une forte baisse de vélocité d'un sprint à l'autre. Cela rend la vélocité moins prévisible.
+- **Des tâches importantes**:
+  Scrum/Agile fonctionne sur le principe de la décomposition de grands projets en petits morceaux et d'un produit livrable à la fin de chaque morceau. Un projet Scrum est généralement décomposé en *Epics*, *sprints*, *user stories* et tâches. Si les *Epics* ne sont pas suffisamment exhaustives, cela aura un impact direct sur la vélocité et les équipes peuvent voir une forte baisse de vélocité d'un sprint à l'autre. Cela rend la vélocité moins fiable.
 
-- Le temps d'inactivité n'est pas comptabilisé :
+- **Le temps d'inactivité n'est pas comptabilisé**:
   Un sprint ne se limite pas à la livraison ou à la production. Il y a beaucoup de choses qui se passent entre les deux, comme l'échange de courriels, les réunions de stand up, etc. Si ces éléments ne sont pas pris en compte dans la durée du sprint, la vélocité risque de faiblir.
 
 # Conclusion
