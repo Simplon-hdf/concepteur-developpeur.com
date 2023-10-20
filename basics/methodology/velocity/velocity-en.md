@@ -6,6 +6,7 @@
 - [How to Use Average Velocity in Agile Development?](#how-to-use-average-velocity-in-agile-development)
 - [Agile Velocity Chart](#agile-velocity-chart)
 - [What Are the Benefits of Measuring Velocity?](#what-are-the-benefits-of-measuring-velocity)
+- [What Are the Drawbacks?](#what-are-the-drawbacks)
 
 # What is Velocity in the SCRUM Method?
 
@@ -67,3 +68,21 @@ A velocity chart is a great way to track project progress, see if the project is
 
 - **Forecasting**:
   Velocity helps the team identify how many user stories they can complete in a sprint. Predictability is an important factor that helps teams make decisions about project timelines and budgets. Forecasting is usually done by taking the average velocity of the last three sprints.
+
+# What Are the Drawbacks?
+
+Measuring progress based on velocity:
+
+While velocity is an excellent metric for measuring the team's progress, it's important to remember that it's an empirical measure, which means it can be used for estimation but not as the final standard for measuring the team's progress.
+
+Velocity is often based on *story points*, which are subjective to the team. Teams may have their own values for *story points* for user stories and, therefore, define their velocity and scope of work. Velocity is thus a variable that should not be used as an **absolute** criterion for measuring the team's progress.
+
+- **Startup Issues**:
+  Velocity is better estimated by mature and well-established Scrum teams. New or transitioning teams and teams embarking on new projects will need time to become well-oiled machines and achieve accurate velocity.
+
+- **Significant Tasks**:
+  Scrum/Agile works on the principle of breaking large projects into smaller pieces and delivering a shippable product at the end of each piece. A Scrum project is typically broken down into Epics, sprints, user stories, and tasks. If Epics are not sufficiently comprehensive, it will directly affect velocity, and teams may
+  see a significant drop in velocity from one sprint to another, making velocity less reliable.
+
+- **Downtime Is Not Accounted For**:
+  A sprint is not limited to delivery or production. Many things happen between the two, such as email exchanges, stand-up meetings, etc. If these elements are not considered in the sprint duration, velocity may weaken.
