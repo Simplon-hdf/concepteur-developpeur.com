@@ -20,7 +20,7 @@ Aussi, les valeurs pouvant être attribuées sont :
 - 2, 3, 5 pour une tâche légèrement plus complexe, comme la création d’un formulaire de saisie simple,
 - 8, 13, 21, 34, 55, 89, 144 si l’on ne dispose pas de suffisamment d’informations pour estimer correctement cette tâche.
 
-![](https://d6vdma9166ldh.cloudfront.net/media/images/1629964462787-What-Is-Velocity-In-Agile-1.png)
+![](./assets/what-is-velocity.png)
 
 # Qui se charge de l’estimation des PBIs ?
 
@@ -29,7 +29,8 @@ Le Product Owner a pour mission de donner à chaque product backlog les fonction
 Seule l’équipe de développement est en mesure de se charger de l’estimation des PBI. Elle se chargera de distribuer les points, estimés de manière empirique, à chaque PBI. Une fois définie, la vélocité servira à valider ou à réviser la planification du développement.
 
 Notons que la vélocité durant les prochaines itérations sera plus ou moins égale à la précédente vélocité. À titre d’exemple, si les stories A et B (estimée chacune à 2 points) sont finies à 100 % et que la sortie C (3points) n’est achevée qu’à 80 %, la vélocité de l’itération sera de 4 points.
-![](https://d6vdma9166ldh.cloudfront.net/media/images/1629964540476-What-Is-Velocity-In-Agile-2.png)
+
+![](./assets/what-is-velocity-2.png)
 
 La vélocité peut également être calculée en considérant les story points. Les story points constituent les storys d'utilisateur et sont une unité de mesure qui représente la quantité d’effort nécessaire pour accomplir une tâche. En général, chaque organisation a sa propre méthode pour attribuer des valeurs aux story points.
 La vélocité d'un sprint particulier est calculée en multipliant le nombre de story d'utilisateur achevés dans le sprint par le story point attribué à chaque histoire d'utilisateur. Par exemple : Si vous avez complété 4 user stories et que vous avez attribué 3 story points à chaque story, la vélocité totale du sprint sera de 4*3=12.
@@ -47,7 +48,7 @@ Bien qu'elle soit précise, elle est sujette à des fluctuations en fonction de 
 
 La méthode Agile présente plusieurs outils pour représenter visuellement les points de données. Ceux-ci constituent un indicateur facile de l'avancement du projet et, s'ils sont basés sur le cloud, ils peuvent être consultés par toutes les personnes impliquées dans le projet.
 Les diagrammes de vélocité Agile sont essentiellement des graphiques, avec les story points affichés sur l'axe Y ou vertical et les sprints terminés affichés sur l'axe X ou vertical. Axe horizontal. Ils constituent un excellent moyen de rendre la vélocité de votre projet accessible à tous. Les graphiques basés sur le cloud peuvent être consultés par les équipes ainsi que par les parties prenantes.
-![](https://business.adobe.com/blog/basics/media_147434281d4e66df53273bdc3bca726ff88839022.png?width=1200&format=pjpg&optimize=medium)
+![](./assets/chart.jpg)
 Un diagramme de vélocité est un excellent moyen de suivre l'état d'avancement du projet, de voir si le projet progresse de manière régulière et prévisible et d'identifier des modèles dans la vélocité du sprint de l’équipe. S’il y a beaucoup de creux et d'élévations irrégulières dans vos graphiques, vous pouvez supposer que votre projet est imprévisible, car la vélocité n'est pas constante.
 
 
