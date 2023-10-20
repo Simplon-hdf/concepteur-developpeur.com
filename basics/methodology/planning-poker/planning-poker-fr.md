@@ -1,20 +1,17 @@
 ## Tables des matières
 
-- [Le Planning Poker](#le-planning-poker)
-  - [C’est quoi le Planning Poker ?](#cest-quoi-le-planning-poker-)
-  - [Qu'est-ce que le Planing Poker ?](#quest-ce-que-le-planing-poker-)
-  - [Comment se déroule un Poker Planning](#comment-se-déroule-un-poker-planning)
-  - [Les avantages](#les-avantages)
-  - [Qui inclure dans les réunions de planification du poker ?](#qui-inclure-dans-les-réunions-de-planification-du-poker-)
-  - [Quand organiser une session de poker de planification ?](#quand-organiser-une-session-de-poker-de-planification-)
+- [C’est quoi le Planning Poker ?](#cest-quoi-le-planning-poker-)
+- [Qu'est-ce que le Planing Poker ?](#quest-ce-que-le-planing-poker-)
+- [Comment se déroule un Poker Planning](#comment-se-déroule-un-poker-planning)
+- [Les avantages](#les-avantages)
+- [Qui inclure dans les réunions de planification du poker ?](#qui-inclure-dans-les-réunions-de-planification-du-poker-)
+- [Quand organiser une session de poker de planification ?](#quand-organiser-une-session-de-poker-de-planification-)
 
-# Le Planning Poker
-
-## C’est quoi le Planning Poker ?
+# C’est quoi le Planning Poker ?
 
 **La méthode Agile du planning poker consiste en une estimation de la difficulté des taches fondée sur le consensus.**
 
-## Qu'est-ce que le Planing Poker ?
+# Qu'est-ce que le Planing Poker ?
 
 Le planning poker, également connu sous le nom de "scrum poker" et de "pointing poker", est une technique ludique que les équipes de développement utilisent pour deviner l'effort des tâches de gestion de projet.
 Ces estimations sont basées sur l'apport et le consensus de l'ensemble du groupe, ce qui les rend plus engageantes et plus précises que d'autres méthodes.
@@ -28,7 +25,7 @@ Le paquet de cartes utilisé pour le planning poker doit donc comporter les vale
 Certains simplifient les grandes valeurs en les transformant en 20, 40, 100... puisqu'il s'agit d'être globalement bon plutôt que précisément erroné.
 On y ajoute généralement les valeurs 0 et 1/2.
 
-## Comment se déroule un Poker Planning
+# Comment se déroule un Poker Planning
 
 ![](assets/meeting.jpg)
 
@@ -62,14 +59,14 @@ Une user story est une explication générale et informelle d'une fonctionnalit�
    Une fois cette nouvelle délibération terminée, tout le monde passera en revue son jeu et le montrera à nouveau. Si un participant est toujours d'accord avec son dernier choix, il répétera la carte ou en choisira éventuellement une nouvelle.
    En général, les estimations commencent à converger après le deuxième tour. Si ce n'est pas le cas, le processus se répète jusqu'à ce que l'équipe se mette d'accord sur un chiffre unique.
 
-## Les avantages
+# Les avantages
 - Selon une étude, les estimations issues du planning poker sont statistiquement plus élevées que les estimations individuelles. Il a également été noté que pour les mêmes tâches, les estimations du poker de planification étaient plus précises que les estimations individuelles.
 - Les autres avantages sont les suivants :
     - Estimer les tâches les unes par rapport aux autres. Il est souvent difficile d'évaluer le temps nécessaire à la réalisation d'un projet, surtout lorsqu'il s'agit de la première fois. Le poker de planification permet aux équipes de se familiariser avec leur évaluation. Après avoir joué le jeu pendant un certain temps, vous finissez par construire une série de tâches qui servent de référence future pour la comparaison.
     - Donner une voix égale à tous les membres de l'équipe. Il peut encourager les nouveaux employés à prendre la parole en jouant une carte et en expliquant leur logique. Par exemple, imaginez que vous faites une application de réservation de nourriture. Vous et votre collègue pourriez donner une estimation plus petite, comme 10 ou 15. En revanche, un nouvel employé pourrait donner une estimation de 100. Peut-être a-t-il eu l'expérience de la création d'une application similaire dans son dernier emploi et sait-il qu'une telle application prend beaucoup de temps, surtout par rapport aux autres.
     - Identifier les lacunes dans les exigences et la mise en œuvre. Lorsque les participants divulguent leurs estimations, ils doivent les étayer en expliquant pourquoi elles sont élevées ou faibles. Cela peut susciter des questions sur les exigences et la mise en œuvre - une boucle de rétroaction qui permet de détecter les lacunes.
 
-## Qui inclure dans les réunions de planification du poker ?
+# Qui inclure dans les réunions de planification du poker ?
 
 ![](assets/team.jpg)
 
@@ -78,7 +75,7 @@ Les bonnes personnes doivent se joindre à la réunion, sinon il devient diffici
 - Scrum master : un scrum leader est l'animateur des réunions agiles. Il doit participer à toutes les réunions standard.
 - Product Owner : le PO ou le gestionnaire décrira toutes les storys des utilisateurs à l'équipe et répondra à leurs questions.
 
-## Quand organiser une session de poker de planification ?
+# Quand organiser une session de poker de planification ?
 
 En général, les équipes organisent une session après avoir créé le backlog initial. Bien que les sessions puissent parfois prendre plus d'une journée, elles permettent d'élaborer des estimations initiales utiles pour le dimensionnement ou la délimitation du projet.
 Les éléments sont ajoutés au backlog du produit de manière incrémentielle tout au long de la durée de vie du projet. C'est pourquoi il est généralement plus pratique pour les équipes de mener des sessions une fois par itération. Dans la plupart des cas, cela se produit à quelques jours après la fin de l'itération. De même, il se produit aussi juste après un standup quotidien (un type de réunion agile) parce que toute l'équipe est présente.
