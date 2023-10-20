@@ -1,27 +1,24 @@
 ## Tables des matières
 
-- [C’est quoi le Planning Poker ?](#cest-quoi-le-planning-poker-)
-- [Qu'est-ce que le Planing Poker ?](#quest-ce-que-le-planing-poker-)
+- [Qu'est ce que le Planning Poker ?](#quest-ce-que-le-planning-poker-)
 - [Comment se déroule un Poker Planning](#comment-se-déroule-un-poker-planning)
 - [Les avantages](#les-avantages)
 - [Qui inclure dans les réunions de planification du poker ?](#qui-inclure-dans-les-réunions-de-planification-du-poker-)
 - [Quand organiser une session de poker de planification ?](#quand-organiser-une-session-de-poker-de-planification-)
 
-# C’est quoi le Planning Poker ?
+# Qu'est ce que le Planning Poker ?
 
-**La méthode Agile du planning poker consiste en une estimation de la difficulté des taches fondée sur le consensus.**
+**La méthode Agile du planning poker consiste en une estimation de la difficulté des taches fondée sur un consensus.**
 
-# Qu'est-ce que le Planing Poker ?
-
-Le planning poker, également connu sous le nom de "scrum poker" et de "pointing poker", est une technique ludique que les équipes de développement utilisent pour deviner l'effort des tâches de gestion de projet.
-Ces estimations sont basées sur l'apport et le consensus de l'ensemble du groupe, ce qui les rend plus engageantes et plus précises que d'autres méthodes.
-Pour aider à évaluer le nombre de story points pour les tâches pertinentes, les équipes utilisent des cartes de poker de planification, qui sont similaires aux cartes de poker.
+Le Planning Poker, également connu sous le nom de "SCRUM Poker" ou "pointing Poker", est une technique ludique que les équipes de développement utilisent pour estimer l'effort des tâches de gestion de projet.
+Ces estimations sont basées sur l'apport et un consensus de l'ensemble du groupe, ce qui rend ces dernières plus précises que d'autres méthodes.
+Pour aider à évaluer le nombre de story points pour les tâches pertinentes, les équipes utilisent des cartes de poker de planification.
 
 ![](assets/cards.png)
 
 La suite de Fibonacci est utilisée pour les évaluations.
-Comme nous cherchons un dimensionnement de l'effort, le message est clair : plus le scénario est gros, moins l'évaluation est précise.
-Le paquet de cartes utilisé pour le planning poker doit donc comporter les valeurs suivantes : 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144.
+Comme nous cherchons à quantifier l'effort, le message est clair : plus le scénario est gros, moins l'évaluation est précise.
+Le paquet de cartes utilisé pour le planning poker doit comporter les valeurs suivantes : 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144.
 Certains simplifient les grandes valeurs en les transformant en 20, 40, 100... puisqu'il s'agit d'être globalement bon plutôt que précisément erroné.
 On y ajoute généralement les valeurs 0 et 1/2.
 
