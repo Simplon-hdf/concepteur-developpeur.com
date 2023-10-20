@@ -5,6 +5,7 @@
 - [Who Is Responsible for Estimating PBIs?](#who-is-responsible-for-estimating-pbis)
 - [How to Use Average Velocity in Agile Development?](#how-to-use-average-velocity-in-agile-development)
 - [Agile Velocity Chart](#agile-velocity-chart)
+- [What Are the Benefits of Measuring Velocity?](#what-are-the-benefits-of-measuring-velocity)
 
 # What is Velocity in the SCRUM Method?
 
@@ -55,3 +56,14 @@ Agile velocity charts are essentially graphs, with *story points* displayed on t
 ![](./assets/chart.jpg)
 
 A velocity chart is a great way to track project progress, see if the project is progressing consistently and predictably, and identify patterns in the team's sprint velocity. If your charts show many irregular peaks and troughs, you might conclude that your project is unpredictable, as velocity isn't consistent.
+
+# What Are the Benefits of Measuring Velocity?
+
+- **Essential for Release Planning**:
+  Velocity is crucial for release planning as it helps the Product Owner determine how many sprints are needed to create a product with the desired features. By estimating the number of necessary sprints, the Product Owner can estimate the release date.
+
+- **Feedback for the Team**:
+  Velocity is an excellent metric for measuring the team's progress. By tracking velocity over time, teams can measure whether the changes they make during the sprint improve or reduce productivity. While velocity can fluctuate in new teams, experienced teams have a consistent velocity and can measure their progress through velocity charts.
+
+- **Forecasting**:
+  Velocity helps the team identify how many user stories they can complete in a sprint. Predictability is an important factor that helps teams make decisions about project timelines and budgets. Forecasting is usually done by taking the average velocity of the last three sprints.
