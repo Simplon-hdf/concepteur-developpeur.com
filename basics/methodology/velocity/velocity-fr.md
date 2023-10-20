@@ -88,5 +88,6 @@ La vélocité est souvent basée sur les *story points*, qui sont subjectifs pou
 
 # Conclusion
 
-La vélocité est une mesure importante utilisée par les Scrum Masters et les Product Owners pour suivre les progrès de leur équipe et assurer la réussite du projet. La réponse rapide, la livraison rapide, le cadre incrémentiel et itératif d'Agile garantissent des versions rapides, des produits de qualité et la satisfaction du client.
-La vélocité aide à déterminer les délais du projet et permet aux propriétaires de produits de donner des estimations précises sans tomber dans le piège du sur engagement.
+La vélocité est une mesure importante utilisée par les *Scrum Masters* et les *Product Owners* pour suivre les progrès de leur équipe et assurer la réussite du projet. La réponse rapide, la livraison rapide, le cadre incrémental et itératif d'Agile garantissent des versions rapides, des produits de qualité et la satisfaction du client.
+
+La vélocité aide à déterminer les délais du projet et permet aux propriétaires de produits de donner des estimations précises sans tomber dans le piège du sur-engagement.
