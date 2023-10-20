@@ -86,12 +86,12 @@ Selon une étude, *les estimations issues du Planning Poker* sont **statistiquem
 
 Les bonnes personnes doivent se joindre à la réunion, sinon il devient difficile de récolter les avantages décrits ci-dessus. Ces rôles cruciaux sont les suivants :
 
-- Membres de l'équipe Scrum : les membres de l'équipe Scrum fournissent les éléments du backlog de produit - une liste de produits à livrer (par exemple, les nouvelles fonctionnalités). Ils apportent également leur contribution aux discussions sur les story points.
+- Membres de l'équipe Scrum : les membres de l'équipe Scrum fournissent les éléments du Product Backlog - une liste de produits à livrer (par exemple, les nouvelles fonctionnalités). Ils apportent également leur contribution aux discussions sur les story points.
 - SCRUM Master : le SCRUM Master est l'animateur des réunions agiles. Il doit participer à toutes (ou presque toutes) les réunions.
 - Product Owner : le PO décrira toutes les storys des utilisateurs à l'équipe et répondra à leurs questions.
 
 # Quand organiser un Planning Poker ?
 
-En général, les équipes organisent une session après avoir créé le backlog initial. Bien que les sessions puissent parfois prendre plus d'une journée, elles permettent d'élaborer des estimations initiales utiles pour le dimensionnement ou la délimitation du projet.
-Les éléments sont ajoutés au Product Backlog de manière incrémentale tout au long de la durée de vie du projet. C'est pourquoi il est généralement plus pratique pour les équipes de mener des sessions une fois par itération.
+En général, les équipes organisent une session **après avoir créé le backlog initial**. Bien que les sessions puissent parfois prendre **plus d'une journée**, elles permettent d'élaborer des **estimations initiales utiles** pour le dimensionnement ou la délimitation du projet.
+Les éléments sont ajoutés au Product Backlog de manière **incrémentale tout au long de la durée de vie du projet**. C'est pourquoi il est généralement plus pratique pour les équipes de mener des sessions *une fois par itération*.
 Dans la plupart des cas, cela se produit quelques jours après la fin de l'itération. De même, il se produit aussi juste après un standup quotidien (un type de réunion agile) puisque toute l'équipe est présente.
