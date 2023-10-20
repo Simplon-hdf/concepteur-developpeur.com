@@ -164,6 +164,8 @@ This file is supposed to be included into repo, it can be useful to :
 
 # Commands
 
+There's many commands to interact with Npm, in the following section you'll find some of them.
+
 ## Initialize a Node Project
 
 ## Installing dependencies (modules)
