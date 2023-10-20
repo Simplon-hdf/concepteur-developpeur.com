@@ -91,3 +91,7 @@ The right people need to join the meeting, otherwise, it becomes difficult to re
 - Product Owner: The Product Owner will describe all user stories to the team and answer their questions.
 
 # When to organize Planning Poker meeting
+
+In general, teams organize a session **after creating the initial backlog**. While sessions can sometimes take **more than one day**, they help in establishing **useful initial estimates** for project sizing or scoping.
+
+Items are added to the Product Backlog **incrementally throughout the project's lifespan**. That's why it's typically more practical for teams to conduct sessions *once per iteration*. In most cases, this happens a few days after the end of the iteration. Likewise, it also occurs just after a daily standup (a type of agile meeting) because the whole team is present.
