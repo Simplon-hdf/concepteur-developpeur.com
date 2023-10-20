@@ -40,10 +40,12 @@ On peut faire la moyenne des vitesses de sprint individuelles pour obtenir la vi
 
 # Comment utiliser la vélocité moyenne dans le développement agile ?
 
-Agile est synonyme de développement itératif, de solutions rapides et de mise sur le marché rapide des produits. Pour ce faire, les équipes Agiles doivent savoir quelle quantité de travail elles peuvent effectuer dans un sprint et combien de temps il leur faudra pour terminer le projet ou le livrer au client. Velocity les aide à prendre cette décision et à travailler efficacement.
+**Agile** est synonyme de développement itératif, de solutions rapides et de mise sur le marché rapide des produits. Pour ce faire, les équipes **Agiles** doivent savoir quelle quantité de travail elles peuvent effectuer dans un sprint et combien de temps il leur faudra pour terminer le projet ou en livrer une version fonctionnelle au client. La *vélocité* les aide à prendre cette décision et à travailler efficacement.
 
-La vélocité moyenne est calculée une fois que le projet a progressé à travers trois ou quatre sprints. La vélocité moyenne est calculée en faisant la moyenne des story points accumulés dans chaque sprint. Sur la base de cette vélocité moyenne calculée, les équipes peuvent se baser sur la quantité de travail qui reste à faire.
-Si nous considérons l'exemple ci-dessus de la vitesse moyenne d'un sprint, nous pouvons supposer que l'équipe peut accomplir le travail à raison de 12 story points par sprint. Donc, s'il vous reste 120 story points à compléter dans votre projet, vous pouvez supposer que vous aurez besoin de 10 sprints supplémentaires pour terminer le projet.
+La *vélocité moyenne* est calculée une fois que le projet a progressé à travers trois ou quatre sprints (itérations). La *vélocité moyenne* est calculée en faisant la moyenne des *story points* accumulés dans chaque sprint. Sur la base de cette *vélocité moyenne* calculée, les équipes peuvent se baser sur la quantité de travail qui reste à faire.
+
+Si nous considérons l'exemple ci-dessus de la vitesse moyenne d'un sprint, nous pouvons supposer que l'équipe peut accomplir le travail à raison de *12 story points* par sprint. Donc, s'il vous reste *120 story points* à compléter dans votre projet, vous pouvez supposer que vous aurez besoin de *10 sprints* supplémentaires pour terminer le projet.
+
 Bien qu'elle soit précise, elle est sujette à des fluctuations en fonction de l'évolution des besoins, de la taille de l'équipe et de la complexité du projet.
 
 # Tableau de vélocité agile
