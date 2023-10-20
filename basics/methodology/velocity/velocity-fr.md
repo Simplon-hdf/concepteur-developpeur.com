@@ -50,11 +50,13 @@ Bien qu'elle soit précise, elle est sujette à des fluctuations en fonction de 
 
 # Tableau de vélocité agile
 
-La méthode Agile présente plusieurs outils pour représenter visuellement les points de données. Ceux-ci constituent un indicateur facile de l'avancement du projet et, s'ils sont basés sur le cloud, ils peuvent être consultés par toutes les personnes impliquées dans le projet.
-Les diagrammes de vélocité Agile sont essentiellement des graphiques, avec les story points affichés sur l'axe Y ou vertical et les sprints terminés affichés sur l'axe X ou vertical. Axe horizontal. Ils constituent un excellent moyen de rendre la vélocité de votre projet accessible à tous. Les graphiques basés sur le cloud peuvent être consultés par les équipes ainsi que par les parties prenantes.
-![](./assets/chart.jpg)
-Un diagramme de vélocité est un excellent moyen de suivre l'état d'avancement du projet, de voir si le projet progresse de manière régulière et prévisible et d'identifier des modèles dans la vélocité du sprint de l’équipe. S’il y a beaucoup de creux et d'élévations irrégulières dans vos graphiques, vous pouvez supposer que votre projet est imprévisible, car la vélocité n'est pas constante.
+La **méthode Agile** présente plusieurs outils pour représenter visuellement les points de données. Ceux-ci constituent un indicateur facile de l'avancement du projet et, s'ils sont basés sur le cloud, ils peuvent être consultés par toutes les personnes impliquées dans le projet.
 
+Les *diagrammes de vélocité Agile* sont essentiellement des graphiques, avec les *story points* affichés sur l'axe horizontal ou vertical et les sprints terminés affichés sur l'axe horizontal ou vertical. Ils constituent un excellent moyen de rendre la vélocité de votre projet accessible à tous. Les graphiques basés sur le cloud peuvent être consultés par les équipes ainsi que par les parties prenantes.
+
+![](./assets/chart.jpg)
+
+Un *diagramme de vélocité* est un excellent moyen de suivre l'état d'avancement du projet, de voir si le projet progresse de manière régulière et prévisible et d'identifier des modèles dans la vélocité du sprint de l'équipe. S'il y a beaucoup de creux et d'élévations irrégulières dans vos graphiques, vous pouvez supposer que votre projet est imprévisible, car la vélocité n'est pas constante.
 
 # Quels sont les avantages de la mesure de la vélocité ?
 
