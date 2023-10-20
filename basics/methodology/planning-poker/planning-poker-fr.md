@@ -10,7 +10,7 @@
 
 **La méthode Agile du planning poker consiste en une estimation de la difficulté des taches fondée sur un consensus.**
 
-Le **Planning Poker**, également connu sous le nom de "**SCRUM Poker**" ou "pointing Poker", est une technique ludique que les **équipes de développement** utilisent pour k des tâches de gestion de projet.
+Le **Planning Poker**, également connu sous le nom de "**SCRUM Poker**" ou "pointing Poker", est une technique ludique que les **équipes de développement** utilisent pour des tâches de gestion de projet.
 Ces **estimations** sont **basées** sur un **consensus** de l'ensemble du groupe, ce qui rend ces dernières plus précises que d'autres méthodes.
 Pour aider à évaluer le nombre de story points pour les tâches pertinentes, les **équipes** utilisent des **cartes de poker** de planification.
 
