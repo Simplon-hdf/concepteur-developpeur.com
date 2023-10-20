@@ -80,4 +80,14 @@ According to a study, *estimates from Planning Poker* are **statistically higher
 
 # Who include to Planning Poker meeting
 
+![](assets/team.jpg)
+
+The right people need to join the meeting, otherwise, it becomes difficult to reap the benefits described above. These crucial roles are as follows:
+
+- Scrum Team Members: Scrum team members provide the items for the Product Backlog – a list of items to be delivered (e.g., new features). They also contribute to discussions on story points.
+
+- Scrum Master: The Scrum Master is the facilitator of agile meetings. They should participate in all (or nearly all) meetings.
+
+- Product Owner: The Product Owner will describe all user stories to the team and answer their questions.
+
 # When to organize Planning Poker meeting
