@@ -15,6 +15,11 @@
     - [Development Team](#development-team)
   - [The Product Backlog](#the-product-backlog)
   - [The Sprint Backlog](#the-sprint-backlog)
+  - [Rituals / Ceremonies](#rituals--ceremonies)
+    - [Sprint Planning](#sprint-planning)
+    - [Daily Meeting](#daily-meeting)
+    - [Sprint Review](#sprint-review)
+    - [Sprint Retrospective](#sprint-retrospective)
 
 # Agile Manifest and Project Management
 
@@ -95,3 +100,45 @@ In the SCRUM framework, there are two types of **backlogs**:
 - The **sprint backlog**
 
 ![SCRUM Cycle](./assets/cycle.jpeg)
+
+## Rituals / Ceremonies
+
+### Sprint Planning
+
+**Sprint Planning** is a **SCRUM ritual** that brings together the **Product Owner** and the **development team** to **plan the upcoming sprint**. Together, they create a task list to place in the **Sprint Backlog**, based on **task priority** or the **previous iteration**. At the end of Sprint Planning, the development team knows which tasks need to be completed in the next sprint.
+
+### Daily Meeting
+
+The **Daily Meeting** is a ritual primarily led by the development team and, as the name suggests, it occurs **daily**, generally before starting work on the project (also known as a **Stand-Up Meeting**). This ritual should not exceed **15 minutes** for efficiency.
+
+During this ritual, team members answer the following questions:
+
+- **What did I do yesterday ?**
+- **What obstacles did I encounter ?**
+- **What will I do today ?**
+
+If a significant issue is raised, it should be addressed in a separate **meeting to resolve it**.
+
+### Sprint Review
+
+The **Sprint Review** is the only ritual that **includes project stakeholders**. This ritual brings together:
+
+- The customer
+- The SCRUM Master
+- The Product Owner
+- The development team
+
+The review typically lasts **1 hour per week of the sprint**, meaning that if a sprint lasts 2 weeks, the review will take 2 hours.
+
+This ritual is used for the team to present the **project's progress** to all stakeholders. This way, the customer can express their impressions about the project and suggest any necessary adjustments. With this ritual, all stakeholders ensure that the project is moving in the right direction.
+
+Moreover, it may happen that, at the end of a sprint, the **Product Owner cancels this ritual** for some reasons, including when the sprint encountered difficulties in being completed and is, therefore, **not presentable**.
+
+### Sprint Retrospective
+
+The **Sprint Retrospective** is a ritual used by the development team to **identify what happened during the last sprint**. This ritual brings together:
+
+- The SCRUM Master
+- The development team
+
+The purpose of this ritual is not to highlight what didn't work but to **highlight what went well** and the **areas for improvement that the SCRUM Master can guide the team towards** to correct what went wrong. This ritual can last up to **4 hours** due to its nature.
