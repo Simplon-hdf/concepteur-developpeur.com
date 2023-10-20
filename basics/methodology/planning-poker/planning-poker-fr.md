@@ -10,16 +10,16 @@
 
 **La méthode Agile du planning poker consiste en une estimation de la difficulté des taches fondée sur un consensus.**
 
-Le Planning Poker, également connu sous le nom de "SCRUM Poker" ou "pointing Poker", est une technique ludique que les équipes de développement utilisent pour estimer l'effort des tâches de gestion de projet.
-Ces estimations sont basées sur l'apport et un consensus de l'ensemble du groupe, ce qui rend ces dernières plus précises que d'autres méthodes.
-Pour aider à évaluer le nombre de story points pour les tâches pertinentes, les équipes utilisent des cartes de poker de planification.
+Le **Planning Poker**, également connu sous le nom de "**SCRUM Poker**" ou "pointing Poker", est une technique ludique que les **équipes de développement** utilisent pour k des tâches de gestion de projet.
+Ces **estimations** sont **basées** sur un **consensus** de l'ensemble du groupe, ce qui rend ces dernières plus précises que d'autres méthodes.
+Pour aider à évaluer le nombre de story points pour les tâches pertinentes, les **équipes** utilisent des **cartes de poker** de planification.
 
 ![](assets/cards.png)
 
-La suite de Fibonacci est utilisée pour les évaluations.
-Comme nous cherchons à quantifier l'effort, le message est clair : plus le scénario est gros, moins l'évaluation est précise.
-Le paquet de cartes utilisé pour le planning poker doit comporter les valeurs suivantes : 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144.
-Certains simplifient les grandes valeurs en les transformant en 20, 40, 100... puisqu'il s'agit d'être globalement bon plutôt que précisément erroné.
+La *suite de Fibonacci* est utilisée pour les évaluations.
+Comme nous cherchons à **quantifier l'effort**, le message est clair : *plus le scénario est gros*, **moins l'évaluation est précise**.
+Le paquet de cartes utilisé pour le Planning Poker *doit comporter* les valeurs suivantes : 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144.
+Certains simplifient les grandes valeurs en les transformant en 20, 40, 100... puisqu'il s'agit d'être **globalement bon plutôt** que **précisément erroné**.
 On y ajoute généralement les valeurs 0 et 1/2.
 
 # Comment se déroule un Planning Poker
