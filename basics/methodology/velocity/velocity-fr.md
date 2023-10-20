@@ -10,9 +10,9 @@
 
 # Qu'est ce que la Vélocité dans la méthode SCRUM
 
-La vélocité est un indicateur utilisé sur des projets gérés à l’aide d’une méthode agile, par exemple Scrum. La vélocité agile permet de déterminer l’effort qu’est capable de fournir une équipe de développement pour la réalisation des tâches programmées dans un sprint. Elle est exprimée en nombre de points.
+La vélocité est un indicateur utilisé sur des projets gérés à l’aide d’une méthode agile, par exemple avec le framework SCRUM. La vélocité agile permet de déterminer l’effort qu’est capable de fournir une équipe de développement pour la réalisation des tâches programmées dans un sprint. Elle est exprimée en nombre de points.
 
-Le product owner place dans le product backlog un certain nombre de fonctionnalités à réaliser ou items généralement formalisés sous la forme d’user stories[^User Stories : En Agile, un projet est décomposé en unités plus petites. La plus petite unité de travail est connue sous le nom de "user story" et constitue un objectif final. Il s'agit d'une description écrite de la fonctionnalité du point de vue de l'utilisateur final]. L’équipe de développement attribue à chaque product backlog item (ou PBI) un certain nombre de points. Ces points représentent à la fois la complexité et la durée de la réalisation du PBI estimées de façon empirique. Il ne s’agit pas d’une échelle linéaire. La suite de Fibonacci est souvent utilisée.
+Le Product Owner place dans le Product Backlog un certain nombre de fonctionnalités à réaliser ou items généralement formalisés sous la forme d’user stories. L’équipe de développement attribue à chaque Product Backlog Item (PBI) un certain nombre de points. Ces points représentent à la fois la complexité et la durée de la réalisation du PBI estimée de façon empirique. Il ne s’agit pas d’une échelle linéaire. La suite de Fibonacci est souvent utilisée.
 
 Aussi, les valeurs pouvant être attribuées sont :
 
