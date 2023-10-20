@@ -3,6 +3,7 @@
 - [Table Of Contents](#table-of-contents)
 - [What is Planning Poker](#what-is-planning-poker)
 - [How Planning Poker works](#how-planning-poker-works)
+- [Benefits](#benefits)
 - [Who include to Planning Poker meeting](#who-include-to-planning-poker-meeting)
 - [When to organize Planning Poker meeting](#when-to-organize-planning-poker-meeting)
 
@@ -64,6 +65,18 @@ At the beginning of a Planning Poker session, the **Product Owner** or **the cli
    Participants whose estimates are higher or lower than others will communicate their perspective. They will then attempt to explain to their teammates the reasons for the divergence. Once this additional deliberation is complete, everyone will review their cards and reveal them again.
 
    If a participant still agrees with their last choice, they repeat the card or potentially choose a new one. Generally, estimates start to converge after the second round. If that's not the case, the process is repeated until the team agrees on a single number.
+
+# Benefits
+
+According to a study, *estimates from Planning Poker* are **statistically higher** than **individual estimates**.
+
+- Other benefits include the following:
+
+  - Estimating tasks relative to each other. It is *often challenging to gauge the time needed for a project*, especially when it's the first time. Planning Poker allows teams to become familiar with their assessments. After playing the game for some time, *you will eventually build a set of tasks that serve as future reference for comparison*.
+
+  - **Giving equal voice to all team members**. It can encourage new employees to speak up by playing a card and explaining their logic. For instance, imagine you are building a food reservation app. You and your colleague might provide a smaller estimate, like 10 or 15. On the other hand, a new employee might give an estimate of 100. Perhaps they have experience from creating a similar app in their previous job and know that such an app takes a lot of time, especially in comparison to others.
+
+  - Identifying gaps in requirements and implementation. When participants disclose their estimates, they have to support them by explaining why they are high or low. This can trigger questions about requirements and implementation – a feedback loop that helps detect gaps.
 
 # Who include to Planning Poker meeting
 
