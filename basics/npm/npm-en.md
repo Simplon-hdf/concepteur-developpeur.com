@@ -116,6 +116,21 @@ To understand following, you must understand some terms :
 2. MINOR : We call MINOR a version that's just bring some changes (like addition a new feature), but keep your package backwards compatibles.
 3. PATCH : We call PATCH a version that's just bring bug fixes stuffs and keep backwards compatibles (Mostly often)
 
+Tips : [Learn more about semantic versioning specifications](https://semver.org/)
+
+There's some global specifications of semantic versionning :
+
+- It's recommended to start your package developement to `1.0.0` version
+- When you want to release PATCH changes, your package will pass to `1.0.1` version
+- When you want to release MINOR changes, your package will pass to `1.1.0` version, as you can see, PATCH digit returned to 0
+- When you want to release MAJOR changes, your package will pass to `2.0.0` version, as you can see, MINOR digit returned to 0
+
+It's important to understand that when you release MAJOR version, that influences MINOR and PATCH.
+When you release MINOR, that influcenses PATCH.
+
+Note : Digits aren't limited to 9, a version `2.3.19` is completely correct.
+
+You can [learn more](https://docs.npmjs.com/about-semantic-versioning#using-semantic-versioning-to-specify-update-types-your-package-can-accept)
 
 # Differences between `dependencies` and `devDependencies`
 
