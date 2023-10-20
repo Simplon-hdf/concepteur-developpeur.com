@@ -225,3 +225,12 @@ npm install
 This command will read `dependencies` and `devDependencies` and download each packages.
 
 # References
+
+- [What's Npm](https://www.w3schools.com/whatis/whatis_npm.asp)
+- [What's Npx](https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/)
+- [Node modules & Node packages](https://docs.npmjs.com/about-packages-and-modules)
+- [The **package.json** file](https://docs.npmjs.com/cli/v8/configuring-npm/package-json)
+- [Semantic versionning with Node](https://docs.npmjs.com/about-semantic-versioning)
+- [Semantic versionning](https://semver.org/)
+- [Differences between `dependencies` and `devDependencies` fields](https://stackoverflow.com/questions/18875674/whats-the-difference-between-dependencies-devdependencies-and-peerdependencies)
+- [The **package-lock.json** file](https://docs.npmjs.com/cli/v8/configuring-npm/package-lock-json)
