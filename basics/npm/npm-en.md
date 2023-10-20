@@ -134,6 +134,20 @@ You can [learn more](https://docs.npmjs.com/about-semantic-versioning#using-sema
 
 # Differences between `dependencies` and `devDependencies`
 
+The field `dependencies` allow you to list which dependencies that your package will need to run.
+The field `devDependencies` allow you to list which dependencies that your package will need to work in development phase.
+
+Ok let's take an example, imagine that you want to bake a cake :
+
+To prepare your cake what do you'll **need** ?
+Maybe a fork to beat eggs
+
+Ok, but you can also take this fork to eat your cake.
+
+In that example, that fork is a devDependency **AND** a dependency.
+
+Because you'll need this fork to prepare it and to eat it.
+
 # The package-lock.json file
 
 # Commands
