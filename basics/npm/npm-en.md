@@ -168,6 +168,16 @@ There's many commands to interact with Npm, in the following section you'll find
 
 ## Initialize a Node Project
 
+If you wish to initialize a Node project, you'll need to type this command :
+
+```sh
+npm init
+```
+
+This command has to be executed into the root folder for your project.
+
+It will ask you some parameters and create `package.json` file.
+
 ## Installing dependencies (modules)
 
 ### Production dependencies
