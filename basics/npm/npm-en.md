@@ -216,4 +216,12 @@ This command will download `Winston` in your `node_module` and define it as `dev
 
 ### Reinstalling dependencies
 
+In case that you want to import Node project without `node_modules` or that you lose yours for some reason, vous could need to redownload all dependencies, for that case, you should know that command :
+
+```sh
+npm install
+```
+
+This command will read `dependencies` and `devDependencies` and download each packages.
+
 # References
