@@ -73,7 +73,7 @@ Note : Il se peut qu'un module Node ne se soit pas correctement installé, dans 
 
 Puis-ce qu'une image vaut mieux que mille mots :
 
-![](https://guillaume-richard.fr/wp-content/uploads/2020/06/node-modules-app-performance.png)
+![](./assets/heavy-modules.png)
 
 Cette image explique à quel point les modules Node sont lourds.
 

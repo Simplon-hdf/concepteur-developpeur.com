@@ -72,7 +72,7 @@ Note : A node module can be incompletely download for some reason, in that case,
 
 As an image's worth than thousand words : 
 
-![](https://guillaume-richard.fr/wp-content/uploads/2020/06/node-modules-app-performance.png)
+![](assets/heavy-modules.png)
 
 This image explains how heavy are Node modules.
 
