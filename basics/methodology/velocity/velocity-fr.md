@@ -60,10 +60,14 @@ Un *diagramme de vélocité* est un excellent moyen de suivre l'état d'avanceme
 
 # Quels sont les avantages de la mesure de la vélocité ?
 
-- Essentiel pour la planification des versions : La vélocité est indispensable à la planification des versions, car elle aide le product owner à déterminer combien de sprints seront nécessaires pour créer un produit ayant les fonctionnalités souhaitées. En obtenant une estimation du nombre de sprints nécessaires, le product owner peut estimez la date de sortie.
-- Feedback pour l'équipe : La vélocité est un excellent outil pour mesurer les progrès de l'équipe. En suivant la vélocité dans le temps, les équipes peuvent mesurer si les changements qu'elles font pendant le sprint améliorent ou diminuent leur productivité. Alors que la vélocité peut fluctuer dans les nouvelles équipes, les équipes expérimentées ont une vélocité constante et peuvent mesurer leurs progrès grâce aux graphiques de vélocité.
-- Prévision : La vélocité aide l'équipe à identifier le nombre de récits d'utilisateurs qu'elle peut réaliser dans un sprint. La prévision est un outil important qui aide les équipes à décider des délais et des budgets pour le projet.
-  La prévision se fait généralement en prenant la moyenne de la vélocité des trois derniers sprints.
+- **Essentiel pour la planification des versions**:
+  La vélocité est indispensable à la planification des versions, car elle aide le *Product Owner* à déterminer combien de sprints seront nécessaires pour créer un produit ayant les fonctionnalités souhaitées. En obtenant une estimation du nombre de sprints nécessaires, le *Product Owner* peut estimer la date de sortie.
+
+- **Feedback pour l'équipe**:
+  La vélocité est un excellent indicateur pour mesurer les progrès de l'équipe. En suivant la vélocité dans le temps, les équipes peuvent mesurer si les changements qu'elles font pendant le sprint améliorent ou diminuent leur productivité. Alors que la vélocité peut fluctuer dans les nouvelles équipes, les équipes expérimentées ont une vélocité constante et peuvent mesurer leurs progrès grâce aux graphiques de vélocité.
+
+- **Prévision**:
+  La vélocité aide l'équipe à identifier le nombre de récits d'utilisateurs qu'elle peut réaliser dans un sprint. La prévisibilité est un facteur important qui aide les équipes à décider des délais et des budgets pour le projet. La prévision se fait généralement en prenant la moyenne de la vélocité des trois derniers sprints.
 
 # Quels sont les inconvénients ?
 
