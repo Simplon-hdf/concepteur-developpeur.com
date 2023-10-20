@@ -1,7 +1,7 @@
 ## Tables des matières
 
 - [Qu'est ce que la Vélocité dans la méthode SCRUM](#quest-ce-que-la-vélocité-dans-la-méthode-scrum)
-- [Qui se charge de l’estimation des PBIs ?](#qui-se-charge-de-lestimation-des-pbis-)
+- [Qui se charge de l’estimation des PBI ?](#qui-se-charge-de-lestimation-des-pbi-)
 - [Comment utiliser la vélocité moyenne dans le développement agile ?](#comment-utiliser-la-vélocité-moyenne-dans-le-développement-agile-)
 - [Tableau de vélocité agile](#tableau-de-vélocité-agile)
 - [Quels sont les avantages de la mesure de la vélocité ?](#quels-sont-les-avantages-de-la-mesure-de-la-vélocité-)
@@ -22,18 +22,20 @@ Aussi, les valeurs pouvant être attribuées sont :
 
 ![](./assets/what-is-velocity.png)
 
-# Qui se charge de l’estimation des PBIs ?
+# Qui se charge de l’estimation des PBI ?
 
-Le Product Owner a pour mission de donner à chaque product backlog les fonctionnalités ou items à réaliser durant le sprint. Lors de la session de planification, l’équipe doit prendre en compte sa capacité qui permettra de déterminer la vélocité moyenne.
+Le **Product Owner** a pour mission de donner à chaque *Product Backlog* les fonctionnalités ou items à réaliser durant le sprint. Lors de la session de planification, l'équipe doit prendre en compte sa capacité qui permettra de déterminer la vélocité moyenne.
 
-Seule l’équipe de développement est en mesure de se charger de l’estimation des PBI. Elle se chargera de distribuer les points, estimés de manière empirique, à chaque PBI. Une fois définie, la vélocité servira à valider ou à réviser la planification du développement.
+Seule l'équipe de développement est en mesure de se charger de l'estimation des **PBI**. Elle se chargera de distribuer les points, estimés de manière empirique, à chaque **PBI**. Une fois définie, la vélocité servira à valider ou à réviser la planification du développement.
 
-Notons que la vélocité durant les prochaines itérations sera plus ou moins égale à la précédente vélocité. À titre d’exemple, si les stories A et B (estimée chacune à 2 points) sont finies à 100 % et que la sortie C (3points) n’est achevée qu’à 80 %, la vélocité de l’itération sera de 4 points.
+Notons que la vélocité durant les prochaines itérations sera plus ou moins égale à la précédente. À titre d'exemple, si les *stories A* et *B* (estimée chacune à *2 points*) sont finies à 100 % et que la sortie *C* (*3 points*) n'est achevée qu'à 80 %, la vélocité de l'itération sera de *4 points*.
 
 ![](./assets/what-is-velocity-2.png)
 
-La vélocité peut également être calculée en considérant les story points. Les story points constituent les storys d'utilisateur et sont une unité de mesure qui représente la quantité d’effort nécessaire pour accomplir une tâche. En général, chaque organisation a sa propre méthode pour attribuer des valeurs aux story points.
-La vélocité d'un sprint particulier est calculée en multipliant le nombre de story d'utilisateur achevés dans le sprint par le story point attribué à chaque histoire d'utilisateur. Par exemple : Si vous avez complété 4 user stories et que vous avez attribué 3 story points à chaque story, la vélocité totale du sprint sera de 4*3=12.
+La vélocité peut également être calculée en considérant les *story points*. Les *story points* constituent les *stories d'utilisateur* et sont une unité de mesure qui représente la quantité d'effort nécessaire pour accomplir une tâche. En général, chaque organisation a sa propre méthode pour attribuer des valeurs aux *story points*.
+
+La vélocité d'un sprint particulier est calculée en multipliant le nombre de *stories d'utilisateur* achevées dans le sprint par le *story point* attribué à chaque histoire d'utilisateur. Par exemple : Si vous avez complété *4 user stories* et que vous avez attribué *3 story points* à chaque story, la vélocité totale du sprint sera de *4x3 = 12*.
+
 On peut faire la moyenne des vitesses de sprint individuelles pour obtenir la vitesse de sprint moyenne.
 
 # Comment utiliser la vélocité moyenne dans le développement agile ?
