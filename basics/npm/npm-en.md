@@ -108,6 +108,15 @@ Semantic Versioning is a standard that you should follow when you release signif
 
 It's recommended to publish your changes with different versions, changing `version` field in your `package.json` file.
 
+That way other developpers using your package can follow what are change that you bring for each version.
+
+To understand following, you must understand some terms :
+
+1. MAJOR : We call MAJOR a version that's not backwards compatibles, which bring breaking changes.
+2. MINOR : We call MINOR a version that's just bring some changes (like addition a new feature), but keep your package backwards compatibles.
+3. PATCH : We call PATCH a version that's just bring bug fixes stuffs and keep backwards compatibles (Mostly often)
+
+
 # Differences between `dependencies` and `devDependencies`
 
 # The package-lock.json file
