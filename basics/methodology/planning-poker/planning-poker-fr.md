@@ -4,7 +4,7 @@
 - [Comment se déroule un Planning Poker](#comment-se-déroule-un-planning-poker)
 - [Les avantages](#les-avantages)
 - [Qui inclure dans les réunions de planification du poker ?](#qui-inclure-dans-les-réunions-de-planification-du-poker-)
-- [Quand organiser une session de poker de planification ?](#quand-organiser-une-session-de-poker-de-planification-)
+- [Quand organiser un Planning Poker ?](#quand-organiser-un-planning-poker-)
 
 # Qu'est ce que le Planning Poker ?
 
@@ -90,7 +90,8 @@ Les bonnes personnes doivent se joindre à la réunion, sinon il devient diffici
 - SCRUM Master : le SCRUM Master est l'animateur des réunions agiles. Il doit participer à toutes (ou presque toutes) les réunions.
 - Product Owner : le PO décrira toutes les storys des utilisateurs à l'équipe et répondra à leurs questions.
 
-# Quand organiser une session de poker de planification ?
+# Quand organiser un Planning Poker ?
 
 En général, les équipes organisent une session après avoir créé le backlog initial. Bien que les sessions puissent parfois prendre plus d'une journée, elles permettent d'élaborer des estimations initiales utiles pour le dimensionnement ou la délimitation du projet.
-Les éléments sont ajoutés au backlog du produit de manière incrémentielle tout au long de la durée de vie du projet. C'est pourquoi il est généralement plus pratique pour les équipes de mener des sessions une fois par itération. Dans la plupart des cas, cela se produit à quelques jours après la fin de l'itération. De même, il se produit aussi juste après un standup quotidien (un type de réunion agile) parce que toute l'équipe est présente.
+Les éléments sont ajoutés au Product Backlog de manière incrémentale tout au long de la durée de vie du projet. C'est pourquoi il est généralement plus pratique pour les équipes de mener des sessions une fois par itération.
+Dans la plupart des cas, cela se produit quelques jours après la fin de l'itération. De même, il se produit aussi juste après un standup quotidien (un type de réunion agile) puisque toute l'équipe est présente.
