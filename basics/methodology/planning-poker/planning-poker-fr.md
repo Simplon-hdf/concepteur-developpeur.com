@@ -1,7 +1,7 @@
 ## Tables des matières
 
 - [Qu'est ce que le Planning Poker ?](#quest-ce-que-le-planning-poker-)
-- [Comment se déroule un Poker Planning](#comment-se-déroule-un-poker-planning)
+- [Comment se déroule un Planning Poker](#comment-se-déroule-un-planning-poker)
 - [Les avantages](#les-avantages)
 - [Qui inclure dans les réunions de planification du poker ?](#qui-inclure-dans-les-réunions-de-planification-du-poker-)
 - [Quand organiser une session de poker de planification ?](#quand-organiser-une-session-de-poker-de-planification-)
@@ -22,39 +22,50 @@ Le paquet de cartes utilisé pour le planning poker doit comporter les valeurs s
 Certains simplifient les grandes valeurs en les transformant en 20, 40, 100... puisqu'il s'agit d'être globalement bon plutôt que précisément erroné.
 On y ajoute généralement les valeurs 0 et 1/2.
 
-# Comment se déroule un Poker Planning
+# Comment se déroule un Planning Poker
 
 ![](assets/meeting.jpg)
 
-Au début d'une session de planification du poker, le product owner ou le client examine une user story agile et la lit à haute voix.
+Au début d'une session du Planning Poker, le Product Owner ou le client examine une user story agile et la lit à haute voix.
 Une user story est une explication générale et informelle d'une fonctionnalité logicielle qui décrit comment elle offrira de la valeur à l'utilisateur final (c'est-à-dire le client).
-1. Distribuez les cartes aux participants
-   Distribuez à chacun un jeu de cartes identique. Chacun porte un numéro que l'équipe a convenu d'utiliser comme estimation. Chaque joueur doit disposer d'un jeu composé de nombres différents. Cohn recommande une séquence de 0, 1, 2, 3, 5, 8, 13, 20, 40 et 100.
+
+1. **Distribuez les cartes aux participants**
+
+   Distribuez à chacun un jeu de cartes identique. Chacun porte un numéro dont l'équipe a convenu. Chaque joueur doit disposer d'un jeu composé de nombres différents. Mike Cohn recommande une séquence de 0, 1, 2, 3, 5, 8, 13, 20, 40 et 100 dans son livre "***Agile estimating and planning***".
+
    D'autres séquences courantes comprennent le doublement du nombre suivant (par exemple, 1, 2, 4, 8, etc.). Ces valeurs peuvent représenter un certain nombre de choses : le nombre de story points, de jours idéaux, ou d'autres unités que l'équipe utilise pour l'estimation.
-   Les jeux de cartes sont intentionnellement maintenus à un niveau minimal avec des sauts de chiffres considérables. Cela permet de s'assurer que pour chaque histoire, tout le monde peut atteindre un nombre consensuel. Sinon, s'il y avait une carte pour chaque chiffre de 1 à 50, le processus serait terriblement lent.
-2. Lisez la story à voix haute
-   Le modérateur (soit le product owner, soit le responsable du produit) raconte la story au groupe. Si les participants ont des questions, le modérateur y répond.
-3. Discutez de la story
-   Une fois que le groupe a fini d'écouter la story, chacun partage son point de vue sur celle-ci. Certains de ces points de discussion incluront probablement :
+   
+   Les jeux de cartes sont intentionnellement maintenus à un niveau minimal avec des sauts de chiffres considérables. Cela permet de s'assurer que pour chaque story, tout le monde peut atteindre un nombre consensuel. S'il y avait une carte pour chaque chiffre de 1 à 50, le processus serait terriblement lent.
 
-   **Comment devons-nous gérer le travail ?**
+2. **Lisez la story à voix haute**
 
-   **Combien de personnes sont censées s'impliquer ?**
+   Le modérateur (le Product Owner) raconte la story au groupe. Si les participants ont des questions, le modérateur y répond.
 
-   **Quelles compétences seront nécessaires pour travailler sur la story ?**
+3. **Discutez de la story**
 
-   **Comment s'attaquer aux obstacles qui retardent les progrès ?**
+   Une fois que le groupe a fini d'écouter la story, chacun partage son point de vue sur celle-ci. Certains de ces points de discussion incluront probablement les questions :
+
+   - Comment devons-nous gérer le travail ?
+   - Combien de personnes sont censées s'impliquer ?
+   - Quelles compétences seront nécessaires pour travailler sur la story ?
+   - Comment s'attaquer aux obstacles qui retardent les progrès ?
 
    Le groupe essaiera également d'en savoir plus sur la story et de poser des questions pour mieux la comprendre.
-4. Sélectionner et partager
-   Après la discussion, chaque personne choisira en privé une carte du jeu. Habituellement, elle est utilisée pour montrer une estimation des points de la story (mais peut aussi être utilisée pour représenter le nombre de jours idéaux). Une fois que tout le monde a choisi une carte, ils les montrent en même temps.
-   Si un joueur montre une carte supérieure, cela signifie que la story sera terminée.
-   avec plus de difficultés et prennent plus de temps à réaliser. N'oubliez pas qu'il est courant que les estimations varient considérablement.
-5. Obtenir un consensus
-   Lorsque les membres de l'équipe montrent la même carte, ce nombre se transforme en un consensus. Maintenant, le groupe peut aller de l'avant et travailler sur la prochaine histoire.
-   Toutefois, si les cartes continuent à varier, d'autres discussions sur la story suivront. Les participants dont les estimations sont supérieures ou inférieures à celles des autres communiqueront leur point de vue. Puis, ils tenteront de convaincre leurs coéquipiers de comprendre leurs chiffres divergents.
-   Une fois cette nouvelle délibération terminée, tout le monde passera en revue son jeu et le montrera à nouveau. Si un participant est toujours d'accord avec son dernier choix, il répétera la carte ou en choisira éventuellement une nouvelle.
-   En général, les estimations commencent à converger après le deuxième tour. Si ce n'est pas le cas, le processus se répète jusqu'à ce que l'équipe se mette d'accord sur un chiffre unique.
+
+4. **Sélectionner et partager**
+
+   Après la discussion, chaque personne choisira en privé une carte du jeu. Habituellement, elle est utilisée pour montrer une estimation des points de la story (mais elle peut aussi être utilisée pour représenter le nombre de jours idéaux). Une fois que tout le monde a choisi une carte, ils les montrent en même temps.
+
+   Si un joueur montre une carte supérieure, cela signifie que la story sera terminée avec plus de difficultés et plus de temps engagé. N'oubliez pas qu'il est courant que les estimations varient considérablement.
+
+5. **Obtenir un consensus**
+
+   Lorsque les membres de l'équipe montrent la même carte, ce nombre se transforme en un consensus. À ce moment là, le groupe peut aller de l'avant et travailler sur la prochaine story. Toutefois, si les cartes continuent à varier, d'autres discussions sur la story suivront.
+   
+   Les participants dont les estimations sont supérieures ou inférieures à celles des autres communiqueront leur point de vue. Puis, ils tenteront de convaincre leurs coéquipiers de comprendre leurs chiffres divergents.
+   Une fois cette nouvelle délibération terminée, tout le monde passera en revue son jeu et le montrera à nouveau.
+   
+   Si un participant est toujours d'accord avec son dernier choix, il répétera la carte ou en choisira éventuellement une nouvelle. En général, les estimations commencent à converger après le deuxième tour. Si ce n'est pas le cas, le processus se répète jusqu'à ce que l'équipe se mette d'accord sur un chiffre unique.
 
 # Les avantages
 - Selon une étude, les estimations issues du planning poker sont statistiquement plus élevées que les estimations individuelles. Il a également été noté que pour les mêmes tâches, les estimations du poker de planification étaient plus précises que les estimations individuelles.
