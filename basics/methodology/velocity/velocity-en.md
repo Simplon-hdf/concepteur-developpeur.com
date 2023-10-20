@@ -3,6 +3,7 @@
 - [Table of Contents](#table-of-contents)
 - [What is Velocity in the SCRUM Method?](#what-is-velocity-in-the-scrum-method)
 - [Who Is Responsible for Estimating PBIs?](#who-is-responsible-for-estimating-pbis)
+- [How to Use Average Velocity in Agile Development?](#how-to-use-average-velocity-in-agile-development)
 
 # What is Velocity in the SCRUM Method?
 
@@ -33,3 +34,13 @@ Velocity can also be calculated by considering *story points*. *Story points* re
 The velocity of a specific sprint is calculated by multiplying the number of completed *user stories* in the sprint by the *story points* assigned to each user story. For example: If you have completed *4 user stories*, and you assigned *3 story points* to each story, the total velocity for the sprint will be *4x3 = 12*.
 
 You can average individual sprint velocities to obtain the average sprint velocity.
+
+# How to Use Average Velocity in Agile Development?
+
+**Agile** is synonymous with iterative development, rapid solutions, and rapid product market entry. To achieve this, Agile teams must know how much work they can do in a sprint and how long it will take to complete the project or deliver a functional version to the client. Velocity helps them make this decision and work efficiently.
+
+Average velocity is calculated once the project has progressed through three or four sprints (iterations). Average velocity is calculated by averaging the story points accumulated in each sprint. Based on this calculated average velocity, teams can rely on the amount of remaining work.
+
+Using the example above of the average velocity of a sprint, you can assume that the team can complete work at a rate of *12 story points* per sprint. So, if you have *120 story points* left to complete in your project, you can estimate that you'll need *10 more sprints* to finish the project.
+
+While it's accurate, it's subject to fluctuations depending on changing requirements, team size, and project complexity.
