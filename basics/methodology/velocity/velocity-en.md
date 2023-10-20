@@ -1,24 +1,18 @@
-# Table Of Contents
+# Table of Contents
 
-- [Table Of Contents](#table-of-contents)
-- [What's Velocity in SCRUM framework](#whats-velocity-in-scrum-framework)
-- [Who's responsible of PBI estimations ?](#whos-responsible-of-pbi-estimations-)
-- [How to use median velocity in Agile Development ?](#how-to-use-median-velocity-in-agile-development-)
-- [Velocity Agile table](#velocity-agile-table)
-- [What are benefits ?](#what-are-benefits-)
-- [What are desadvantages ?](#what-are-desadvantages-)
-- [Conclusion](#conclusion)
+- [Table of Contents](#table-of-contents)
+- [What is Velocity in the SCRUM Method?](#what-is-velocity-in-the-scrum-method)
 
-# What's Velocity in SCRUM framework
+# What is Velocity in the SCRUM Method?
 
-# Who's responsible of PBI estimations ?
+**Velocity** is an indicator used in projects managed using an agile method, for instance with the **SCRUM** framework. Agile velocity helps determine the effort an agile development team can provide for completing tasks scheduled within a sprint. It is expressed in terms of points.
 
-# How to use median velocity in Agile Development ?
+The **Product Owner** places a certain number of features or items to be realized during the sprint in the **Product Backlog**, generally formalized as *user stories*. The development team assigns a certain number of points to each **Product Backlog Item (PBI)**. These points represent both the complexity and the estimated duration of completing the PBI empirically. It is not a linear scale; the Fibonacci suit is often used.
 
-# Velocity Agile table
+The values that can be assigned include:
 
-# What are benefits ?
+- *1* for an extremely simple task, such as fixing a label, for example.
+- *2, 3, 5* for a slightly more complex task, such as creating a simple input form.
+- *8, 13, 21, 34, 55, 89, 144* if there is insufficient information to estimate the task correctly.
 
-# What are desadvantages ?
-
-# Conclusion
+![](./assets/what-is-velocity.png)
