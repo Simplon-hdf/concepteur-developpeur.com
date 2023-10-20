@@ -20,6 +20,9 @@
     - [Daily Meeting](#daily-meeting)
     - [Sprint Review](#sprint-review)
     - [Sprint Retrospective](#sprint-retrospective)
+- [Organizational Tools](#organizational-tools)
+  - [Jira](#jira)
+    - [Introduction](#introduction)
 
 # Agile Manifest and Project Management
 
@@ -142,3 +145,39 @@ The **Sprint Retrospective** is a ritual used by the development team to **ident
 - The development team
 
 The purpose of this ritual is not to highlight what didn't work but to **highlight what went well** and the **areas for improvement that the SCRUM Master can guide the team towards** to correct what went wrong. This ritual can last up to **4 hours** due to its nature.
+
+# Organizational Tools
+
+## Jira
+
+![Jira Illustration](assets/jira/illu.jpg)
+
+Jira is a collaborative service that allows the application of the Agile methodology through its design. It can be used with the SCRUM framework and KANBAN (although it was not designed for this purpose). If you need to work in Agile methodology using the SCRUM framework, Jira is by far the best candidate and is, for all intents and purposes, mandatory in any respectable industry-related organization.
+
+### Introduction
+
+Jira is an online service that provides a range of user-friendly tools accessible through a clean and ergonomic interface.
+
+While it may seem complex at first, it is a highly comprehensive tool that will save you a lot of time in project management.
+
+Let's take a look at the basic Jira interface:
+
+![Basic Interface](assets/jira/basic-interface.png)
+
+This is the interface that developers typically encounter. Note that this interface is specific to a SCRUM project; it is different for a Kanban project.
+
+Here is the interface used during **Sprint Planning**:
+
+![Backlog](assets/jira/product-backlog.png)
+
+This interface represents the **Product Backlog** and is used to transfer tasks to the **Sprint Backlog**. This way, the team takes the priority tasks and moves them into the Sprint space. Once the Sprint begins, tasks are automatically transferred to the **Board**.
+
+Here is what the **Board** looks like when a **Sprint** starts:
+
+![Sprint Board](assets/jira/sprint-board.png)
+
+It resembles a Kanban board.
+
+At the end of the sprint (the end date can be defined when creating the sprint), tasks not completed are returned to the **Product Backlog**.
+
+Jira is not much more complicated than this for developers. It is important to note that this document serves as an introduction, and for the sake of completeness, it only covers basic aspects. Jira is extremely comprehensive and goes beyond what has been presented here.
