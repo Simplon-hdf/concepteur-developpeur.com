@@ -200,6 +200,20 @@ This command will download Express library files into `node_module` folder (fold
 
 ### Development dependencies
 
+If you wish to download dependencies only for development phase, you must know this flag :
+
+```sh
+npm install <package_name> --save-dev
+```
+
+Real example :
+
+```sh
+npm install winston --save-dev
+```
+
+This command will download `Winston` in your `node_module` and define it as `devDependencies` into your `package.json` file.
+
 ### Reinstalling dependencies
 
 # References
