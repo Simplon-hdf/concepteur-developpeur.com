@@ -104,6 +104,10 @@ Npm will set default values to skiped fields, for instance, for the `script` fie
 
 # Semantic Versioning
 
+Semantic Versioning is a standard that you should follow when you release significant modifications to your packages.
+
+It's recommended to publish your changes with different versions, changing `version` field in your `package.json` file.
+
 # Differences between `dependencies` and `devDependencies`
 
 # The package-lock.json file
