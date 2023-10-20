@@ -20,7 +20,7 @@ Le planning poker, également connu sous le nom de "scrum poker" et de "pointing
 Ces estimations sont basées sur l'apport et le consensus de l'ensemble du groupe, ce qui les rend plus engageantes et plus précises que d'autres méthodes.
 Pour aider à évaluer le nombre de story points pour les tâches pertinentes, les équipes utilisent des cartes de poker de planification, qui sont similaires aux cartes de poker.
 
-![](https://www.visual-paradigm.com/servlet/editor-content/scrum/what-is-agile-planning-poker/sites/7/2018/12/fibonacci-sequence-and-planning-poker.png)
+![](assets/cards.png)
 
 La suite de Fibonacci est utilisée pour les évaluations.
 Comme nous cherchons un dimensionnement de l'effort, le message est clair : plus le scénario est gros, moins l'évaluation est précise.
@@ -30,7 +30,7 @@ On y ajoute généralement les valeurs 0 et 1/2.
 
 ## Comment se déroule un Poker Planning
 
-![](https://scrum-master.org/wp-content/uploads/elementor/thumbs/image-p9heaj9d5azmmgya3b4bub2zth9ug2yxj4gxgi8f1s.jpeg)
+![](assets/meeting.jpg)
 
 Au début d'une session de planification du poker, le product owner ou le client examine une user story agile et la lit à haute voix.
 Une user story est une explication générale et informelle d'une fonctionnalité logicielle qui décrit comment elle offrira de la valeur à l'utilisateur final (c'est-à-dire le client).
@@ -71,7 +71,7 @@ Une user story est une explication générale et informelle d'une fonctionnalit�
 
 ## Qui inclure dans les réunions de planification du poker ?
 
-![](https://3.bp.blogspot.com/-unMY49BQD8M/W6koCL_u9yI/AAAAAAAAYMM/DmDyp-hYyZgdaj_8LP-1z4Pck5ct9Uo5ACLcBGAs/s1600/shutterstock_496292356.jpg)
+![](assets/team.jpg)
 
 Les bonnes personnes doivent se joindre à la réunion, sinon il devient difficile de récolter les avantages décrits ci-dessus. Ces rôles cruciaux sont les suivants :
 - Membres de l'équipe Scrum : les membres de l'équipe Scrum fournissent les éléments du backlog de produit - une liste de produits à livrer (par exemple, les nouvelles fonctionnalités). Ils apportent également leur contribution aux discussions sur les story points.
