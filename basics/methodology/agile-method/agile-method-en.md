@@ -14,6 +14,7 @@
     - [Scrum Master](#scrum-master)
     - [Development Team](#development-team)
   - [The Product Backlog](#the-product-backlog)
+  - [The Sprint Backlog](#the-sprint-backlog)
 
 # Agile Manifest and Project Management
 
@@ -83,3 +84,14 @@ The **Product Backlog** is a **registry** from which the team selects **tasks to
 - **Epics**: Epics are a **group of user stories**. Generally, epics represent a complete feature, whereas **user stories** represent **fragment of feature**. An epic might be `User Authentication` and could contain the user story in the example above.
 
 ![Product Backlog](assets/backlog.png)
+
+## The Sprint Backlog
+
+The **Sprint Backlog** is a **registry** containing **tasks to be performed** to deliver a feature. Once a sprint is completed, the team gathers for **Agile retrospective rituals** to identify different **improvement areas** and define new tasks for the next sprint.
+
+In the SCRUM framework, there are two types of **backlogs**:
+
+- The **product backlog**
+- The **sprint backlog**
+
+![SCRUM Cycle](./assets/cycle.jpeg)
