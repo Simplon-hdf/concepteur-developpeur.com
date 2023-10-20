@@ -1,28 +1,39 @@
 ## Tables des matières
-<!-- TOC -->
-* [Le Planning Poker](#le-planning-poker)
-    * [C’est quoi le Planning Poker ?](#cest-quoi-le-planning-poker-)
-    * [Comment se déroule un Poker Planning](#comment-se-droule-un-poker-planning)
-    * [Les avantages](#les-avantages)
-    * [Qui inclure dans les réunions de planification du poker ?](#qui-inclure-dans-les-runions-de-planification-du-poker-)
-    * [Quand organiser une session de poker de planification ?](#quand-organiser-une-session-de-poker-de-planification-)
-<!-- TOC -->
+
+- [Le Planning Poker](#le-planning-poker)
+  - [C’est quoi le Planning Poker ?](#cest-quoi-le-planning-poker-)
+  - [Qu'est-ce que le Planing Poker ?](#quest-ce-que-le-planing-poker-)
+  - [Comment se déroule un Poker Planning](#comment-se-déroule-un-poker-planning)
+  - [Les avantages](#les-avantages)
+  - [Qui inclure dans les réunions de planification du poker ?](#qui-inclure-dans-les-réunions-de-planification-du-poker-)
+  - [Quand organiser une session de poker de planification ?](#quand-organiser-une-session-de-poker-de-planification-)
 
 # Le Planning Poker
+
 ## C’est quoi le Planning Poker ?
-__**La méthode Agile du planning poker consiste en une estimation de la difficulté des taches fondée sur le consensus.**__
 
->## *Qu'est-ce que le poker de planification ?*
+**La méthode Agile du planning poker consiste en une estimation de la difficulté des taches fondée sur le consensus.**
 
-Le planning poker, également connu sous le nom de "scrum poker" et de "pointing poker", est une technique ludique que les équipes de développement utilisent pour deviner l'effort des tâches de gestion de projet. Ces estimations sont basées sur l'apport et le consensus de l'ensemble du groupe, ce qui les rend plus engageantes et plus précises que d'autres méthodes. Pour aider à évaluer le nombre de story points pour les tâches pertinentes, les équipes utilisent des cartes de poker de planification, qui sont similaires aux cartes de poker.
+## Qu'est-ce que le Planing Poker ?
+
+Le planning poker, également connu sous le nom de "scrum poker" et de "pointing poker", est une technique ludique que les équipes de développement utilisent pour deviner l'effort des tâches de gestion de projet.
+Ces estimations sont basées sur l'apport et le consensus de l'ensemble du groupe, ce qui les rend plus engageantes et plus précises que d'autres méthodes.
+Pour aider à évaluer le nombre de story points pour les tâches pertinentes, les équipes utilisent des cartes de poker de planification, qui sont similaires aux cartes de poker.
 
 ![](https://www.visual-paradigm.com/servlet/editor-content/scrum/what-is-agile-planning-poker/sites/7/2018/12/fibonacci-sequence-and-planning-poker.png)
 
->La suite de Fibonacci est utilisée pour les évaluations. Comme nous cherchons un dimensionnement de l'effort, le message est clair : plus le scénario est gros, moins l'évaluation est précise. Le paquet de cartes utilisé pour le planning poker doit donc comporter les valeurs suivantes : 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144. Certains simplifient les grandes valeurs en les transformant en 20, 40, 100... puisqu'il s'agit d'être globalement bon plutôt que précisément erroné. On y ajoute généralement les valeurs 0 et 1/2.
+La suite de Fibonacci est utilisée pour les évaluations.
+Comme nous cherchons un dimensionnement de l'effort, le message est clair : plus le scénario est gros, moins l'évaluation est précise.
+Le paquet de cartes utilisé pour le planning poker doit donc comporter les valeurs suivantes : 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144.
+Certains simplifient les grandes valeurs en les transformant en 20, 40, 100... puisqu'il s'agit d'être globalement bon plutôt que précisément erroné.
+On y ajoute généralement les valeurs 0 et 1/2.
 
 ## Comment se déroule un Poker Planning
+
 ![](https://scrum-master.org/wp-content/uploads/elementor/thumbs/image-p9heaj9d5azmmgya3b4bub2zth9ug2yxj4gxgi8f1s.jpeg)
-Au début d'une session de planification du poker, le product owner ou le client examine une user story agile et la lit à haute voix. Une user story est une explication générale et informelle d'une fonctionnalité logicielle qui décrit comment elle offrira de la valeur à l'utilisateur final (c'est-à-dire le client).
+
+Au début d'une session de planification du poker, le product owner ou le client examine une user story agile et la lit à haute voix.
+Une user story est une explication générale et informelle d'une fonctionnalité logicielle qui décrit comment elle offrira de la valeur à l'utilisateur final (c'est-à-dire le client).
 1. Distribuez les cartes aux participants
    Distribuez à chacun un jeu de cartes identique. Chacun porte un numéro que l'équipe a convenu d'utiliser comme estimation. Chaque joueur doit disposer d'un jeu composé de nombres différents. Cohn recommande une séquence de 0, 1, 2, 3, 5, 8, 13, 20, 40 et 100.
    D'autres séquences courantes comprennent le doublement du nombre suivant (par exemple, 1, 2, 4, 8, etc.). Ces valeurs peuvent représenter un certain nombre de choses : le nombre de story points, de jours idéaux, ou d'autres unités que l'équipe utilise pour l'estimation.
@@ -36,11 +47,11 @@ Au début d'une session de planification du poker, le product owner ou le client
 
    **Combien de personnes sont censées s'impliquer ?**
 
-   **Quelles compétences seront nécessaires pour
-   travailler sur la story ?**
+   **Quelles compétences seront nécessaires pour travailler sur la story ?**
 
    **Comment s'attaquer aux obstacles qui retardent les progrès ?**
-   <u>Le groupe essaiera également d'en savoir plus sur la story et de poser des questions pour mieux la comprendre.</u>
+
+   Le groupe essaiera également d'en savoir plus sur la story et de poser des questions pour mieux la comprendre.
 4. Sélectionner et partager
    Après la discussion, chaque personne choisira en privé une carte du jeu. Habituellement, elle est utilisée pour montrer une estimation des points de la story (mais peut aussi être utilisée pour représenter le nombre de jours idéaux). Une fois que tout le monde a choisi une carte, ils les montrent en même temps.
    Si un joueur montre une carte supérieure, cela signifie que la story sera terminée.
