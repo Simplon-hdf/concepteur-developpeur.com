@@ -182,6 +182,22 @@ It will ask you some parameters and create `package.json` file.
 
 ### Production dependencies
 
+You'll certainly need to import dependencies in your project, to do that, use the command :
+
+```sh
+npm install <package_name>
+```
+
+Let's take an real example :
+
+```sh
+npm install express
+```
+
+Note : You can use `install` or just `i`, it's even.
+
+This command will download Express library files into `node_module` folder (folder that will be automaticaly created if it doesn't exists yet).
+
 ### Development dependencies
 
 ### Reinstalling dependencies
