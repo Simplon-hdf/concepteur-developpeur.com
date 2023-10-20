@@ -4,6 +4,7 @@
 - [What is Velocity in the SCRUM Method?](#what-is-velocity-in-the-scrum-method)
 - [Who Is Responsible for Estimating PBIs?](#who-is-responsible-for-estimating-pbis)
 - [How to Use Average Velocity in Agile Development?](#how-to-use-average-velocity-in-agile-development)
+- [Agile Velocity Chart](#agile-velocity-chart)
 
 # What is Velocity in the SCRUM Method?
 
@@ -44,3 +45,13 @@ Average velocity is calculated once the project has progressed through three or 
 Using the example above of the average velocity of a sprint, you can assume that the team can complete work at a rate of *12 story points* per sprint. So, if you have *120 story points* left to complete in your project, you can estimate that you'll need *10 more sprints* to finish the project.
 
 While it's accurate, it's subject to fluctuations depending on changing requirements, team size, and project complexity.
+
+# Agile Velocity Chart
+
+The **Agile method** offers various tools to visually represent data points. These tools provide an easy indicator of project progress, and if cloud-based, they can be accessed by all project stakeholders.
+
+Agile velocity charts are essentially graphs, with *story points* displayed on the horizontal or vertical axis, and completed sprints shown on the opposite axis. They are an excellent way to make your project's velocity accessible to everyone. Cloud-based charts can be accessed by teams and stakeholders.
+
+![](./assets/chart.jpg)
+
+A velocity chart is a great way to track project progress, see if the project is progressing consistently and predictably, and identify patterns in the team's sprint velocity. If your charts show many irregular peaks and troughs, you might conclude that your project is unpredictable, as velocity isn't consistent.
