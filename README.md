@@ -14,7 +14,7 @@
 ### Méthode agile (SCRUM) / Agile method (SCRUM)
 
 - [La méthode agile (French)](./basics/methodology/agile-method/agile-method-fr.md)
-- Agile method (English version not available yet)
+- [Agile method (English)](./basics/methodology/agile-method/agile-method-en.md)
 - [Présentation de Jira (French)](./basics/methodology/agile-method/agile-method-fr.md#jira)
 - Jira presentation (Engish version not available yet)
 - [La vélocité dans SCRUM (French)](./basics/methodology/velocite.md)
