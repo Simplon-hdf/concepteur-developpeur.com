@@ -20,7 +20,7 @@
 - [La vélocité dans SCRUM (French)](./basics/methodology/velocite.md)
 - Velocity in SCRUM (English version not available yet)
 - [Présentation du Planning Poker (French)](./basics/methodology/planning-poker/planning-poker-fr.md)
-- Planning Poker presentation (English version not available yet)
+- [Planning Poker presentation (English)](/basics/methodology/planning-poker/planning-poker-en.md)
 
 ### Git et GitFlow / Git and GitFlow
 
