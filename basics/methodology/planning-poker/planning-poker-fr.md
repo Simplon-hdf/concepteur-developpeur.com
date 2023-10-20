@@ -73,10 +73,10 @@ Selon une étude, *les estimations issues du Planning Poker* sont **statistiquem
 
 - Les autres avantages sont les suivants :
   
-  - Estimer les tâches les unes par rapport aux autres. Il est souvent difficile d'évaluer le temps nécessaire à la réalisation d'un projet, surtout lorsqu'il s'agit de la première fois.
-  Le Planning Poker permet aux équipes de se familiariser avec leur évaluation. Après avoir joué le jeu pendant un certain temps, vous finissez par construire une série de tâches qui servent de référence future pour la comparaison.
+  - Estimer les tâches les unes par rapport aux autres. Il est *souvent difficile d'évaluer le temps nécessaire à la réalisation d'un projet*, surtout lorsqu'il s'agit de la première fois.
+  Le Planning Poker permet aux équipes de se familiariser avec leur évaluation. Après avoir joué le jeu pendant un certain temps, *vous finirez par construire une série de tâches qui servent de référence future pour la comparaison*.
   
-  - Donner une voix égale à tous les membres de l'équipe. Il peut encourager les nouveaux employés à prendre la parole en jouant une carte et en expliquant leur logique. Par exemple, imaginez que vous faites une application de réservation de nourriture. Vous et votre collègue pourriez donner une estimation plus petite, comme 10 ou 15. En revanche, un nouvel employé pourrait donner une estimation de 100. Peut-être a-t-il eu l'expérience de la création d'une application similaire dans son dernier emploi et sait-il qu'une telle application prend beaucoup de temps, surtout par rapport aux autres.
+  - **Accorder le même crédit à tous les membres de l'équipe**. Il peut encourager les nouveaux employés à prendre la parole en jouant une carte et en expliquant leur logique. Par exemple, imaginez que vous faites une application de réservation de nourriture. Vous et votre collègue pourriez donner une estimation plus petite, comme 10 ou 15. En revanche, un nouvel employé pourrait donner une estimation de 100. Peut-être a-t-il eu l'expérience de la création d'une application similaire dans son dernier emploi et sait-il qu'une telle application prend beaucoup de temps, surtout par rapport aux autres.
   
   - Identifier les lacunes dans les exigences et la mise en œuvre. Lorsque les participants divulguent leurs estimations, ils doivent les étayer en expliquant pourquoi elles sont élevées ou faibles. Cela peut susciter des questions sur les exigences et la mise en œuvre - une boucle de rétroaction qui permet de détecter les lacunes.
 
