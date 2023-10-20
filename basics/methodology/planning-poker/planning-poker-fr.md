@@ -85,9 +85,10 @@ Selon une étude, les estimations issues du Planning Poker sont statistiquement 
 ![](assets/team.jpg)
 
 Les bonnes personnes doivent se joindre à la réunion, sinon il devient difficile de récolter les avantages décrits ci-dessus. Ces rôles cruciaux sont les suivants :
+
 - Membres de l'équipe Scrum : les membres de l'équipe Scrum fournissent les éléments du backlog de produit - une liste de produits à livrer (par exemple, les nouvelles fonctionnalités). Ils apportent également leur contribution aux discussions sur les story points.
-- Scrum master : un scrum leader est l'animateur des réunions agiles. Il doit participer à toutes les réunions standard.
-- Product Owner : le PO ou le gestionnaire décrira toutes les storys des utilisateurs à l'équipe et répondra à leurs questions.
+- SCRUM Master : le SCRUM Master est l'animateur des réunions agiles. Il doit participer à toutes (ou presque toutes) les réunions.
+- Product Owner : le PO décrira toutes les storys des utilisateurs à l'équipe et répondra à leurs questions.
 
 # Quand organiser une session de poker de planification ?
 
