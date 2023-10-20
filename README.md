@@ -13,13 +13,13 @@
 
 ### Méthode agile (SCRUM) / Agile method (SCRUM)
 
-- [La méthode agile (French)](./basics/methodology/agile-method-fr.md)
+- [La méthode agile (French)](./basics/methodology/agile-method/agile-method-fr.md)
 - Agile method (English version not available yet)
-- [Présentation de Jira (French)](./basics/methodology/agile-method-fr.md#jira)
+- [Présentation de Jira (French)](./basics/methodology/agile-method/agile-method-fr.md#jira)
 - Jira presentation (Engish version not available yet)
 - [La vélocité dans SCRUM (French)](./basics/methodology/velocite.md)
 - Velocity in SCRUM (English version not available yet)
-- [Présentation du Planning Poker (French)](./basics/methodology/planningPoker.md)
+- [Présentation du Planning Poker (French)](./basics/methodology/planning-poker/planning-poker-fr.md)
 - Planning Poker presentation (English version not available yet)
 
 ### Git et GitFlow / Git and GitFlow
