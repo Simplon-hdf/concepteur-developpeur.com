@@ -11,14 +11,12 @@
 
 ### Méthode agile (SCRUM) / Agile method (SCRUM)
 
-- [La méthode agile (French)](./basics/methodology/agile-method/agile-method-fr.md)
-- [Agile method (English)](./basics/methodology/agile-method/agile-method-en.md)
-- [Présentation de Jira (French)](./basics/methodology/agile-method/agile-method-fr.md#jira)
-- [Jira presentation](./basics/methodology/agile-method/agile-method-en.md#jira)
-- [La vélocité dans SCRUM (French)](./basics/methodology/velocity/velocity-fr.md)
-- [Velocity in SCRUM](./basics/methodology/velocity/velocity-en.md)
-- [Présentation du Planning Poker (French)](./basics/methodology/planning-poker/planning-poker-fr.md)
-- [Planning Poker presentation (English)](/basics/methodology/planning-poker/planning-poker-en.md)
+- [La méthode agile (French)](1-basics/03-methodology/01-agile-method/fr/article.md)
+- [Agile method (English)](1-basics/03-methodology/01-agile-method/en/article.md)
+- [La vélocité dans SCRUM (French)](1-basics/03-methodology/02-velocity/fr/article.md)
+- [Velocity in SCRUM](1-basics/03-methodology/02-velocity/en/article.md)
+- [Présentation du Planning Poker (French)](1-basics/03-methodology/03-planning-poker/fr/article.md)
+- [Planning Poker presentation (English)](1-basics/03-methodology/03-planning-poker/en/article.md)
 
 ### Node Package Manager (NPM)
 
