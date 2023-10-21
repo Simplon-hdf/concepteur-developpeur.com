@@ -24,5 +24,6 @@ This documentation also exists in [english version](README.en.md).
 - [Les conventions de code](2-code-style/01-code-conventions/fr/article.md)
 - [Documentation des linters](2-code-style/02-linter/fr/article.md)
 - [Les formatters avec Prettier](2-code-style/03-prettier/fr/article.md)
+- [Références pour du Clean Code](2-code-style/04-clean-code-references/fr/article.md)
 
 [Site web](http://concepteur-developpeur.com/) (à venir)
