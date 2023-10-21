@@ -21,7 +21,7 @@ The values that can be assigned include:
 - *2, 3, 5* for a slightly more complex task, such as creating a simple input form.
 - *8, 13, 21, 34, 55, 89, 144* if there is insufficient information to estimate the task correctly.
 
-![](./assets/what-is-velocity.png)
+![](../assets/what-is-velocity.png)
 
 # Who Is Responsible for Estimating PBIs?
 
@@ -31,7 +31,7 @@ Only the development team is capable of estimating **PBIs**. They are responsibl
 
 It should be noted that the velocity in future iterations will be more or less equal to the previous one. For example, if *stories A* and *B* (each estimated at *2 points*) are 100% complete, and the output *C* (*3 points*) is only 80% complete, the iteration's velocity will be *4 points*.
 
-![](./assets/what-is-velocity-2.png)
+![](../assets/what-is-velocity-2.png)
 
 Velocity can also be calculated by considering *story points*. *Story points* represent *user stories* and are a unit of measurement that indicates the effort required to complete a task. Generally, each organization has its method for assigning values to *story points*.
 
@@ -55,7 +55,7 @@ The **Agile method** offers various tools to visually represent data points. The
 
 Agile velocity charts are essentially graphs, with *story points* displayed on the horizontal or vertical axis, and completed sprints shown on the opposite axis. They are an excellent way to make your project's velocity accessible to everyone. Cloud-based charts can be accessed by teams and stakeholders.
 
-![](./assets/chart.jpg)
+![](../assets/chart.jpg)
 
 A velocity chart is a great way to track project progress, see if the project is progressing consistently and predictably, and identify patterns in the team's sprint velocity. If your charts show many irregular peaks and troughs, you might conclude that your project is unpredictable, as velocity isn't consistent.
 

@@ -20,7 +20,7 @@ Aussi, les valeurs pouvant être attribuées sont :
 - *2, 3, 5* pour une tâche légèrement plus complexe, comme la création d'un formulaire de saisie simple,
 - *8, 13, 21, 34, 55, 89, 144* si l'on ne dispose pas de suffisamment d'informations pour estimer correctement cette tâche.
 
-![](./assets/what-is-velocity.png)
+![](../assets/what-is-velocity.png)
 
 # Qui se charge de l’estimation des PBI ?
 
@@ -30,7 +30,7 @@ Seule l'équipe de développement est en mesure de se charger de l'estimation de
 
 Notons que la vélocité durant les prochaines itérations sera plus ou moins égale à la précédente. À titre d'exemple, si les *stories A* et *B* (estimée chacune à *2 points*) sont finies à 100 % et que la sortie *C* (*3 points*) n'est achevée qu'à 80 %, la vélocité de l'itération sera de *4 points*.
 
-![](./assets/what-is-velocity-2.png)
+![](../assets/what-is-velocity-2.png)
 
 La vélocité peut également être calculée en considérant les *story points*. Les *story points* constituent les *stories d'utilisateur* et sont une unité de mesure qui représente la quantité d'effort nécessaire pour accomplir une tâche. En général, chaque organisation a sa propre méthode pour attribuer des valeurs aux *story points*.
 
@@ -54,7 +54,7 @@ La **méthode Agile** présente plusieurs outils pour représenter visuellement 
 
 Les *diagrammes de vélocité Agile* sont essentiellement des graphiques, avec les *story points* affichés sur l'axe horizontal ou vertical et les sprints terminés affichés sur l'axe horizontal ou vertical. Ils constituent un excellent moyen de rendre la vélocité de votre projet accessible à tous. Les graphiques basés sur le cloud peuvent être consultés par les équipes ainsi que par les parties prenantes.
 
-![](./assets/chart.jpg)
+![](../assets/chart.jpg)
 
 Un *diagramme de vélocité* est un excellent moyen de suivre l'état d'avancement du projet, de voir si le projet progresse de manière régulière et prévisible et d'identifier des modèles dans la vélocité du sprint de l'équipe. S'il y a beaucoup de creux et d'élévations irrégulières dans vos graphiques, vous pouvez supposer que votre projet est imprévisible, car la vélocité n'est pas constante.
 
