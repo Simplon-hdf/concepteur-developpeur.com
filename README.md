@@ -9,9 +9,9 @@ This documentation also exists in [english version](README.en.md).
 - [Documentation de Git](1-basics/01-git/fr/article.md)
 - [Documentation de GitFlow](1-basics/02-gitflow/fr/article.md)
 
-## Méthode agile (SCRUM)
+## Méthode Agile (SCRUM)
 
-- [La méthode agile](1-basics/03-methodology/01-agile-method/fr/article.md)
+- [La méthode Agile](1-basics/03-methodology/01-agile-method/fr/article.md)
 - [La vélocité dans SCRUM](1-basics/03-methodology/02-velocity/fr/article.md)
 - [Présentation du Planning Poker](1-basics/03-methodology/03-planning-poker/fr/article.md)
 
