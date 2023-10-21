@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
 - [Benefits](#benefits)
 - [Methods](#methods)
-  - [Features conception](#features-conception)
+  - [Feature Design](#feature-design)
     - [Pseudo Code](#pseudo-code)
   - [UML (Unified Modeling Language)](#uml-unified-modeling-language)
   - [Merise (Méthode d'Étude et de Réalisation Informatique pour les Systèmes d'Entreprise)](#merise-méthode-détude-et-de-réalisation-informatique-pour-les-systèmes-dentreprise)
@@ -38,7 +38,21 @@ By designing an application, you will become a much better developer.
 
 # Methods
 
-## Features conception
+There are several ways to design an application or a feature, and you'll discover some of them in this section.
+
+## Feature Design
+
+There are various ways to design features, and one of them is the **flowchart** coupled with **pseudocode**. This design method is typically used for beginner developers. It helps instill algorithmic logic in developers and enables a clear breakdown of a feature.
+
+Note that this method is not widely used on a large scale because it's relatively time-consuming and quite rudimentary. We include it here for the sake of completeness, although it's unlikely you'll be asked for this kind of design.
+
+![Flowchart Example](./../assets/algo-demo.png)
+
+This is what a flowchart looks like; it's merely a schematic representation of an algorithm.
+
+In the example above, squares represent actions, circles have semantic value to denote the start and end of a flowchart, and triangles are used to represent conditions.
+
+A color code has been added to separate actions. Typically, a flowchart is used to represent system actions. Here, green actions represent user actions, while red ones are system actions.
 
 ### Pseudo Code
 
