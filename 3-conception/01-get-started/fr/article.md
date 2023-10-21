@@ -18,6 +18,12 @@ Tout au long de votre application, veillez à garder à l'esprit que **la concep
 
 Ne vous formalisez pas si vous vous rendez compte que votre conception nécessite quelques ajustements, c'est parfaitement normal.
 
+Pro Tips : Si vous devez vous réformer suite à une contrainte technique rencontrée pendant l'étape de réalisation de votre projet, essayez dans la mesure du possible (si vous n'êtes pas dans un projet d'entreprise avec des délais serrés par exemple) de revoir la portion de votre conception qui nécessite des ajustements plutôt que de remettre ça à plus tard. Il est plus intéressant de mettre en pause votre réalisation afin de poser votre esprit sur un travail de reflexion pour résoudre le problème rencontré, plutôt que d'avoir à revoir votre code et d'en refaire la conception.
+
+J'ai, à titre personnel expérimenté les 2 approches (la rétro-conception et la conception) et il est vachement plus intéressant de suspendre votre session de code pour ajuster votre conception et de reprendre votre code avec la nouvelle version de conception, plutôt que d'essayer de développer votre fonctionnalité de tête et de refaire votre conception en essayant de retrouver le comportement de votre code.
+
+Gardez ça à l'esprit bien que cela puisse vous semblez abstrait comme concept à l'heure actuelle.
+
 # Bénéfices
 
 La conception permet aux membres d'une équipe de développement de décrire le comportement d'une application avant de commencer à développer, ce qui est très intéressant pour plusieurs raisons :
