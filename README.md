@@ -11,7 +11,6 @@ This documentation also exists in [english version](README.en.md).
 - [Documentation de GitFlow](1-basics/02-gitflow/fr/article.md)
 
 </details>
-
 <details>
 <summary><h2>Méthode Agile (SCRUM)</h2></summary>
 
@@ -20,7 +19,6 @@ This documentation also exists in [english version](README.en.md).
 - [Présentation du Planning Poker](1-basics/03-methodology/03-planning-poker/fr/article.md)
 
 </details>
-
 <details>
 <summary><h2>Node Package Manager (NPM)</h2></summary>
 
