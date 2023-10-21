@@ -1,13 +1,13 @@
 # Documentation pour le titre professionnel Concepteur Développeur d'Application
 
+This documentation also exists in [english version](README.en.md).
+
 ## Table des matières
 
 ### Git et GitFlow / Git and GitFlow
 
 - [Documentation de Git (French)](1-basics/01-git/fr/article.md)
-- [Git Documentation (English)](1-basics/01-git/en/article.md)
 - [Documentation de GitFlow (French)](1-basics/02-gitflow/fr/article.md)
-- [GitFlow Documentation](1-basics/02-gitflow/en/article.md)
 
 ### Méthode agile (SCRUM) / Agile method (SCRUM)
 
