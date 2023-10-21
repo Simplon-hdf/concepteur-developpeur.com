@@ -81,4 +81,6 @@ Vous voudrez sans doute un exemple plus verbeux :
 
 À gauche, le pseudo-code et à droite le code en langage de programmation.
 
+Note: Les conditions auraient pu être inversé afin de ne pas créer autant de niveau d'imbrication, il s'agissait seulement de suivre l'algorigramme à la lettre afin de démontrer les 2 approches aussi fidèlement, en général, évitez au maximum plus de 2 niveaux d'imbrication.
+
 # Résumé
