@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
 - [Clean Code pour JavaScript](#clean-code-pour-javascript)
 - [Clean Code pour TypeScript](#clean-code-pour-typescript)
-- [Clean Code pour C#](#clean-code-pour-c)
+- [Clean Code pour C# (et plus globallement .NET)](#clean-code-pour-c-et-plus-globallement-net)
 - [Clean Code pour Java](#clean-code-pour-java)
 - [Clean Code pour C / C++](#clean-code-pour-c--c)
 
@@ -21,9 +21,11 @@ Il est particulièrement pertinent de prendre connaissance et d'appliquer les re
 
 # Clean Code pour TypeScript
 
-Il n'y a pas de **Clean Code** à proprement parlé pour TypeScript, pour autant, il est intéressant de prendre un hybride entre [le clean code JavaScript](#clean-code-pour-javascript) et [le clean code C#](#clean-code-pour-c).
+Il n'y a pas de **Clean Code** à proprement parlé pour TypeScript, pour autant, il est intéressant de prendre un hybride entre [le clean code JavaScript](#clean-code-pour-javascript) et [le clean code C#](#clean-code-pour-c-et-plus-globallement-net).
 
-# Clean Code pour C#
+# Clean Code pour C# (et plus globallement .NET)
+
+Le **Clean Code** .NET est de loin le meilleur en terme de popularité, si vous souhaitez vous lancer avec .NET il est plus que recommandé de prendre les bonnes pratiques dès le début. Voici le [clean code .NET](https://github.com/thangchung/clean-code-dotnet).
 
 # Clean Code pour Java
 
