@@ -46,7 +46,7 @@ There are various ways to design features, and one of them is the **flowchart** 
 
 Note that this method is not widely used on a large scale because it's relatively time-consuming and quite rudimentary. We include it here for the sake of completeness, although it's unlikely you'll be asked for this kind of design.
 
-![Flowchart Example](./../assets/algo-demo.png)
+![Flowchart Example](../assets/algo-demo-en.png)
 
 This is what a flowchart looks like; it's merely a schematic representation of an algorithm.
 
