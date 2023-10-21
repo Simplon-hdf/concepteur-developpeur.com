@@ -1,5 +1,7 @@
 # Documentation for CDA degree
 
+Cette documentation existe aussi en [version française](README.md)
+
 # Table Of Contents
 
 ## Git and GitFlow
