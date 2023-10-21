@@ -75,4 +75,10 @@ Sinon :
 Fin de la procédure.
 ```
 
+Vous voudrez sans doute un exemple plus verbeux :
+
+![](../assets/pseudo-code.png)
+
+À gauche, le pseudo-code et à droite le code en langage de programmation.
+
 # Résumé
