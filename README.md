@@ -4,12 +4,12 @@
 
 ### Conventions de code et Outils / Code conventions and Tools
 
-- [Les conventions de code (French)](./basics/code-style/prettier/code-conventions/convention-fr.md)
-- [Code conventions (English)](./basics/code-style/prettier/code-conventions/convention-en.md)
-- [Documentation des linters (French)](./basics/code-style/linter/linters-fr.md)
-- [Linters Documentation (English)](./basics/code-style/linter/linters-en.md)
-- [Les formatters avec Prettier (French)](./basics/code-style/prettier/prettier-fr.md)
-- [Formatters with Prettier (English)](./basics/code-style/prettier/prettier-en.md)
+- [Les conventions de code (French)](./2-code-style/01-code-conventions/fr/article.md)
+- [Code conventions (English)](./2-code-style/01-code-conventions/en/article.md)
+- [Documentation des linters (French)](2-code-style/02-linter/fr/article.md)
+- [Linters Documentation (English)](2-code-style/02-linter/en/article.md)
+- [Les formatters avec Prettier (French)](2-code-style/03-prettier/fr/article.md)
+- [Formatters with Prettier (English)](2-code-style/03-prettier/en/article.md)
 
 ### Méthode agile (SCRUM) / Agile method (SCRUM)
 
