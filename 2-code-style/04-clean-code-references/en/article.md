@@ -8,6 +8,10 @@
 
 # Introduction
 
+**There are as many developers as there are ways to code**. That's why standards have been created to allow everyone to compromise and have code that is qualitatively equivalent, even if algorithmically different.
+
+In this article, you will find some resources related to these standards, also known as **Best Practices**.
+
 # Clean Code for JavaScript
 
 # Clean Code for TypeScript
