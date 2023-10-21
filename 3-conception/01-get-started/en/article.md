@@ -5,7 +5,7 @@
 - [Benefits](#benefits)
 - [Methods](#methods)
   - [Feature Design](#feature-design)
-    - [Pseudo Code](#pseudo-code)
+    - [Pseudocode](#pseudocode)
   - [UML (Unified Modeling Language)](#uml-unified-modeling-language)
   - [Merise (Méthode d'Étude et de Réalisation Informatique pour les Systèmes d'Entreprise)](#merise-méthode-détude-et-de-réalisation-informatique-pour-les-systèmes-dentreprise)
   - [Summary](#summary)
@@ -54,7 +54,40 @@ In the example above, squares represent actions, circles have semantic value to 
 
 A color code has been added to separate actions. Typically, a flowchart is used to represent system actions. Here, green actions represent user actions, while red ones are system actions.
 
-### Pseudo Code
+### Pseudocode
+
+Pseudocode is code written not in a programming language but in human language, such as English, for example. Note: It's preferable to write your resources in English to adhere to an unwritten rule aiming to ensure that anyone can understand the content (similar to writing your code comments in English, for example).
+
+In essence, pseudocode can be seen as a textual representation of a flowchart. Here is an example, using the previous flowchart as a reference:
+
+```pseudo-code
+Start of the procedure;
+The user selects an item;
+The user adds the item to the cart;
+If the number of items in the cart is >= 1:
+  The user confirms the cart;
+  The user enters their banking information (Bank_ASK);
+  The user confirms their banking information;
+  If the banking information is correct:
+    If the account balance associated with the user's entered banking information is >= the cart price:
+      The system sends a confirmation email to the user's account email;
+      The system records the user's order.
+    Else:
+      The system displays an error message;
+      Return to Bank_ASK;  
+  Else: 
+    The system displays an error message;
+    Return to Bank_ASK;  
+Else:
+  End of the procedure.
+End of the procedure.
+```
+
+You might want a more verbose example:
+
+![Pseudocode Example](../assets/pseudo-code.png)
+
+Note: The conditions could have been inverted to avoid creating as many levels of nesting. It was done this way only to follow the flowchart precisely and demonstrate the two approaches as faithfully as possible. In general, try to avoid more than two levels of nesting.
 
 ## UML (Unified Modeling Language)
 
