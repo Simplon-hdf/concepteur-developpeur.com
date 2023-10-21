@@ -4,7 +4,7 @@ This documentation also exists in [english version](README.en.md).
 
 ## Table des matières
 
-### Git et GitFlow / Git and GitFlow
+### Git et GitFlow
 
 - [Documentation de Git (French)](1-basics/01-git/fr/article.md)
 - [Documentation de GitFlow (French)](1-basics/02-gitflow/fr/article.md)
