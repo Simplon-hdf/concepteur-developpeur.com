@@ -7,7 +7,7 @@ Cette documentation existe aussi en [version française](README.md)
 ## Git and GitFlow
 
 - [Git Documentation (English)](1-basics/01-git/en/article.md)
-- [Documentation de Git (French)](1-basics/01-git/fr/article.md)
+- [GitFlow Documentation (French)](1-basics/02-gitflow/en/article.md)
 
 ## Agile Method (SCRUM)
 
