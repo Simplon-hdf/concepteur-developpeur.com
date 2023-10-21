@@ -24,6 +24,18 @@ Keep this in mind, even if it may seem abstract as a concept at the moment.
 
 # Benefits
 
+Design allows development team members to describe the behavior of an application before they begin development. This is highly valuable for several reasons (among others):
+
+- Defining behavior with an overview of the implementation to be produced
+- Having a clear understanding of each aspect of the implementation
+- Presenting various aspects of the application to all project stakeholders
+  - Obtaining feedback on the design to ensure that the features meet the stakeholders' expectations
+- Facilitating the transfer of application specifications to each new development team member
+
+These are the benefits of designing a project. Note that these are primarily group benefits. However, design also allows the approach to a project to be completely different. It raises the right questions before even starting the project, which can save a significant amount of time and energy in the long run.
+
+By designing an application, you will become a much better developer.
+
 # Methods
 
 ## Features conception
