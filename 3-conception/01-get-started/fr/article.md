@@ -36,4 +36,8 @@ Cette méthode de conception est généralement utilisée pour les **développeu
 
 Notez que cette méthode n'est vraiment pas répandue à grande échelle car elle est relativement chronophage et assez rudimentaire, nous la présentons ici par acquit de conscience, mais si vous estimez avoir une bonne logique algorithmique, cette section ne sera pas la plus pertinente pour vous. Bien que vous devriez prendre connaissance de cette section afin de vous assurez que vous ne vous trompez pas.
 
+Voici donc un exemple d'algorigrame :
+
+
+
 # Résumé
