@@ -21,7 +21,7 @@ This documentation also exists in [english version](README.en.md).
 
 ## Conventions de code et Outils
 
-- [Les conventions de code](./2-code-style/01-code-conventions/fr/article.md)
+- [Les conventions de code](2-code-style/01-code-conventions/fr/article.md)
 - [Documentation des linters](2-code-style/02-linter/fr/article.md)
 - [Les formatters avec Prettier](2-code-style/03-prettier/fr/article.md)
 
