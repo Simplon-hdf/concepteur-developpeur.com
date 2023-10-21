@@ -19,13 +19,10 @@ This documentation also exists in [english version](README.en.md).
 
 - [Documentation de NPM (French)](1-basics/04-npm/fr/article.md)
 
-### Conventions de code et Outils / Code conventions and Tools
+### Conventions de code et Outils
 
 - [Les conventions de code (French)](./2-code-style/01-code-conventions/fr/article.md)
-- [Code conventions (English)](./2-code-style/01-code-conventions/en/article.md)
 - [Documentation des linters (French)](2-code-style/02-linter/fr/article.md)
-- [Linters Documentation (English)](2-code-style/02-linter/en/article.md)
 - [Les formatters avec Prettier (French)](2-code-style/03-prettier/fr/article.md)
-- [Formatters with Prettier (English)](2-code-style/03-prettier/en/article.md)
 
 Site web (à venir) : http://concepteur-developpeur.com/

@@ -16,3 +16,9 @@
 ## Node Package Manager (NPM)
 
 - [NPM Documentation (English)](1-basics/04-npm/en/article.md)
+
+## Code Conventions & Tools
+
+- [Code conventions (English)](./2-code-style/01-code-conventions/en/article.md)
+- [Linters Documentation (English)](2-code-style/02-linter/en/article.md)
+- [Formatters with Prettier (English)](2-code-style/03-prettier/en/article.md)
