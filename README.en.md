@@ -19,13 +19,15 @@ Cette documentation existe aussi en [version française](README.md)
 
 - [NPM Documentation](1-basics/04-npm/en/article.md)
 
-## Code Conventions & Tools
+<details>
+<summary><h2>Code Conventions & Tools</h2></summary>
 
 - [Code conventions](2-code-style/01-code-conventions/en/article.md)
 - [Linters Documentation](2-code-style/02-linter/en/article.md)
 - [Formatters with Prettier](2-code-style/03-prettier/en/article.md)
 - [Clean Code References](2-code-style/04-clean-code-references/en/article.md)
 
+</details>
 <details>
 <summary><h2>Conception</h2></summary>
 
