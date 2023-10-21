@@ -105,3 +105,9 @@ Notez d'ailleurs que Merise est une méthode européene, inutile donc de vous di
 Merise étant certes un moins gros sujet qu'UML, elle mérite elle aussi un article dedié : [Les bases de la conception de Base de Données avec Merise](not-available.md)
 
 # Résumé
+
+- Être concepteur d'application, c'est devenir un meilleur développeur.
+- La conception d'application permet aux développeurs de poser leur raisonnement dans des schémas (appelés diagrammes) afin d'obtenir une vue d'ensemble d'un projet.
+- La conception permet à des personnes non techniques de comprendre les objectifs d'un projet et la façon de les atteindre.
+- **La conception d'un projet n'est pas immuable et est amenée à évoluer**, personne ne peut tout prévoir.
+- Il existe différentes méthodes pour faire de la conception, ces métodes dépendent de plusieurs facteurs.
