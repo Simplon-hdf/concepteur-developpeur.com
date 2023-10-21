@@ -31,6 +31,9 @@ Il existe plusieurs façons de concevoir une application ou une fonctionnalité,
 
 ## Conception de fonctionnalité
 
+Il y a plusieurs façons de concevoir des fonctionnalités, une d'entre elle est l'**algorigrame** couplé au pseudo-code.
+Cette méthode de conception est généralement utilisée pour les **développeurs** débutants, elle permet d'inculquer une logique algorithmique aux **développeur**, en plus de permettre un découpage clair d'une fonctionnalité.
 
+Notez que cette méthode n'est vraiment pas répandue à grande échelle car elle est relativement chronophage et assez rudimentaire, nous la présentons ici par acquit de conscience, mais si vous estimez avoir une bonne logique algorithmique, cette section ne sera pas la plus pertinente pour vous. Bien que vous devriez prendre connaissance de cette section afin de vous assurez que vous ne vous trompez pas.
 
 # Résumé
