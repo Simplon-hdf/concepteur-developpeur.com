@@ -7,6 +7,7 @@
   - [Conception de fonctionnalité](#conception-de-fonctionnalité)
     - [Pseudo Code](#pseudo-code)
   - [UML (Unified Modeling Language)](#uml-unified-modeling-language)
+  - [Merise (Méthode d'Étude et de Réalisation Informatique pour les Systèmes d'Entreprise)](#merise-méthode-détude-et-de-réalisation-informatique-pour-les-systèmes-dentreprise)
 - [Résumé](#résumé)
 
 # Introduction
@@ -92,5 +93,15 @@ Note: Les conditions auraient pu être inversé afin de ne pas créer autant de 
 UML est un langage qui permet de modéliser schématiquement les différents aspects d'une application ou d'un système par le biais de divers types diagrammes.
 
 Nous en parlerons plus tard dans l'article : [Les bases d'UML](not-available.md)
+
+## Merise (Méthode d'Étude et de Réalisation Informatique pour les Systèmes d'Entreprise)
+
+**Merise (prononcé Meurise) est une méthode** permettant d'étudier les entreprises de façon structurelle ou organisationnelle (souvent les 2 à la fois).
+
+Cependant pour un concepteur d'application, la méthode Merise n'a pas cette vocation, en général, lorsque vous serez confronté à Merise dans ce domaine, il s'agira de réalisation de diagrammes / de ressources relatives aux systèmes de **Base de données relationnelle (SQL)**. Bien qu'il est techniquement possible d'utiliser Merise pour des **Base de données non-relationnelle (NoSQL)** mais cela reviendrait à faire cuire votre nouriture avec un réacteur nucléair. Techniquement ça fonctionne, pour autant, il est préférable de s'abstenir.
+
+Notez d'ailleurs que Merise est une méthode européene, inutile donc de vous dire que si vous travaillez sur des projets en dehors de l'union européene, les membres de votre équipe utiliseront sans doute UML ou SysML pour les bases de données.
+
+Merise étant certes un moins gros sujet qu'UML, elle mérite elle aussi un article dedié : [Les bases de la conception de Base de Données avec Merise](not-available.md)
 
 # Résumé
