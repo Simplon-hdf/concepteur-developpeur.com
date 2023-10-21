@@ -2,6 +2,13 @@
 
 ## Table des matières
 
+### Git et GitFlow / Git and GitFlow
+
+- [Documentation de Git (French)](./basics/git/git-fr.md)
+- [Git Documentation (English)](./basics/git/git-en.md)
+- [Documentation de GitFlow (French)](./basics/git/git-fr.md)
+- [GitFlow Documentation](./basics/git/gitflow/gitflow-en.md)
+
 ### Méthode agile (SCRUM) / Agile method (SCRUM)
 
 - [La méthode agile (French)](./basics/methodology/agile-method/agile-method-fr.md)
@@ -12,13 +19,6 @@
 - [Velocity in SCRUM](./basics/methodology/velocity/velocity-en.md)
 - [Présentation du Planning Poker (French)](./basics/methodology/planning-poker/planning-poker-fr.md)
 - [Planning Poker presentation (English)](/basics/methodology/planning-poker/planning-poker-en.md)
-
-### Git et GitFlow / Git and GitFlow
-
-- [Documentation de Git (French)](./basics/git/git-fr.md)
-- [Git Documentation (English)](./basics/git/git-en.md)
-- [Documentation de GitFlow (French)](./basics/git/git-fr.md)
-- [GitFlow Documentation](./basics/git/gitflow/gitflow-en.md)
 
 ### Node Package Manager (NPM)
 
