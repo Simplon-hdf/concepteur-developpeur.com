@@ -70,7 +70,7 @@ git flow init
 
 Dans un dossier qui peut déjà être un dépôt Git, ou non.
 
-![git init](assets/gitflow-init.png)
+![git init](../assets/gitflow-init.png)
 
 Il est recommandé de nommer la branche de principale `main`.
 
@@ -88,7 +88,7 @@ Pour créer une branche de type `Feature` rien de plus simple, exécutez simplem
 git flow feature start <nom_de_la_branche>
 ```
 
-![git feature](assets/gitflow-feature.png)
+![git feature](../assets/gitflow-feature.png)
 
 **Commandes correspondantes sans GitFlow**
 

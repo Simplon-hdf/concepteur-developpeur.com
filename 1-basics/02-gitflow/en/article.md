@@ -70,7 +70,7 @@ git flow init
 
 In a folder whose can already be a git repository, or no.
 
-![git init](assets/gitflow-init.png)
+![git init](../assets/gitflow-init.png)
 
 It's recommended to name main branch as `main` instead of `master`.
 
@@ -90,7 +90,7 @@ To create a `feature` branch, nothing more easy, just run the command :
 git flow feature start <branch_name>
 ```
 
-![git feature](assets/gitflow-feature.png)
+![git feature](../assets/gitflow-feature.png)
 
 **Associated commands without using GitFlow module**
 
