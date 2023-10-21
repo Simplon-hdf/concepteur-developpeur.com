@@ -5,6 +5,7 @@
 - [Bénéfices](#bénéfices)
 - [Méthodes](#méthodes)
   - [Conception de fonctionnalité](#conception-de-fonctionnalité)
+    - [Pseudo Code](#pseudo-code)
 - [Résumé](#résumé)
 
 # Introduction
@@ -43,5 +44,35 @@ Voilà ce qu'est un algorigramme, il s'agit seulement d'une représentation sch�
 Dans l'exemple ci-dessus, les carrés représente des actions. Les ronds ont une valeur sémantique pour dénoter le début et la fin d'un algorigramme. Les triangles quant à eux servent à représenter des conditions.
 
 Un code couleur a été ajouté afin de séparer les actions, notez qu'en général, un algorigramme est utilisé pour représenter les actions du système. Ici, les actions dénotées en vert sont les actions utilisateur, alors que celles en rouge sont celles du système.
+
+### Pseudo Code
+
+Le pseudo code est un code qui n'en pas écrit dans un langage de programmation, mais dans une langue humaine. En français par exemple.
+
+Note : Préferez rédiger vos ressources en Anglais afin d'être sûr de pouvoir rejoindre des équipes internationnales (Comme écrire vos commentaire de code en anglais par exemple).
+
+En fait, le pseudo code peut être vu comme une représentation textuel d'un algorigramme, en voici un exemple en reprenant le précédent algorigramme :
+
+```pseudo-code
+Début de la procédure;
+L'utilisateur sélectionne un article;
+L'utilisateur ajoute son article au panier;
+Si le nombre d'article dans le panier >= 1 :
+  L'utilisateur valide le panier;
+  L'utilisateur entre ses informations bancaire (Bank_ASK);
+  L'utilisateur valide ses informations bancaire;
+  Si les informations bancaires sont correctes :
+    Si le solde du compte correspondant aux informations bancaires entrées par l'utilisateur est >= au prix du panier:
+      Le système envoie un mail de confirmation à l'adresse mail associé au compte de l'utilisateur;
+      Le système enregistre la commande de l'utilisateur.
+    Sinon:
+      Le système affiche un message d'erreur;
+      Retourner à Bank_ASK;  
+  Sinon: 
+    Le système affiche un message d'erreur;
+    Retourner à Bank_ASK;  
+Sinon :
+Fin de la procédure.
+```
 
 # Résumé
