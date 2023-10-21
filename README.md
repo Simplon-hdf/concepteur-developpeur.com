@@ -4,10 +4,10 @@
 
 ### Git et GitFlow / Git and GitFlow
 
-- [Documentation de Git (French)](./basics/git/git-fr.md)
-- [Git Documentation (English)](./basics/git/git-en.md)
-- [Documentation de GitFlow (French)](./basics/git/git-fr.md)
-- [GitFlow Documentation](./basics/git/gitflow/gitflow-en.md)
+- [Documentation de Git (French)](1-basics/01-git/fr/article.md)
+- [Git Documentation (English)](1-basics/01-git/en/article.md)
+- [Documentation de GitFlow (French)](1-basics/02-gitflow/fr/article.md)
+- [GitFlow Documentation](1-basics/02-gitflow/en/article.md)
 
 ### Méthode agile (SCRUM) / Agile method (SCRUM)
 
