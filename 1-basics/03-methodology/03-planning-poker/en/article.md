@@ -15,7 +15,7 @@ The **Planning Poker**, also known as "**SCRUM Poker**" or "pointing poker", is 
 These **estimations** are **based** on a **consensus** from whole team, which make it most accurate than other methods. 
 To help to evaluate story points count for relevant tasks, **teams** uses planification **poker cards**.
 
-![](assets/cards.png)
+![](../assets/cards.png)
 
 The *Fibonacci suit* is used for evalutations.
 Like we search to **quantify the effort**, the message is clear : *biggest the scenario is*, **less evaluations will be accurates**.
@@ -25,7 +25,7 @@ We generaly add 0 and 1/2 values.
 
 # How Planning Poker works
 
-![](assets/meeting.jpg)
+![](../assets/meeting.jpg)
 
 At the beginning of a Planning Poker session, the **Product Owner** or **the client** reviews an agile user story and reads it **aloud**. A user story is a general and informal explanation of a software feature that describes how it will deliver value to the end user (i.e., the client).
 
@@ -80,7 +80,7 @@ According to a study, *estimates from Planning Poker* are **statistically higher
 
 # Who include to Planning Poker meeting
 
-![](assets/team.jpg)
+![](../assets/team.jpg)
 
 The right people need to join the meeting, otherwise, it becomes difficult to reap the benefits described above. These crucial roles are as follows:
 

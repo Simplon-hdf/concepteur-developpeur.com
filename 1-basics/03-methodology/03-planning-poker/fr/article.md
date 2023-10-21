@@ -14,7 +14,7 @@ Le **Planning Poker**, également connu sous le nom de "**SCRUM Poker**" ou "poi
 Ces **estimations** sont **basées** sur un **consensus** de l'ensemble du groupe, ce qui rend ces dernières plus précises que d'autres méthodes.
 Pour aider à évaluer le nombre de story points pour les tâches pertinentes, les **équipes** utilisent des **cartes de poker** de planification.
 
-![](assets/cards.png)
+![](../assets/cards.png)
 
 La *suite de Fibonacci* est utilisée pour les évaluations.
 Comme nous cherchons à **quantifier l'effort**, le message est clair : *plus le scénario est gros*, **moins l'évaluation est précise**.
@@ -24,7 +24,7 @@ On y ajoute généralement les valeurs 0 et 1/2.
 
 # Comment se déroule un Planning Poker
 
-![](assets/meeting.jpg)
+![](../assets/meeting.jpg)
 
 Au début d'une session du Planning Poker, le **Product Owner** ou **le client** examine une *user story* agile et la lit **à haute voix**.
 Une user story est une explication générale et informelle d'une fonctionnalité logicielle qui décrit comment elle offrira de la valeur à l'utilisateur final (c'est-à-dire le client).
@@ -82,7 +82,7 @@ Selon une étude, *les estimations issues du Planning Poker* sont **statistiquem
 
 # Qui inclure dans les réunions de planification du poker ?
 
-![](assets/team.jpg)
+![](../assets/team.jpg)
 
 Les bonnes personnes doivent se joindre à la réunion, sinon il devient difficile de récolter les avantages décrits ci-dessus. Ces rôles cruciaux sont les suivants :
 
