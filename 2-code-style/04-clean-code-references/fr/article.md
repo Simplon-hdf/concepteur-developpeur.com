@@ -21,6 +21,8 @@ Il est particulièrement pertinent de prendre connaissance et d'appliquer les re
 
 # Clean Code pour TypeScript
 
+Il n'y a pas de **Clean Code** à proprement parlé pour TypeScript, pour autant, il est intéressant de prendre un hybride entre [le clean code JavaScript](#clean-code-pour-javascript) et [le clean code C#](#clean-code-pour-c).
+
 # Clean Code pour C#
 
 # Clean Code pour Java
