@@ -8,7 +8,7 @@
     - [Pseudocode](#pseudocode)
   - [UML (Unified Modeling Language)](#uml-unified-modeling-language)
   - [Merise (Method of Study and Computer Realization for Enterprise Systems)](#merise-method-of-study-and-computer-realization-for-enterprise-systems)
-  - [Summary](#summary)
+- [Summary](#summary)
 
 # Introduction
 
@@ -105,4 +105,11 @@ Note that Merise is a European method, so if you work on projects outside the Eu
 
 While Merise is a smaller topic than UML, it also deserves a dedicated article: [Database Design Basics with Merise (not available)](not-available.md)
 
-## Summary
+# Summary
+
+- Being an application designer makes you a better developer.
+- Application design allows developers to outline their reasoning using schematic representations (diagrams) to gain an overview of a project.
+- Design allows non-technical individuals to understand a project's objectives and how to achieve them.
+- A strong design enables any developer to understand the code structure.
+- **The design of a project is not set in stone and is subject to evolution**; no one can predict everything.
+- There are different methods for design, and these methods depend on several factors.
