@@ -2,15 +2,6 @@
 
 ## Table des matières
 
-### Conventions de code et Outils / Code conventions and Tools
-
-- [Les conventions de code (French)](./2-code-style/01-code-conventions/fr/article.md)
-- [Code conventions (English)](./2-code-style/01-code-conventions/en/article.md)
-- [Documentation des linters (French)](2-code-style/02-linter/fr/article.md)
-- [Linters Documentation (English)](2-code-style/02-linter/en/article.md)
-- [Les formatters avec Prettier (French)](2-code-style/03-prettier/fr/article.md)
-- [Formatters with Prettier (English)](2-code-style/03-prettier/en/article.md)
-
 ### Méthode agile (SCRUM) / Agile method (SCRUM)
 
 - [La méthode agile (French)](./basics/methodology/agile-method/agile-method-fr.md)
@@ -34,5 +25,14 @@
 - [Documentation de NPM (French)](./basics/npm/npm-fr.md)
 - [NPM Documentation (English)](./basics/npm/npm-en.md)
 - [Example **package.json** file](package.json)
+
+### Conventions de code et Outils / Code conventions and Tools
+
+- [Les conventions de code (French)](./2-code-style/01-code-conventions/fr/article.md)
+- [Code conventions (English)](./2-code-style/01-code-conventions/en/article.md)
+- [Documentation des linters (French)](2-code-style/02-linter/fr/article.md)
+- [Linters Documentation (English)](2-code-style/02-linter/en/article.md)
+- [Les formatters avec Prettier (French)](2-code-style/03-prettier/fr/article.md)
+- [Formatters with Prettier (English)](2-code-style/03-prettier/en/article.md)
 
 Site web (à venir) : http://concepteur-developpeur.com/
