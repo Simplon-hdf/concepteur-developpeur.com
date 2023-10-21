@@ -22,7 +22,6 @@
 
 - [Documentation de NPM (French)](./basics/npm/npm-fr.md)
 - [NPM Documentation (English)](./basics/npm/npm-en.md)
-- [Example **package.json** file](package.json)
 
 ### Conventions de code et Outils / Code conventions and Tools
 
