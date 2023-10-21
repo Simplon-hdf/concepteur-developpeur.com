@@ -20,8 +20,8 @@
 
 ### Node Package Manager (NPM)
 
-- [Documentation de NPM (French)](./basics/npm/npm-fr.md)
-- [NPM Documentation (English)](./basics/npm/npm-en.md)
+- [Documentation de NPM (French)](1-basics/04-npm/fr/article.md)
+- [NPM Documentation (English)](1-basics/04-npm/en/article.md)
 
 ### Conventions de code et Outils / Code conventions and Tools
 
