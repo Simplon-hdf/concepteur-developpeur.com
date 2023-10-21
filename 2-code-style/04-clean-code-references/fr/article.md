@@ -16,6 +16,9 @@ Vous trouverez dans cet article certaines ressources concernant ces standars (au
 
 # Clean Code pour JavaScript
 
+Le **Clean Code** pour JavaScript se trouve [ici](https://github.com/ryanmcdermott/clean-code-javascript).
+Il est particulièrement pertinent de prendre connaissance et d'appliquer les recommandations de ce guide, sans doute même plus important que dans n'importe quel autres langages en raison des spécificités de ce dernier.
+
 # Clean Code pour TypeScript
 
 # Clean Code pour C#
