@@ -31,17 +31,17 @@ Il existe plusieurs façons de concevoir une application ou une fonctionnalité,
 
 ## Conception de fonctionnalité
 
-Il y a plusieurs façons de concevoir des fonctionnalités, une d'entre elle est l'**algorigrame** couplé au pseudo-code.
+Il y a plusieurs façons de concevoir des fonctionnalités, une d'entre elle est l'**algorigramme** couplé au pseudo-code.
 Cette méthode de conception est généralement utilisée pour les **développeurs** débutants, elle permet d'inculquer une logique algorithmique aux **développeur**, en plus de permettre un découpage clair d'une fonctionnalité.
 
 Notez que cette méthode n'est vraiment pas répandue à grande échelle car elle est relativement chronophage et assez rudimentaire, nous la présentons ici par acquit de conscience, mais si vous estimez avoir une bonne logique algorithmique, cette section ne sera pas la plus pertinente pour vous. Bien que vous devriez prendre connaissance de cette section afin de vous assurez que vous ne vous trompez pas.
 
 <img src="./../assets/algo-demo.png" style="width:50%;height:50%"/>
 
-Voilà ce qu'est un algorigrame, il s'agit seulement d'une représentation schématique d'un algorithme.
+Voilà ce qu'est un algorigramme, il s'agit seulement d'une représentation schématique d'un algorithme.
 
 Dans l'exemple ci-dessus, les carrés représente des actions. Les ronds ont une valeur sémantique pour dénoter le début et la fin d'un algorigramme. Les triangles quant à eux servent à représentre des conditions.
 
-Un code couleur a été ajouté afin de séparer les actions, notez qu'en général, un algorigrame est uniquement utilisé pour représenter les actions du système. Ici, les actions dénotées en vert sont les actions utilisateur, alors que celle en rouge sont celles du système.
+Un code couleur a été ajouté afin de séparer les actions, notez qu'en général, un algorigramme est uniquement utilisé pour représenter les actions du système. Ici, les actions dénotées en vert sont les actions utilisateur, alors que celle en rouge sont celles du système.
 
 # Résumé
