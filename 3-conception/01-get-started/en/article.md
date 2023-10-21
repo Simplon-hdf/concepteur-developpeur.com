@@ -7,7 +7,7 @@
   - [Feature Design](#feature-design)
     - [Pseudocode](#pseudocode)
   - [UML (Unified Modeling Language)](#uml-unified-modeling-language)
-  - [Merise (Méthode d'Étude et de Réalisation Informatique pour les Systèmes d'Entreprise)](#merise-méthode-détude-et-de-réalisation-informatique-pour-les-systèmes-dentreprise)
+  - [Merise (Method of Study and Computer Realization for Enterprise Systems)](#merise-method-of-study-and-computer-realization-for-enterprise-systems)
   - [Summary](#summary)
 
 # Introduction
@@ -95,6 +95,14 @@ Note: The conditions could have been inverted to avoid creating as many levels o
 
 We will discuss this further in the article: [UML Basics (not available)](not-available.md)
 
-## Merise (Méthode d'Étude et de Réalisation Informatique pour les Systèmes d'Entreprise)
+## Merise (Method of Study and Computer Realization for Enterprise Systems)
+
+**Merise (pronounced "Mer-eeze") is a method** used for the structural and organizational study of enterprises (often both at the same time).
+
+However, for an application designer, the Merise method doesn't serve this purpose. In general, when you encounter Merise in this context, it involves creating diagrams or resources related to **relational database systems (SQL)**. While it's technically possible to use Merise for **non-relational databases (NoSQL)**, it's akin to cooking your food with a nuclear reactor. Technically, it works, but it's best to refrain.
+
+Note that Merise is a European method, so if you work on projects outside the European Union, your team members will likely use UML or SysML for databases.
+
+While Merise is a smaller topic than UML, it also deserves a dedicated article: [Database Design Basics with Merise (not available)](not-available.md)
 
 ## Summary
