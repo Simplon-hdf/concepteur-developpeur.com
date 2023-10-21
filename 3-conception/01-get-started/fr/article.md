@@ -113,7 +113,8 @@ Merise étant certes un moins gros sujet qu'UML, elle mérite elle aussi un arti
 # Résumé
 
 - Être concepteur d'application, c'est devenir un meilleur développeur.
-- La conception d'application permet aux développeurs de poser leur raisonnement dans des schémas (appelés diagrammes) afin d'obtenir une vue d'ensemble d'un projet.
-- La conception permet à des personnes non techniques de comprendre les objectifs d'un projet et la façon de les atteindre.
+- La conception d'application permet aux développeurs de poser leur raisonnement sur des représentations schématiques (appelés diagrammes) afin d'obtenir une vue d'ensemble d'un projet.
+- La conception permet aux personnes non techniques de comprendre les objectifs d'un projet et la façon de les atteindre.
+- Une conception solide permettra à n'importe quel développeur de comprendre l'agencement du code.
 - **La conception d'un projet n'est pas immuable et est amenée à évoluer**, personne ne peut tout prévoir.
 - Il existe différentes méthodes pour faire de la conception, ces métodes dépendent de plusieurs facteurs.
