@@ -91,6 +91,10 @@ Note: The conditions could have been inverted to avoid creating as many levels o
 
 ## UML (Unified Modeling Language)
 
+**UML is a LANGUAGE**—even though it may seem counterintuitive, UML is indeed a language. UML allows the schematic modeling of various aspects of an application or system through various types of diagrams.
+
+We will discuss this further in the article: [UML Basics (not available)](not-available.md)
+
 ## Merise (Méthode d'Étude et de Réalisation Informatique pour les Systèmes d'Entreprise)
 
 ## Summary
