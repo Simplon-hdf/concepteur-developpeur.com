@@ -72,6 +72,7 @@ Si le nombre d'article dans le panier >= 1 :
     Le système affiche un message d'erreur;
     Retourner à Bank_ASK;  
 Sinon :
+  Fin de la procédure.
 Fin de la procédure.
 ```
 
