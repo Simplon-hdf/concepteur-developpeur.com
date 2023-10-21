@@ -38,6 +38,6 @@ Notez que cette méthode n'est vraiment pas répandue à grande échelle car ell
 
 Voici donc un exemple d'algorigrame :
 
-
+<img src="./../assets/algo-demo.png" style="width:50%;height:50%"/>
 
 # Résumé
