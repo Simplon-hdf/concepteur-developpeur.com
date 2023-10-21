@@ -6,6 +6,7 @@
 - [Méthodes](#méthodes)
   - [Conception de fonctionnalité](#conception-de-fonctionnalité)
     - [Pseudo Code](#pseudo-code)
+  - [UML (Unified Modeling Language)](#uml-unified-modeling-language)
 - [Résumé](#résumé)
 
 # Introduction
@@ -83,5 +84,13 @@ Vous voudrez sans doute un exemple plus verbeux :
 *<p style="text-align:center;">À gauche, le pseudo-code et à droite le code en langage de programmation.</p>*
 
 Note: Les conditions auraient pu être inversé afin de ne pas créer autant de niveau d'imbrication, il s'agissait seulement de suivre l'algorigramme à la lettre afin de démontrer les 2 approches aussi fidèlement, en général, évitez au maximum plus de 2 niveaux d'imbrication.
+
+## UML (Unified Modeling Language)
+
+**UML est un LANGAGE**, bien que cela puisse sembler contre-intuitif, UML est bel et bien un langage.
+
+UML est un langage qui permet de modéliser schématiquement les différents aspects d'une application ou d'un système par le biais de divers types diagrammes.
+
+Nous en parlerons plus tard dans l'article : [Les bases d'UML](not-available.md)
 
 # Résumé
