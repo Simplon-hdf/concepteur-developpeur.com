@@ -9,13 +9,14 @@ Cette documentation existe aussi en [version française](README.md)
 - [Git Documentation](1-basics/01-git/en/article.md)
 - [GitFlow Documentation](1-basics/02-gitflow/en/article.md)
 
-## Agile Method (SCRUM)
+<details>
+<summary><h2>Agile Method (SCRUM)</h2></summary>
 
 - [Agile method](1-basics/03-methodology/01-agile-method/en/article.md)
 - [Velocity in SCRUM](1-basics/03-methodology/02-velocity/en/article.md)
 - [Planning Poker presentation](1-basics/03-methodology/03-planning-poker/en/article.md)
 
-
+</details>
 <details>
 <summary><h2>Node Package Manager (NPM)</h2></summary>
 
