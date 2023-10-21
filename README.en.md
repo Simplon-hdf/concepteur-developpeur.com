@@ -15,10 +15,13 @@ Cette documentation existe aussi en [version française](README.md)
 - [Velocity in SCRUM](1-basics/03-methodology/02-velocity/en/article.md)
 - [Planning Poker presentation](1-basics/03-methodology/03-planning-poker/en/article.md)
 
-## Node Package Manager (NPM)
+
+<details>
+<summary><h2>Node Package Manager (NPM)</h2></summary>
 
 - [NPM Documentation](1-basics/04-npm/en/article.md)
 
+</details>
 <details>
 <summary><h2>Code Conventions & Tools</h2></summary>
 
