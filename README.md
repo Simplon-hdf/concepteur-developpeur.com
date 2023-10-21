@@ -10,6 +10,8 @@ This documentation also exists in [english version](README.en.md).
 - [Documentation de Git](1-basics/01-git/fr/article.md)
 - [Documentation de GitFlow](1-basics/02-gitflow/fr/article.md)
 
+</details>
+
 <details>
 <summary><h2>Méthode Agile (SCRUM)</h2></summary>
 
