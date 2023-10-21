@@ -74,6 +74,8 @@ This section will bring you some informations to get started with Git.
 | git checkout <branch_name>                | Will change working branch                                                                          |
 | git merge <branch_to_merge>               | Will bring all commits from a branch to current branch                                              |
 
+![](../assets/how-commands-affects.png)
+
 ## Create empty repository
 
 To create a new repository from scrath with Git you can proceed as follow : 

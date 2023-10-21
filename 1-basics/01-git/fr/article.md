@@ -71,7 +71,7 @@ sudo pacman -S git
 | git checkout <nom_de_la_branche>               | Change de branche                                                                                                                                                 |
 | git merge <nom_de_la_branche_à_fusionner>      | Fusionne les modifications de la branche visée avec celles de la branche sur laquelle vous vous trouvez                                                           |
 
-![commande de base ](https://blog.freelancerepublik.com/wp-content/uploads/2021/12/Git-Architechture.png)
+![](../assets/how-commands-affects.png)
 
 Le working directory est comme un espace de travail où vous travaillez sur un fichier.
 Le staging area est comme une salle d'attente avant que le fichier ne soit indexé par la commande git add.
