@@ -67,7 +67,7 @@ Managing a project following the Agile manifesto places the **customer** at the 
 
 SCRUM is a **framework** for implementing the Agile methodology **incrementally** and **iteratively**.
 
-![Scrum](assets/scrum_schema.jpeg)
+![Scrum](../assets/scrum_schema.jpeg)
 
 ## Roles
 
@@ -91,7 +91,7 @@ The **Product Backlog** is a **registry** from which the team selects **tasks to
 
 - **Epics**: Epics are a **group of user stories**. Generally, epics represent a complete feature, whereas **user stories** represent **fragment of feature**. An epic might be `User Authentication` and could contain the user story in the example above.
 
-![Product Backlog](assets/backlog.png)
+![Product Backlog](../assets/backlog.png)
 
 ## The Sprint Backlog
 
@@ -102,7 +102,7 @@ In the SCRUM framework, there are two types of **backlogs**:
 - The **product backlog**
 - The **sprint backlog**
 
-![SCRUM Cycle](./assets/cycle.jpeg)
+![SCRUM Cycle](../assets/cycle.jpeg)
 
 ## Rituals / Ceremonies
 
@@ -150,7 +150,7 @@ The purpose of this ritual is not to highlight what didn't work but to **highlig
 
 ## Jira
 
-![Jira Illustration](assets/jira/illu.jpg)
+![Jira Illustration](../assets/jira/illu.jpg)
 
 Jira is a collaborative service that allows the application of the Agile methodology through its design. It can be used with the SCRUM framework and KANBAN (although it was not designed for this purpose). If you need to work in Agile methodology using the SCRUM framework, Jira is by far the best candidate and is, for all intents and purposes, mandatory in any respectable industry-related organization.
 
@@ -162,19 +162,19 @@ While it may seem complex at first, it is a highly comprehensive tool that will 
 
 Let's take a look at the basic Jira interface:
 
-![Basic Interface](assets/jira/basic-interface.png)
+![Basic Interface](../assets/jira/basic-interface.png)
 
 This is the interface that developers typically encounter. Note that this interface is specific to a SCRUM project; it is different for a Kanban project.
 
 Here is the interface used during **Sprint Planning**:
 
-![Backlog](assets/jira/product-backlog.png)
+![Backlog](../assets/jira/product-backlog.png)
 
 This interface represents the **Product Backlog** and is used to transfer tasks to the **Sprint Backlog**. This way, the team takes the priority tasks and moves them into the Sprint space. Once the Sprint begins, tasks are automatically transferred to the **Board**.
 
 Here is what the **Board** looks like when a **Sprint** starts:
 
-![Sprint Board](assets/jira/sprint-board.png)
+![Sprint Board](../assets/jira/sprint-board.png)
 
 It resembles a Kanban board.
 
