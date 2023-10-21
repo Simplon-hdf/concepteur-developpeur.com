@@ -87,6 +87,8 @@ You might want a more verbose example:
 
 ![Pseudocode Example](../assets/pseudo-code.png)
 
+*<p style="text-align:center;">Pseudo-code to left and to right code in programming language.</p>*
+
 Note: The conditions could have been inverted to avoid creating as many levels of nesting. It was done this way only to follow the flowchart precisely and demonstrate the two approaches as faithfully as possible. In general, try to avoid more than two levels of nesting.
 
 ## UML (Unified Modeling Language)
