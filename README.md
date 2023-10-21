@@ -19,9 +19,12 @@ This documentation also exists in [english version](README.en.md).
 
 </details>
 
-## Node Package Manager (NPM)
+<details>
+<summary><h2>Node Package Manager (NPM)</h2></summary>
 
 - [Documentation de NPM](1-basics/04-npm/fr/article.md)
+
+</details>
 
 ## Conventions de code et Outils
 
