@@ -4,6 +4,7 @@
 - [Introduction](#introduction)
 - [Bénéfices](#bénéfices)
 - [Méthodes](#méthodes)
+  - [Conception de fonctionnalité](#conception-de-fonctionnalité)
 - [Résumé](#résumé)
 
 # Introduction
@@ -22,8 +23,14 @@ La conception permet aux membres d'une équipe de développement de décrire le 
 
 Voilà pour les bénéfices de concevoir un projet avant de le réaliser, notez d'ailleurs qu'il ne s'agit là que de bénéfices de groupe, mais la conception permet aussi d'aborder le développement d'un projet de façon complétement différente. Et de se poser les bonnes questions avant même de commencer à réaliser le projet, ce qui sur le long terme peut faire économiser énormément de temps et des efforts.
 
-En conceptualisant une application, vous deviendrez un bien meilleur développeur.
+En concevant une application, vous deviendrez un bien meilleur développeur.
 
 # Méthodes
+
+Il existe plusieurs façons de concevoir une application ou une fonctionnalité, vous en découvrirez quelques-unes dans cette section.
+
+## Conception de fonctionnalité
+
+
 
 # Résumé
