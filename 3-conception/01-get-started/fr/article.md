@@ -96,9 +96,7 @@ Note: Les conditions auraient pu être inversée afin de ne pas créer autant de
 
 ## UML (Unified Modeling Language)
 
-**UML est un LANGAGE**, bien que cela puisse sembler contre-intuitif, UML est bel et bien un langage.
-
-UML est un langage qui permet de modéliser schématiquement les différents aspects d'une application ou d'un système par le biais de divers types diagrammes.
+**UML est un LANGAGE**, bien que cela puisse sembler contre-intuitif, UML est bel et bien un langage. UML permet de modéliser schématiquement les différents aspects d'une application ou d'un système par le biais de divers types diagrammes.
 
 Nous en parlerons plus tard dans l'article : [Les bases d'UML](not-available.md)
 
