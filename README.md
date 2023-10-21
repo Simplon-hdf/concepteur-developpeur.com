@@ -25,4 +25,4 @@ This documentation also exists in [english version](README.en.md).
 - [Documentation des linters](2-code-style/02-linter/fr/article.md)
 - [Les formatters avec Prettier](2-code-style/03-prettier/fr/article.md)
 
-Site web (à venir) : http://concepteur-developpeur.com/
+[Site web](http://concepteur-developpeur.com/) (à venir)

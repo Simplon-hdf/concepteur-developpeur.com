@@ -25,4 +25,4 @@ Cette documentation existe aussi en [version française](README.md)
 - [Linters Documentation](2-code-style/02-linter/en/article.md)
 - [Formatters with Prettier](2-code-style/03-prettier/en/article.md)
 
-WebSite incomming : http://concepteur-developpeur.com/
+[Website](http://concepteur-developpeur.com/) (not yet)
