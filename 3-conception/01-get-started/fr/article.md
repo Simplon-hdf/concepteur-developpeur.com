@@ -14,6 +14,10 @@
 
 La conception d'application est un sujet très vaste. Elle regroupe divers aspects ou étapes qui surviennent avant la réalisation fonctionnelle du projet. La conception ne prends pas qu'une forme, elle se décline en une multitude de réalisation qui permettent de mettre en lumière les différents aspects d'un projet.
 
+Tout au long de votre application, veillez à garder à l'esprit que **la conception d'un projet n'est pas immuble et est amenée à evoluer**, pour certaines raisons, peut-être qu'une fonctionnalité ne correspond plus aux besoins du client, peut-être n'aviez-vous pas prévu certaines contraintes techniques.
+
+Ne vous formalisez pas si vous vous rendez compte que votre conception nécessite quelques ajustements, c'est parfaitement normal.
+
 # Bénéfices
 
 La conception permet aux membres d'une équipe de développement de décrire le comportement d'une application avant de commencer à développer, ce qui est très intéressant pour plusieurs raisons :
