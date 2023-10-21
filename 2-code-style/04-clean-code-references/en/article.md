@@ -22,3 +22,5 @@ It is especially relevant to become familiar with and apply the recommendations 
 There isn't a **Clean Code** specifically for TypeScript. Nevertheless, it's interesting to adopt a hybrid approach between [clean code in JavaScript](#clean-code-for-javascript) and [clean code in C#](#clean-code-for-c-and-more-broadly-net).
 
 # Clean Code for C# (and More Broadly .NET)
+
+**Clean Code** for .NET is by far the most popular. If you plan to start with .NET, it is highly recommended to adopt good practices from the beginning. Here is the [clean code .NET](https://github.com/thangchung/clean-code-dotnet).
