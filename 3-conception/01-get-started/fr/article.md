@@ -12,15 +12,13 @@
 
 # Introduction
 
-La conception d'application est un sujet très vaste. Elle regroupe divers aspects ou étapes qui surviennent avant la réalisation fonctionnelle du projet. La conception ne prends pas qu'une forme, elle se décline en une multitude de réalisation qui permettent de mettre en lumière les différents aspects d'un projet.
+La conception d'application est un sujet très vaste. Elle regroupe divers aspects ou étapes qui surviennent avant la réalisation fonctionnelle du projet. La conception ne prend pas qu'une forme, elle se décline en une multitude de réalisation qui permettent de mettre en lumière les différents aspects d'un projet.
 
-Tout au long de votre application, veillez à garder à l'esprit que **la conception d'un projet n'est pas immuble et est amenée à evoluer**, pour certaines raisons, peut-être qu'une fonctionnalité ne correspond plus aux besoins du client, peut-être n'aviez-vous pas prévu certaines contraintes techniques.
+Tout au long de votre application, veillez à garder à l'esprit que **la conception d'un projet n'est pas immuble et est amenée à evoluer**, pour certaines raisons, peut-être qu'une fonctionnalité ne correspond plus aux besoins du client, peut-être n'aviez-vous pas prévu certaines contraintes techniques. Ne vous formalisez pas si vous vous rendez compte que votre conception nécessite quelques ajustements, c'est parfaitement normal.
 
-Ne vous formalisez pas si vous vous rendez compte que votre conception nécessite quelques ajustements, c'est parfaitement normal.
+Pro Tips : Si vous devez vous réformer suite à une contrainte technique rencontrée pendant l'étape de réalisation de votre projet, essayez dans la mesure du possible (si vous n'êtes pas dans un projet d'entreprise avec des délais serrés par exemple) de revoir la portion de votre conception qui nécessite des ajustements plutôt que de remettre ça à plus tard. Il est plus intéressant de mettre en pause votre réalisation afin de poser votre esprit sur un travail de réflexion pour résoudre le problème rencontré, plutôt que d'avoir à revoir votre code et d'en refaire la conception.
 
-Pro Tips : Si vous devez vous réformer suite à une contrainte technique rencontrée pendant l'étape de réalisation de votre projet, essayez dans la mesure du possible (si vous n'êtes pas dans un projet d'entreprise avec des délais serrés par exemple) de revoir la portion de votre conception qui nécessite des ajustements plutôt que de remettre ça à plus tard. Il est plus intéressant de mettre en pause votre réalisation afin de poser votre esprit sur un travail de reflexion pour résoudre le problème rencontré, plutôt que d'avoir à revoir votre code et d'en refaire la conception.
-
-J'ai, à titre personnel expérimenté les 2 approches (la rétro-conception et la conception) et il est vachement plus intéressant de suspendre votre session de code pour ajuster votre conception et de reprendre votre code avec la nouvelle version de conception, plutôt que d'essayer de développer votre fonctionnalité de tête et de refaire votre conception en essayant de retrouver le comportement de votre code.
+J'ai, à titre personnel expérimenté les 2 approches (la rétro-conception et la conception) et il est de loin plus intéressant de suspendre votre session de code pour ajuster votre conception et de reprendre votre code avec la nouvelle version de conception, plutôt que d'essayer de développer votre fonctionnalité de tête et de refaire votre conception en essayant de retrouver le comportement de votre code.
 
 Gardez ça à l'esprit bien que cela puisse vous semblez abstrait comme concept à l'heure actuelle.
 
