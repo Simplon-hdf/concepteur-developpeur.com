@@ -59,7 +59,7 @@ Un code couleur a été ajouté afin de séparer les actions, notez qu'en géné
 
 Le pseudo code est un code qui n'en pas écrit dans un langage de programmation, mais dans une langue humaine. En français par exemple.
 
-Note : Préferez rédiger vos ressources en Anglais afin d'être sûr de pouvoir rejoindre des équipes internationnales (Comme écrire vos commentaire de code en anglais par exemple).
+Note : Préferez rédiger vos ressources en Anglais afin de respecter une règle tassite qui vise à ce que n'importe qui puisse comprendre le propos (Comme écrire vos commentaire de code en anglais par exemple).
 
 En fait, le pseudo code peut être vu comme une représentation textuel d'un algorigramme, en voici un exemple en reprenant le précédent algorigramme :
 
@@ -67,12 +67,12 @@ En fait, le pseudo code peut être vu comme une représentation textuel d'un alg
 Début de la procédure;
 L'utilisateur sélectionne un article;
 L'utilisateur ajoute son article au panier;
-Si le nombre d'article dans le panier >= 1 :
+Si le nombre d'article dans le panier est >= 1 :
   L'utilisateur valide le panier;
-  L'utilisateur entre ses informations bancaire (Bank_ASK);
-  L'utilisateur valide ses informations bancaire;
+  L'utilisateur entre ses informations bancaires (Bank_ASK);
+  L'utilisateur valide ses informations bancaires;
   Si les informations bancaires sont correctes :
-    Si le solde du compte correspondant aux informations bancaires entrées par l'utilisateur est >= au prix du panier:
+    Si le solde du compte correspondant aux informations bancaires entrées par l'utilisateur est >= au prix du panier :
       Le système envoie un mail de confirmation à l'adresse mail associé au compte de l'utilisateur;
       Le système enregistre la commande de l'utilisateur.
     Sinon:
@@ -92,7 +92,7 @@ Vous voudrez sans doute un exemple plus verbeux :
 
 *<p style="text-align:center;">À gauche, le pseudo-code et à droite le code en langage de programmation.</p>*
 
-Note: Les conditions auraient pu être inversé afin de ne pas créer autant de niveau d'imbrication, il s'agissait seulement de suivre l'algorigramme à la lettre afin de démontrer les 2 approches aussi fidèlement, en général, évitez au maximum plus de 2 niveaux d'imbrication.
+Note: Les conditions auraient pu être inversée afin de ne pas créer autant de niveaux d'imbrication, il s'agissait seulement de suivre l'algorigramme à la lettre afin de démontrer les 2 approches aussi fidèlement, en général, évitez au maximum plus de 2 niveaux d'imbrication.
 
 ## UML (Unified Modeling Language)
 
