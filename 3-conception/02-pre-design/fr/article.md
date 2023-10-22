@@ -61,3 +61,4 @@ Il est recommandé de dresser une liste des problèmatiques dans un document év
 
 Pour chaque problématique, trouvez une solution simple, pas simpliste, **simple**. Il ne faut pas qu'une solution à une seule problèmatique engage des efforts démesurés, utiliser juste votre bon sens. Il peut être difficile de prendre du recul sur ce genre de réalisation, c'est pourquoi demander un avis à un tiers (qui peut être un collègue qui n'a rien à voir avec le projet, ou une personne non technique) peut être utile afin de vous rendre compte de ce que vous produisez.
 
+Une fois que vos solutions ont suffisamment étés éprouvé en terme de simplicité, de pertinence, et de réflexion, vous pourrez consignez votre réalisation dans un document présentable au client.
