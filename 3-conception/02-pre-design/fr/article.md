@@ -121,7 +121,7 @@ Voyez cette section comme une mise en abîme du projet, ou un moyen de ferrer le
 
 ### La présentation de l'équipe en charge
 
-Cette section est importante, elle présente les membres de l'équipe en charge du projet, il n'est pas question ici de présenter personnellement les membres, mais d'expliquer qui aura quelle fonction au sein du projet. Par exemple :
+Cette section est importante, elle présente les membres de l'équipe en charge du projet, **il n'est pas question ici de présenter personnellement les membres**, mais d'expliquer **qui** aura **quelle fonction** au sein du projet. Par exemple :
 
 ```
 - Monsieur B : Développeur de la solution
@@ -131,9 +131,9 @@ Cette section est importante, elle présente les membres de l'équipe en charge 
 ...
 ```
 
-Voilà un exemple concret, il peut être judicieux d'être succint. Le client ne cherche pas à devenir ami avec l'équipe, il souhaite seulement savoir et comprendre ce pour quoi il paye. Cette section est là pour lui montrer que vous vous soucier de cet aspect, et permet aussi d'expliquer tacitement les coûts d'un projet en montrant au client l'effectif employé à la réussite de son projet.
+Voilà un exemple concret, il peut être judicieux d'être succint. **Le client** ne cherche pas à devenir ami avec l'équipe, il souhaite seulement **savoir** et **comprendre ce pour quoi il paye**. Cette section est là pour lui montrer que vous vous soucier de cet aspect, et permet aussi d'**expliquer tacitement les coûts d'un projet** en montrant au client l'**effectif employé** à la **réussite** de son projet.
 
-Cette section n'est **pas absolument essentielle** mais il **est fortement recommandé** de l'inclure. Dans un document qui a pour vocation d'établir un projet, mieux vaut que le client ait plus d'informations qui l'intéresse plutôt qu'un document qui ne trouverait grâce à ses yeux. (C'est à prendre avec des pincettes, ne commençait pas à mettre vos horraires de pause déjeuner non plus). Gardez à l'esprit que vous devez rester pertinent dans votre démarche.
+Cette section n'est **pas absolument essentielle** mais il **est fortement recommandé** de l'inclure. Dans un document qui a pour vocation d'établir un projet, mieux vaut que le client ait plus d'informations qui l'intéresse plutôt qu'un document qui ne trouverait grâce à ses yeux. (C'est à prendre avec des pincettes, ne commençait pas à mettre vos horraires de pause déjeuner non plus). Gardez à l'esprit que **vous devez rester pertinent** dans votre démarche.
 
 ### La présentation (TRÈS SUCCINTE) de votre méthodologie de travail
 
