@@ -193,19 +193,19 @@ Les services d'un concepteur visent
 les personnes ayant besoin de développer des produits numériques.
 ```
 
-Bien que cela puisse paraître absurde, en pratique, c'est une étape qui demande une certaine réflexion et temoigne une certaine rigueur.
+Bien que cela puisse paraître absurde, en pratique, c'est une étape qui demande une certaine réflexion et temoigne d'une certaine rigueur.
 
 ## Les bénéfices
 
-Les bénifices de faire un document de la sortes est bénéfiques pour plusieurs raisons :
+Faire un document de la sorte est bénéfique pour plusieurs raisons :
 
 - Vous témoignez au client votre engagement dans le projet.
 - Vous établissez une valeur étalon solide sur laquelle vous pourrez vous appuyer.
 - Vous déclarer clairement ce que vous avez pris en compte dans vos réflexions.
 
-Il y a d'autres bonnes raisons, comme le fait de permettre au client d'apporter des correctifs sur les points avec lesquels il n'est pas d'accord dès le début, plutôt qu'après la récéption d'une première version fonctionnelle. Mais ce sont les trois principales.
+Il y a d'autres bonnes raisons, comme le fait de permettre au client d'apporter des correctifs sur les points avec lesquels il n'est pas d'accord dès le début, plutôt qu'après la réception d'une première version fonctionnelle. Mais ce sont les trois principales.
 
-Puis de toutes façons, c'est obligatoire d'établir un dossier de début de projet avec le client, voyez simplement ça comme une partie, certes peut amusante mais très enrichissante du métier.
+Puis de toutes façons, c'est obligatoire d'établir un dossier de début de projet avec le client, voyez simplement ça comme une partie, certes peu amusante mais très enrichissante du métier.
 
 Selon votre méthodologie, l'appélation d'un tel document peut changer, sa fonction en revanche elle, est gravée dans le marbre, vous devez donner envie au client de vous donner le projet, avec un document comme celui-là, disons que vous partez dans une bonne direction.
 
