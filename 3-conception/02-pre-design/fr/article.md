@@ -185,3 +185,7 @@ Les bénifices de faire un document de la sortes est bénéfiques pour plusieurs
 - Vous déclarer clairement ce que vous avez pris en compte dans vos réflexions.
 
 Il y a d'autres bonnes raisons, comme le fait de permettre au client d'apporter des correctifs sur les points avec lesquels il n'est pas d'accord dès le début, plutôt qu'après la récéption d'une première version fonctionnelle. Mais ce sont les trois principales.
+
+Puis de toutes façons, c'est obligatoire d'établir un dossier de début de projet avec le client, voyez simplement ça comme une partie, certes peut amusante mais très enrichissante du métier.
+
+Selon votre méthodologie, l'appélation d'un tel document peut changer, sa fonction en revanche elle, est gravée dans le marbre, vous devez donner envie au client de vous donner le projet, avec un document comme celui-là, disons que vous partez dans une bonne direction.
