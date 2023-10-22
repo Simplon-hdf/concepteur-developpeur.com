@@ -179,19 +179,21 @@ Vous pouvez aller dans le détail de chaque solution dans des sous sections déd
 
 Une étape qui semble être plus que bienvenue est celle de présentation des cibles du projet. Ou en d'autres termes : **Qui sont les cibles de l'activité du client** ?
 
-Le termes "cible" peut-être perçu comme étant réducteur, on parlera alors de **persona**. Les personas sont simplement un terme désignant les différents profils des utilisateurs du projet fini. Il est intéressant de dresser une liste de personas afin de :
+Le termes "cible" peut-être perçu comme étant réducteur, on parlera alors de **persona**. Un persona est simplement un terme désignant les différents profils des utilisateurs du projet fini. Il est intéressant de dresser une liste de personas afin de :
 
 - Montrer au client quel public est visé par son produit.
-- Vérifier avec le client que les personas sont en accord avec son expérience ou son pertinente.
+- Vérifier avec le client que les personas sont en accord avec son expérience ou sont pertinentes.
 
 Et plus productivement ça vous permettra d'accès le produit du client en fonction de ses cibles par exemple :
 
 ```
-Les services d'un garagiste visent les personnes qui conduisent des voitures.
-Les services d'un concepteur visent lse personnes ayant besoin de développer des produits numériques.
+Les services d'un garagiste visent 
+les personnes qui conduisent des voitures.
+Les services d'un concepteur visent
+les personnes ayant besoin de développer des produits numériques.
 ```
 
-Bien que cela puisse paraître absurde, en pratique, c'est une étape qui demande une certaine concentration.
+Bien que cela puisse paraître absurde, en pratique, c'est une étape qui demande une certaine réflexion et temoigne une certaine rigueur.
 
 ## Les bénéfices
 
