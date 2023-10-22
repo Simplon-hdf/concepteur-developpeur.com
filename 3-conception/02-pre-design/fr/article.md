@@ -106,4 +106,4 @@ Une section importante est aussi celle qui présente les membres de l'équipe en
 - Monsieur B : S'occupera de la communication entre l'équipe et le client.
 ...
 
-Voilà un exemple concret, il est peut être judicieux d'être aussi succint. Le client ne cherche pas à devenir ami avec l'équipe, il souhaite seulement savoir et comprendre pourquoi il paye.
+Voilà un exemple concret, il est peut être judicieux d'être aussi succint. Le client ne cherche pas à devenir ami avec l'équipe, il souhaite seulement savoir et comprendre pourquoi il paye. Cette section est là pour lui montrer que vous vous soucier de cet aspect, et permet aussi d'expliquer tassitement les coûts d'un projet en montrant au client l'effectif deployé à la réussite de son projet.
