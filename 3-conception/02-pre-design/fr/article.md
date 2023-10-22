@@ -17,11 +17,11 @@ Durant la lecture de cette section, posez vous les questions :
 
 La première chose à faire pour un concepteur est de comprendre le **besoin** du client.
 
-Cette étape est absolument cruciale pour tout le reste de la vie de votre projet. Si vous ne comprennez pas ce dont votre client a besoin, vous ne pouvez entreprendre aucune réalisation. Pourquoi ? Car si vous comprennez de travers et que le client ne trouve pas une solution à ses problèmatiques dans votre réalisation, vous risquez d'avoir perdu et fait perdre :
+Cette étape est absolument cruciale pour tout le reste de la vie de votre projet. Si vous ne comprennez pas ce dont votre client a besoin, vous ne pouvez entreprendre aucune réalisation. Pourquoi ? Car si vous comprennez de travers et que le client ne trouve pas une solution à ses problèmatiques en votre réalisation, vous risquez d'avoir perdu et fait perdre :
 
 - Du temps
 - De l'énergie
-- De l'argent (De la part du client)
+- De l'argent
 - De la confiance (De la part du client envers votre entreprise, de votre entreprise et vos collègues envers vous, de vous même envers vous même, ce qui est selon moi la pire des choses qui puissent vous arriver)
 
 Notez d'ailleurs qu'on parle ici de **besoin** et non de demande client. C'est ce qui fera la différence entre un **développeur** qui écoute la **demande** du client, et un concepteur qui cherche le **besoin** du client.
@@ -46,4 +46,8 @@ Le serveur s'est comporté en concepteur, vous ne saviez pas vous même ce que v
 
 Être un concepteur ce n'est pas se contenter d'écouter ce qu'un client vous demande, c'est avant tout, comprendre les problèmatiques qu'il rencontre et essayer de les résoudre.
 
-Dans la grande, très grande majorité des cas, le client connait certaines problèmatiques qu'il rencontre, c'est d'ailleurs la raison qui le pousse à prendre contact. Mais il n'a pas souvent conscience de ce dont il a besoin. Le travail du concepteur est avant tout de se projeter à la place du client, comprendre la couche métier du client, évaluer les différents aspects de cette dernière, prendre conscience de toutes les problèmatiques et d'y apporter des solutions.
+Dans la grande, très grande majorité des cas, le client connait certaines problèmatiques qu'il rencontre, c'est d'ailleurs la raison qui le pousse à prendre contact. Mais il n'a pas conscience de tous les besoins qu'il a. Il se peut même que votre client prenne contact avec vous pour demander une solution complète sans même avoir rencontré de problèmatiques. Le travail du concepteur est avant tout de se projeter à la place du client, comprendre la couche métier du client, évaluer les différents aspects de cette dernière, prendre conscience de toutes les problèmatiques et d'y apporter des solutions.
+
+Il n'est pas rare de rencontrer un client qui n'a pas démarré son activité et qui vient vous voir à ses fins. Dans ce cas, c'est encore mieux, le client n'a aucune contrainte et vous partez sur une base complétement neuve.
+
+Il arrive cependand qu'un client soit très ferme sur les limites d'un projet, il se peut que vous rencontriez des clients qui préfèrent parler avec des développeurs, plutôt qu'avec des concepteurs (en ce sens qu'il ne sont pas ouvert aux propositions et qu'iles veulent simplement la solution qu'ils ont demandé). Dans ce cas, vous savez ce qu'on dit : Le client est roi. Vous économiserer du temps et de l'énergie.
