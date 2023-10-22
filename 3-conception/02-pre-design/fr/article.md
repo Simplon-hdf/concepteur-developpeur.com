@@ -3,6 +3,7 @@
 - [Table des Matières](#table-des-matières)
 - [Avant la conception](#avant-la-conception)
   - [La compréhension du **besoin** du client](#la-compréhension-du-besoin-du-client)
+  - [L'élaboration de solutions](#lélaboration-de-solutions)
 
 # Avant la conception
 
@@ -51,3 +52,7 @@ Dans la grande, très grande majorité des cas, le client connait certaines prob
 Il n'est pas rare de rencontrer un client qui n'a pas démarré son activité et qui vient vous voir à ses fins. Dans ce cas, c'est encore mieux, le client n'a aucune contrainte et vous partez sur une base complétement neuve.
 
 Il arrive cependand qu'un client soit très ferme sur les limites d'un projet, il se peut que vous rencontriez des clients qui préfèrent parler avec des développeurs, plutôt qu'avec des concepteurs (en ce sens qu'il ne sont pas ouvert aux propositions et qu'iles veulent simplement la solution qu'ils ont demandé). Dans ce cas, vous savez ce qu'on dit : Le client est roi. Vous économiserer du temps et de l'énergie.
+
+## L'élaboration de solutions
+
+Les problèmatiques ayant étés evaluées, il ne reste plus qu'à trouver des solutions à chacune d'entre elles, et croyez le ou non, la partie la plus simples du processus, c'est celle là.
