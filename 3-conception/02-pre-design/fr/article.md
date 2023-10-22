@@ -83,15 +83,16 @@ Pour établir un dossier présentable au client, il est fondamental que ce dossi
 
 Une section de contexte est essentielle dans un document de cette nature, pour une raison assez simple :
 
-Vous témoignez au client de l'intérêt que vous portez à ce projet, vous prouvez au client que vous avez pris connaissance de ses problèmatiques en donnant des informations sur soit : 
-  - Son entreprise
-  - Son secteur d'activité
+Vous témoignez au client de l'intérêt que vous portez à ce projet, vous démontrez au client que vous avez pris connaissance de ses problématiques en donnant des informations sur soit : 
 
-En lisant cette section, le client lit est une section sur son entreprise ou son secteur d'activité, ce qui vous mâche une partie du travail pour la suite, il sera plus enclin à prendre connaissance du document s'il comprends d'entrer de jeu que le projet tourne autour de lui, et que votre équipe et vous avez pris le temps de vous renseigner sur des aspects plus généraux.
+- Son entreprise
+- Son secteur d'activité
+
+En lisant cette section, le client lit est une section sur son entreprise ou son secteur d'activité, ce qui vous mâche une partie du travail pour la suite, il sera plus enclin à prendre connaissance du document s'il comprend d'entrer de jeu que le projet tourne autour de lui, et que votre équipe et vous, avez pris le temps de vous renseigner sur des aspects plus généraux.
 
 On ne vous parle pas ici d'un exposé de 12 pages sur la vie personnelle du client. Mais d'une mise en contexte du projet, en incluant si possible des informations sur l'entreprise de votre client. Pour vous aider à comprendre, nous allons prendre un exemple :
 
-Admettons qu'un client qui soit dans le secteur Automobile demande un site Web permettant de prendre des rendez-vous en ligne.
+Admettons qu'un client qui est dans le secteur Automobile demande un site Web permettant de prendre des rendez-vous en ligne.
 Une section contextuelle pourrait être formattée dans un style comme celui-ci :
 
 ```
@@ -99,9 +100,9 @@ L'entreprise Cars&Motors est une entreprise familliale qui a pour objectif de fl
 L'entreprise Cars&Motors existe depuis plus de 20 ans et atteint des objectifs de 10 rendez-vous journaliers...
 ```
 
-L'idée est de montrer au client que vous êtes impliqués et que vous ferait le nécessaire pour proposer la solution la plus adaptée à ses besoins. En adoptant cette section dans vos documents, vous fluidifierais les échanges avec le client. Car quoi de mieux pour un client de se sentir compris et de sentir qu'on s'intéresse à ses problèmatiques ?
+L'idée est de montrer au client que vous êtes impliqués et que vous ferait le nécessaire pour proposer la solution la plus adaptée à ses besoins. En adoptant cette section dans vos documents, vous fluidifierez les échanges avec le client. Car quoi de mieux pour un client de se sentir compris et de sentir qu'on s'intéresse à ses problématiques ?
 
-Voyez cette section comme une mise en abime du projet, ou un moyen de ferrer le poisson si vous préfférez.
+Voyez cette section comme une mise en abime du projet, ou un moyen de ferrer le poisson si vous préférez.
 
 ## La présentation de l'équipe en charge
 
