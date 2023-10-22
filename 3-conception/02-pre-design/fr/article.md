@@ -8,6 +8,7 @@
     - [La section Contexte](#la-section-contexte)
   - [La présentation de l'équipe en charge](#la-présentation-de-léquipe-en-charge)
   - [La présentation (TRÈS SUCCINTE) de votre méthodologie de travail](#la-présentation-très-succinte-de-votre-méthodologie-de-travail)
+  - [Présentation des problématiques etudiées et solutions correspondantes](#présentation-des-problématiques-etudiées-et-solutions-correspondantes)
 
 # Avant la conception
 
@@ -134,3 +135,7 @@ Vous revenez 1 heure plus tard et là ! Stupéfaction, votre voiture est en piè
 Vous auriez aimé que votre garagiste vous dise comment il aller travailler afin de prendre vos dispositions (Et accesoirement d'aller voir un vrai garagiste plutôt qu'un escroc). Dans ce type de projet c'est la même chose. Le client ne connait absolument pas les coutûmes du domaine, ça tombe bien, ce n'est pas son rôle. En revanche, votre rôle à vous est d'expliquer **sommairement** la façon dont le travail sur le projet sera achevé.
 
 Mais gardez à l'esprit que **vous n'êtes pas là pour lui faire un court complet** sur la méthodologie que vous adopterez. Est-ce que vous voudriez que votre garagiste vous explique chaque étape qu'il va effectuer pour changer vos pneus dans les moindres détails ? (Gardez cette image, elle pourrait s'avérer salvatrice). L'idée est de rassurer le client et surtout d'expliquer la façon de la collaboration se passera, et qu'il n'ait pas de mauvaise surprise une fois le projet démarré.
+
+## Présentation des problématiques etudiées et solutions correspondantes
+
+Maintenant que le client a eu un petit aperçu de votre sérieux, il est temps de lui parler du coeur du projets, les problèmes. Mais surtout, les solutions, éviter de mettre trop en avant les problèmes, mettez plutôt en avant les solutions.
