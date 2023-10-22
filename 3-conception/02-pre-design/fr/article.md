@@ -12,6 +12,7 @@
     - [La présentation des cibles du projet (Personas)](#la-présentation-des-cibles-du-projet-personas)
   - [Les bénéfices](#les-bénéfices)
   - [Structure et format](#structure-et-format)
+- [Résumé](#résumé)
 
 # Avant la conception
 
@@ -209,3 +210,12 @@ Il n'est pas strictement de respecter cette structure, mais elle semble intéres
 En ce qui concerne le format de votre document, en général, lorsque vous travailler sur le document, que vous n'avez pas encore de version finie ou pas suffisamment éprouvée, nous vous recommandons de travailler au format Markdown, il est rapide, léger et peu verbeux.
 
 En revanche, lorsque vous souhaiterez distribuer votre document, préférez un format largement répandu comme le PDF par exemple.
+
+# Résumé
+
+- Être concepteur c'est **chercher à comprendre le besoin** du client.
+- Être développeur c'est se contenter d'écouter la **demande** du client.
+- Produire un document de début de projet complet présente de nombreux avantages pour le client et pour vous.
+- Il est beaucoup plus important de mettre l'accent sur les solutions que sur les problématiques.
+- Une structure fluide est plus que nécessaire, trouvez celle qui vous semble la plus efficace.
+- Pour travailler sur un document : Utilisez Markdown, pour le distribuer : Un format plus répandu comme PDF
