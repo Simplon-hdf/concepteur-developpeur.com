@@ -73,7 +73,7 @@ Pour établir un dossier présentable au client, il est fondamental que ce dossi
 
 ### La section Contexte
 
-Une section de contexte est essentiel dans un document de cette nature, pour une raison assez simple :
+Une section de contexte est essentielle dans un document de cette nature, pour une raison assez simple :
 
 Vous témoignez au client de l'intérêt que vous portez à ce projet, vous prouvez au client que vous avez pris connaissance de ses problèmatiques en donnant des informations sur soit : 
   - Son entreprise
@@ -86,8 +86,10 @@ On ne vous parle pas ici d'un exposé de 12 pages sur la vie personnelle du clie
 Admettons qu'un client qui soit dans le secteur Automobile demande un site Web permettant de prendre des rendez-vous en ligne.
 Une section contexte pourrait être formattée dans un style comme celui-ci :
 
+```
 L'entreprise Cars&Motors est une entreprise familliale qui a pour objectif de fluidifier son contact avec ses clients.
 L'entreprise Cars&Motors existe depuis plus de 20 ans et atteint des objectifs de 10 rendez-vous...
+```
 
 L'idée est de montrer au client que vous êtes impliqués et que vous ferait le nécessaire pour proposer la solution la plus adapté à ses besoins. En adoptant cette section dans vos documents, vous fluidifierais les échanges avec. Car quoi de mieux pour un client de se sentir compris et de sentir qu'on s'intéresse à ses problèmatiques.
 
