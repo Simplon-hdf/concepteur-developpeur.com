@@ -219,7 +219,7 @@ En ce qui concerne la structure de ce document, nous vous conseillons une struct
   - Sous section concernant la solution 1
   - Sous section concernant la solution 2
   - Sous section ...
-- Identifications des personas
+- Identification des personas
 - Conclusion
 
 Il ne faut pas strictement de respecter cette structure, mais elle semble intéressante en terme d'agencement, cependant, faites une structure qui vous semble pertinente / fluide.
@@ -235,4 +235,4 @@ En revanche, lorsque vous souhaiterez distribuer votre document, préférez un f
 - Produire un document de début de projet complet présente de nombreux avantages pour le client et pour vous.
 - Il est beaucoup plus important de mettre l'accent sur les solutions que sur les problématiques.
 - Une structure fluide est plus que nécessaire, trouvez celle qui vous semble la plus efficace.
-- Pour travailler sur un document : Utilisez Markdown, pour le distribuer : Un format plus répandu comme PDF
+- Pour travailler sur un document : Utilisez Markdown; pour le distribuer : Un format plus répandu comme PDF
