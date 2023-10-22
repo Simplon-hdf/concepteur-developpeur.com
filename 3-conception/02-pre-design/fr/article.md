@@ -27,7 +27,7 @@ Durant la lecture de cette section, posez-vous les questions suivantes :
 
 La première chose à faire pour un concepteur est de comprendre le **besoin** du client.
 
-Cette étape est absolument cruciale pour tout le reste de la vie de votre projet. Si vous ne comprennez pas ce dont votre client a besoin, vous ne pouvez entreprendre aucune réalisation. Pourquoi ? Car si vous comprennez de travers et que le client ne trouve pas une solution à ses problèmatiques en votre réalisation, vous risquez d'avoir perdu et fait perdre :
+Cette étape est absolument cruciale pour tout le reste de la vie de votre projet. Si vous ne comprennez pas ce dont votre client a besoin, vous ne pouvez entreprendre aucune réalisation. Pourquoi ? Car si vous comprennez de travers et que le client ne trouve pas une solution à ses problématiques en votre réalisation, vous risquez d'avoir perdu et fait perdre :
 
 - Du temps
 - De l'énergie
@@ -74,7 +74,7 @@ Les problématiques ayant étés evaluées, il ne reste plus qu'à trouver des s
 
 Il est recommandé de dresser une liste des problématiques dans un document évolutif. Au sein d'un dépôt GitHub au format Markdown par exemple, c'est une des meilleures solutions pour ce genre de travaux. Mais ne vous cantonnez pas à ça, cette solution est viable pour un travail évolutif, ou sur une session d'élaboration, préférez d'autres formats pour la livraison de document (comme PDF).
 
-Pour chaque problématique, trouvez une solution simple, pas simpliste, **simple**. Il ne faut pas qu'une solution résolvant une seule problèmatique engage des efforts démesurés, faites preuve de bon sens. Il peut être difficile de prendre du recul sur ce genre de réalisation, c'est pourquoi demander l'avis d'un tiers (qui peut être un collègue qui n'a rien à voir avec le projet, ou une personne non technique) peut être utile afin de vous rendre compte de ce que vous produisez.
+Pour chaque problématique, trouvez une solution simple, pas simpliste, **simple**. Il ne faut pas qu'une solution résolvant une seule problématique engage des efforts démesurés, faites preuve de bon sens. Il peut être difficile de prendre du recul sur ce genre de réalisation, c'est pourquoi demander l'avis d'un tiers (qui peut être un collègue qui n'a rien à voir avec le projet, ou une personne non technique) peut être utile afin de vous rendre compte de ce que vous produisez.
 
 Une fois que vos solutions ont suffisamment étés éprouvées en terme de simplicité, de pertinence, et de réflexion, vous pourrez consignez votre réalisation dans un document présentable au client.
 
@@ -144,7 +144,7 @@ Mais gardez à l'esprit que **vous n'êtes pas là pour lui faire un court compl
 
 Maintenant que le client a eu un petit aperçu de votre sérieux, il est temps de lui parler du coeur du projet, les problèmes. Mais surtout, les solutions, éviter de mettre trop en avant les problèmes, mettez plutôt en avant les solutions.
 
-L'idée derrière l'idée (héhé) est de montrer que vous avez bien pris conscience des enjeux du projet, vous avez pris la mesure du projet et avez identifié des problèmatiquea auxquelles le client n'avait pas pensé. (N'allez pas créer des problèmes là où il n'y en a pas malgré tout).
+L'idée derrière l'idée (héhé) est de montrer que vous avez bien pris conscience des enjeux du projet, vous avez pris la mesure du projet et avez identifié des problématiquea auxquelles le client n'avait pas pensé. (N'allez pas créer des problèmes là où il n'y en a pas malgré tout).
 
 Préférez optez pour une approche plus visuelle pour cette section de mise en lumière des solutions. Par exemple un tableau affichant les problèmes, qui sont decoupés en problématiques et à droite les solutions associées résumées en une phrase succinte. Cette approche permet de faire lire en premier lieu les problèmes, puis les problématiques qui en découlent et en point d'orgue (à la manière d'un deus ex machina) vos solutions, le lecteur termine sa lecture sur une note positive. Ce qui présente quelques avantages :
 
@@ -158,7 +158,7 @@ Une fois que vous avez présenté succintements :
 - Les problématiques
 - **Les solutions**
 
-Vous pouvez aller dans le détail de chaque solution dans des sous sections dédiées à chaque problèmatique et solution.
+Vous pouvez aller dans le détail de chaque solution dans des sous sections dédiées à chaque problématique et solution.
 
 ### La présentation des cibles du projet (Personas)
 
