@@ -26,6 +26,14 @@ Cette étape est absolument cruciale pour tout le reste de la vie de votre proje
 
 Notez d'ailleurs qu'on parle ici de **besoin** et non de demande client. C'est ce qui fera la différence entre un **développeur** qui écoute la **demande** du client, et un concepteur qui cherche le **besoin** du client.
 
-Pour vous donnez une image, prennons un exemple :
+Pour vous donnez une image, prenons un exemple :
 
-Admettons que vous soyez au restaurant et que vous commandiez un Couscous. Le serveur revient une 20 de minute plus tard avec une Entrecôte.
+Admettons que vous soyez au restaurant et que vous commandiez un Couscous. Le serveur revient une 20 aine de minute plus tard avec une Entrecôte.
+
+Il est plus que probable que vous ne retournerez pas dans ce restaurant, n'est-ce pas ?
+
+Maintenant, prenons un autre cas de figure :
+
+Admettons que vous soyez au restaurant et que vous commandiez un Couscous. Le serveur revient une 20 aine de minute plus tard avec votre Couscous, mais vous vous rendez-compte que ce n'était pas exactement ce que vous vouliez.
+
+Le serveur s'est comporté en bon développeur, il vous a servi ce que vous aviez **demandé**.
