@@ -9,6 +9,7 @@
   - [La présentation de l'équipe en charge](#la-présentation-de-léquipe-en-charge)
   - [La présentation (TRÈS SUCCINTE) de votre méthodologie de travail](#la-présentation-très-succinte-de-votre-méthodologie-de-travail)
   - [Présentation des problématiques etudiées et solutions correspondantes](#présentation-des-problématiques-etudiées-et-solutions-correspondantes)
+  - [La présentation des cibles du projet](#la-présentation-des-cibles-du-projet)
 
 # Avant la conception
 
@@ -155,3 +156,7 @@ Une fois que vous avez présenté succintements :
 - **Les solutions**
 
 Vous pouvez aller dans le détail de chaque solution dans des sous sections dédiées à chaque problèmatique et solution.
+
+## La présentation des cibles du projet
+
+Une étape qui semble être plus que bienvenue est celle de présentation des cibles du projet. Ou en d'autres termes : **Qui sont les cibles de l'activité du client** ?
