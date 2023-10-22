@@ -4,6 +4,7 @@
 - [Avant la conception](#avant-la-conception)
   - [La compréhension du **besoin** du client](#la-compréhension-du-besoin-du-client)
   - [L'élaboration de solutions](#lélaboration-de-solutions)
+  - [Établir un dossier présentable](#établir-un-dossier-présentable)
 
 # Avant la conception
 
@@ -62,3 +63,7 @@ Il est recommandé de dresser une liste des problèmatiques dans un document év
 Pour chaque problématique, trouvez une solution simple, pas simpliste, **simple**. Il ne faut pas qu'une solution à une seule problèmatique engage des efforts démesurés, utiliser juste votre bon sens. Il peut être difficile de prendre du recul sur ce genre de réalisation, c'est pourquoi demander un avis à un tiers (qui peut être un collègue qui n'a rien à voir avec le projet, ou une personne non technique) peut être utile afin de vous rendre compte de ce que vous produisez.
 
 Une fois que vos solutions ont suffisamment étés éprouvé en terme de simplicité, de pertinence, et de réflexion, vous pourrez consignez votre réalisation dans un document présentable au client.
+
+## Établir un dossier présentable
+
+Avant toute chose, il est judicieux de savoir que si vous travaillez en méthode Agile, le **Cahier des charges est un gros mot**, si vous ne savez pas pourquoi, je vous invite à lire cet [article](../../../1-basics/03-methodology/01-agile-method/fr/article.md).
