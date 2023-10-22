@@ -118,4 +118,8 @@ Cette section **est absolument essentielle**, en effet, elle ne paie pas de mine
 Avant de vous expliquer plus en détail, nous allons prendre un exemple :
 
 Imagineons que vous alliez chez le garagiste pour changer vos pneus, et que le garagiste ne vous dit pas comment il va procéder.
-Vous revenez 1 heure plus tard et là ! Stupéfaction, votre voiture est en pièce détachées. Vous n'êtes pas garagiste et ne savez donc absolument pas si c'est normal. Mais le garagiste vous dit qu'il fait toujours comme ça. Résultat il vous dit de revenir dans 2 semaines le temps de le laisser faire son travail.
+Vous revenez 1 heure plus tard et là ! Stupéfaction, votre voiture est en pièce détachées. Vous n'êtes pas garagiste et ne savez donc absolument pas si c'est normal. Mais le garagiste vous dit qu'il fait toujours comme ça. Résultat il vous dit de revenir dans 2 semaines le temps de le laisser faire son travail. Et il rajoute que la facture sera sacrément salée.
+
+Vous auriez aimer que votre garagiste vous dise comment il aller travailler afin de prendre vos dispositions (Et accesoirement d'aller voir un vrai garagiste plutôt qu'un escroc).
+
+Dans ce type de projet c'est la même chose. Le client ne connait absolument pas les coutûmes du domaine, ça tombe bien, ce n'est pas son rôle. En revanche, votre rôle à vous est d'expliquer sommairement la façon dont le travail sur le projet sera achevé.
