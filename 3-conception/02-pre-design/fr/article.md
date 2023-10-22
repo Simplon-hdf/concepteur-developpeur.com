@@ -16,12 +16,12 @@
 
 # Avant la conception
 
-Il y a quelques étapes préliminaires avant de concevoir une application, en effet, il ne faut pas se lancer dans la réalisation de diagramme dès que vous recevez un projet, il existe une flopée d'étapes qui peuvent parraitre évidentes. Mais qui feront la différence entre un développeur de base, et un concepteur sérieux. Cet article vous donnera les étapes clés vous permettant de lancer un projet de la meilleure des façons.
+Il y a quelques étapes préliminaires avant de concevoir une application, en effet, il ne faut pas se lancer dans la réalisation de diagramme dès que vous recevez un projet, il existe une flopée d'étapes qui peuvent paraître évidentes. Mais qui feront la différence entre un développeur de base, et un concepteur sérieux. Cet article vous donnera les étapes clés vous permettant de lancer un projet de la meilleure des façons.
 
 Durant la lecture de cette section, posez-vous les questions suivantes :
 
 - Quel est l'objectif d'un développeur ?
-- En quoi consiste être un bon concepteur ? (Bien que celle-ci puisse parraitre anodine de prime abord)
+- En quoi consiste être un bon concepteur ? (Bien que celle-ci puisse paraître anodine de prime abord)
 
 ## La compréhension du **besoin** du client
 
@@ -176,7 +176,7 @@ Les services d'un garagiste visent les personnes qui conduisent des voitures.
 Les services d'un concepteur visent lse personnes ayant besoin de développer des produits numériques.
 ```
 
-Bien que cela puisse parraitre absurde, en pratique, c'est une étape qui demande une certaine concentration.
+Bien que cela puisse paraître absurde, en pratique, c'est une étape qui demande une certaine concentration.
 
 ## Les bénéfices
 
