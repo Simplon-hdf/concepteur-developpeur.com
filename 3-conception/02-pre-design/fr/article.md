@@ -5,6 +5,7 @@
   - [La compréhension du **besoin** du client](#la-compréhension-du-besoin-du-client)
   - [L'élaboration de solutions](#lélaboration-de-solutions)
   - [Établir un dossier présentable](#établir-un-dossier-présentable)
+    - [La section Contexte](#la-section-contexte)
 
 # Avant la conception
 
@@ -67,3 +68,7 @@ Une fois que vos solutions ont suffisamment étés éprouvé en terme de simplic
 ## Établir un dossier présentable
 
 Avant toute chose, il est judicieux de savoir que si vous travaillez en méthode Agile, le **Cahier des charges est un gros mot**, si vous ne savez pas pourquoi, je vous invite à lire cet [article](../../../1-basics/03-methodology/01-agile-method/fr/article.md).
+
+Pour établir un dossier présentable au client, il est fondamental que ce dossier suive quelques codes afin d'être pris au sérieux. Tous les éléments présent dans cet article doivent à minima occuper une place dans votre document de projet.
+
+### La section Contexte
