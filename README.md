@@ -38,7 +38,7 @@ This documentation also exists in [english version](README.en.md).
 <summary><h2>Conception</h2></summary>
 
 - [Introduction à la conception](3-conception/01-get-started/fr/article.md)
-- [La pré-conception](3-conception/02-pre-design/fr/article.md)
+- [Avant la conception](3-conception/02-pre-design/fr/article.md)
 
 </details>
 
