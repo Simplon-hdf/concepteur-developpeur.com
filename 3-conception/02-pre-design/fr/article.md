@@ -78,13 +78,13 @@ Il arrive cependant qu'un client soit très ferme sur les limites d'un projet, i
 
 ## L'élaboration de solutions
 
-Les problématiques ayant étés evaluées, il ne reste plus qu'à trouver des solutions à chacune d'entre elles, et croyez-le ou non, la partie la plus simple du processus, c'est celle là.
+Les problématiques ayant étés evaluées, il ne reste plus qu'à **trouver des solutions** à chacune d'entre elles, et croyez-le ou non, **la partie la plus simple du processus**, **c'est celle là**.
 
-Il est recommandé de dresser une liste des problématiques dans un document évolutif. Au sein d'un dépôt GitHub au format Markdown par exemple, c'est une des meilleures solutions pour ce genre de travaux. Mais ne vous cantonnez pas à ça, cette solution est viable pour un travail évolutif, ou sur une session d'élaboration, préférez d'autres formats pour la livraison de document (comme PDF).
+Il est recommandé de dresser une liste des problématiques dans un document évolutif. Au sein d'un dépôt GitHub au format **Markdown** par exemple, c'est une des meilleures solutions pour ce genre de travaux. Mais ne vous cantonnez pas à ça, cette solution est viable pour **un travail évolutif**, ou sur une session d'élaboration, **préférez d'autres formats pour la livraison de document** (comme **PDF**).
 
-Pour chaque problématique, trouvez une solution simple, pas simpliste, **simple**. Il ne faut pas qu'une solution résolvant une seule problématique engage des efforts démesurés, faites preuve de bon sens. Il peut être difficile de prendre du recul sur ce genre de réalisation, c'est pourquoi demander l'avis d'un tiers (qui peut être un collègue qui n'a rien à voir avec le projet, ou une personne non technique) peut être utile afin de vous rendre compte de ce que vous produisez.
+Pour chaque problématique, trouvez une **solution simple**, pas simpliste, **simple**. Il ne faut pas qu'une solution résolvant une seule problématique engage des efforts **démesurés**, faites preuve de bon sens. Il peut être difficile de prendre du recul sur ce genre de réalisation, c'est pourquoi demander l'avis d'un tiers (qui peut être un collègue qui n'a rien à voir avec le projet, ou une personne non technique) peut être utile afin de vous rendre compte de ce que vous produisez.
 
-Une fois que vos solutions ont suffisamment étés éprouvées en terme de simplicité, de pertinence, et de réflexion, vous pourrez consignez votre réalisation dans un document présentable au client.
+Une fois que vos solutions ont suffisamment étés **éprouvées** en terme de **simplicité**, de **pertinence**, et de **réflexion**, vous pourrez **consignez** votre réalisation dans un **document présentable au client**.
 
 ## Établir un dossier présentable
 
