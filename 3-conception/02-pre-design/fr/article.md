@@ -11,6 +11,7 @@
     - [Présentation des problématiques etudiées et solutions correspondantes](#présentation-des-problématiques-etudiées-et-solutions-correspondantes)
     - [La présentation des cibles du projet (Personas)](#la-présentation-des-cibles-du-projet-personas)
   - [Les bénéfices](#les-bénéfices)
+  - [Structure et format](#structure-et-format)
 
 # Avant la conception
 
@@ -189,3 +190,18 @@ Il y a d'autres bonnes raisons, comme le fait de permettre au client d'apporter 
 Puis de toutes façons, c'est obligatoire d'établir un dossier de début de projet avec le client, voyez simplement ça comme une partie, certes peut amusante mais très enrichissante du métier.
 
 Selon votre méthodologie, l'appélation d'un tel document peut changer, sa fonction en revanche elle, est gravée dans le marbre, vous devez donner envie au client de vous donner le projet, avec un document comme celui-là, disons que vous partez dans une bonne direction.
+
+## Structure et format
+
+En ce qui concerne la structure de ce document, nous vous conseillons une structure qui suit l'ordre de parrution de cet article (à savoir) :
+
+- Mise en Contexte
+- Présentation de l'équipe
+- Présentation des problèmes, problématiques et solutions
+  - Sous section concernant la solution 1
+  - Sous section concernant la solution 2
+  - Sous section ...
+- Identifications des personas
+- Conclusion
+
+Il n'est pas strictement de respecter cette structure, mais elle semble intéressante en terme d'agencement, cependant, faites une structure qui vous semble pertinente / fluide.
