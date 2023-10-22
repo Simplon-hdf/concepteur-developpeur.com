@@ -6,6 +6,7 @@
   - [L'élaboration de solutions](#lélaboration-de-solutions)
   - [Établir un dossier présentable](#établir-un-dossier-présentable)
     - [La section Contexte](#la-section-contexte)
+  - [La présentation de l'équipe en charge](#la-présentation-de-léquipe-en-charge)
 
 # Avant la conception
 
@@ -94,3 +95,15 @@ L'entreprise Cars&Motors existe depuis plus de 20 ans et atteint des objectifs d
 L'idée est de montrer au client que vous êtes impliqués et que vous ferait le nécessaire pour proposer la solution la plus adaptée à ses besoins. En adoptant cette section dans vos documents, vous fluidifierais les échanges avec le client. Car quoi de mieux pour un client de se sentir compris et de sentir qu'on s'intéresse à ses problèmatiques ?
 
 Voyez cette section comme une mise en abime du projet, ou un moyen de ferrer le poisson si vous préfférez.
+
+## La présentation de l'équipe en charge
+
+Une section importante est aussi celle qui présente les membres de l'équipe en charge du projet, il n'est pas question ici de présenter personnellement les membres, mais d'expliquer qui aura quelle fonction au sein du projet. Par exemple :
+
+- Monsieur B : Développeur de la solution
+- Monsieur N : Développeur de la solution
+- Monsieur C : S'occupera de la bonne mise en application de la méthode de travail
+- Monsieur B : S'occupera de la communication entre l'équipe et le client.
+...
+
+Voilà un exemple concret, il est peut être judicieux d'être aussi succint. Le client ne cherche pas à devenir ami avec l'équipe, il souhaite seulement savoir et comprendre pourquoi il paye.
