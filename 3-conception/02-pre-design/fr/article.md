@@ -84,13 +84,13 @@ En lisant cette section, le client lit est une section sur son entreprise ou son
 On ne vous parle pas ici d'un exposé de 12 pages sur la vie personnelle du client. Mais d'une mise en contexte du projet, en incluant si possible des informations sur l'entreprise de votre client. Pour vous aider à comprendre, nous allons prendre un exemple :
 
 Admettons qu'un client qui soit dans le secteur Automobile demande un site Web permettant de prendre des rendez-vous en ligne.
-Une section contexte pourrait être formattée dans un style comme celui-ci :
+Une section contextuelle pourrait être formattée dans un style comme celui-ci :
 
 ```
 L'entreprise Cars&Motors est une entreprise familliale qui a pour objectif de fluidifier son contact avec ses clients.
-L'entreprise Cars&Motors existe depuis plus de 20 ans et atteint des objectifs de 10 rendez-vous...
+L'entreprise Cars&Motors existe depuis plus de 20 ans et atteint des objectifs de 10 rendez-vous journaliers...
 ```
 
-L'idée est de montrer au client que vous êtes impliqués et que vous ferait le nécessaire pour proposer la solution la plus adapté à ses besoins. En adoptant cette section dans vos documents, vous fluidifierais les échanges avec. Car quoi de mieux pour un client de se sentir compris et de sentir qu'on s'intéresse à ses problèmatiques.
+L'idée est de montrer au client que vous êtes impliqués et que vous ferait le nécessaire pour proposer la solution la plus adaptée à ses besoins. En adoptant cette section dans vos documents, vous fluidifierais les échanges avec le client. Car quoi de mieux pour un client de se sentir compris et de sentir qu'on s'intéresse à ses problèmatiques ?
 
 Voyez cette section comme une mise en abime du projet, ou un moyen de ferrer le poisson si vous préfférez.
