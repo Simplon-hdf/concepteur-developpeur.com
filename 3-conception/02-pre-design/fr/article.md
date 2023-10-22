@@ -43,3 +43,7 @@ Et pour achever le raisonnement :
 Admettons que vous soyez au restaurant et que vous commandiez un plat avec de la viande et des frites, mais qu'en même temps, vous aimeriez avoir quelque chose qui n'est pas sec, mais vous ne savez pas exactement quoi. Le serveur vous écoute et enregistre ce dont vous avez envie. Il revient une 20 de minute plus tard avec un Burger, des frites et une salade. Vous finissez votre plat et remerciez le serveur de vous avoir apporté exactement ce dont vous aviez **besoin**.
 
 Le serveur s'est comporté en concepteur, vous ne saviez pas vous même ce que vous vouliez, mais il a trouvé exactement ce dont vous aviez **besoin**.
+
+Être un concepteur ce n'est pas se contenter d'écouter ce qu'un client vous demande, c'est avant tout, comprendre les problèmatiques qu'il rencontre et essayer de les résoudre.
+
+Dans la grande, très grande majorité des cas, le client connait certaines problèmatiques qu'il rencontre, c'est d'ailleurs la raison qui le pousse à prendre contact. Mais il n'a pas souvent conscience de ce dont il a besoin. Le travail du concepteur est avant tout de se projeter à la place du client, comprendre la couche métier du client, évaluer les différents aspects de cette dernière, prendre conscience de toutes les problèmatiques et d'y apporter des solutions.
