@@ -6,10 +6,10 @@
   - [L'élaboration de solutions](#lélaboration-de-solutions)
   - [Établir un dossier présentable](#établir-un-dossier-présentable)
     - [La section Contexte](#la-section-contexte)
-  - [La présentation de l'équipe en charge](#la-présentation-de-léquipe-en-charge)
-  - [La présentation (TRÈS SUCCINTE) de votre méthodologie de travail](#la-présentation-très-succinte-de-votre-méthodologie-de-travail)
-  - [Présentation des problématiques etudiées et solutions correspondantes](#présentation-des-problématiques-etudiées-et-solutions-correspondantes)
-  - [La présentation des cibles du projet (Personas)](#la-présentation-des-cibles-du-projet-personas)
+    - [La présentation de l'équipe en charge](#la-présentation-de-léquipe-en-charge)
+    - [La présentation (TRÈS SUCCINTE) de votre méthodologie de travail](#la-présentation-très-succinte-de-votre-méthodologie-de-travail)
+    - [Présentation des problématiques etudiées et solutions correspondantes](#présentation-des-problématiques-etudiées-et-solutions-correspondantes)
+    - [La présentation des cibles du projet (Personas)](#la-présentation-des-cibles-du-projet-personas)
 
 # Avant la conception
 
@@ -106,7 +106,7 @@ L'idée est de montrer au client que vous êtes impliqués et que vous ferait le
 
 Voyez cette section comme une mise en abime du projet, ou un moyen de ferrer le poisson si vous préférez.
 
-## La présentation de l'équipe en charge
+### La présentation de l'équipe en charge
 
 Cette section est importante, elle présente les membres de l'équipe en charge du projet, il n'est pas question ici de présenter personnellement les membres, mais d'expliquer qui aura quelle fonction au sein du projet. Par exemple :
 
@@ -122,7 +122,7 @@ Voilà un exemple concret, il peut être judicieux d'être succint. Le client ne
 
 Cette section n'est **pas absolument essentielle** mais il **est fortement recommandé** de l'inclure. Dans un document qui a pour vocation d'établir un projet, mieux vaut que le client ait plus d'informations qui l'intéresse plutôt qu'un document qui ne trouverait grâce à ses yeux. (C'est à prendre avec des pincettes, ne commençait pas à mettre vos horraires de pause déjeuner non plus). Gardez à l'esprit que vous devez rester pertinent dans votre démarche.
 
-## La présentation (TRÈS SUCCINTE) de votre méthodologie de travail
+### La présentation (TRÈS SUCCINTE) de votre méthodologie de travail
 
 Cette section **est absolument essentielle**, en effet, elle ne paie pas de mine mais croyez moi, cela pourrait avoir des conséquences catastrophiques d'omettre cette section.
 
@@ -137,7 +137,7 @@ Vous auriez aimé que votre garagiste vous dise comment il aller travailler afin
 
 Mais gardez à l'esprit que **vous n'êtes pas là pour lui faire un court complet** sur la méthodologie que vous adopterez. Est-ce que vous voudriez que votre garagiste vous explique chaque étape qu'il va effectuer pour changer vos pneus dans les moindres détails ? (Gardez cette image, elle pourrait s'avérer salvatrice). L'idée est de rassurer le client et surtout d'expliquer la façon de la collaboration se passera, et qu'il n'ait pas de mauvaise surprise une fois le projet démarré.
 
-## Présentation des problématiques etudiées et solutions correspondantes
+### Présentation des problématiques etudiées et solutions correspondantes
 
 Maintenant que le client a eu un petit aperçu de votre sérieux, il est temps de lui parler du coeur du projet, les problèmes. Mais surtout, les solutions, éviter de mettre trop en avant les problèmes, mettez plutôt en avant les solutions.
 
@@ -157,7 +157,7 @@ Une fois que vous avez présenté succintements :
 
 Vous pouvez aller dans le détail de chaque solution dans des sous sections dédiées à chaque problèmatique et solution.
 
-## La présentation des cibles du projet (Personas)
+### La présentation des cibles du projet (Personas)
 
 Une étape qui semble être plus que bienvenue est celle de présentation des cibles du projet. Ou en d'autres termes : **Qui sont les cibles de l'activité du client** ?
 
