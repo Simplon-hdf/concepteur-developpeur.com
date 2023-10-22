@@ -124,4 +124,6 @@ Vous auriez aimer que votre garagiste vous dise comment il aller travailler afin
 
 Dans ce type de projet c'est la même chose. Le client ne connait absolument pas les coutûmes du domaine, ça tombe bien, ce n'est pas son rôle. En revanche, votre rôle à vous est d'expliquer sommairement la façon dont le travail sur le projet sera achevé.
 
-Mais gardez à l'esprit que vous n'êtes pas là pour lui faire un court complet sur la méthodologie que vous adopterez. Est-ce que vous voudriez que votre garagiste vous explique chaque étape qu'il va effectuer pour changer vos pneus dans les moindres détails ? (Gardez cette situation, elle pourrait s'avérer salvatrice)
+Mais gardez à l'esprit que vous n'êtes pas là pour lui faire un court complet sur la méthodologie que vous adopterez. Est-ce que vous voudriez que votre garagiste vous explique chaque étape qu'il va effectuer pour changer vos pneus dans les moindres détails ? (Gardez cette image, elle pourrait s'avérer salvatrice)
+
+L'idée est de rassurer le client et surtout d'expliquer la façon de la collaboration se passera, et qu'il n'ait pas de mauvaise surprise une fois que le projet démarré.
