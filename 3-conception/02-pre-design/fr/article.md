@@ -16,12 +16,12 @@
 
 # Avant la conception
 
-Il y a quelques étapes préliminaires avant de concevoir une application, en effet, il ne faut pas se lancer dans la réalisation de diagramme dès que vous recevez un projet, il existe une flopée d'étapes qui peuvent paraître évidentes. Mais qui feront la différence entre un développeur de base, et un concepteur sérieux. Cet article vous donnera les étapes clés vous permettant de lancer un projet de la meilleure des façons.
+Il y a quelques *étapes préliminaires* avant de *concevoir une application*, en effet, il ne faut pas se lancer dans la réalisation de diagramme dès que vous recevez un projet, il existe une **flopée d'étapes** qui peuvent paraître évidentes. Mais qui feront la différence entre **un développeur de base**, et un **concepteur sérieux**. Cet article vous donnera les étapes clés vous permettant de lancer un projet **de la meilleure des façons**.
 
 Durant la lecture de cette section, posez-vous les questions suivantes :
 
-- Quel est l'objectif d'un développeur ?
-- En quoi consiste être un bon concepteur ? (Bien que celle-ci puisse paraître anodine de prime abord)
+- **Quel est l'objectif d'un développeur** ?
+- **En quoi consiste être un bon concepteur** ? (*Bien que celle-ci puisse paraître anodine de prime abord*)
 
 ## La compréhension du **besoin** du client
 
