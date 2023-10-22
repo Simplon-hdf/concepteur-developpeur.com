@@ -25,21 +25,22 @@ Durant la lecture de cette section, posez-vous les questions suivantes :
 
 ## La compréhension du **besoin** du client
 
-La première chose à faire pour un concepteur est de comprendre le **besoin** du client.
+La première chose à faire pour un concepteur est de **comprendre le besoin** du client.
 
-Cette étape est absolument cruciale pour tout le reste de la vie de votre projet. Si vous ne comprennez pas ce dont votre client a besoin, vous ne pouvez entreprendre aucune réalisation. Pourquoi ? Car si vous comprennez de travers et que le client ne trouve pas une solution à ses problématiques en votre réalisation, vous risquez d'avoir perdu et fait perdre :
+Cette étape est **absolument cruciale** pour tout le reste de la vie de votre projet. *Si vous ne comprennez pas ce dont votre client a besoin, vous ne pouvez entreprendre aucune réalisation*. Pourquoi ? Car si vous comprennez de travers et que le client ne trouve pas une solution à ses problématiques en votre réalisation, vous risquez d'avoir **perdu** et **fait perdre** :
 
-- Du temps
-- De l'énergie
+- **Du temps**
+- **De l'énergie**
 - De l'argent
-- De la confiance (De la part du client envers votre entreprise, de votre entreprise et vos collègues envers vous, de vous-même envers vous-même, ce qui est selon moi la pire des choses qui puissent vous arriver)
+- **De la confiance** (De la part du client envers votre entreprise, de votre entreprise et vos collègues envers vous, de vous-même envers vous-même, ce qui est selon moi la pire des choses qui puissent vous arriver)
 
-Notez qu'on parle ici de **besoin** et non de demande client. C'est ce qui fera la différence entre un **développeur** qui écoute la **demande** du client, et un concepteur qui cherche le **besoin** du client.
+Notez qu'on parle ici de **besoin** et **non de demande client**. C'est ce qui fera la différence entre un **développeur** qui **écoute la demande** du client, et un concepteur qui **cherche le besoin** du client.
 
 Pour vous donnez une image, prenons un exemple :
 
 ```
-Admettons que vous soyez au restaurant et que vous commandiez un Couscous. Le serveur revient une 20 aine de minute plus tard avec une Entrecôte.
+Admettons que vous soyez au restaurant et que vous commandiez un Couscous.
+Le serveur revient une 20 aine de minute plus tard avec une Entrecôte.
 ```
 
 Il est plus que probable que vous ne retournerez pas dans ce restaurant, n'est-ce pas ?
@@ -52,7 +53,7 @@ Le serveur revient une 20 aine de minute plus tard avec votre Couscous,
 mais vous vous rendez-compte que ce n'était pas exactement ce que vous vouliez.
 ```
 
-Le serveur s'est comporté en bon développeur, il vous a servi ce que vous aviez **demandé**.
+Le serveur s'est comporté en bon **développeur**, il vous a servi ce que vous aviez **demandé**.
 
 Et pour achever le raisonnement :
 
@@ -65,13 +66,13 @@ Il revient une 20 aine de minute plus tard avec un Burger, des frites et une sal
 le serveur de vous avoir apporté exactement ce dont vous aviez besoin.
 ```
 
-Le serveur s'est comporté en concepteur, vous ne saviez pas vous même ce que vous vouliez, mais il a trouvé exactement ce dont vous aviez **besoin**.
+Le serveur s'est comporté en **concepteur**, *vous ne saviez pas vous même ce que vous vouliez*, mais **il a trouvé** exactement ce dont vous aviez **besoin**.
 
-Être un concepteur ce n'est pas se contenter d'écouter ce qu'un client vous demande, c'est avant tout, comprendre les problématiques qu'il rencontre et essayer de les résoudre.
+Être un concepteur ce n'est pas se contenter d'écouter ce qu'un client vous demande, c'est avant tout, **comprendre les problématiques** qu'il rencontre et essayer de les **résoudre**.
 
-Dans la grande, très grande majorité des cas, le client connait certaines problématiques qu'il rencontre, c'est d'ailleurs la raison qui le pousse à prendre contact. Mais il n'a pas conscience de tous les besoins qu'il a. Le travail du concepteur est avant tout de se projeter à la place du client, comprendre la couche métier du client, évaluer les différents aspects de cette dernière, prendre conscience de toutes les problématiques et d'y apporter des solutions.
+Dans la grande, très grande majorité des cas, le client connait certaines problématiques qu'il rencontre, c'est d'ailleurs la raison qui le pousse à prendre contact. Mais **il n'a pas conscience de tous les besoins qu'il a**. **Le travail du concepteur** est avant tout de **se projeter à la place du client**, **comprendre la couche métier du client**, **évaluer les différents aspects de cette dernière**, **prendre conscience de toutes les problématiques et d'y apporter des solutions**.
 
-Il n'est pas rare de rencontrer un client qui n'a pas démarré son activité et qui vient vous voir à cette fin. Dans ce cas, c'est encore mieux, le client n'a aucune contrainte et vous partez sur une base complétement neuve.
+Il n'est pas rare de rencontrer un client qui n'a pas démarré son activité et qui vient vous voir à cette fin. Dans ce cas, c'est encore mieux, **le client n'a aucune contrainte** et vous partez sur une *base complétement neuve*.
 
 Il arrive cependant qu'un client soit très ferme sur les limites d'un projet, il se peut que vous rencontriez des clients qui préfèrent parler avec des développeurs, plutôt qu'avec des concepteurs (ils veulent un couscous et rien d'autre qu'un couscous). Dans ce cas, vous savez ce qu'on dit : Le client est roi.
 
