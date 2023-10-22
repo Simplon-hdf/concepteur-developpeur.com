@@ -78,3 +78,7 @@ Une section de contexte est essentiel dans un document de cette nature, pour une
 Vous témoignez au client de l'intérêt que vous portez à ce projet, vous prouvez au client que vous avez pris connaissance de ses problèmatiques en donnant des informations sur soit : 
   - Son entreprise
   - Son secteur d'activité
+
+En lisant cette section, le client lit est une section sur son entreprise ou son secteur d'activité, ce qui vous mâche une partie du travail pour la suite, il sera plus enclin à prendre connaissance du document s'il comprends d'entrer de jeu que le projet tourne autour de lui, et que votre équipe et vous avez pris le temps de vous renseigner sur des aspects plus généraux.
+
+On ne vous parle pas ici d'un exposé de 12 pages sur la vie personnelle du client. Mais d'une mise en contexte du projet, en incluant si possible des informations sur l'entreprise de votre client. Pour vous aider à comprendre, nous allons prendre un exemple :
