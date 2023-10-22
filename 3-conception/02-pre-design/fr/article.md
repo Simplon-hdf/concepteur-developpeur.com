@@ -27,9 +27,9 @@ Cette étape est absolument cruciale pour tout le reste de la vie de votre proje
 - Du temps
 - De l'énergie
 - De l'argent
-- De la confiance (De la part du client envers votre entreprise, de votre entreprise et vos collègues envers vous, de vous même envers vous même, ce qui est selon moi la pire des choses qui puissent vous arriver)
+- De la confiance (De la part du client envers votre entreprise, de votre entreprise et vos collègues envers vous, de vous-même envers vous-même, ce qui est selon moi la pire des choses qui puissent vous arriver)
 
-Notez d'ailleurs qu'on parle ici de **besoin** et non de demande client. C'est ce qui fera la différence entre un **développeur** qui écoute la **demande** du client, et un concepteur qui cherche le **besoin** du client.
+Notez qu'on parle ici de **besoin** et non de demande client. C'est ce qui fera la différence entre un **développeur** qui écoute la **demande** du client, et un concepteur qui cherche le **besoin** du client.
 
 Pour vous donnez une image, prenons un exemple :
 
@@ -50,18 +50,18 @@ Le serveur s'est comporté en bon développeur, il vous a servi ce que vous avie
 Et pour achever le raisonnement :
 
 ```
-Admettons que vous soyez au restaurant et que vous commandiez un plat avec de la viande et des frites, mais qu'en même temps, vous aimeriez avoir quelque chose qui n'est pas sec, mais vous ne savez pas exactement quoi. Le serveur vous écoute et enregistre ce dont vous avez envie. Il revient une 20 de minute plus tard avec un Burger, des frites et une salade. Vous finissez votre plat et remerciez le serveur de vous avoir apporté exactement ce dont vous aviez **besoin**.
+Admettons que vous soyez au restaurant et que vous commandiez un plat avec de la viande et des frites, mais qu'en même temps, vous aimeriez avoir quelque chose qui ne soit pas sec, mais vous ne savez pas exactement quoi. Le serveur vous écoute et enregistre ce dont vous avez envie. Il revient une 20 aine de minute plus tard avec un Burger, des frites et une salade. Vous finissez votre plat et remerciez le serveur de vous avoir apporté exactement ce dont vous aviez **besoin**.
 ```
 
 Le serveur s'est comporté en concepteur, vous ne saviez pas vous même ce que vous vouliez, mais il a trouvé exactement ce dont vous aviez **besoin**.
 
-Être un concepteur ce n'est pas se contenter d'écouter ce qu'un client vous demande, c'est avant tout, comprendre les problèmatiques qu'il rencontre et essayer de les résoudre.
+Être un concepteur ce n'est pas se contenter d'écouter ce qu'un client vous demande, c'est avant tout, comprendre les problématiques qu'il rencontre et essayer de les résoudre.
 
-Dans la grande, très grande majorité des cas, le client connait certaines problèmatiques qu'il rencontre, c'est d'ailleurs la raison qui le pousse à prendre contact. Mais il n'a pas conscience de tous les besoins qu'il a. Il se peut même que votre client prenne contact avec vous pour demander une solution complète sans même avoir rencontré de problèmatiques. Le travail du concepteur est avant tout de se projeter à la place du client, comprendre la couche métier du client, évaluer les différents aspects de cette dernière, prendre conscience de toutes les problèmatiques et d'y apporter des solutions.
+Dans la grande, très grande majorité des cas, le client connait certaines problématiques qu'il rencontre, c'est d'ailleurs la raison qui le pousse à prendre contact. Mais il n'a pas conscience de tous les besoins qu'il a. Il se peut même que votre client prenne contact avec vous pour demander une solution complète sans même avoir rencontré de problématiques. Le travail du concepteur est avant tout de se projeter à la place du client, comprendre la couche métier du client, évaluer les différents aspects de cette dernière, prendre conscience de toutes les problématiques et d'y apporter des solutions.
 
-Il n'est pas rare de rencontrer un client qui n'a pas démarré son activité et qui vient vous voir à ses fins. Dans ce cas, c'est encore mieux, le client n'a aucune contrainte et vous partez sur une base complétement neuve.
+Il n'est pas rare de rencontrer un client qui n'a pas démarré son activité et qui vient vous voir à cette fin. Dans ce cas, c'est encore mieux, le client n'a aucune contrainte et vous partez sur une base complétement neuve.
 
-Il arrive cependand qu'un client soit très ferme sur les limites d'un projet, il se peut que vous rencontriez des clients qui préfèrent parler avec des développeurs, plutôt qu'avec des concepteurs (en ce sens qu'il ne sont pas ouvert aux propositions et qu'iles veulent simplement la solution qu'ils ont demandé). Dans ce cas, vous savez ce qu'on dit : Le client est roi. Vous économiserer du temps et de l'énergie.
+Il arrive cependant qu'un client soit très ferme sur les limites d'un projet, il se peut que vous rencontriez des clients qui préfèrent parler avec des développeurs, plutôt qu'avec des concepteurs (dans le sens qu'ils ne sont pas ouvert aux propositions et qu'ils veulent simplement la solution qu'ils ont demandés). Dans ce cas, vous savez ce qu'on dit : Le client est roi. Vous économiserez du temps et de l'énergie.
 
 ## L'élaboration de solutions
 
