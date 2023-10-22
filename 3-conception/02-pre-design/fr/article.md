@@ -40,6 +40,6 @@ Le serveur s'est comporté en bon développeur, il vous a servi ce que vous avie
 
 Et pour achever le raisonnement :
 
-Admettons que vous soyez au restaurant et que vous commandiez un plat avec de la viande et des frites, mais qu'en même temps, vous aimeriez avoir quelque chose qui n'est pas sec, mais vous ne savez pas exactement quoi. Le serveur vous écoute et enregistre ce dont vous avez envie. Il revient une 20 de minute plus tard avec un Burger, des frites et une salade.
+Admettons que vous soyez au restaurant et que vous commandiez un plat avec de la viande et des frites, mais qu'en même temps, vous aimeriez avoir quelque chose qui n'est pas sec, mais vous ne savez pas exactement quoi. Le serveur vous écoute et enregistre ce dont vous avez envie. Il revient une 20 de minute plus tard avec un Burger, des frites et une salade. Vous finissez votre plat et remerciez le serveur de vous avoir apporté exactement ce dont vous aviez **besoin**.
 
-Vous finissez votre plat et remerciez le serveur de vous avoir apporté exactement ce dont vous aviez **besoin**.
+Le serveur s'est comporté en concepteur, vous ne saviez pas vous même ce que vous vouliez, mais il a trouvé exactement ce dont vous aviez **besoin**.
