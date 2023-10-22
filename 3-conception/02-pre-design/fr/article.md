@@ -77,7 +77,7 @@ Il arrive cependant qu'un client soit très ferme sur les limites d'un projet, i
 
 ## L'élaboration de solutions
 
-Les problématiques ayant étés evaluées, il ne reste plus qu'à trouver des solutions à chacune d'entre elles, et croyez-le ou non, la partie la plus simples du processus, c'est celle là.
+Les problématiques ayant étés evaluées, il ne reste plus qu'à trouver des solutions à chacune d'entre elles, et croyez-le ou non, la partie la plus simple du processus, c'est celle là.
 
 Il est recommandé de dresser une liste des problématiques dans un document évolutif. Au sein d'un dépôt GitHub au format Markdown par exemple, c'est une des meilleures solutions pour ce genre de travaux. Mais ne vous cantonnez pas à ça, cette solution est viable pour un travail évolutif, ou sur une session d'élaboration, préférez d'autres formats pour la livraison de document (comme PDF).
 
