@@ -158,11 +158,11 @@ Mais gardez à l'esprit que **vous n'êtes pas là pour lui faire un court compl
 
 ### Présentation des problématiques etudiées et solutions correspondantes
 
-Maintenant que le client a eu un petit aperçu de votre sérieux, il est temps de lui parler du coeur du projet, les problèmes. Mais surtout, les solutions, éviter de mettre trop en avant les problèmes, mettez plutôt en avant les solutions.
+Maintenant que le client a eu un petit aperçu de **votre sérieux**, il est temps de lui parler du coeur du projet, les problèmes. **Mais surtout, les solutions**, éviter de mettre trop en avant les problèmes, mettez plutôt en avant les solutions.
 
-L'idée derrière l'idée (héhé) est de montrer que vous avez bien pris conscience des enjeux du projet, vous avez pris la mesure du projet et avez identifié des problématiquea auxquelles le client n'avait pas pensé. (N'allez pas créer des problèmes là où il n'y en a pas malgré tout).
+L'idée derrière l'idée (héhé) est de montrer que vous avez bien **pris conscience des enjeux du projet**, vous avez pris la mesure du projet et avez identifié des **problématiquea auxquelles le client n'avait pas pensé**. (N'allez pas créer des problèmes là où il n'y en a pas malgré tout).
 
-Préférez opter pour une approche plus visuelle pour cette section de mise en lumière des solutions. Par exemple un tableau affichant les problèmes, qui sont decoupés en problématiques et à droite les solutions associées résumées en une phrase succinte. Cette approche permet de faire lire en premier lieu les problèmes, puis les problématiques qui en découlent et en point d'orgue (à la manière d'un deus ex machina) vos solutions, le lecteur termine sa lecture sur une note positive. Ce qui présente quelques avantages :
+Préférez opter pour une **approche** plus **visuelle** pour cette section de **mise en lumière des solutions**. Par exemple un **tableau** affichant les problèmes, qui sont decoupés en problématiques et à droite les **solutions** associées **résumées en une phrase succinte**. Cette approche permet de faire lire en premier lieu les problèmes, puis les problématiques qui en découlent et en point d'orgue (à la manière d'un deus ex machina) vos solutions, **le lecteur termine sa lecture sur une note positive**. Ce qui présente quelques avantages :
 
 - Ne pas laisser au client une amère sensation après avoir parcouru votre tableau.
 - Lire des informations très succintes et qui donc permet une comprèhension rapide et claire des solutions.
