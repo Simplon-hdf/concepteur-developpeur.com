@@ -147,3 +147,11 @@ Préférez optez pour une approche plus visuelle pour cette section de mise en l
 - Ne pas laisser au client une amère sensation après avoir parcouru votre tableau.
 - Lire des informations très succintes et donc permettre une comprèhension rapide et claire des solutions.
 - Ne pas avoir à faire d'effort de compréhension et de concentration pour récupérer des informations dans une melasse de texte.
+
+Une fois que vous avez présenté succintements :
+
+- Les problèmes
+- Les problématiques
+- **Les solutions**
+
+Vous pouvez aller dans le détail de chaque solution dans des sous sections dédiées à chaque problèmatique et solution.
