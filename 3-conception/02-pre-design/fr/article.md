@@ -109,7 +109,7 @@ Une section importante est celle qui présente les membres de l'équipe en charg
 
 Voilà un exemple concret, il peut être judicieux d'être succint. Le client ne cherche pas à devenir ami avec l'équipe, il souhaite seulement savoir et comprendre pour ce qu'il paye. Cette section est là pour lui montrer que vous vous soucier de cet aspect, et permet aussi d'expliquer tassitement les coûts d'un projet en montrant au client l'effectif deployé à la réussite de son projet.
 
-Cette section n'est **pas absolument essentielle** mais il **est fortement recommandé** de l'inclure. Dans un document qui a pour vocation d'établir un projet, mieux vaut que le client est plus d'informations qui l'intéresse plutôt qu'un document qui ne trouverait grâce à ses yeux. (C'est à prendre avec des pincettes, ne commençait pas à mettre vos horraires de pause déjeuner non plus). Gardez à l'esprit que vous devez rester pertinent dans votre démarche.
+Cette section n'est **pas absolument essentielle** mais il **est fortement recommandé** de l'inclure. Dans un document qui a pour vocation d'établir un projet, mieux vaut que le client ait plus d'informations qui l'intéresse plutôt qu'un document qui ne trouverait grâce à ses yeux. (C'est à prendre avec des pincettes, ne commençait pas à mettre vos horraires de pause déjeuner non plus). Gardez à l'esprit que vous devez rester pertinent dans votre démarche.
 
 ## La présentation (TRÈS SUCCINTE) de votre méthodologie de travail
 
