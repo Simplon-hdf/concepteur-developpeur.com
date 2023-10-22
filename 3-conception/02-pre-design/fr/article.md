@@ -165,3 +165,12 @@ Le termes "cible" peut-être perçu comme étant réducteur, on parlera alors de
 
 - Montrer au client quel public est visé par son produit.
 - Vérifier avec le client que les personas sont en accord avec son expérience ou son pertinente.
+
+Et plus productivement ça vous permettra d'accès le produit du client en fonction de ses cibles par exemple :
+
+```
+Les services d'un garagiste visent les personnes qui conduisent des voitures.
+Les services d'un concepteur visent lse personnes ayant besoin de développer des produits numériques.
+```
+
+Bien que cela puisse parraitre absurde, en pratique, c'est une étape qui demande une certaine concentration.
