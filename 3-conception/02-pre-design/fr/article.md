@@ -223,7 +223,7 @@ En ce qui concerne la structure de ce document, nous vous conseillons une struct
 - Identification des personas
 - Conclusion
 
-Il ne faut pas strictement de respecter cette structure, mais elle semble intéressante en terme d'agencement, cependant, faites une structure qui vous semble pertinente / fluide.
+Il ne faut **pas strictement respecter** cette structure, mais elle semble intéressante en terme d'agencement, cependant, faites une structure qui **vous semble pertinente** / **fluide**.
 
 En ce qui concerne le format de votre document, en général, lorsque vous travaillez sur le document, que vous n'avez pas encore de version finie ou pas suffisamment éprouvée, nous vous recommandons de travailler au format Markdown, il est rapide, léger et peu verbeux.
 
