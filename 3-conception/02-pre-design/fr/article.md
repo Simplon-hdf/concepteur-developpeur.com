@@ -122,13 +122,15 @@ Cette section n'est **pas absolument essentielle** mais il **est fortement recom
 
 ## La présentation (TRÈS SUCCINTE) de votre méthodologie de travail
 
-Cette section **est absolument essentielle**, en effet, elle ne paie pas de mine mais croyez moi, cela pourrait avoir des conséquences catastrophiques d'ommettre cette section.
+Cette section **est absolument essentielle**, en effet, elle ne paie pas de mine mais croyez moi, cela pourrait avoir des conséquences catastrophiques d'omettre cette section.
 
 Avant de vous expliquer plus en détail, nous allons prendre un exemple :
 
-Imagineons que vous alliez chez le garagiste pour changer vos pneus, et que le garagiste ne vous dit pas comment il va procéder.
-Vous revenez 1 heure plus tard et là ! Stupéfaction, votre voiture est en pièce détachées. Vous n'êtes pas garagiste et ne savez donc absolument pas si c'est normal. Mais le garagiste vous dit qu'il fait toujours comme ça. Résultat il vous dit de revenir dans 2 semaines le temps de le laisser faire son travail. Et il rajoute que la facture sera sacrément salée.
+```
+Imaginons que vous alliez chez le garagiste pour changer vos pneus, et que le garagiste ne vous dit pas comment il va procéder.
+Vous revenez 1 heure plus tard et là ! Stupéfaction, votre voiture est en pièce détachées. Vous n'êtes pas garagiste et ne savez donc absolument pas si c'est normal. Mais le garagiste vous dit qu'il fait toujours comme ça. Résultat il vous dit de revenir dans 2 semaines le temps de le laisser faire son travail. Et rajoute que la facture sera sacrément salée.
+```
 
-Vous auriez aimer que votre garagiste vous dise comment il aller travailler afin de prendre vos dispositions (Et accesoirement d'aller voir un vrai garagiste plutôt qu'un escroc). Dans ce type de projet c'est la même chose. Le client ne connait absolument pas les coutûmes du domaine, ça tombe bien, ce n'est pas son rôle. En revanche, votre rôle à vous est d'expliquer **sommairement** la façon dont le travail sur le projet sera achevé.
+Vous auriez aimé que votre garagiste vous dise comment il aller travailler afin de prendre vos dispositions (Et accesoirement d'aller voir un vrai garagiste plutôt qu'un escroc). Dans ce type de projet c'est la même chose. Le client ne connait absolument pas les coutûmes du domaine, ça tombe bien, ce n'est pas son rôle. En revanche, votre rôle à vous est d'expliquer **sommairement** la façon dont le travail sur le projet sera achevé.
 
-Mais gardez à l'esprit que **vous n'êtes pas là pour lui faire un court complet** sur la méthodologie que vous adopterez. Est-ce que vous voudriez que votre garagiste vous explique chaque étape qu'il va effectuer pour changer vos pneus dans les moindres détails ? (Gardez cette image, elle pourrait s'avérer salvatrice). L'idée est de rassurer le client et surtout d'expliquer la façon de la collaboration se passera, et qu'il n'ait pas de mauvaise surprise une fois que le projet démarré.
+Mais gardez à l'esprit que **vous n'êtes pas là pour lui faire un court complet** sur la méthodologie que vous adopterez. Est-ce que vous voudriez que votre garagiste vous explique chaque étape qu'il va effectuer pour changer vos pneus dans les moindres détails ? (Gardez cette image, elle pourrait s'avérer salvatrice). L'idée est de rassurer le client et surtout d'expliquer la façon de la collaboration se passera, et qu'il n'ait pas de mauvaise surprise une fois le projet démarré.
