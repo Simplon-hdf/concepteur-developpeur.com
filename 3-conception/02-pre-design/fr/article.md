@@ -125,12 +125,12 @@ Cette section est importante, elle présente les membres de l'équipe en charge 
 ```
 - Monsieur B : Développeur de la solution
 - Monsieur N : Développeur de la solution
-- Monsieur C : S'occupera de la bonne mise en application de la méthodologie de travail
+- Monsieur C : S'occupera de la bonne mise en œuvre de la méthodologie de travail
 - Monsieur B : S'occupera de la communication entre l'équipe et le client.
 ...
 ```
 
-Voilà un exemple concret, il peut être judicieux d'être succint. Le client ne cherche pas à devenir ami avec l'équipe, il souhaite seulement savoir et comprendre ce pour quoi il paye. Cette section est là pour lui montrer que vous vous soucier de cet aspect, et permet aussi d'expliquer tacitement les coûts d'un projet en montrant au client l'effectif deployé à la réussite de son projet.
+Voilà un exemple concret, il peut être judicieux d'être succint. Le client ne cherche pas à devenir ami avec l'équipe, il souhaite seulement savoir et comprendre ce pour quoi il paye. Cette section est là pour lui montrer que vous vous soucier de cet aspect, et permet aussi d'expliquer tacitement les coûts d'un projet en montrant au client l'effectif employé à la réussite de son projet.
 
 Cette section n'est **pas absolument essentielle** mais il **est fortement recommandé** de l'inclure. Dans un document qui a pour vocation d'établir un projet, mieux vaut que le client ait plus d'informations qui l'intéresse plutôt qu'un document qui ne trouverait grâce à ses yeux. (C'est à prendre avec des pincettes, ne commençait pas à mettre vos horraires de pause déjeuner non plus). Gardez à l'esprit que vous devez rester pertinent dans votre démarche.
 
@@ -141,13 +141,19 @@ Cette section **est absolument essentielle**, en effet, elle ne paie pas de mine
 Avant de vous expliquer plus en détail, nous allons prendre un exemple :
 
 ```
-Imaginons que vous alliez chez le garagiste pour changer vos pneus, et que le garagiste ne vous dit pas comment il va procéder.
-Vous revenez 1 heure plus tard et là ! Stupéfaction, votre voiture est en pièce détachées. Vous n'êtes pas garagiste et ne savez donc absolument pas si c'est normal. Mais le garagiste vous dit qu'il fait toujours comme ça. Résultat il vous dit de revenir dans 2 semaines le temps de le laisser faire son travail. Et rajoute que la facture sera sacrément salée.
+Imaginons que vous alliez chez le garagiste pour changer vos pneus,
+et que le garagiste ne vous dit pas comment il va procéder.
+Vous revenez 1 heure plus tard et là ! Stupéfaction,
+votre voiture est en pièce détachées.
+Vous n'êtes pas garagiste et ne savez donc absolument pas si c'est normal.
+Mais le garagiste vous dit qu'il fait toujours comme ça.
+Résultat il vous dit de revenir dans 2 semaines le temps de le laisser faire son travail.
+Et rajoute que la facture sera sacrément salée.
 ```
 
 Vous auriez aimé que votre garagiste vous dise comment il aller travailler afin de prendre vos dispositions (Et accesoirement d'aller voir un vrai garagiste plutôt qu'un escroc). Dans ce type de projet c'est la même chose. Le client ne connait absolument pas les coutûmes du domaine, ça tombe bien, ce n'est pas son rôle. En revanche, votre rôle à vous est d'expliquer **sommairement** la façon dont le travail sur le projet sera achevé.
 
-Mais gardez à l'esprit que **vous n'êtes pas là pour lui faire un court complet** sur la méthodologie que vous adopterez. Est-ce que vous voudriez que votre garagiste vous explique chaque étape qu'il va effectuer pour changer vos pneus dans les moindres détails ? (Gardez cette image, elle pourrait s'avérer salvatrice). L'idée est de rassurer le client et surtout d'expliquer la façon de la collaboration se passera, et qu'il n'ait pas de mauvaise surprise une fois le projet démarré.
+Mais gardez à l'esprit que **vous n'êtes pas là pour lui faire un court complet** sur la méthodologie que vous adopterez. Est-ce que vous voudriez que votre garagiste vous explique chaque étape qu'il va effectuer pour changer vos pneus dans les moindres détails ? (Gardez cette image, elle pourrait s'avérer salvatrice). L'idée est de rassurer le client et surtout d'expliquer la façon dont la collaboration se passera, et qu'il n'ait pas de mauvaise surprise une fois le projet démarré.
 
 ### Présentation des problématiques etudiées et solutions correspondantes
 
