@@ -24,4 +24,8 @@ Cette étape est absolument cruciale pour tout le reste de la vie de votre proje
 - De l'argent (De la part du client)
 - De la confiance (De la part du client envers votre entreprise, de votre entreprise et vos collègues envers vous, de vous même envers vous même, ce qui est selon moi la pire des choses qui puissent vous arriver)
 
-Notez d'ailleurs qu'on parle ici de **besoin** et non de demande client. C'est ce qui fera la différence entre un **développeur** qui écoute la **demande** du client, et un concepteur qui cherchera le **besoin** du client.
+Notez d'ailleurs qu'on parle ici de **besoin** et non de demande client. C'est ce qui fera la différence entre un **développeur** qui écoute la **demande** du client, et un concepteur qui cherche le **besoin** du client.
+
+Pour vous donnez une image, prennons un exemple :
+
+Admettons que vous soyez au restaurant et que vous commandiez un Couscous. Le serveur revient une 20 de minute plus tard avec une Entrecôte.
