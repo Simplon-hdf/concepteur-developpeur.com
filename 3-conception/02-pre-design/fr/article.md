@@ -89,7 +89,7 @@ Une fois que vos solutions ont suffisamment étés éprouvées en terme de simpl
 
 Avant toute chose, il est judicieux de savoir que si vous travaillez en méthode Agile, le terme **Cahier des charges** est un gros mot, si vous ne savez pas pourquoi, je vous invite à lire cet [article](../../../1-basics/03-methodology/01-agile-method/fr/article.md).
 
-Pour établir un dossier présentable au client, il est fondamental que ce dossier suive quelques codes afin d'être pris au sérieux. Tous les éléments présents dans cet article doivent figurer ou être succintement abordés dans votre document de projet.
+Pour établir un dossier présentable au client, il est fondamental que ce dossier suive quelques codes afin d'être pris au sérieux. Tous les éléments présents dans cet article devraient figurer ou être succintement abordés dans votre document de projet.
 
 ### La section Contexte
 
