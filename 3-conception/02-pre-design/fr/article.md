@@ -177,3 +177,11 @@ Les services d'un concepteur visent lse personnes ayant besoin de développer de
 Bien que cela puisse parraitre absurde, en pratique, c'est une étape qui demande une certaine concentration.
 
 ## Les bénéfices
+
+Les bénifices de faire un document de la sortes est bénéfiques pour plusieurs raisons :
+
+- Vous témoignez au client votre engagement dans le projet.
+- Vous établissez une valeur étalon solide sur laquelle vous pourrez vous appuyer.
+- Vous déclarer clairement ce que vous avez pris en compte dans vos réflexions.
+
+Il y a d'autres bonnes raisons, comme le fait de permettre au client d'apporter des correctifs sur les points avec lesquels il n'est pas d'accord dès le début, plutôt qu'après la récéption d'une première version fonctionnelle. Mais ce sont les trois principales.
