@@ -73,9 +73,8 @@ Pour établir un dossier présentable au client, il est fondamental que ce dossi
 
 ### La section Contexte
 
-Une section de contexte est essentiel dans un document de cette nature. Pour plusieurs raisons relativement simple :
+Une section de contexte est essentiel dans un document de cette nature, pour une raison assez simple :
 
-1. Vous témoignez au client de l'intérêt que vous portez à ce projet, vous prouvez au client que vous avez pris connaissance de ses problèmatiques en donnant des informations sur soit : 
+Vous témoignez au client de l'intérêt que vous portez à ce projet, vous prouvez au client que vous avez pris connaissance de ses problèmatiques en donnant des informations sur soit : 
   - Son entreprise
   - Son secteur d'activité
-De cette façon, le client vous sent engagé et sérieux dans la démarche entreprise.
