@@ -138,6 +138,8 @@ Mais gardez à l'esprit que **vous n'êtes pas là pour lui faire un court compl
 
 ## Présentation des problématiques etudiées et solutions correspondantes
 
-Maintenant que le client a eu un petit aperçu de votre sérieux, il est temps de lui parler du coeur du projets, les problèmes. Mais surtout, les solutions, éviter de mettre trop en avant les problèmes, mettez plutôt en avant les solutions.
+Maintenant que le client a eu un petit aperçu de votre sérieux, il est temps de lui parler du coeur du projet, les problèmes. Mais surtout, les solutions, éviter de mettre trop en avant les problèmes, mettez plutôt en avant les solutions.
 
-L'idée derrière l'idée (héhé) est de montrer que vous avez bien pris conscience des enjeux du projets, vous avez pris la mesure du projet et avez identifié des problèmatiquea auquelles le client n'avait pas pensé. (N'allez pas créer des problèmes là où il n'y en a pas malgré tout).
+L'idée derrière l'idée (héhé) est de montrer que vous avez bien pris conscience des enjeux du projet, vous avez pris la mesure du projet et avez identifié des problèmatiquea auxquelles le client n'avait pas pensé. (N'allez pas créer des problèmes là où il n'y en a pas malgré tout).
+
+Préférez optez pour une approche plus visuelle pour cette section de mise en lumière des solutions. Par exemple un tableau affichant les problèmes, qui sont decoupés en problématiques et à droite les solutions associées résumées en une phrase succinte.
