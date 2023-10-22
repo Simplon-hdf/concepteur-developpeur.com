@@ -10,6 +10,7 @@
     - [La présentation (TRÈS SUCCINTE) de votre méthodologie de travail](#la-présentation-très-succinte-de-votre-méthodologie-de-travail)
     - [Présentation des problématiques etudiées et solutions correspondantes](#présentation-des-problématiques-etudiées-et-solutions-correspondantes)
     - [La présentation des cibles du projet (Personas)](#la-présentation-des-cibles-du-projet-personas)
+  - [Les bénéfices](#les-bénéfices)
 
 # Avant la conception
 
@@ -174,3 +175,5 @@ Les services d'un concepteur visent lse personnes ayant besoin de développer de
 ```
 
 Bien que cela puisse parraitre absurde, en pratique, c'est une étape qui demande une certaine concentration.
+
+## Les bénéfices
