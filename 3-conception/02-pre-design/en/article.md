@@ -8,6 +8,7 @@
     - [The Context Section](#the-context-section)
     - [Presentation of the Project Team](#presentation-of-the-project-team)
     - [Very Brief Presentation of Your Working Methodology](#very-brief-presentation-of-your-working-methodology)
+    - [Presentation of the Issues Studied and Corresponding Solutions](#presentation-of-the-issues-studied-and-corresponding-solutions)
 
 # Before Design
 
@@ -144,3 +145,23 @@ and they add that the bill will be quite steep.
 You would have liked your mechanic to tell you how they were going to work so you could plan accordingly (and incidentally, to find a real mechanic rather than a scammer). In this type of project, it's the same. The client has absolutely no knowledge of the customs in the field, and that's fine because it's not their role. However, your role is to **briefly explain** how the **work** on the project will be **completed**.
 
 But keep in mind that **you are not there to give them a complete lesson** on the methodology you will adopt. Would you like your mechanic to explain every step they will take to change your tires in the smallest detail? (Keep this image in mind; it could be quite helpful.) The idea is to **reassure the client** and, most importantly, to explain how the **collaboration** will go so they don't have any unpleasant surprises once the project starts.
+
+### Presentation of the Issues Studied and Corresponding Solutions
+
+Now that the client has had a glimpse of **your professionalism**, it's time to discuss the heart of the project, the problems. But more importantly, the solutions—try to avoid emphasizing the problems too much and focus on highlighting the solutions instead.
+
+The idea behind this approach is to show that you have clearly **grasped the project's challenges** and have identified **problems that the client might not have considered** (but don't go creating problems where there aren't any).
+
+For this section of **highlighting the solutions**, it's better to opt for a more **visual approach**. For example, you can use a **table** that displays the problems, divided into issues, with the **solutions** summarized in a brief sentence on the right. This approach encourages the reader to first look at the problems, followed by the issues arising from them, and then, like a deus ex machina, your solutions. **The reader finishes reading on a positive note**. This offers several advantages:
+
+- It doesn't leave the client with a bitter feeling after going through your table.
+- The reader can quickly and clearly understand the information since it's very succinct.
+- There's no need to make an effort to understand and concentrate to extract information from a jumble of text.
+
+Once you have briefly presented:
+
+- The problems
+- The issues
+- **The solutions**
+
+You can then go into detail for each solution in dedicated subsections for each issue and solution.
