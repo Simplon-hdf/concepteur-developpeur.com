@@ -3,6 +3,7 @@
 - [Table Of Contents](#table-of-contents)
 - [Before Design](#before-design)
   - [Understanding the **Client's Needs**](#understanding-the-clients-needs)
+  - [Developing Solutions](#developing-solutions)
 
 # Before Design
 
@@ -61,3 +62,13 @@ In the vast majority of cases, the client is aware of certain issues they face, 
 It is not uncommon to encounter a client who has not yet started their business and comes to you for that purpose. In this case, it's even better; **the client has no constraints**, and you start with a *completely blank slate*.
 
 However, it may happen that a client is very firm about the limits of a project, and you may meet clients who prefer to talk to developers rather than designers (they want a couscous and nothing else than a couscous). In this case, you know what they say: The customer is king.
+
+## Developing Solutions
+
+With the issues evaluated, all that remains is to **find solutions** to each of them, and believe it or not, **this is the simplest part of the process**, **this is it**.
+
+It is recommended to create a list of issues in a living document. Within a GitHub repository in **Markdown** format, for example, this is one of the best solutions for this type of work. But don't limit yourself to that; this solution is viable for **evolving work**, or in an elaboration session, **prefer other document delivery formats** (such as **PDF**).
+
+For each issue, find a **simple solution**, not simplistic, but **simple**. A solution should not require **disproportionate** efforts to resolve a single issue; use common sense. It can be difficult to step back from such work, which is why seeking the opinion of a third party (who can be a colleague unrelated to the project or a non-technical person) can be useful to help you realize what you are producing.
+
+Once your solutions have been sufficiently **tested** in terms of **simplicity**, **relevance**, and **thought**, you can **document** your work in a **presentable document for the client**.
