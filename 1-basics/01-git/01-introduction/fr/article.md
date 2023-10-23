@@ -8,6 +8,8 @@
 
 # Introduction à Git
 
+Cet article est dédié à introduire le logiciel Git, vous trouverez ici des informations utiles à ce qu'est Git et vous apprendrez son histoire.
+
 # Un brin d'histoire
 
 # Quelle utilité
