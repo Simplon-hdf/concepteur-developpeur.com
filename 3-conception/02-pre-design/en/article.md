@@ -5,6 +5,7 @@
   - [Understanding the **Client's Needs**](#understanding-the-clients-needs)
   - [Developing Solutions](#developing-solutions)
   - [Creating a Presentable Document](#creating-a-presentable-document)
+    - [The Context Section](#the-context-section)
 
 # Before Design
 
@@ -79,3 +80,29 @@ Once your solutions have been sufficiently **tested** in terms of **simplicity**
 First and foremost, it's wise to know that if you are working with the Agile methodology, the term **Specifications Document** is a dirty word. If you don't know why, I invite you to read this [article](../../../1-basics/03-methodology/01-agile-method/en/article.md).
 
 To create a presentable document for the client, it is essential that this document follows certain conventions to be taken seriously. All the elements in this article should be included or briefly addressed in your project document.
+
+### The Context Section
+
+A **context section** is **essential** in a document of this nature for a rather simple reason:
+
+You show the client the **interest you have in this project** and demonstrate that you have **acknowledged their issues** by providing information about either:
+
+- Their company
+- Their industry
+
+When reading this section, the client is **reading about their own company** or industry, which **saves you some work for the rest of the document**. They will be more inclined to read the document if they understand from the start that **the project revolves around them**, and that your team has taken the time to **research broader aspects**.
+
+This doesn't mean you should write a 12 pages presentation on the client's personal life. Instead, it's about putting the project into context, including information about your client's company if possible. To help you understand, let's take an example:
+
+Let's say a client in the automotive sector is requesting a website for online appointment scheduling. A contextual section could be formatted like this:
+
+```
+Cars&Motors is a family-owned business
+with the aim of streamlining its communication with its customers.
+Cars&Motors has been in business for over 20 years and achieves a goal
+of 10 daily appointments...
+```
+
+The idea is to show the client that you are involved and that you will do your best to provide a solution that suits their needs. By incorporating this section into your documents, you **facilitate communication** with the client. Because what's better for a client than **feeling understood** and that someone **cares about their issues**?
+
+Think of this section as an inception of the project or a way to reel in the fish, if you prefer.
