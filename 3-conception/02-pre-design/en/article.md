@@ -12,6 +12,7 @@
     - [Presentation of Project Targets (Personas)](#presentation-of-project-targets-personas)
   - [The Benefits](#the-benefits)
   - [Structure and Format](#structure-and-format)
+- [Summary](#summary)
 
 # Before Design
 
@@ -219,3 +220,12 @@ You don't have to follow this structure strictly, but it seems interesting in te
 As for the format of your document, when working on the document and you don't have a final version or it's not yet well-established, we recommend using Markdown. It is quick, lightweight, and concise.
 
 However, when you intend to distribute your document, prefer a widely-used format like PDF, for example.
+
+# Summary
+
+- Being a designer means **seeking to understand the client's need**.
+- Being a developer means simply listening to the client's **request**.
+- Creating a comprehensive project kickoff document has many advantages for both the client and you.
+- It's much more important to focus on solutions than on problems.
+- A fluid structure is more than necessary; choose the one that seems most effective to you.
+- For working on a document: Use Markdown; for distribution: A more widely-used format like PDF.
