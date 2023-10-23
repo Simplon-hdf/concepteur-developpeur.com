@@ -7,6 +7,7 @@
   - [Creating a Presentable Document](#creating-a-presentable-document)
     - [The Context Section](#the-context-section)
     - [Presentation of the Project Team](#presentation-of-the-project-team)
+    - [Very Brief Presentation of Your Working Methodology](#very-brief-presentation-of-your-working-methodology)
 
 # Before Design
 
@@ -123,3 +124,23 @@ This section is important as it introduces the team members responsible for the 
 Here is a concrete example. It is advisable to be concise. **The client** is not looking to become friends with the team; they only want to **know** and **understand what they are paying for**. This section is there to show them that you care about this aspect and also implicitly **explains the costs of a project** by showing the client the **staff employed** to ensure the success of their project.
 
 This section is **not absolutely essential**, but it is **highly recommended** to include it. In a document aimed at establishing a project, it's better for the client to have more information that interests them rather than a document that they would find uninteresting. (Take this with a grain of salt, don't start listing your lunch break hours.) Keep in mind that **you must remain relevant** in your approach.
+
+### Very Brief Presentation of Your Working Methodology
+
+This section **is absolutely essential**. It might not seem like much, but believe me, omitting this section could have **catastrophic consequences**.
+
+Before explaining further, let's take an example:
+
+```
+Imagine you go to the mechanic to change your tires,
+and the mechanic doesn't tell you how they are going to do it.
+You come back an hour later, and to your astonishment, your car is in pieces.
+You're not a mechanic, so you have absolutely no idea if this is normal.
+But the mechanic tells you they always do it this way.
+As a result, they ask you to come back in two weeks to let them do their work,
+and they add that the bill will be quite steep.
+```
+
+You would have liked your mechanic to tell you how they were going to work so you could plan accordingly (and incidentally, to find a real mechanic rather than a scammer). In this type of project, it's the same. The client has absolutely no knowledge of the customs in the field, and that's fine because it's not their role. However, your role is to **briefly explain** how the **work** on the project will be **completed**.
+
+But keep in mind that **you are not there to give them a complete lesson** on the methodology you will adopt. Would you like your mechanic to explain every step they will take to change your tires in the smallest detail? (Keep this image in mind; it could be quite helpful.) The idea is to **reassure the client** and, most importantly, to explain how the **collaboration** will go so they don't have any unpleasant surprises once the project starts.
