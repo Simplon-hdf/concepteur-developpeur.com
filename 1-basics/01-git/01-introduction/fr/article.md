@@ -8,11 +8,11 @@
 
 # Introduction à Git
 
-Cet article est dédié à introduire le logiciel Git, vous trouverez ici des informations utiles à ce qu'est Git et vous apprendrez son histoire.
+Cet article est dédié à introduire le logiciel Git, vous trouverez ici des informations utiles sur ce qu'est Git et vous apprendrez son histoire.
 
 # Un brin d'histoire
 
-Git est un logiciel gratuit inventé par Linus Torvalds en 2005 et qui est distribué sous la license GNU2. Ce qui en fait un logiciel libre. Il permet de décentraliser des versions de code, ou en d'autres termes : Il permet créer des versions des fichiers de code (mais pas que) afin d'à terme permettre d'accéder à différentes version d'un même fichier.
+Git est un logiciel gratuit inventé par Linus Torvalds en 2005 et qui est distribué sous la license GNU2. Ce qui en fait un logiciel libre. Il permet de décentraliser des versions de code, ou en d'autres termes : Il permet de créer des versions de fichiers de code (mais pas que) afin d'à terme permettre d'accéder à différentes versions d'un même fichier.
 
 # Quelles utilités
 
@@ -42,7 +42,7 @@ vous faites un "commit" (on verra ce terme plus tard).
 Vos modifications ont créés un bu dans votre projet.
 Vous utilisez Git pour traquer le moment à partir duquel
 vous avez effectué vos modifications et vous pouvez
-comparé directement les versions de votre code.
+comparer directement les versions de votre code.
 ```
 
 En fait, quand vous utilisez Git en faisant un "commit", c'est comme si vous preniez une photo de votre code, à la différence qu'avec Git, vous pouvez revenir à un point antérieur dans le temps.
