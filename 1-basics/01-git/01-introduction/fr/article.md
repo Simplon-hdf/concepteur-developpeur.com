@@ -18,7 +18,7 @@ Git est un logiciel gratuit inventé par Linus Torvalds en 2005 et qui est distr
 
 Git est un logiciel absolument essentiel pour chaque développeur digne de ce nom à notre époque, vous en comprendrez les raisons en lisant cette section.
 
-L'idée première de Git est de pouvoir suivre l'évolution des modifications qu'à reçu fichier, que ce soit un fichier contenant du code ou non d'ailleurs. C'est dans cette optique que Git à été crée en plus de permettre de partager ces fichiers avec d'autres développeurs.
+L'idée première de Git est de pouvoir suivre l'évolution des modifications qu'à reçu un fichier, qu'il contienne du code ou non d'ailleurs. C'est dans cette optique que Git a été crée en plus de permettre de partager ces fichiers avec d'autres développeurs.
 
 Prenons un exemple concret pour vous aider à comprendre ce à quoi Git sert :
 
@@ -31,18 +31,19 @@ Malheureusement, vous devez chercher la cause du bug
 et supprimer tout ce que vous avez fait depuis deux heures.
 ```
 
-Il est plus que probable que vous vous soyiez déjà retrouvé dans cette situation. Git rends ce genre de chose très facile à gérer.
+Il est plus que probable que vous vous soyiez déjà retrouvé dans cette situation. Git rend ce genre de chose très facile à gérer.
 
-Nous allons prendre une image pour vous aider à figurer comment Git est utilisé.
+Nous allons prendre à nouveau cet exemple mais en utilisant Git pour vous aider à figurer comment il est utilisé.
 
 ```
 Vous travaillez sur un projet en JavaScript,
 et à chaque modification significative de votre code
 vous faites un "commit" (on verra ce terme plus tard).
-Vos modifications ont créés un bu dans votre projet.
+Vos modifications ont créés un bug dans votre projet.
 Vous utilisez Git pour traquer le moment à partir duquel
 vous avez effectué vos modifications et vous pouvez
 comparer directement les versions de votre code.
+Et retirer uniquement la modification qui pose souci.
 ```
 
 En fait, quand vous utilisez Git en faisant un "commit", c'est comme si vous preniez une photo de votre code, à la différence qu'avec Git, vous pouvez revenir à un point antérieur dans le temps.
