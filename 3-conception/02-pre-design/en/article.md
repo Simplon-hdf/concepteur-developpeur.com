@@ -11,6 +11,7 @@
     - [Presentation of the Issues Studied and Corresponding Solutions](#presentation-of-the-issues-studied-and-corresponding-solutions)
     - [Presentation of Project Targets (Personas)](#presentation-of-project-targets-personas)
   - [The Benefits](#the-benefits)
+  - [Structure and Format](#structure-and-format)
 
 # Before Design
 
@@ -199,3 +200,22 @@ There are other good reasons, such as allowing the client to **make corrections*
 Anyway, it's mandatory to establish a project kick-off document with the client. Just consider it as a part, albeit not very fun, but **very enriching aspect of the job**.
 
 Depending on your methodology, the name of such a document may change, but its purpose is carved in stone; you must **persuade the client** to give you the project, and with a document like this, you are heading in the right direction.
+
+## Structure and Format
+
+Regarding the structure of this document, we recommend a structure that follows the order of appearance in this article, which includes:
+
+- Setting the Context
+- Team Presentation
+- Presentation of Problems, Issues, and Solutions
+  - Subsection about Solution 1
+  - Subsection about Solution 2
+  - Subsection ...
+- Identification of Personas
+- Conclusion
+
+You don't have to follow this structure strictly, but it seems interesting in terms of organization. However, create a structure that seems **relevant** and **cohesive** to you.
+
+As for the format of your document, when working on the document and you don't have a final version or it's not yet well-established, we recommend using Markdown. It is quick, lightweight, and concise.
+
+However, when you intend to distribute your document, prefer a widely-used format like PDF, for example.
