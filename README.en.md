@@ -38,6 +38,7 @@ Cette documentation existe aussi en [version française](README.md)
 <summary><h2>Conception</h2></summary>
 
 - [Conception introduction](3-conception/01-get-started/en/article.md)
+- [Pre design](3-conception/02-pre-design/en/article.md)
 
 </details>
 
