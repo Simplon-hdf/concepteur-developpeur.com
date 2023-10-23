@@ -57,9 +57,12 @@ The waiter acted like a good **developer**; he served you what you **requested**
 And to conclude the reasoning:
 
 ```
-Suppose you are at a restaurant, and you order a dish with meat and fries, but at the same time, you would like something that isn't dry, although you're not exactly sure what.
+Suppose you are at a restaurant, and you order a dish with meat and fries,
+but at the same time, you would like something that isn't dry, 
+although you're not exactly sure what.
 The waiter listens to you and takes note of what you desire.
-He returns about 20 minutes later with a Burger, fries, and a salad. You finish your meal and thank the waiter for bringing you exactly what you needed.
+He returns about 20 minutes later with a Burger, fries, and a salad.
+You finish your meal and thank the waiter for bringing you exactly what you needed.
 ```
 
 The waiter acted as a **designer**; *you didn't know what you wanted yourself*, but **he found** exactly what you **needed**.
