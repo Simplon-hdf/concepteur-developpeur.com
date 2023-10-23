@@ -6,6 +6,7 @@
   - [Developing Solutions](#developing-solutions)
   - [Creating a Presentable Document](#creating-a-presentable-document)
     - [The Context Section](#the-context-section)
+    - [Presentation of the Project Team](#presentation-of-the-project-team)
 
 # Before Design
 
@@ -106,3 +107,19 @@ of 10 daily appointments...
 The idea is to show the client that you are involved and that you will do your best to provide a solution that suits their needs. By incorporating this section into your documents, you **facilitate communication** with the client. Because what's better for a client than **feeling understood** and that someone **cares about their issues**?
 
 Think of this section as an inception of the project or a way to reel in the fish, if you prefer.
+
+### Presentation of the Project Team
+
+This section is important as it introduces the team members responsible for the project. **It's not about presenting team members personally**, but about explaining **who** will have **which role** within the project. For example:
+
+```
+- Mr. B: Developer of the solution
+- Mr. N: Developer of the solution
+- Mr. C: Responsible for the proper implementation of the working methodology
+- Mr. B: Responsible for communication between the team and the client.
+...
+```
+
+Here is a concrete example. It is advisable to be concise. **The client** is not looking to become friends with the team; they only want to **know** and **understand what they are paying for**. This section is there to show them that you care about this aspect and also implicitly **explains the costs of a project** by showing the client the **staff employed** to ensure the success of their project.
+
+This section is **not absolutely essential**, but it is **highly recommended** to include it. In a document aimed at establishing a project, it's better for the client to have more information that interests them rather than a document that they would find uninteresting. (Take this with a grain of salt, don't start listing your lunch break hours.) Keep in mind that **you must remain relevant** in your approach.
