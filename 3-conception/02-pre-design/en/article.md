@@ -4,6 +4,7 @@
 - [Before Design](#before-design)
   - [Understanding the **Client's Needs**](#understanding-the-clients-needs)
   - [Developing Solutions](#developing-solutions)
+  - [Creating a Presentable Document](#creating-a-presentable-document)
 
 # Before Design
 
@@ -72,3 +73,9 @@ It is recommended to create a list of issues in a living document. Within a GitH
 For each issue, find a **simple solution**, not simplistic, but **simple**. A solution should not require **disproportionate** efforts to resolve a single issue; use common sense. It can be difficult to step back from such work, which is why seeking the opinion of a third party (who can be a colleague unrelated to the project or a non-technical person) can be useful to help you realize what you are producing.
 
 Once your solutions have been sufficiently **tested** in terms of **simplicity**, **relevance**, and **thought**, you can **document** your work in a **presentable document for the client**.
+
+## Creating a Presentable Document
+
+First and foremost, it's wise to know that if you are working with the Agile methodology, the term **Specifications Document** is a dirty word. If you don't know why, I invite you to read this [article](../../../1-basics/03-methodology/01-agile-method/en/article.md).
+
+To create a presentable document for the client, it is essential that this document follows certain conventions to be taken seriously. All the elements in this article should be included or briefly addressed in your project document.
