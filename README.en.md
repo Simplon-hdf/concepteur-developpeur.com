@@ -5,11 +5,16 @@ Cette documentation existe aussi en [version française](README.md)
 # Table Of Contents
 
 <details>
-<summary><h2>Git and GitFlow</h2></summary>
+<summary><h2>Git</h2></summary>
 
-- [Git Documentation](1-basics/01-git/en/article.md)
-- [GitFlow Documentation](1-basics/02-gitflow/en/article.md)
+- [Git Introduction](1-basics/01-git/01-introduction/en/article.md)
 
+<details>
+<summary><h2>GitFlow</h2></summary>
+
+- [GitFlow Documentation](1-basics/02-gitflow/fr/article.md)
+
+</details>
 </details>
 <details>
 <summary><h2>Agile Method (SCRUM)</h2></summary>
