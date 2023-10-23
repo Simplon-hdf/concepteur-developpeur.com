@@ -4,6 +4,7 @@
 - [Introduction to Git](#introduction-to-git)
 - [A Bit of History](#a-bit-of-history)
 - [What's the Use?](#whats-the-use)
+- [Summary](#summary)
 
 # Introduction to Git
 
@@ -44,3 +45,10 @@ You can remove only the problematic change.
 In essence, when you use Git to make a "commit", it's like taking a snapshot of your code, except with Git, you can go back to a previous point in time.
 
 So, that's what Git is used for. We'll revisit this in the next [article](../../02-versioning/fr/article.md).
+
+# Summary
+
+- Git is free and open-source software created by Linus Torvalds in 2005.
+- Git is used to maintain multiple versions of the same file.
+- Git facilitates code sharing (and more) among developers.
+- Git is considered mandatory for developers.
