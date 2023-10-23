@@ -7,7 +7,7 @@ This documentation also exists in [english version](README.en.md).
 <details>
 <summary><h2>Git</h2></summary>
 
-- [Documentation de Git](1-basics/01-git/fr/article.md)
+- [Introduction à Git](1-basics/01-git/01-introduction/fr/article.md)
 
 <details>
 <summary><h2>GitFlow</h2></summary>
