@@ -9,6 +9,7 @@
     - [Presentation of the Project Team](#presentation-of-the-project-team)
     - [Very Brief Presentation of Your Working Methodology](#very-brief-presentation-of-your-working-methodology)
     - [Presentation of the Issues Studied and Corresponding Solutions](#presentation-of-the-issues-studied-and-corresponding-solutions)
+    - [Presentation of Project Targets (Personas)](#presentation-of-project-targets-personas)
 
 # Before Design
 
@@ -165,3 +166,21 @@ Once you have briefly presented:
 - **The solutions**
 
 You can then go into detail for each solution in dedicated subsections for each issue and solution.
+
+### Presentation of Project Targets (Personas)
+
+A step that seems more than welcome is the presentation of project targets, or in other words: **Who are the client's business targets**?
+
+The term "targets" can be seen as reductive; instead, we can use the term **personas**. A persona simply refers to the **different profiles** of users of a finished (or atleast distribued) product. It is helpful to create a list of personas in order to:
+
+- Show the client which audience the product is targeting.
+- Confirm with the client that the personas align with their experience or are relevant.
+
+Moreover, it allows you to **align** the client's product with the **target audience**, for example:
+
+```
+The services of a mechanic target people who drive cars.
+The services of a designer target people who need to develop digital products.
+```
+
+While this may seem trivial, in practice, this step requires some **thought and rigor**.
