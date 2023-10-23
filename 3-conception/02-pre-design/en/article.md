@@ -10,6 +10,7 @@
     - [Very Brief Presentation of Your Working Methodology](#very-brief-presentation-of-your-working-methodology)
     - [Presentation of the Issues Studied and Corresponding Solutions](#presentation-of-the-issues-studied-and-corresponding-solutions)
     - [Presentation of Project Targets (Personas)](#presentation-of-project-targets-personas)
+  - [The Benefits](#the-benefits)
 
 # Before Design
 
@@ -184,3 +185,17 @@ The services of a designer target people who need to develop digital products.
 ```
 
 While this may seem trivial, in practice, this step requires some **thought and rigor**.
+
+## The Benefits
+
+Creating a document like this is beneficial for several reasons:
+
+- You demonstrate your commitment to the project to the client.
+- You establish a solid baseline on which you can rely.
+- You clearly state what you have taken into account in your thinking.
+
+There are other good reasons, such as allowing the client to **make corrections** to the points with which they disagree from the beginning, rather than **after receiving an initial functional version**. However, these are the three main ones.
+
+Anyway, it's mandatory to establish a project kick-off document with the client. Just consider it as a part, albeit not very fun, but **very enriching aspect of the job**.
+
+Depending on your methodology, the name of such a document may change, but its purpose is carved in stone; you must **persuade the client** to give you the project, and with a document like this, you are heading in the right direction.
