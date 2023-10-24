@@ -3,6 +3,7 @@
 - [Table des matières](#table-des-matières)
 - [Le Versioning](#le-versioning)
 - [Qu'est ce que c'est ?](#quest-ce-que-cest-)
+- [À quoi ça sert ?](#à-quoi-ça-sert-)
 - [Comment ça se caractérise avec Git ?](#comment-ça-se-caractérise-avec-git-)
 
 # Le Versioning
@@ -14,5 +15,9 @@ Le versioning (ou versionnage en français) est un concept selon lequel, on rép
 Pour faire simple : on conserve des versions différentes d'une ressource à différentes fins.
 
 Voilà simplement ce qu'est le versioning.
+
+# À quoi ça sert ?
+
+
 
 # Comment ça se caractérise avec Git ?
