@@ -40,7 +40,7 @@ En réalité, qu'un commit affecte un ensemble de fichier n'est pas dramatique d
 
 Mais étant donné que vous lisez cet article pour en apprendre plus sur Git et plus précisement cette section pour en apprendre plus sur les commits, nous allons quand même essayer de comprendre pourquoi ceux qui ont pris un cookie en ont eu le droit.
 
-Bien imaginons simplement que :
+Bien, imaginons simplement que :
 
 ```
 Vous travaillez sur un projet avec Git et vous faites des modifications
@@ -57,6 +57,9 @@ mais bien mérité, c'est en faisant des erreurs que l'on apprend, vous n'êtes
 pas prêt d'oublier cette leçon et vous résignez à avoir perdu deux heures
 de votre vie.
 ```
+
+En fait, votre erreur à été de ne pas faire de commits au fur et à mesure de votre avancée. Voyez ça comme une aubaine. Vous ne referrez jamais l'erreur de ne pas estimer Git à sa juste valeur. Si vous aviez fait vos commits au fur et à mesure vous auriez pu revenir à une version antérieure, la tester, voir si cela réglait votre souci ou non et restaurer une version fonctionnelle qui n'était pas si loin en arrière dans le temps. On ne parle pas ici de régularité dans le temps (faire un commit tout les x temps) mais plutôt en terme de progression. Pour vous donner une image :
+
 
 ## À quoi ça sert exactement ?
 
