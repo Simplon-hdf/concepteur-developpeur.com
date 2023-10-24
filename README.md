@@ -8,6 +8,8 @@ This documentation also exists in [english version](README.en.md).
 <summary><h2>Git</h2></summary>
 
 - [Introduction à Git](1-basics/01-git/01-introduction/fr/article.md)
+- [Le versioning](1-basics/01-git/02-versioning/fr/article.md)
+- [Fonctionnement de Git](1-basics/01-git/03-git-functions/fr/article.md)
 
 <details>
 <summary><h2>GitFlow</h2></summary>
