@@ -55,7 +55,7 @@ Les versions des fichiers d'un dépôt Git sont stockées dans un historique de 
 
 # Résumé
 
-- Le versioning est un concept est un concept qui consiste en un repertoriage des versions d'une ressource.
+- Le versioning est un concept qui consiste en un repertoriage des versions d'une ressource.
 - Un outil de versioning permet de sauvegarder les différentes versions d'une ressources à diverses fins.
 - Git est logiciel qui se repose en grande partie sur le versioning, bien que ça ne soit pas le seul aspect qui le caractérise.
 - Git permet de stocker différentes versions d'une ressource dans un historique par le biais d'un mécanisme appellé "commit".
