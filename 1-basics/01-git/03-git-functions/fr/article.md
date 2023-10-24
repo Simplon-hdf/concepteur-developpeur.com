@@ -30,6 +30,10 @@ Un commit est donc une validation de modification, à laquelle s'ajoute quelques
 
 Notez d'ailleurs que plus votre message de commit est descriptif, plus vous vous remercierai lorsque vous chercherez une modification bien particulière et que vous la trouverez gràce à la clareté de vos messages.
 
+Maintenant que nous avons parlé du message du commit, nous allons parler de la façon dont vous allez dire à Git quel fichier vous voulez inclure dans votre commit. Et pour cette partie, nous allons avoir besoin d'un bon vieux schéma :
+
+![commits scope schem](../assets/commits-scope.png)
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
