@@ -11,6 +11,8 @@
 
 ## Terminologie de Git
 
+Avant d'aborder le fonctionnement interne de Git, il est nécessaire que vous connaissiez un peu les termes de Git ainsi que les différents mécanismes et concepts qui le régisse.
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
