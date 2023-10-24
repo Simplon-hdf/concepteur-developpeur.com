@@ -18,6 +18,12 @@ Voilà simplement ce qu'est le versioning.
 
 ## À quoi ça sert ?
 
+Le versioning est très utile pour différentes raisons.
+
+Ne vous est-il jamais arrivé de retourner lire du code d'un projet que vous avez fait il y a quelques années ?
+Ou ne vous êtes vous jamais rendu compte que votre point de vu sur un sujet avez changé ?
+
+En fait, vous avez eu à faire au versioning bien avant de lire un quelconque article sur le sujet. Dans la première question, si la réponse est "Oui", alors on peut dire que la version de vous aujourd'hui est bien meilleure que celle d'il y a plusieurs années. Dans ce cas de figure, vous prennez conscience du chemin parcouru. Ça peut parraitre un peu abstrait pour le monent, prennons donc un exemple plus concret :
 
 
 ## Comment ça se caractérise avec Git ?
