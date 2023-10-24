@@ -26,6 +26,14 @@ Vous avez développé une fonction qui vous a torturé l'esprit et la dernière 
 
 En demandant à Git de faire un "commit" (d'effectuer une validation), vous avez en fait dit à Git de créer une nouvelle version de votre fichier. Version dans laquelle votre fonction existe quoi qu'il advienne de votre fichier de code (à une seule exception dont nous parlerons dans la section dédiée au dépôt).
 
+Un commit est donc une validation de modification, à laquelle s'ajoute quelques options. En fait, pour effectuer un commit il y a un impératif, donner un "nom" à ce commit. Enfin on parle de message, ce message va servir à décrire ce que fait votre commit. Si nous reprenons l'exemple du dessus, un message de commit correct serait quelque chose du genre : "Implémentation de ma super fonction très utile". En attribuant un message à votre commit c'est comme si vous annotiez votre modification. De la même manière que vous écrivez des commentaires de code. Sachez qu'un message de commit est obligatoire.
+
+Notez d'ailleurs que plus votre message de commit est descriptif, plus vous vous remercierai lorsque vous chercherez une modification bien particulière et que vous la trouverez gràce à la clareté de vos messages.
+
+Maintenant que nous avons parlé du message du commit, nous allons parler de la façon dont vous allez dire à Git quel fichier vous voulez inclure dans votre commit. Et pour cette partie, nous allons avoir besoin d'un bon vieux schéma :
+
+![commits scope schem](../assets/commits-scope.png)
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
