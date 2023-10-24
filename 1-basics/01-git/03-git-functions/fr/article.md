@@ -65,6 +65,28 @@ Un projet est un ensemble de morceau de code qui, une fois assemblés forme une 
 
 Vous trouveriez sans doute stupide que lorsque l'on fait un puzzle et que l'on se trompe de pièce, plutôt que de changer la pièce mal placée on défasse entièrement le puzzle. Et bien c'est exactement la même chose avec une application, il serait plus que stupide d'avoir à supprimer l'interface graphique de votre application car le dernier commit ne la contenait pas et que vous avez fait une bourde avec le générateur de particule de votre application. Mais que puisque vous n'avez pas effectué de commit après avoir fini votre interface utilisateur, elle soit à refaire pour X ou Y raison.
 
+En fait, l'idée est qu'il ne faut pas que vos commits fassent trop de chose, un commit ne devrait pas :
+
+- Créer une interface graphique
+- Créer un algorithme de génération de mot de passe
+- Corriger un bug
+
+En général, il est recommandé de faire un commit pour 1 modification **significative** et ses modifications connexes par exemple :
+
+Vous devez corriger un bug dans votre algorithme de génération de mot de passe et ajouter une fonctionnalité à cet algorithme.
+
+Il est **acceptable** que ces deux modifications apparaissent dans le même commit, mais il sera toujours mieux de limiter vos commits à 1 action significative. Par action significative on parle de modifications qui apportent un intérêt à votre code.
+
+Ajouter un commentaire à une ligne de code n'est pas significatif. Commenter une classe complexe l'est. Ajouter une fonctionnalité à votre application est significatif. Corriger un bug l'est aussi. Enfin vous saisissez l'idée.
+
+En fait lorsque vous travaillez avec Git vous pouvez vous demander :
+
+- Est-ce que j'ai envie que ma modification soit indépendante des autres ?
+- Est-ce que si je dois revenir à ce commit je vais devoir refaire .. ?
+- Est-ce que cette modification mérite vraiment un commit ?
+
+Normalement ça devrait vous aider. Voilà, il semblerait que nous ayons abordé les sujets les plus importants concernant les commits.
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
