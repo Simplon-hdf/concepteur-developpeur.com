@@ -60,6 +60,10 @@ de votre vie.
 
 En fait, votre erreur à été de ne pas faire de commits au fur et à mesure de votre avancée. Voyez ça comme une aubaine. Vous ne referrez jamais l'erreur de ne pas estimer Git à sa juste valeur. Si vous aviez fait vos commits au fur et à mesure vous auriez pu revenir à une version antérieure, la tester, voir si cela réglait votre souci ou non et restaurer une version fonctionnelle qui n'était pas si loin en arrière dans le temps. On ne parle pas ici de régularité dans le temps (faire un commit tout les x temps) mais plutôt en terme de progression. Pour vous donner une image :
 
+Un puzzle est un ensemble de piéces qui, une fois assemblées forme une image.
+Un projet est un ensemble de morceau de code qui, une fois assemblés forme une application.
+
+Vous trouveriez sans doute stupide que lorsque l'on fait un puzzle et que l'on se trompe de pièce, plutôt que de changer la pièce mal placée on défasse entièrement le puzzle. Et bien c'est exactement la même chose avec une application, il serait plus que stupide d'avoir à supprimer l'interface graphique de votre application car le dernier commit ne la contenait pas et que vous avez fait une bourde avec le générateur de particule de votre application. Mais que puisque vous n'avez pas effectué de commit après avoir fini votre interface utilisateur, elle soit à refaire pour X ou Y raison.
 
 ## À quoi ça sert exactement ?
 
