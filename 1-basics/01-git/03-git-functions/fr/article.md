@@ -34,6 +34,8 @@ Maintenant que nous avons parlé du message du commit, nous allons parler de la 
 
 ![commits scope schem](../assets/commits-scope.png)
 
+Les commits peuvent affecter 1 fichier ou un ensemble de fichier. Par exemple (et c'est très généralement recommandé) vous pourriez vouloir qu'un commit affecte un seul et unique fichier, pour des raisons d'atomicité. Si c'est le cas, prennez un cookie et ne changez rien, c'est ce qu'il faut. Mais parfois, vous avez des modifications qu'il serait illogique de scinder dans des commits différents. Dans ce cas, vous pouvez très bien dire à Git de créer 1 commit pour 2 fichiers.
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
