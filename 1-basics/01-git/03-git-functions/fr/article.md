@@ -3,6 +3,7 @@
 - [Table des Matières](#table-des-matières)
 - [Fonctionnement de Git](#fonctionnement-de-git)
   - [Terminologie de Git](#terminologie-de-git)
+    - [Le Commit](#le-commit)
   - [À quoi ça sert exactement ?](#à-quoi-ça-sert-exactement-)
   - [Comment on s'en sert exactement ?](#comment-on-sen-sert-exactement-)
 - [Résumé](#résumé)
@@ -12,6 +13,12 @@
 ## Terminologie de Git
 
 Avant d'aborder le fonctionnement interne de Git, il est nécessaire que vous connaissiez un peu les termes de Git ainsi que les différents mécanismes et concepts qui le régisse.
+
+### Le Commit
+
+Un commit est un point dans l'évolution d'un fichier. Prenons une image pour expliquer cette phrase :
+
+
 
 ## À quoi ça sert exactement ?
 
