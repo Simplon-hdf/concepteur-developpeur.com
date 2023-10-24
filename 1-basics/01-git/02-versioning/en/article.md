@@ -4,6 +4,7 @@
 - [Versioning](#versioning)
   - [What is it?](#what-is-it)
   - [What's it for?](#whats-it-for)
+  - [How does it work with Git?](#how-does-it-work-with-git)
 
 # Versioning
 
@@ -42,3 +43,9 @@ To put it simply:
 
 Not using a versioning tool is like working with a single version of an application.
 Using a versioning tool is like creating multiple versions of your application's code.
+
+## How does it work with Git?
+
+Versioning is the core aspect of Git. In fact, everything revolves around the concept of versioning with Git, and we'll discuss it in more detail in the [article](../../03-how-it-works) on how Git functions.
+
+The versions of files in a Git repository are stored in a "commit" history. With Git, you can save different versions of any type of file whenever you want. Taking the example above, once your function was functional, you could have decided to save that version of your class. Then, you could have retrieved your function because even if it no longer existed in the latest version of your code, there would have been a version of your class containing your function in the "commit" history of your Git repository.
