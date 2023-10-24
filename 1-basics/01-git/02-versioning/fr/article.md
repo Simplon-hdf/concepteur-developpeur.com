@@ -28,7 +28,7 @@ En fait, vous avez eu à faire au versioning bien avant de lire un quelconque ar
 
 ```
 Imaginons que vous travailliez sur un projet sur lequel vous avez travaillé
-il y quelques années, et que vous deviez coder une fonction qui vous fait
+il y a quelques années, et que vous deviez coder une fonction qui vous fait
 encore faire des cauchemars tant son comportement été complexe. Il est
 plus que probable que vous aimeriez avoir cette fonction pour pouvoir
 simplement la copier coller plutôt que de passer une semaine à faire
@@ -37,10 +37,10 @@ Vous allez dans la classe qui contient cette fameuse fonction mais
 vous vous souvenez que vous l'aviez supprimé et avez arrêté ce
 projet. Vous n'avez aucun moyen de récupérer cette fonction et
 force est de constater que vous allez devoir repasser par une
-reflexion intense.
+étape de reflexion intense.
 ```
 
-Si vous aviez utiliser un outil de versioning comme Git, vous auriez pu vous rendre à une version de cette classe antérieure à la version dans laquelle la fonction à été supprimée.
+Si vous aviez utiliser un outil de versioning comme Git, vous auriez pu vous rendre à une version de cette classe, antérieure à la version dans laquelle la fonction a été supprimée.
 
 Pour l'expliquer simplement :
 
