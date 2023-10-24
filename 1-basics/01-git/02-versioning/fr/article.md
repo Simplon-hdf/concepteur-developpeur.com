@@ -5,6 +5,7 @@
   - [Qu'est ce que c'est ?](#quest-ce-que-cest-)
   - [À quoi ça sert ?](#à-quoi-ça-sert-)
   - [Comment ça se caractérise avec Git ?](#comment-ça-se-caractérise-avec-git-)
+- [Résumé](#résumé)
 
 # Le Versioning
 
@@ -51,3 +52,10 @@ Utiliser un outil de versioning revient à créer une multitude de versions du c
 Avec Git, le versioning est l'aspect principal du logiciel, en fait, tout tourne autour du concept de versioning avec Git, nous en parlerons un peu plus en détail dans l'[article](../../03-how-it-works) sur le fonctionnement de git.
 
 Les versions des fichiers d'un dépôt Git sont stockées dans un historique de "commit", avec Git on peut enregistrer des versions différentes de tout type de fichier quand on le souhaite, si on reprends l'exemple ci-dessus, on pourrait imaginer qu'une fois que votre fonction était fonctionnelle vous ayez décidé de sauvegarder cette version de votre classe. Et alors vous auriez pu récupérer votre fonction puis-ce que même si elle n'existait plus dans la dernière version de votre code, il y aurait eu une version de votre classe contenant votre fonction dans l'historique de "commit" de votre dépôt Git.
+
+# Résumé
+
+- Le versioning est un concept selon lequel il existe plusieurs versions d'une ressource.
+- Un outil de versioning permet de sauvegarder les différentes versions d'une ressources à diverses fins.
+- Git est logiciel qui se repose en grande partie sur le versioning, bien que ça ne soit pas le seul aspect qui le caractérise.
+- Git permet de stocker différentes versions d'une ressource dans un historique par le biais d'un mécanisme appellé "commit".
