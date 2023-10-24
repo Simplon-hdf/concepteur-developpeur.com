@@ -21,13 +21,13 @@ Voilà simplement ce qu'est le versioning.
 
 Le versioning est très utile pour différentes raisons.
 
-Ne vous est-il jamais arrivé de retourner lire du code d'un projet que vous avez fait il y a quelques années ?
-Ou ne vous êtes vous jamais rendu compte que votre point de vu sur un sujet avez changé ?
+Ne vous est-il jamais arrivé de retourner lire du code d'un projet que vous aviez fait, il y a quelques années ?
+Ou ne vous êtes vous jamais rendu compte que votre point de vue sur un sujet avait changé ?
 
-En fait, vous avez eu à faire au versioning bien avant de lire un quelconque article sur le sujet. Dans la première question, si la réponse est "Oui", alors on peut dire que la version de vous aujourd'hui est bien meilleure que celle d'il y a plusieurs années. Dans ce cas de figure, vous prennez conscience du chemin parcouru. Ça peut parraitre un peu abstrait pour le monent, prennons donc un exemple plus concret :
+En fait, vous avez eu à faire au versioning bien avant de lire un quelconque article sur le sujet. Dans la première question, si la réponse est "Oui", alors on peut dire que la version de vous aujourd'hui est bien meilleure que celle d'il y a plusieurs années. Dans ce cas de figure, vous prennez conscience du chemin parcouru. Ça peut paraître un peu abstrait pour le moment, prenons donc un exemple plus concret :
 
 ```
-Imaginons que vous travallez sur un projet sur lequel vous avez travaillé
+Imaginons que vous travailliez sur un projet sur lequel vous avez travaillé
 il y quelques années, et que vous deviez coder une fonction qui vous fait
 encore faire des cauchemars tant son comportement été complexe. Il est
 plus que probable que vous aimeriez avoir cette fonction pour pouvoir
