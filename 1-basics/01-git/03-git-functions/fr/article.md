@@ -34,6 +34,59 @@ Maintenant que nous avons parlé du message du commit, nous allons parler de la 
 
 ![commits scope schem](../assets/commits-scope.png)
 
+Les commits peuvent affecter 1 fichier ou un ensemble de fichier. Par exemple (et c'est très généralement recommandé) vous pourriez vouloir qu'un commit affecte un seul et unique fichier, pour des raisons d'atomicité. Si c'est le cas, prennez un cookie et ne changez rien, c'est ce qu'il faut. Mais parfois, vous avez des modifications qu'il serait illogique de scinder dans des commits différents. Dans ce cas, vous pouvez très bien dire à Git de créer 1 commit pour 2 fichiers.
+
+En réalité, qu'un commit affecte un ensemble de fichier n'est pas dramatique du tout, il faut simplement que ça vous parraisse logique de le faire de cette façon, et surtout le plus important, que ça ne devienne pas une contrainte dans le futur. Ce n'est pas le genre de chose qui peuvent être expliqué, seule votre expérience avec Git vous le fera comprendre. Mais sachez qu'une fois que vous aurez compris (en pratique) comment fonctionnent les commits et à quoi ils servent, vous ne pourrez plus vous passer de Git.
+
+Mais étant donné que vous lisez cet article pour en apprendre plus sur Git et plus précisement cette section pour en apprendre plus sur les commits, nous allons quand même essayer de comprendre pourquoi ceux qui ont pris un cookie en ont eu le droit.
+
+Bien, imaginons simplement que :
+
+```
+Vous travaillez sur un projet avec Git et vous faites des modifications
+mais des commits un peu moins, vous effectuez beaucoup de modifications
+tant et si bien qu'au bout d'un moment.. votre programme ne fonctionne plus
+du tout. Alors vous en chercher la cause en mettant les mains dans le code.
+Mais pas moyen de mettre la main sur la ou les modifications responsables.
+Et evidemment, votre dernier commit remonte à il y a deux heures.
+Vous n'avez pas d'autre choix que de vous torturez l'esprit et passer en
+revue tout ce que vous avez fait depuis deux heures. Ou restaurer la version
+de votre code qui supprime toutes les modifications que vous avez effectué
+depuis ces deux heures. Vous êtes dans une situation certes peu enviable
+mais bien mérité, c'est en faisant des erreurs que l'on apprend, vous n'êtes
+pas prêt d'oublier cette leçon et vous résignez à avoir perdu deux heures
+de votre vie.
+```
+
+En fait, votre erreur à été de ne pas faire de commits au fur et à mesure de votre avancée. Voyez ça comme une aubaine. Vous ne referrez jamais l'erreur de ne pas estimer Git à sa juste valeur. Si vous aviez fait vos commits au fur et à mesure vous auriez pu revenir à une version antérieure, la tester, voir si cela réglait votre souci ou non et restaurer une version fonctionnelle qui n'était pas si loin en arrière dans le temps. On ne parle pas ici de régularité dans le temps (faire un commit tout les x temps) mais plutôt en terme de progression. Pour vous donner une image :
+
+Un puzzle est un ensemble de piéces qui, une fois assemblées forme une image.
+Un projet est un ensemble de morceau de code qui, une fois assemblés forme une application.
+
+Vous trouveriez sans doute stupide que lorsque l'on fait un puzzle et que l'on se trompe de pièce, plutôt que de changer la pièce mal placée on défasse entièrement le puzzle. Et bien c'est exactement la même chose avec une application, il serait plus que stupide d'avoir à supprimer l'interface graphique de votre application car le dernier commit ne la contenait pas et que vous avez fait une bourde avec le générateur de particule de votre application. Mais que puisque vous n'avez pas effectué de commit après avoir fini votre interface utilisateur, elle soit à refaire pour X ou Y raison.
+
+En fait, l'idée est qu'il ne faut pas que vos commits fassent trop de chose, un commit ne devrait pas :
+
+- Créer une interface graphique
+- Créer un algorithme de génération de mot de passe
+- Corriger un bug
+
+En général, il est recommandé de faire un commit pour 1 modification **significative** et ses modifications connexes par exemple :
+
+Vous devez corriger un bug dans votre algorithme de génération de mot de passe et ajouter une fonctionnalité à cet algorithme.
+
+Il est **acceptable** que ces deux modifications apparaissent dans le même commit, mais il sera toujours mieux de limiter vos commits à 1 action significative. Par action significative on parle de modifications qui apportent un intérêt à votre code.
+
+Ajouter un commentaire à une ligne de code n'est pas significatif. Commenter une classe complexe l'est. Ajouter une fonctionnalité à votre application est significatif. Corriger un bug l'est aussi. Enfin vous saisissez l'idée.
+
+En fait lorsque vous travaillez avec Git vous pouvez vous demander :
+
+- Est-ce que j'ai envie que ma modification soit indépendante des autres ?
+- Est-ce que si je dois revenir à ce commit je vais devoir refaire .. ?
+- Est-ce que cette modification mérite vraiment un commit ?
+
+Normalement ça devrait vous aider. Voilà, il semblerait que nous ayons abordé les sujets les plus importants concernant les commits.
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
