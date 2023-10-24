@@ -39,4 +39,11 @@ force est de constater que vous allez devoir repasser par une
 reflexion intense.
 ```
 
+Si vous aviez utiliser un outil de versioning comme Git, vous auriez pu vous rendre à une version de cette classe antérieure à la version dans laquelle la fonction à été supprimée.
+
+Pour l'expliquer simplement :
+
+Ne pas utiliser d'outil de versioning revient à travailler avec une seule version d'une application.
+Utiliser un outil de versioning revient à créer une multitude de versions du code de votre application.
+
 ## Comment ça se caractérise avec Git ?
