@@ -47,3 +47,5 @@ Ne pas utiliser d'outil de versioning revient à travailler avec une seule versi
 Utiliser un outil de versioning revient à créer une multitude de versions du code de votre application.
 
 ## Comment ça se caractérise avec Git ?
+
+Avec Git, le versioning est l'aspect principal du logiciel, en fait, tout tourne autour du concept de versioning avec Git, nous en parlerons un peu plus en détail dans l'[article](../../03-how-it-works) sur le fonctionnement de git.
