@@ -38,6 +38,26 @@ Les commits peuvent affecter 1 fichier ou un ensemble de fichier. Par exemple (e
 
 En réalité, qu'un commit affecte un ensemble de fichier n'est pas dramatique du tout, il faut simplement que ça vous parraisse logique de le faire de cette façon, et surtout le plus important, que ça ne devienne pas une contrainte dans le futur. Ce n'est pas le genre de chose qui peuvent être expliqué, seule votre expérience avec Git vous le fera comprendre. Mais sachez qu'une fois que vous aurez compris (en pratique) comment fonctionnent les commits et à quoi ils servent, vous ne pourrez plus vous passer de Git.
 
+Mais étant donné que vous lisez cet article pour en apprendre plus sur Git et plus précisement cette section pour en apprendre plus sur les commits, nous allons quand même essayer de comprendre pourquoi ceux qui ont pris un cookie en ont eu le droit.
+
+Bien imaginons simplement que :
+
+```
+Vous travaillez sur un projet avec Git et vous faites des modifications
+mais des commits un peu moins, vous effectuez beaucoup de modifications
+tant et si bien qu'au bout d'un moment.. votre programme ne fonctionne plus
+du tout. Alors vous en chercher la cause en mettant les mains dans le code.
+Mais pas moyen de mettre la main sur la ou les modifications responsables.
+Et evidemment, votre dernier commit remonte à il y a deux heures.
+Vous n'avez pas d'autre choix que de vous torturez l'esprit et passer en
+revue tout ce que vous avez fait depuis deux heures. Ou restaurer la version
+de votre code qui supprime toutes les modifications que vous avez effectué
+depuis ces deux heures. Vous êtes dans une situation certes peu enviable
+mais bien mérité, c'est en faisant des erreurs que l'on apprend, vous n'êtes
+pas prêt d'oublier cette leçon et vous résignez à avoir perdu deux heures
+de votre vie.
+```
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
