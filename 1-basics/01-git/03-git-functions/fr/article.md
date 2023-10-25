@@ -94,7 +94,9 @@ Git fonctionne avec ce qu'on appelle des dépôts, en fait un dépôt est assez 
 
 Enfin, pour être tout à fait exact, un dépôt local n'est pas un dossier, disons plutôt qu'il est stocké dans un dossier. Avec Git un dépôt local est stocké dans un dossier caché nommé `.git`. La présence de ce dossier à la racine de votre projet fait de ce dernier un projet Git, certains diront que cela fait de votre projet, un dépôt local, ce n'est pas tout à fait vrai, il s'agit d'un raccourci un peu simpliste.
 
-Quoi qu'il en soit, prenons un schéma pour expliquer la façon dont Git est agencé :
+Quoi qu'il en soit, prenons un schéma pour expliquer la façon dont un projet Git est agencé :
+
+![git project arrangment](../assets/local-repo.png)
 
 ## À quoi ça sert exactement ?
 
