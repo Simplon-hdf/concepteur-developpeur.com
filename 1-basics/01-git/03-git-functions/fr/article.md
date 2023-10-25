@@ -132,6 +132,14 @@ Maintenant prenons un cas d'utilisation typique de Git :
 
 Vous travaillez sur une classe quelconque, vous êtes dans les loges (working directory). Puis vous préparez vos modifications à entrer en scène, vous êtes derrière la scène (stage area). Vous faites un commit pour votre classe, vous l'envoyez sur le devant de la scène (dépôt local).
 
+En pratique, la stage area n'est rien d'autre qu'une zone de préparation aux commits. Nous allons à nouveau prendre un schéma :
+
+![filled stage area](../assets/stage-area-filled.png)
+
+Voilà ce qu'il se passe lorsque vous souhaitez faire un commit sur deux fichiers, vous allez demander à Git de préparer vos deux fichiers à un commit. Git déplace alors ces deux fichiers dans la stage area, il ne vous reste plus qu'à faire votre commit, et les deux versions de vos fichiers seront envoyées dans votre dépôt local sous le même commit.
+
+Notez que vous ne pouvez pas demander à Git de préparer un fichier qui n'a subit aucune modification depuis sa dernière version dans votre dépôt local.
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
