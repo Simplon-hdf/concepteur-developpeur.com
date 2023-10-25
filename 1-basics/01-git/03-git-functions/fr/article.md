@@ -4,6 +4,7 @@
 - [Fonctionnement de Git](#fonctionnement-de-git)
   - [Terminologie de Git](#terminologie-de-git)
     - [Le Commit](#le-commit)
+    - [Le dépôt local](#le-dépôt-local)
   - [À quoi ça sert exactement ?](#à-quoi-ça-sert-exactement-)
   - [Comment on s'en sert exactement ?](#comment-on-sen-sert-exactement-)
 - [Résumé](#résumé)
@@ -86,6 +87,10 @@ En fait lorsque vous travaillez avec Git vous pouvez vous demander :
 - Est-ce que cette modification mérite vraiment un commit ?
 
 Normalement ça devrait vous aider. Voilà, il semblerait que nous ayons abordé les sujets les plus importants concernant les commits.
+
+### Le dépôt local
+
+
 
 ## À quoi ça sert exactement ?
 
