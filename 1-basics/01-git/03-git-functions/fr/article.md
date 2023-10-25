@@ -120,6 +120,10 @@ La stage area est la seule zone Git qui n'est pas aussi tangible que le working 
 
 ![stage area](../assets/stage-area.png)
 
+Voilà comment on peut représenter la stage area. Elle se situe entre le working directory et le dépôt local, d'où cette appéllation de "zone tampon". Je suis d'accord, ce schéma n'explique pas à quoi elle sert exactement, nous allons y venir. 
+
+Notez que ce schéma à pour vocation d'expliquer basiquement comment Git est agencé mais qu'il est techniquement inexact, nous avons choisi de le représenter comme ça car nous ne cherchons pas à expliquer dans le détail, et que pour une explication sommaire, ce schéma fait l'affaire. Mais nous devons quand même vous notifiez qu'il n'est pas 100% exact par acquit de conscience. En réalité c'est un tout petit peu compliqué que ça. Considérez simplement que nous utilisons un raccourci pour éviter des explications hors contexte et avouons le, barbante pour le commun des mortels.
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
