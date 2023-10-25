@@ -47,11 +47,11 @@ retirer uniquement la modification qui pose souci.
 
 Quand vous utilisez Git en faisant un "commit", c'est comme si vous preniez une photo de votre code, à la différence qu'avec Git, vous pouvez revenir à un point antérieur dans le temps.
 
-Voilà pour ce à quoi sert Git, nous y reviendrons dans le prochain [article](../../02-versioning/fr/article.md).
+Voilà une des utilités de Git, nous y reviendrons dans le prochain [article](../../02-versioning/fr/article.md).
 
 # Résumé
 
 - Git est un logiciel libre et gratuit crée par Linus Torvalds en 2005.
 - Git sert à avoir plusieurs versions d'un même fichier.
-- Git permet de partager du code (mais pas que) entre les développeurs.
+- Git permet de partager du code (mais pas seulement) entre développeurs.
 - Git est mandatory pour les développeurs.
