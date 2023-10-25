@@ -116,7 +116,9 @@ En fait, le working directory est l'endroit dans lequel vous allez effectuer vos
 
 ### La Stage Area (Zone de préparation)
 
-La stage area est la seule zone Git qui n'est pas aussi tangible que le working directory ou que le dépôt local. Dans le sens où cette dernière n'inscrit rien dans le mabre, en fait, cette zone Git sert à préparer les modifications que vous effectué à vos fichiers au sein du working directory pour un envoie vers votre dépôt local. Elle sert de zone tampon entre votre working directory et votre dépôt local. Prenons un schéma pour voir où elle se trouve.
+La stage area est la seule zone Git qui n'est pas aussi tangible que le working directory ou que le dépôt local. Dans le sens où cette dernière n'inscrit rien dans le mabre, en fait, cette zone Git sert à préparer les modifications que vous effectué à vos fichiers au sein du working directory pour un envoie vers votre dépôt local. Elle sert de zone tampon entre votre working directory et votre dépôt local. Prenons un schéma pour voir où elle se trouve :
+
+![stage area](../assets/stage-area.png)
 
 ## À quoi ça sert exactement ?
 
