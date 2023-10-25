@@ -5,6 +5,7 @@
   - [Terminologie de Git](#terminologie-de-git)
     - [Le Commit](#le-commit)
     - [Le dépôt local](#le-dépôt-local)
+    - [Le Working Directory (Repertoire de travail)](#le-working-directory-repertoire-de-travail)
   - [À quoi ça sert exactement ?](#à-quoi-ça-sert-exactement-)
   - [Comment on s'en sert exactement ?](#comment-on-sen-sert-exactement-)
 - [Résumé](#résumé)
@@ -103,6 +104,10 @@ Voilà (à peu près) l'agencement d'un projet Git. Mais sur ce schéma, nous vo
 Vous vous souvenez quand nous avions dit "Version dans laquelle votre fonction existe quoi qu'il advienne de votre fichier de code" ? Et bien, nous faisions référence au cas où vous supprimeriez votre dépôt local. Puisque c'est dans votre dépôt local qu'est stocké votre historique de commits et donc vos commits. Si vous veniez à supprimer votre dépôt, tous vos commits seraient perdus et donc votre fonction avec. Ça peut paraître évident, mais puisque ce qui paraît évident l'est plus en le disant, nous le disons.
 
 Notez d'ailleurs : Nous utilisons le terme "dépôt" mais il est certain que vous serez majoritaierement confronté au terme "repository" abrégé "repo". Le terme repository est simplement la traduction Anglaise de "dépôt".
+
+### Le Working Directory (Repertoire de travail)
+
+Nous entrons la dans le coeur de Git. Le working directory est l'endroit qui contient vos fichiers, cela peut paraitre abstrait, nous allons donc encore une fois prendre un schéma pour comprendre :
 
 ## À quoi ça sert exactement ?
 
