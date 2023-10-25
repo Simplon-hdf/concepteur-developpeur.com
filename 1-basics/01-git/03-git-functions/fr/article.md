@@ -100,6 +100,8 @@ Quoi qu'il en soit, prenons un schéma pour expliquer la façon dont un projet G
 
 Voilà la réalité des choses. Enfin, à peu de chose près. Mais sur ce schéma, nous voyons un peu plus en détail comment Git agence vos projets. En fait, ce schéma démontre que le réel dépôt local est contenu dans le dossier `.git` qui se trouve à la racine de votre projet Git. Voilà pourquoi dire qu'un dépôt Git est le dossier qui contient vos fichiers est un raccourci un peu simpliste (mais surtout incorrect). Dire que le dossier `.git` est le dépôt local est sémantiquement incorrect, en fait : L'ensemble des fichiers contenu dans le dossier `.git` forme le dépôt local. Mais nous chipotons, si vous dites que le dossier `.git` est le dépôt local, personne ne vous dira le contraire.
 
+Vous vous souvenez quand nous vous avions dit "Version dans laquelle votre fonction existe quoi qu'il advienne de votre fichier de code (à une seule exception dont nous parlerons dans la section dédiée au dépôt)" ? Et bien, en fait, nous faisions référence au cas où vous supprimiez votre dépôt local. Puisque c'est dans votre dépôt local qu'est stocké votre historique de commits et accessoirement vos commits. Si vous veniez à supprimer votre dépôt, tous vos commits seraient perdus et donc votre fonction avec. Ça peut paraître évident, mais puisque ce qui paraît évident va mieux en le disant, nous le disons.
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
