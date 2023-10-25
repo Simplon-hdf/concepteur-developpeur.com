@@ -6,6 +6,7 @@
     - [Le Commit](#le-commit)
     - [Le dépôt local](#le-dépôt-local)
     - [Le Working Directory (Repertoire de travail)](#le-working-directory-repertoire-de-travail)
+    - [La Stage Area (Zone de préparation)](#la-stage-area-zone-de-préparation)
   - [À quoi ça sert exactement ?](#à-quoi-ça-sert-exactement-)
   - [Comment on s'en sert exactement ?](#comment-on-sen-sert-exactement-)
 - [Résumé](#résumé)
@@ -112,6 +113,10 @@ Nous entrons la dans le coeur de Git. Le working directory est l'endroit qui con
 ![working directory](../assets/working-directory.png)
 
 En fait, le working directory est l'endroit dans lequel vous allez effectuer vos modifications, d'où son nom "de travail", vous passerez la plupart de votre temps à le manipuler. C'est la raison pour laquelle dire que le dossier de votre projet Git est votre dépôt local est incorrect. C'est votre working directory. Vous passerez plus de temps à effectuer des modifications au sein de votre working directory que dans n'importe quel autre espace Git.
+
+### La Stage Area (Zone de préparation)
+
+La stage area est la seule zone Git qui n'est pas aussi tangible que le working directory ou que le dépôt local. Dans le sens où cette dernière n'inscrit rien dans le mabre, en fait, cette zone Git sert à préparer les modifications que vous effectué à vos fichiers au sein du working directory pour un envoie vers votre dépôt local. Elle sert de zone tampon entre votre working directory et votre dépôt local. Prenons un schéma pour voir où elle se trouve.
 
 ## À quoi ça sert exactement ?
 
