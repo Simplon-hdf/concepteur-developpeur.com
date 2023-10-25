@@ -5,6 +5,8 @@
   - [Terminologie de Git](#terminologie-de-git)
     - [Le Commit](#le-commit)
     - [Le dépôt local](#le-dépôt-local)
+    - [Le Working Directory (Repertoire de travail)](#le-working-directory-repertoire-de-travail)
+    - [La Stage Area (Zone de préparation)](#la-stage-area-zone-de-préparation)
   - [À quoi ça sert exactement ?](#à-quoi-ça-sert-exactement-)
   - [Comment on s'en sert exactement ?](#comment-on-sen-sert-exactement-)
 - [Résumé](#résumé)
@@ -23,7 +25,7 @@ Un commit est un point dans l'évolution d'un fichier. Prenons une image pour ex
 
 Comme vous pouvez le voir sur ce schéma, les commits sont stockés au sein d'un historique, cet historique permet de traquer l'évolution des fichiers de votre dépôt local (nous aborderons ce terme juste après). Le terme "commit" pourrait se traduire comme "validation" dans ce contexte. Un commit est effectué de façon manuel par le développeur, nous allons prendre un exemple :
 
-Vous avez développé une fonction au comportement complexe, la dernière chose que vous voudriez c'est la réécrire parce que vous l'auriez perdu. Dans ce cas vous allez interagir avec Git et effectuer un "commit" pour que cette fonction soit gravée dans le marbre et que même si vous veniez à la supprimer par inadvertence, elle continuerait d'exister quelque part dans une version antérieure de votre fichier (stockée dans votre dépôt local).
+Vous avez développé une fonction au comportement complexe, la dernière chose que vous voudriez c'est la réécrire car vous l'auriez perdu. Dans ce cas vous allez interagir avec Git et effectuer un "commit" pour que cette fonction soit gravée dans le marbre, pour que même si vous veniez à la supprimer par inadvertence, elle continuerait d'exister quelque part dans une version antérieure de votre fichier (stockée dans votre dépôt local).
 
 En demandant à Git de faire un "commit" (d'effectuer une validation), vous dites en fait à Git de créer une nouvelle version de votre fichier. Une version dans laquelle votre fonction existe quoi qu'il advienne de votre fichier. Un commit est donc une validation de modification.
 
@@ -103,6 +105,40 @@ Voilà (à peu près) l'agencement d'un projet Git. Mais sur ce schéma, nous vo
 Vous vous souvenez quand nous avions dit "Version dans laquelle votre fonction existe quoi qu'il advienne de votre fichier de code" ? Et bien, nous faisions référence au cas où vous supprimeriez votre dépôt local. Puisque c'est dans votre dépôt local qu'est stocké votre historique de commits et donc vos commits. Si vous veniez à supprimer votre dépôt, tous vos commits seraient perdus et donc votre fonction avec. Ça peut paraître évident, mais puisque ce qui paraît évident l'est plus en le disant, nous le disons.
 
 Notez d'ailleurs : Nous utilisons le terme "dépôt" mais il est certain que vous serez majoritaierement confronté au terme "repository" abrégé "repo". Le terme repository est simplement la traduction Anglaise de "dépôt".
+
+### Le Working Directory (Repertoire de travail)
+
+Nous entrons là dans le coeur de Git. Le working directory est l'endroit qui contient vos fichiers, cela peut paraitre abstrait, nous allons donc encore une fois prendre un schéma pour comprendre :
+
+![working directory](../assets/working-directory.png)
+
+Le working directory est l'endroit dans lequel vous allez effectuer vos modifications, d'où son nom "de travail", vous passerez la plupart de votre temps à le manipuler. C'est la raison pour laquelle dire que le dossier de votre projet Git est votre dépôt local est incorrect, c'est votre working directory. Vous passerez plus de temps à effectuer des modifications au sein de votre working directory que dans n'importe quel autre espace Git.
+
+### La Stage Area (Zone de préparation)
+
+La stage area est la seule zone Git qui n'est pas aussi tangible que le working directory ou que le dépôt local. Dans le sens où cette dernière n'inscrit rien dans le marbre, en fait, cette zone Git sert à préparer les modifications que vous effectuez dans vos fichiers au sein du working directory pour un envoie vers votre dépôt local. Elle sert de zone tampon entre votre working directory et votre dépôt local. Prenons un schéma pour voir où elle se trouve :
+
+![stage area](../assets/stage-area.png)
+
+Voilà comment on peut représenter la stage area. Elle se situe entre le working directory et le dépôt local, d'où cette appellation de "zone tampon". Ce schéma n'explique pas à quoi elle sert exactement, nous allons y venir. 
+
+Notez que ce schéma a pour vocation d'expliquer basiquement comment Git est agencé mais qu'il est techniquement inexact, nous avons choisi de le représenter comme ça car nous ne cherchons pas à expliquer dans le détail, et que pour une explication sommaire, ce schéma fait l'affaire. Nous devons cependant notifier qu'il n'est pas 100% exact. En réalité c'est peu plus compliqué que ça. Considérez simplement que nous utilisons un raccourci pour éviter des explications hors contexte.
+
+Bien, revenons en au fait, comme dit plus haut, cette zone sert de tampon entre votre working directory et votre dépôt local. En fait elle sert de zone de préparation, nous allons prendre une image mentale :
+
+Imaginons que nous soyons au théatre, les loges des commédiens représente le working directory. La stage area est l'arrière scène, là où les commédiens se préparent à entrer en scène. Et le dépôt local représente la scène.
+
+Maintenant prenons un cas d'utilisation typique de Git :
+
+Vous travaillez sur une classe quelconque, vous êtes dans les loges (working directory). Puis vous préparez vos modifications à entrer en scène, vous êtes derrière la scène (stage area). Vous faites un commit pour votre classe, vous l'envoyez sur le devant de la scène (dépôt local).
+
+En pratique, la stage area n'est rien d'autre qu'une zone de préparation aux commits. Nous allons à nouveau prendre un schéma :
+
+![filled stage area](../assets/stage-area-filled.png)
+
+Voilà ce qu'il se passe lorsque vous souhaitez faire un commit sur deux fichiers, vous allez demander à Git de préparer vos deux fichiers à un commit. Git déplace alors ces deux fichiers dans la stage area, il ne vous reste plus qu'à faire votre commit, et les deux versions de vos fichiers seront envoyées dans votre dépôt local sous le même commit.
+
+Notez que vous ne pouvez pas demander à Git de préparer un fichier qui n'a subi aucune modification depuis sa dernière version dans votre dépôt local.
 
 ## À quoi ça sert exactement ?
 
