@@ -4,7 +4,7 @@
 - [Fonctionnement de Git](#fonctionnement-de-git)
   - [Terminologie de Git](#terminologie-de-git)
     - [Le Commit](#le-commit)
-    - [Le dépôt local](#le-dépôt-local)
+    - [Le Dépôt local](#le-dépôt-local)
     - [Le Working Directory (Repertoire de travail)](#le-working-directory-repertoire-de-travail)
     - [La Stage Area (Zone de préparation)](#la-stage-area-zone-de-préparation)
 - [Résumé](#résumé)
@@ -88,7 +88,7 @@ En fait lorsque vous travaillez avec Git vous pouvez vous demander :
 
 Normalement ça devrait vous aider. Voilà, il semblerait que nous ayons abordé les sujets les plus importants concernant les commits.
 
-### Le dépôt local
+### Le Dépôt local
 
 Git fonctionne avec des dépôts, le principe de dépôt est assez simple à comprendre. Un dépôt est un endroit dans lequel un historique de commits est stocké. Quand nous parlons de dépôt local, vous pourriez traduire par dossier.
 
