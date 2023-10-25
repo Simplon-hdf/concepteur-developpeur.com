@@ -90,7 +90,7 @@ Normalement ça devrait vous aider. Voilà, il semblerait que nous ayons abordé
 
 ### Le dépôt local
 
-
+Git fonctionne avec ce qu'on appelle des dépôts, en fait un dépôt est assez simple à comprendre dans le principe. Un dépôt est un endroit dans lequel un historique de commits est stockée. En fait, quand nous parlons de dépôt local, vous pourriez traduire par dossier. 
 
 ## À quoi ça sert exactement ?
 
