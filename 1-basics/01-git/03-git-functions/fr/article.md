@@ -25,7 +25,7 @@ Un commit est un point dans l'évolution d'un fichier. Prenons une image pour ex
 
 Comme vous pouvez le voir sur ce schéma, les commits sont stockés au sein d'un historique, cet historique permet de traquer l'évolution des fichiers de votre dépôt local (nous aborderons ce terme juste après). Le terme "commit" pourrait se traduire comme "validation" dans ce contexte. Un commit est effectué de façon manuel par le développeur, nous allons prendre un exemple :
 
-Vous avez développé une fonction au comportement complexe, la dernière chose que vous voudriez c'est la réécrire parce que vous l'auriez perdu. Dans ce cas vous allez interagir avec Git et effectuer un "commit" pour que cette fonction soit gravée dans le marbre et que même si vous veniez à la supprimer par inadvertence, elle continuerait d'exister quelque part dans une version antérieure de votre fichier (stockée dans votre dépôt local).
+Vous avez développé une fonction au comportement complexe, la dernière chose que vous voudriez c'est la réécrire car vous l'auriez perdu. Dans ce cas vous allez interagir avec Git et effectuer un "commit" pour que cette fonction soit gravée dans le marbre, pour que même si vous veniez à la supprimer par inadvertence, elle continuerait d'exister quelque part dans une version antérieure de votre fichier (stockée dans votre dépôt local).
 
 En demandant à Git de faire un "commit" (d'effectuer une validation), vous dites en fait à Git de créer une nouvelle version de votre fichier. Une version dans laquelle votre fonction existe quoi qu'il advienne de votre fichier. Un commit est donc une validation de modification.
 
@@ -138,7 +138,7 @@ En pratique, la stage area n'est rien d'autre qu'une zone de préparation aux co
 
 Voilà ce qu'il se passe lorsque vous souhaitez faire un commit sur deux fichiers, vous allez demander à Git de préparer vos deux fichiers à un commit. Git déplace alors ces deux fichiers dans la stage area, il ne vous reste plus qu'à faire votre commit, et les deux versions de vos fichiers seront envoyées dans votre dépôt local sous le même commit.
 
-Notez que vous ne pouvez pas demander à Git de préparer un fichier qui n'a subit aucune modification depuis sa dernière version dans votre dépôt local.
+Notez que vous ne pouvez pas demander à Git de préparer un fichier qui n'a subi aucune modification depuis sa dernière version dans votre dépôt local.
 
 ## À quoi ça sert exactement ?
 
