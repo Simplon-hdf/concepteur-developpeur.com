@@ -7,8 +7,6 @@
     - [Le dépôt local](#le-dépôt-local)
     - [Le Working Directory (Repertoire de travail)](#le-working-directory-repertoire-de-travail)
     - [La Stage Area (Zone de préparation)](#la-stage-area-zone-de-préparation)
-  - [À quoi ça sert exactement ?](#à-quoi-ça-sert-exactement-)
-  - [Comment on s'en sert exactement ?](#comment-on-sen-sert-exactement-)
 - [Résumé](#résumé)
 
 # Fonctionnement de Git
@@ -139,9 +137,5 @@ En pratique, la stage area n'est rien d'autre qu'une zone de préparation aux co
 Voilà ce qu'il se passe lorsque vous souhaitez faire un commit sur deux fichiers, vous allez demander à Git de préparer vos deux fichiers à un commit. Git déplace alors ces deux fichiers dans la stage area, il ne vous reste plus qu'à faire votre commit, et les deux versions de vos fichiers seront envoyées dans votre dépôt local sous le même commit.
 
 Notez que vous ne pouvez pas demander à Git de préparer un fichier qui n'a subi aucune modification depuis sa dernière version dans votre dépôt local.
-
-## À quoi ça sert exactement ?
-
-## Comment on s'en sert exactement ?
 
 # Résumé
