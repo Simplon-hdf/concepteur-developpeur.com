@@ -102,6 +102,8 @@ Voilà la réalité des choses. Enfin, à peu de chose près. Mais sur ce schém
 
 Vous vous souvenez quand nous vous avions dit "Version dans laquelle votre fonction existe quoi qu'il advienne de votre fichier de code (à une seule exception dont nous parlerons dans la section dédiée au dépôt)" ? Et bien, en fait, nous faisions référence au cas où vous supprimiez votre dépôt local. Puisque c'est dans votre dépôt local qu'est stocké votre historique de commits et accessoirement vos commits. Si vous veniez à supprimer votre dépôt, tous vos commits seraient perdus et donc votre fonction avec. Ça peut paraître évident, mais puisque ce qui paraît évident va mieux en le disant, nous le disons.
 
+Notez d'ailleurs : Nous utilisons le terme "dépôt" mais il est certains que vous serez majoritaierement confronté au terme "repository" abrégé "repo". Le terme repository est simplement la traduction Anglaise de "dépôt".
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
