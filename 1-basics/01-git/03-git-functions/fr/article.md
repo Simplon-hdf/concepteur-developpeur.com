@@ -144,3 +144,9 @@ Notez que vous ne pouvez pas demander à Git de préparer un fichier qui n'a sub
 Maintenant que vous connaissez les bases de Git, vous êtes capable de commencer à travailler avec Git, enfin il vous reste encore à découvrir [comment interagir](../../04-commands/fr/article.md) avec Git. Vous avez une base solide pour commencer à l'utiliser, il reste quelques notions que nous n'avons par abordé dans un souci de brieveté, nous les aborderons un peu plus tard.
 
 # Résumé
+
+- Un commit est une validation des modifications qu'un fichier a subi.
+- Le working directory est l'espace où l'on opère des modifications sur un fichier.
+- La stage area est une zone tampon entre le working directory et le dépôt local qui sert à préparer le(s) fichier(s) à inclurent dans le prochain commit.
+- Le dépôt local est l'espace qui sert à enregistrer / traquer vos commits.
+- Supprimer votre dépôt local, revient à supprimer tous vos commits et donc toutes les versions de vos fichiers (exceptée celle se trouvant dans le working directory).
