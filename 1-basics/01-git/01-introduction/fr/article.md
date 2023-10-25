@@ -16,7 +16,7 @@ Git est un logiciel gratuit inventé par Linus Torvalds en 2005 et qui est distr
 
 # Quelles utilités
 
-Git est un logiciel absolument essentiel pour chaque développeur digne de ce nom à notre époque, vous en comprendrez les raisons en lisant cette section.
+Git est un logiciel absolument essentiel pour tout développeur, vous en comprendrez les raisons en lisant cette section.
 
 L'idée première de Git est de pouvoir suivre l'évolution des modifications qu'à reçu un fichier, qu'il contienne du code ou non d'ailleurs. C'est dans cette optique que Git a été crée en plus de permettre de partager ces fichiers avec d'autres développeurs.
 
@@ -40,13 +40,12 @@ Vous travaillez sur un projet en JavaScript,
 et à chaque modification significative de votre code
 vous faites un "commit" (on verra ce terme plus tard).
 Vos modifications ont créés un bug dans votre projet.
-Vous utilisez Git pour traquer le moment à partir duquel
-vous avez effectué vos modifications et vous pouvez
-comparer directement les versions de votre code.
-Et retirer uniquement la modification qui pose souci.
+Vous utilisez Git pour cibler les modifications, vous pouvez
+également comparer directement les versions de votre code et
+retirer uniquement la modification qui pose souci.
 ```
 
-En fait, quand vous utilisez Git en faisant un "commit", c'est comme si vous preniez une photo de votre code, à la différence qu'avec Git, vous pouvez revenir à un point antérieur dans le temps.
+Quand vous utilisez Git en faisant un "commit", c'est comme si vous preniez une photo de votre code, à la différence qu'avec Git, vous pouvez revenir à un point antérieur dans le temps.
 
 Voilà pour ce à quoi sert Git, nous y reviendrons dans le prochain [article](../../02-versioning/fr/article.md).
 
