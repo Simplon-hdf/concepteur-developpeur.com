@@ -11,7 +11,7 @@
 
 ## Qu'est ce que c'est ?
 
-Le versioning (ou versionnage en français) est un concept qui consiste en un repertoriage des versions d'un ouvrage, un logiciel, un document... enfin toutes sortes de choses qui sont amenées à évoluer dans le temps.
+Le versioning (ou versionnage en français) est un concept qui consiste en un repertoriage des versions d'un projet, d'un logiciel, d'un document... enfin toutes sortes de ressources qui sont amenées à évoluer dans le temps.
 
 Pour faire simple : on conserve des versions différentes d'une ressource à différentes fins.
 
@@ -21,23 +21,20 @@ Voilà simplement ce qu'est le versioning.
 
 Le versioning est très utile pour différentes raisons.
 
-Ne vous est-il jamais arrivé de retourner lire du code d'un projet que vous aviez fait, il y a quelques années ?
-Ou ne vous êtes vous jamais rendu compte que votre point de vue sur un sujet avait changé ?
+Ne vous est-il jamais arrivé de retourner lire du code d'un projet que vous aviez fait il y a quelques années ?
+Ne vous êtes vous jamais rendu compte que votre point de vue sur un sujet avait changé ?
 
-En fait, vous avez eu à faire au versioning bien avant de lire un quelconque article sur le sujet. Dans la première question, si la réponse est "Oui", alors on peut dire que la version de vous aujourd'hui est bien meilleure que celle d'il y a plusieurs années. Dans ce cas de figure, vous prennez conscience du chemin parcouru. Ça peut paraître un peu abstrait pour le moment, prenons donc un exemple plus concret :
+Si la réponse à ces questions est "Oui", alors cette version de vous a evolué par rapport à celle d'il y a quelques années. Dans ce cas de figure, vous prennez conscience du chemin parcouru. Sans le savoir, vous avez déjà été confronté au versioning avant même de lire un quelconque article sur le sujet. Ça peut paraître abstrait pour le moment, prenons donc un exemple plus concret :
 
 ```
-Imaginons que vous travailliez sur un projet sur lequel vous avez travaillé
-il y a quelques années, et que vous deviez coder une fonction qui vous fait
-encore faire des cauchemars tant son comportement été complexe. Il est
-plus que probable que vous aimeriez avoir cette fonction pour pouvoir
-simplement la copier coller plutôt que de passer une semaine à faire
-des recherches et des tests infructueux, n'est ce pas ?
-Vous allez dans la classe qui contient cette fameuse fonction mais
-vous vous souvenez que vous l'aviez supprimé et avez arrêté ce
-projet. Vous n'avez aucun moyen de récupérer cette fonction et
-force est de constater que vous allez devoir repasser par une
-étape de reflexion intense.
+Imaginons que vous travailliez sur un ancien projet, et que vous deviez coder une fonction qui vous fait
+encore faire des cauchemars tant son comportement été complexe. Il est plus que probable que
+vous aimeriez avoir cette fonction pour pouvoir simplement la copier coller plutôt que de passer 
+une semaine à faire des recherches et des tests infructueux, n'est ce pas ?
+Vous allez dans la classe qui contient cette fameuse fonction mais vous vous souvenez que
+vous l'aviez supprimé et avez arrêté ce projet. 
+Vous n'avez aucun moyen de récupérer cette fonction et force est de constater que
+vous allez devoir repasser par une étape de reflexion intense.
 ```
 
 Si vous aviez utiliser un outil de versioning comme Git, vous auriez pu vous rendre à une version de cette classe, antérieure à la version dans laquelle la fonction a été supprimée.
