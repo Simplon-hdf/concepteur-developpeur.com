@@ -33,7 +33,7 @@ et supprimer tout ce que vous avez fait depuis deux heures.
 
 Il est plus que probable que vous vous soyiez déjà retrouvé dans cette situation. Git rend ce genre de chose très facile à gérer.
 
-Nous allons prendre à nouveau cet exemple mais en utilisant Git pour vous aider à figurer comment il est utilisé.
+Nous allons prendre à nouveau cet exemple mais en utilisant Git pour vous aider à comprendre son utilité.
 
 ```
 Vous travaillez sur un projet en JavaScript,
