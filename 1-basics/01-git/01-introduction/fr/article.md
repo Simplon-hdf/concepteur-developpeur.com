@@ -23,10 +23,10 @@ L'idée première de Git est de pouvoir suivre l'évolution des modifications qu
 Prenons un exemple concret pour vous aider à comprendre ce à quoi Git sert :
 
 ```
-Imaginons que vous travaillez sur un projet en JavaScript,
+Vous travaillez sur un projet en JavaScript,
 et que vous fassiez des modifications dans votre code.
 Puis vous vous rendez-compte que les modifications que
-vous avez effectué créer un bug dans votre projet.
+vous avez effectué créent un bug dans votre projet.
 Malheureusement, vous devez chercher la cause du bug
 et supprimer tout ce que vous avez fait depuis deux heures.
 ```
@@ -39,9 +39,9 @@ Nous allons prendre à nouveau cet exemple mais en utilisant Git pour vous aider
 Vous travaillez sur un projet en JavaScript,
 et à chaque modification significative de votre code
 vous faites un "commit" (on verra ce terme plus tard).
-Vos modifications ont créés un bug dans votre projet.
-Vous utilisez Git pour cibler les modifications, vous pouvez
-également comparer directement les versions de votre code et
+Vos modifications créent un bug dans votre projet.
+Git vous permet de cibler les modifications, vous pouvez
+alors comparer directement les versions de votre code et
 retirer uniquement la modification qui pose souci.
 ```
 
