@@ -28,7 +28,7 @@ Si la réponse à ces questions est "Oui", alors cette version de vous a evolué
 
 ```
 Imaginons que vous travailliez sur un ancien projet, et que vous deviez coder une fonction qui vous fait
-encore faire des cauchemars tant son comportement été complexe. Il est plus que probable que
+encore faire des cauchemars tant son comportement était complexe. Il est plus que probable que
 vous aimeriez avoir cette fonction pour pouvoir simplement la copier coller plutôt que de passer 
 une semaine à faire des recherches et des tests infructueux, n'est ce pas ?
 Vous allez dans la classe qui contient cette fameuse fonction mais vous vous souvenez que
@@ -46,9 +46,9 @@ Utiliser un outil de versioning revient à créer une multitude de versions du c
 
 ## Comment ça se caractérise avec Git ?
 
-Le versioning est l'aspect principal de Git, en fait, tout tourne autour du concept de versioning avec Git, nous en parlerons un peu plus en détail dans l'[article](../../03-git-functions/fr/article.md) sur le fonctionnement de Git.
+Le versioning est l'aspect principal de Git, tout tourne autour du concept de versioning avec Git, nous en parlerons un peu plus en détail dans l'[article](../../03-git-functions/fr/article.md) sur le fonctionnement de Git.
 
-Les versions des fichiers d'un dépôt Git sont stockées dans un historique de "commit", avec Git on peut enregistrer des versions différentes de tout type de fichier quand on le souhaite, en reprenant l'exemple ci-dessus, nous pourrions imaginer qu'une fois que votre fonction était fonctionnelle vous ayez décidé de sauvegarder cette version de votre classe. Et alors vous auriez pu récupérer votre fonction puis-ce que même si elle n'existait plus dans la dernière version de votre code, il y aurait eu une version de votre classe contenant votre fonction dans l'historique de "commit" de votre dépôt Git.
+Les versions des fichiers d'un dépôt Git sont stockées dans un historique de "commit", avec Git on peut enregistrer des versions différentes de tout type de fichier quand on le souhaite. En reprenant l'exemple ci-dessus, nous pourrions imaginer qu'une fois que votre fonction était fonctionnelle vous ayez décidé de sauvegarder cette version de votre classe. Alors vous auriez pu récupérer votre fonction, même si elle n'existait plus dans la dernière version de votre code. Votre dépôt Git contient une version du fichier contenant cette fonction.
 
 # Résumé
 
