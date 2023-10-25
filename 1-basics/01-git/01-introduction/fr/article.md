@@ -8,11 +8,11 @@
 
 # Introduction à Git
 
-Cet article est dédié à introduire le logiciel Git, vous trouverez ici des informations utiles sur ce qu'est Git et vous apprendrez son histoire.
+Cet article est dédié à présenter le logiciel Git, vous trouverez ici des informations utiles sur ce qu'est Git et vous apprendrez son histoire.
 
 # Un brin d'histoire
 
-Git est un logiciel gratuit inventé par Linus Torvalds en 2005 et qui est distribué sous la license GNU2. Ce qui en fait un logiciel libre. Il permet de décentraliser des versions de code, ou en d'autres termes : Il permet de créer des versions de fichiers de code (mais pas que) afin d'à terme permettre d'accéder à différentes versions d'un même fichier.
+Git est un logiciel gratuit inventé par Linus Torvalds en 2005 et qui est distribué sous la license GNU2. Ce qui en fait un logiciel libre.
 
 # Quelles utilités
 
