@@ -108,25 +108,25 @@ Notez d'ailleurs : Nous utilisons le terme "dépôt" mais il est certain que vou
 
 ### Le Working Directory (Repertoire de travail)
 
-Nous entrons la dans le coeur de Git. Le working directory est l'endroit qui contient vos fichiers, cela peut paraitre abstrait, nous allons donc encore une fois prendre un schéma pour comprendre :
+Nous entrons là dans le coeur de Git. Le working directory est l'endroit qui contient vos fichiers, cela peut paraitre abstrait, nous allons donc encore une fois prendre un schéma pour comprendre :
 
 ![working directory](../assets/working-directory.png)
 
-En fait, le working directory est l'endroit dans lequel vous allez effectuer vos modifications, d'où son nom "de travail", vous passerez la plupart de votre temps à le manipuler. C'est la raison pour laquelle dire que le dossier de votre projet Git est votre dépôt local est incorrect. C'est votre working directory. Vous passerez plus de temps à effectuer des modifications au sein de votre working directory que dans n'importe quel autre espace Git.
+Le working directory est l'endroit dans lequel vous allez effectuer vos modifications, d'où son nom "de travail", vous passerez la plupart de votre temps à le manipuler. C'est la raison pour laquelle dire que le dossier de votre projet Git est votre dépôt local est incorrect, c'est votre working directory. Vous passerez plus de temps à effectuer des modifications au sein de votre working directory que dans n'importe quel autre espace Git.
 
 ### La Stage Area (Zone de préparation)
 
-La stage area est la seule zone Git qui n'est pas aussi tangible que le working directory ou que le dépôt local. Dans le sens où cette dernière n'inscrit rien dans le mabre, en fait, cette zone Git sert à préparer les modifications que vous effectué à vos fichiers au sein du working directory pour un envoie vers votre dépôt local. Elle sert de zone tampon entre votre working directory et votre dépôt local. Prenons un schéma pour voir où elle se trouve :
+La stage area est la seule zone Git qui n'est pas aussi tangible que le working directory ou que le dépôt local. Dans le sens où cette dernière n'inscrit rien dans le marbre, en fait, cette zone Git sert à préparer les modifications que vous effectuez dans vos fichiers au sein du working directory pour un envoie vers votre dépôt local. Elle sert de zone tampon entre votre working directory et votre dépôt local. Prenons un schéma pour voir où elle se trouve :
 
 ![stage area](../assets/stage-area.png)
 
-Voilà comment on peut représenter la stage area. Elle se situe entre le working directory et le dépôt local, d'où cette appéllation de "zone tampon". Je suis d'accord, ce schéma n'explique pas à quoi elle sert exactement, nous allons y venir. 
+Voilà comment on peut représenter la stage area. Elle se situe entre le working directory et le dépôt local, d'où cette appellation de "zone tampon". Ce schéma n'explique pas à quoi elle sert exactement, nous allons y venir. 
 
-Notez que ce schéma à pour vocation d'expliquer basiquement comment Git est agencé mais qu'il est techniquement inexact, nous avons choisi de le représenter comme ça car nous ne cherchons pas à expliquer dans le détail, et que pour une explication sommaire, ce schéma fait l'affaire. Mais nous devons quand même vous notifiez qu'il n'est pas 100% exact par acquit de conscience. En réalité c'est un tout petit peu compliqué que ça. Considérez simplement que nous utilisons un raccourci pour éviter des explications hors contexte et avouons le, barbante pour le commun des mortels.
+Notez que ce schéma a pour vocation d'expliquer basiquement comment Git est agencé mais qu'il est techniquement inexact, nous avons choisi de le représenter comme ça car nous ne cherchons pas à expliquer dans le détail, et que pour une explication sommaire, ce schéma fait l'affaire. Nous devons cependant notifier qu'il n'est pas 100% exact. En réalité c'est peu plus compliqué que ça. Considérez simplement que nous utilisons un raccourci pour éviter des explications hors contexte.
 
 Bien, revenons en au fait, comme dit plus haut, cette zone sert de tampon entre votre working directory et votre dépôt local. En fait elle sert de zone de préparation, nous allons prendre une image mentale :
 
-Imaginons que nous soyons au théatre, les loges des commédiens représente le working directory. La stage area est le derrière de la scène, là où les commédiens se préparent à entrer en scène. Et le dépôt local représente la scène.
+Imaginons que nous soyons au théatre, les loges des commédiens représente le working directory. La stage area est l'arrière scène, là où les commédiens se préparent à entrer en scène. Et le dépôt local représente la scène.
 
 Maintenant prenons un cas d'utilisation typique de Git :
 
