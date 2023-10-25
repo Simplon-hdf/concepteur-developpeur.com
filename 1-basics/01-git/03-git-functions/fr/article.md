@@ -124,6 +124,10 @@ Voilà comment on peut représenter la stage area. Elle se situe entre le workin
 
 Notez que ce schéma à pour vocation d'expliquer basiquement comment Git est agencé mais qu'il est techniquement inexact, nous avons choisi de le représenter comme ça car nous ne cherchons pas à expliquer dans le détail, et que pour une explication sommaire, ce schéma fait l'affaire. Mais nous devons quand même vous notifiez qu'il n'est pas 100% exact par acquit de conscience. En réalité c'est un tout petit peu compliqué que ça. Considérez simplement que nous utilisons un raccourci pour éviter des explications hors contexte et avouons le, barbante pour le commun des mortels.
 
+Bien, revenons en au fait, comme dit plus haut, cette zone sert de tampon entre votre working directory et votre dépôt local. En fait elle sert de zone de préparation, nous allons prendre une image mentale :
+
+Imaginons que nous soyons au théatre, les loges des commédiens représente le working directory. La stage area est le derrière de la scène, là où les commédiens se préparent à entrer en scène. Et le dépôt local représente la scène.
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
