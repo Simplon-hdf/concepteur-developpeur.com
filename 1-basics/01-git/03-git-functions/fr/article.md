@@ -98,6 +98,8 @@ Quoi qu'il en soit, prenons un schéma pour expliquer la façon dont un projet G
 
 ![git project arrangment](../assets/local-repo.png)
 
+Voilà la réalité des choses. Enfin, à peu de chose près. Mais sur ce schéma, nous voyons un peu plus en détail comment Git agence vos projets. En fait, ce schéma démontre que le réel dépôt local est contenu dans le dossier `.git` qui se trouve à la racine de votre projet Git. Voilà pourquoi dire qu'un dépôt Git est le dossier qui contient vos fichiers est un raccourci un peu simpliste (mais surtout incorrect). Dire que le dossier `.git` est le dépôt local est sémantiquement incorrect, en fait : L'ensemble des fichiers contenu dans le dossier `.git` forme le dépôt local. Mais nous chipotons, si vous dites que le dossier `.git` est le dépôt local, personne ne vous dira le contraire.
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
