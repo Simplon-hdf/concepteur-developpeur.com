@@ -128,6 +128,10 @@ Bien, revenons en au fait, comme dit plus haut, cette zone sert de tampon entre 
 
 Imaginons que nous soyons au théatre, les loges des commédiens représente le working directory. La stage area est le derrière de la scène, là où les commédiens se préparent à entrer en scène. Et le dépôt local représente la scène.
 
+Maintenant prenons un cas d'utilisation typique de Git :
+
+Vous travaillez sur une classe quelconque, vous êtes dans les loges (working directory). Puis vous préparez vos modifications à entrer en scène, vous êtes derrière la scène (stage area). Vous faites un commit pour votre classe, vous l'envoyez sur le devant de la scène (dépôt local).
+
 ## À quoi ça sert exactement ?
 
 ## Comment on s'en sert exactement ?
