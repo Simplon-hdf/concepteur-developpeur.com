@@ -92,7 +92,7 @@ Normalement ça devrait vous aider. Voilà, il semblerait que nous ayons abordé
 
 ### Le dépôt local
 
-Git fonctionne avec ce qu'on appelle des dépôts, en fait un dépôt est assez simple à comprendre dans le principe. Un dépôt est un endroit dans lequel un historique de commits est stocké. En fait, quand nous parlons de dépôt local, vous pourriez traduire par dossier.
+Git fonctionne avec des dépôts, le principe de dépôt est assez simple à comprendre. Un dépôt est un endroit dans lequel un historique de commits est stocké. Quand nous parlons de dépôt local, vous pourriez traduire par dossier.
 
 Enfin, pour être tout à fait exact, un dépôt local n'est pas un dossier, disons plutôt qu'il est stocké dans un dossier. Avec Git un dépôt local est stocké dans un dossier caché nommé `.git`. La présence de ce dossier à la racine de votre projet fait de ce dernier un projet Git, certains diront que cela fait de votre projet, un dépôt local, ce n'est pas tout à fait vrai, il s'agit d'un raccourci un peu simpliste.
 
@@ -100,9 +100,9 @@ Quoi qu'il en soit, prenons un schéma pour expliquer la façon dont un projet G
 
 ![git project arrangment](../assets/local-repo.png)
 
-Voilà la réalité des choses. Enfin, à peu de choses près. Mais sur ce schéma, nous voyons un peu plus en détail comment Git agence vos projets. En fait, ce schéma démontre que le réel dépôt local est contenu dans le dossier `.git` qui se trouve à la racine de votre projet Git. Voilà pourquoi dire qu'un dépôt Git est le dossier qui contient vos fichiers est un raccourci un peu simpliste (mais surtout incorrect). Dire que le dossier `.git` est le dépôt local est également incorrect (ou plutôt pas tout à fait exact), en fait : L'ensemble des fichiers contenu dans le dossier `.git` forme le dépôt local. Mais nous chipotons, si vous dites que le dossier `.git` est le dépôt local, personne ne vous dira le contraire.
+Voilà (à peu près) l'agencement d'un projet Git. Mais sur ce schéma, nous voyons un peu plus en détail comment Git agence vos projets. Ce schéma démontre que le réel dépôt local est contenu dans le dossier `.git` qui se trouve à la racine de votre projet Git. Voilà pourquoi dire qu'un dépôt Git est le dossier qui contient vos fichiers est un raccourci un peu simpliste (mais surtout incorrect). Dire que le dossier `.git` est le dépôt local est également incorrect (ou plutôt pas tout à fait exact), en fait : L'ensemble des fichiers contenu dans le dossier `.git` forme le dépôt local. Mais nous chipotons, si vous dites que le dossier `.git` est le dépôt local, personne ne vous dira le contraire.
 
-Vous vous souvenez quand nous vous avions dit "Version dans laquelle votre fonction existe quoi qu'il advienne de votre fichier de code" ? Et bien, en fait, nous faisions référence au cas où vous supprimeriez votre dépôt local. Puisque c'est dans votre dépôt local qu'est stocké votre historique de commits et donc vos commits. Si vous veniez à supprimer votre dépôt, tous vos commits seraient perdus et donc votre fonction avec. Ça peut paraître évident, mais puisque ce qui paraît évident va mieux en le disant, nous le disons.
+Vous vous souvenez quand nous avions dit "Version dans laquelle votre fonction existe quoi qu'il advienne de votre fichier de code" ? Et bien, nous faisions référence au cas où vous supprimeriez votre dépôt local. Puisque c'est dans votre dépôt local qu'est stocké votre historique de commits et donc vos commits. Si vous veniez à supprimer votre dépôt, tous vos commits seraient perdus et donc votre fonction avec. Ça peut paraître évident, mais puisque ce qui paraît évident l'est plus en le disant, nous le disons.
 
 Notez d'ailleurs : Nous utilisons le terme "dépôt" mais il est certain que vous serez majoritaierement confronté au terme "repository" abrégé "repo". Le terme repository est simplement la traduction Anglaise de "dépôt".
 
