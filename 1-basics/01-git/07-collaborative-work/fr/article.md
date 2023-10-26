@@ -2,7 +2,6 @@
 
 - [Table des Matières](#table-des-matières)
 - [Travaillez en collaboration avec Git](#travaillez-en-collaboration-avec-git)
-  - [L'enfer c'est les autres](#lenfer-cest-les-autres)
   - [Plateforme collaborative : GitHub](#plateforme-collaborative--github)
   - [Un workflow (Flux de travail)](#un-workflow-flux-de-travail)
   - [Le dépôt distant](#le-dépôt-distant)
@@ -10,8 +9,6 @@
 - [Résumé](#résumé)
 
 # Travaillez en collaboration avec Git
-
-## L'enfer c'est les autres
 
 Git sert en grande partie à partager du code avec d'autres développeurs, et donc travaillez avec ces derniers sur un projet. Nous verrons dans cet article, les différentes contraintes que cela implique mais aussi les avantages que cela représente. 
 
