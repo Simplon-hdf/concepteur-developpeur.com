@@ -5,6 +5,7 @@
   - [Git Terminology](#git-terminology)
     - [The Commit](#the-commit)
     - [The Local Repository](#the-local-repository)
+    - [The Working Directory](#the-working-directory)
 
 # How Git Works
 
@@ -94,3 +95,11 @@ In any case, let's use a diagram to explain how a Git project is organized:
 This diagram shows in a bit more detail how Git organizes your projects. It demonstrates that the actual local repository is contained within the `.git` folder at the root of your Git project. This is why saying a Git repository is the folder containing your files is a somewhat simplistic (and incorrect) shortcut. Saying that the `.git` folder is the local repository is also not entirely accurate. In fact, **all the files contained in the `.git` folder make up the local repository**. However, if you say that the `.git` folder is the local repository, no one will contradict you.
 
 Do you remember when we said, "*A version in which your function exists, no matter what happens to your code file*"? Well, there's an exception: if you were to delete your local repository. Since your local repository stores your commit history and therefore your commits, if you were to delete your repository, all your commits would be lost, and thus your function as well. It may seem obvious, but since what seems obvious becomes even more so when it's said, we're saying it.
+
+### The Working Directory
+
+Now we're getting into the core of Git. The working directory is the place where your files are located. This might sound abstract, so let's use a diagram to understand it:
+
+![working directory](../assets/working-directory.png)
+
+The **working directory** is where **you make your modifications**, which is why it's called the "working directory." You'll spend most of your time working in it. This is also why saying that the folder containing your Git project is your local repository is incorrect; it's your working directory. You'll spend more time making modifications within your working directory than in any other Git area.
