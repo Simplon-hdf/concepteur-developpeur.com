@@ -107,11 +107,11 @@ Notez d'ailleurs : Nous utilisons le terme "*dépôt*" mais il est certain que v
 
 ### Le Working Directory (Repertoire de travail)
 
-Nous entrons là dans le coeur de Git. Le working directory est l'endroit qui contient vos fichiers, cela peut paraitre abstrait, nous allons donc encore une fois prendre un schéma pour comprendre :
+Nous entrons là dans le coeur de Git. Le working directory est l'endroit qui contient vos fichiers, cela peut paraitre abstrait, nous allons prendre un schéma pour comprendre :
 
 ![working directory](../assets/working-directory.png)
 
-Le working directory est l'endroit dans lequel vous allez effectuer vos modifications, d'où son nom "de travail", vous passerez la plupart de votre temps à le manipuler. C'est la raison pour laquelle dire que le dossier de votre projet Git est votre dépôt local est incorrect, c'est votre working directory. Vous passerez plus de temps à effectuer des modifications au sein de votre working directory que dans n'importe quel autre espace Git.
+Le **working directory** est l'endroit dans lequel **vous allez effectuer vos modifications**, d'où son nom "*repertoire de travail*", vous passerez la plupart de votre temps à le manipuler. C'est la raison pour laquelle dire que le dossier de votre projet Git est votre dépôt local est incorrect, c'est votre working directory. Vous passerez plus de temps à effectuer des modifications au sein de votre working directory que dans n'importe quel autre espace Git.
 
 ### La Stage Area (Zone de préparation)
 
