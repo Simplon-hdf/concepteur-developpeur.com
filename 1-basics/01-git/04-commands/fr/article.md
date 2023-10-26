@@ -26,7 +26,37 @@ Voilà, Git est initialisé dans votre projet.
 
 ## Préparer des modifications à un commit
 
+Pour préparer les fichiers qui ont subi des modifications, entrez la commande suivante :
 
+```sh
+git add [nom_du_fichier]
+```
+
+Ce qui aura pour effet de mettre votre fichier dans la stage area.
+
+```sh
+git add index.js
+```
+
+Mettra index.js dans la stage area et vous pourrez alors inclure ce fichier à votre prochain commit.
+
+Notez qu'il possible de faire la même opération sur un dossier complet :
+
+```sh
+git add mon_dossier/
+```
+
+Ce qui aura pour effet de mettre tous les fichiers ayant subi des modifications de ce dossier dans la stage area.
+
+Il est aussi possible, mais relativement délicat que vous souhaitez ajouter tous vos fichiers dans un commit, dans ce cas :
+
+```sh
+git add .
+```
+
+Qui aura pour effet de déplacer tous les fichiers ayant reçu des modifications dans la stage area, à partir du repertoire dans lequel vous exécutez cette commande. Par exemple, si vous utilisez cette commande dans : `/mon_projet_git/articles/` alors tous les fichiers contenus dans `/mon_projet_git/articles/` ainsi que tous ceux dans les dossiers de ce dossier. De façon récursive.
+
+Évitez au maximum cette approche, sauf si vous ne modifiez qu'un fichier à la fois et que vous faites vos commits en temps réel.
 
 ## Enregister un commit
 
