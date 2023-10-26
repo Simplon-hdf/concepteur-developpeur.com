@@ -38,6 +38,8 @@ S'il existe des dépôt locaux, il en existe aussi des distants. Ce qu'on appell
 
 La nuance peut sembler évidente, cependant, il y quelques subtilités qu'il est bon de connaitre afin de bien démarrer avec GitHub.
 
+Un dépôt distant est une version qui peut être différente de votre version local de ce dépôt, il existe des commandes afin de récupérer la dernière version du dépôt distant, nous les verrons un peu plus tard. Dans le cas où vous travaillez avec d'autre personne, il est nécessaire que vous preniez conscience que votre version du projet est peut-être obsolète, vous serez donc souvent amenés à manipuler ces commandes. 
+
 # Conclusion
 
 # Résumé
