@@ -4,6 +4,7 @@
 - [Branches](#branches)
   - [What Branches Are](#what-branches-are)
   - [Merge](#merge)
+  - [Conclusion](#conclusion)
 
 # Branches
 
@@ -36,3 +37,7 @@ There's a feature that gives branches more substance: the merge. With merge, you
 ![](../assets/merge.png)
 
 Here, we've merged the commit history of the "*test branch*" into "*main*". That's what a merge is all about. You'll notice that the branch from which we merged the history continues to exist; a merge doesn't involve deleting the branch.
+
+## Conclusion
+
+We will delve into more concrete use cases later. This article was meant to provide a brief overview of branches and one use case for them.
