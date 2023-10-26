@@ -7,6 +7,7 @@
     - [The Local Repository](#the-local-repository)
     - [The Working Directory](#the-working-directory)
     - [The Stage Area](#the-stage-area)
+  - [Conclusion](#conclusion)
 
 # How Git Works
 
@@ -130,3 +131,7 @@ In practice, the staging area is just a preparation zone for commits. Let's use 
 This is what happens when you want to make a commit for two files. You ask Git to prepare your two files for a commit. Git moves these two files into the staging area, and then you simply make your commit. Both versions of your files are sent to your local repository under the same commit.
 
 Please note that you cannot ask Git to prepare a file that has not been modified since its last version in your local repository.
+
+## Conclusion
+
+Now that you have a good understanding of the basics of Git, you're ready to start working with Git. However, there are still some more advanced topics and commands to discover, which we didn't cover in this brief introduction. You now have a solid foundation to begin using Git, and we'll explore those additional concepts later on.
