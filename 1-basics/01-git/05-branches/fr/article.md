@@ -25,7 +25,7 @@ Voyons voir ce qu'il se passerait si nous créeions une nouvelle branche :
 
 ![two branches](../assets/two-branch-repo.png)
 
-Nous avons dupliqué l'historique de commit, ce qui fait qu'il en existe maintenant deux, c'est très utile pour permettre aux développeur de développer tranquillement. Voyons ce qu'il se passe si nous travaillons sur cette nouvelle branche.
+Nous avons dupliqué l'historique de commit, il en existe maintenant deux, c'est très utile pour permettre aux développeurs de développer tranquillement. Voyons ce qu'il se passe si nous travaillons sur cette nouvelle branche.
 
 ![](../assets/new-commits.png)
 
