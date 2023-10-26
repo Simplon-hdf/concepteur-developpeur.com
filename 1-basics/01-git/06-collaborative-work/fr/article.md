@@ -25,6 +25,10 @@ En plus d'être sécurisant pour votre progression, GitHub est très ergonomique
 
 ## Un workflow (Flux de travail)
 
+Un workflow est une façon de travailler, il existe différent type de façon de travailler en collaboratioo avec Git et les dépôts distants, cela peut-être vu comme des conventions ayant pour objectif de fluidifier le travail collaboratif. Ces conventions existent pour réduire le temps passé à manipuler les outils collaboratifs.
+
+Nous aborderons ce sujet bien plus tard, cette section est à but introductif et il s'agit d'un sujet bien trop vaste pour être aborder ici.
+
 ## Le dépôt distant
 
 # Conclusion
