@@ -60,6 +60,26 @@ Qui aura pour effet de déplacer tous les fichiers ayant reçu des modifications
 
 ## Enregister un commit
 
+Si vous avez des fichiers dans votre stage area, vous voulez sans doute faire un commit, pour ce faire, entrez la commande suivante :
+
+```sh
+git commit
+```
+
+Qui aura pour effet de vous ouvrir un éditeur de texte comme Vi ou Nano selon celui que vous avez. C'est assez long à faire de cette façon, c'est pourquoi il existe une option à cette commande qui rends l'opération plus fluide :
+
+```sh
+git commit -m "message de commit"
+```
+
+En ajoutant cette option, vous spécifiez directement le message du commit, et n'avez donc rien à faire. Par exemple :
+
+```sh
+git commit -m "Implémentation de ma super fonction très utile"
+```
+
+Voilà, votre commit est fait, la version du fichier qui se trouvait dans la stage area à été copiée dans votre dépôt local, et vous pourrez la retrouver à tout moment. D'ailleurs, les fichiers qui se trouvait précédemment dans la stage area, ne s'y trouve plus, puis-ce qu'ils ont étés validés.
+
 ## Conclusion
 
 ## Résumé
