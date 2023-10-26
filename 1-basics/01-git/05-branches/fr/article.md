@@ -19,31 +19,31 @@ Nous allons reprendre un schéma afin de visualiser :
 
 ![one branch](../assets/one-branch-repo.png)
 
-Voilà à quoi votre dépôt ressemble, dans les faits, vous utilisez déjà une branche, nommée "main" qui signifie "principale". Donc vous effectuez vos modifications sur une branche nommée "main", vous avez donc un unique historique.
+Voilà à quoi votre dépôt ressemble, dans les faits, vous utilisez déjà une branche, nommée "main" qui signifie "principale". Donc vous effectuez vos modifications sur une branche nommée "main", vous avez donc un historique unique.
 
-Voyons voir ce qu'il se passe si nous créeions une nouvelle branche :
+Voyons voir ce qu'il se passerait si nous créeions une nouvelle branche :
 
 ![two branches](../assets/two-branch-repo.png)
 
-Nous avons dupliqué l'historique de commit, ce qui fait qu'il en existe maintenant deux, c'est très utile pour permettre aux développeur de développer tranquillement. Voyons ce qu'il se passe si nous travaillons sur cette nouvelle branche.
+Nous avons dupliqué l'historique de commit, il en existe maintenant deux, c'est très utile pour permettre aux développeurs de développer tranquillement. Voyons ce qu'il se passe si nous travaillons sur cette nouvelle branche.
 
-![](../assets/new-commits.png)
+![new commit on new branch](../assets/new-commits.png)
 
 Deux commits ont étés ajoutés à l'historique de la nouvelle branche, l'utilité de faire ça peu paraître abstraite, vous saisirez pleinement l'utilité des branches lorsque nous aborderons les travaux collaboritif avec Git.
 
 ## Le merge (La fusion)
 
-Il existe une fonctionnalité qui donne de la matière aux branches; le merge. Grâce au merge il est possible de fusionner 2 historiques ensemble, on dit à Git de prendre un historique de commits et d'ajouter les commits qu'il contient au sein d'un autre historique. Dans le cas où nous travaillons sur deux branches séparée, voici le résultat qu'un merge donnerait : 
+Il existe une fonctionnalité qui donne de la matière aux branches; le merge. Grâce au merge il est possible de fusionner 2 historiques ensemble, on dit à Git de prendre un historique de commits et d'ajouter les commits qu'il contient au sein d'un autre historique. Dans le cas où nous travaillons sur deux branches séparées, voici le résultat qu'un merge donnera : 
 
 ![](../assets/merge.png)
 
-Ici, nous avons fusionné l'historique de commit de la branch "*test branch*" dans la "*main*". Voilà en quoi consiste un merge. Vous noterez que la branche depuis laquelle nous avons fusionné l'historique continue d'exister, une fusion n'implique pas la suppresssion de la branche.
+Ici, nous avons fusionné l'historique de commit de la branch "*test branch*" dans la "*main*". Voilà en quoi consiste un merge. Vous noterez que la branche depuis laquelle nous avons fusionné l'historique continue d'exister, une fusion n'implique pas la suppression de la branche.
 
 # Conclusion
 
-Nous aborderons des cas d'utilisations plus concret un peu plus tard, cet article avait simplement pour but de présenter sommairement les branches ainsi qu'un cas d'utilisation de ces dernières.
+Nous aborderons des cas d'utilisation plus concrets un peu plus tard, cet article avait simplement pour but de présenter sommairement les branches ainsi qu'un cas d'utilisation de ces dernières.
 
 # Résumé
 
-- Les branches sont un mécanisme qui duplique un historique de commit
+- Les branches sont un mécanisme qui duplique un historique de commit.
 - Les branches peuvent être fusionnées afin "d'importer" des commits un autre historique, on appelle cette opération "un merge".
