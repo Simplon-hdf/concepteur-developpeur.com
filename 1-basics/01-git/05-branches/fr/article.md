@@ -4,6 +4,7 @@
 - [Les branches](#les-branches)
   - [Ce que sont les branches](#ce-que-sont-les-branches)
   - [Le merge (La fusion)](#le-merge-la-fusion)
+- [Conclusion](#conclusion)
 
 # Les branches
 
@@ -35,4 +36,8 @@ Il existe une fonctionnalité qui donne de la matière aux branches; le merge. G
 
 ![](../assets/merge.png)
 
-Ici, nous avons fusionné l'historique de commit de la branch "*test branch*" dans la "*main*". Voilà en quoi consiste un merge. Vous noterez que la branche depuis laquelle nous avons fusionné l'historique continue d'exister, une fusion n'implique pas la suppresssion de la branche. 
+Ici, nous avons fusionné l'historique de commit de la branch "*test branch*" dans la "*main*". Voilà en quoi consiste un merge. Vous noterez que la branche depuis laquelle nous avons fusionné l'historique continue d'exister, une fusion n'implique pas la suppresssion de la branche.
+
+# Conclusion
+
+Nous aborderons des cas d'utilisations plus concret un peu plus tard, cet article avait simplement pour but de présenter sommairement les branches ainsi qu'un cas d'utilisation de ces dernières.
