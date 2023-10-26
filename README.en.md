@@ -11,6 +11,7 @@ Cette documentation existe aussi en [version française](README.md)
 - [Versioning](1-basics/01-git/02-versioning/en/article.mdg)
 - [How Git works](1-basics/01-git/03-git-functions/en/article.md)
 - [Basics Commands](1-basics/01-git/04-commands/en/article.md)
+- [Branches](1-basics/01-git/05-branches/en/article.md)
 
 <details>
 <summary><h2>GitFlow</h2></summary>
