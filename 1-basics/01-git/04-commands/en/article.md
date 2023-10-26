@@ -7,6 +7,7 @@
   - [Unstage a File](#unstage-a-file)
   - [Commit Changes](#commit-changes)
   - [Conclusion](#conclusion)
+  - [Summary](#summary)
 
 # Basic Commands
 
@@ -103,3 +104,13 @@ There you have it, your commit is done, and the version of the file that was in 
 ## Conclusion
 
 You should now be able to use Git at a basic level. The upcoming articles will focus on more advanced and concrete concepts.
+
+## Summary
+
+- Commands are a way to interact with Git to perform actions.
+- The `git init` command tells Git to initialize itself in a directory.
+- The `git add [file/directory name]` command is used to stage files for a commit.
+  - The `git restore --staged [file/directory name]` command is used to "unstage" files.
+    - This command, without the `--staged` option, restores the last known version of the specified file/directory (the version from the latest commit related to that file in the local repository).
+- The `git commit` command is used to confirm the changes made to the staged files.
+  - The `-m` option allows specifying a commit message directly.
