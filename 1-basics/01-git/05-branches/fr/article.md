@@ -6,7 +6,7 @@
 
 # Les branches
 
-Les branches sont un mécanisme qui permet de séparer l'historique de commits en plusieurs versions. Elles sont très utile dans des travaux collaboratifs. Leur utilisation de base est de séparer les modifications d'un développeur A de celles d'un développeur B. De cette façon, les développeurs ne se marchent pas dessus lors de leur travail.
+Les branches sont un mécanisme qui permet de dupliquer l'historique de commits en plusieurs versions. Elles sont très utile dans des travaux collaboratifs. Leur utilisation de base est de séparer les modifications d'un développeur A de celles d'un développeur B. De cette façon, les développeurs ne se marchent pas dessus lors de leur travail.
 
 Ce n'est pas la seule utilité des branches, nous verrons quelques utilisations tierces des branches dans un prochain article.
 
