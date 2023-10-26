@@ -61,7 +61,7 @@ Qui aura pour effet de déplacer tous les fichiers ayant reçu des modifications
 
 ## Retirer un fichier de la stage area
 
-Il est possible que vous vous soyez tromper dans la préparation des fichiers, par exemple que vous vous rendez compte que vous avez mis un fichier qui n'avait rien à faire dans le commit que vous avez prévu de faire. Dans ce cas, entrez la commande :
+Il est possible que vous vous soyez tromper dans la préparation des fichiers, par exemple, vous vous rendez compte que vous avez mis un fichier qui n'avait rien à faire dans le commit que vous avez prévu de faire. Dans ce cas, entrez la commande :
 
 ```sh
 git retore --staged [nom_du_fichier_à_"dé-préparer"/dossier/]
@@ -86,30 +86,30 @@ Si vous avez des fichiers dans votre stage area, vous voulez sans doute faire un
 git commit
 ```
 
-Qui aura pour effet de vous ouvrir un éditeur de texte comme Vi ou Nano selon celui que vous avez. C'est assez long à faire de cette façon, c'est pourquoi il existe une option à cette commande qui rends l'opération plus fluide :
+Qui aura pour effet de vous ouvrir un éditeur de texte comme Vi ou Nano selon celui que vous avez. C'est assez long à faire de cette façon, c'est pourquoi il existe une option à cette commande qui rend l'opération plus fluide :
 
 ```sh
 git commit -m "message de commit"
 ```
 
-En ajoutant cette option, vous spécifiez directement le message du commit, et n'avez donc rien à faire. Par exemple :
+En ajoutant cette option, vous spécifiez directement le message du commit, et n'avez donc rien de plus à faire. Par exemple :
 
 ```sh
 git commit -m "Implémentation de ma super fonction très utile"
 ```
 
-Voilà, votre commit est fait, la version du fichier qui se trouvait dans la stage area à été copiée dans votre dépôt local, et vous pourrez la retrouver à tout moment. D'ailleurs, les fichiers qui se trouvait précédemment dans la stage area, ne s'y trouve plus, puis-ce qu'ils ont étés validés.
+Voilà, votre commit est fait, la version du fichier qui se trouvait dans la stage area a été copiée dans votre dépôt local, et vous pourrez la retrouver à tout moment. D'ailleurs, les fichiers qui se trouvait précédemment dans la stage area, ne s'y trouve plus, puis-ce qu'ils ont étés validés.
 
 ## Conclusion
 
-Vous devriez être capable d'utiliser basiquement Git, les prochaines seront dédiées à des notions plus avancée mais aussi plus concrète.
+Vous devriez être capable d'utiliser basiquement Git, les prochains articles seront dédiés à des notions plus avancées mais aussi plus concrètes.
 
 ## Résumé
 
 - Les commandes sont un moyen d'interagir avec Git pour effectuer des actions.
-- La commande `git init` dit à Git de s'initialiser dans un dossier
-- La commande `git add [nom_de_fichier/nom_de_dossier]` sert à préparer des fichiers à un commit
+- La commande `git init` dit à Git de s'initialiser dans un dossier.
+- La commande `git add [nom_de_fichier/nom_de_dossier]` sert à préparer des fichiers à un commit.
   - La commande `git restore --staged [nom_de_fichier/nom_de_dossier]` sert à "dé-préparer" des fichiers.
-    - Cette commande sans l'option `--staged` restore la dernière version du fichier / dossier spécifié connue (Celle du dernier commit concernant ce(s) fichier(s) du dépôt local)
+    - Cette commande sans l'option `--staged` restore la dernière version du fichier / dossier spécifié connue (Celle du dernier commit concernant ce(s) fichier(s) du dépôt local).
 - La commande `git commit` sert à valider les modifications apportées aux fichiers préparés.
-  - L'option `-m` permet de spécifier directement un message de commit
+  - L'option `-m` permet de spécifier directement un message de commit.
