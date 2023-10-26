@@ -34,3 +34,5 @@ Deux commits ont étés ajoutés à l'historique de la nouvelle branche, l'utili
 Il existe une fonctionnalité qui donne de la matière aux branches; le merge. Grâce au merge il est possible de fusionner 2 historiques ensemble, on dit à Git de prendre un historique de commits et d'ajouter les commits qu'il contient au sein d'un autre historique. Dans le cas où nous travaillons sur deux branches séparée, voici le résultat qu'un merge donnerait : 
 
 ![](../assets/merge.png)
+
+Ici, nous avons fusionné l'historique de commit de la branch "*test branch*" dans la "*main*". Voilà en quoi consiste un merge. Vous noterez que la branche depuis laquelle nous avons fusionné l'historique continue d'exister, une fusion n'implique pas la suppresssion de la branche. 
