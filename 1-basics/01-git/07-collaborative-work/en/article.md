@@ -5,6 +5,7 @@
   - [Collaborative Platform: GitHub](#collaborative-platform-github)
   - [Workflow](#workflow)
   - [Remote Repositories](#remote-repositories)
+- [Conclusion](#conclusion)
 
 # Collaborate with Git
 
@@ -34,3 +35,7 @@ Just as there are local repositories, there are remote repositories. What we cal
 The distinction may seem obvious, but there are some subtleties that are good to know to get started with GitHub effectively.
 
 A remote repository is a version that may be different from your local version of the repository. There are commands to retrieve the latest version from the remote repository, which we will cover later. If you are working with other people, it is necessary to be aware that your version of the project may be outdated, so you will often need to use these commands.
+
+# Conclusion
+
+This introduction to collaborative work with Git and GitHub is complete. We will delve deeper into these aspects in the upcoming sections.
