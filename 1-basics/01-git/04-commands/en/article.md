@@ -4,6 +4,7 @@
 - [Basic Commands](#basic-commands)
   - [Initializing Git in a Project](#initializing-git-in-a-project)
   - [Stage Changes for Commit](#stage-changes-for-commit)
+  - [Unstage a File](#unstage-a-file)
 
 # Basic Commands
 
@@ -56,3 +57,21 @@ git add .
 This command stages all modified files from the directory where you run it. For example, if you run this command in `/my_git_project/articles/`, it stages all files in `/my_git_project/articles/` and its subdirectories recursively.
 
 It's best to avoid this approach unless you are only modifying one file at a time and committing changes in real-time.
+
+## Unstage a File
+
+It's possible to make a mistake when staging files. For example, you realize that you included a file that shouldn't be part of the commit you intended to make. In such cases, you can use the command:
+
+```sh
+git restore --staged [file_name_to_unstage/directory]
+```
+
+You can also use:
+
+```sh
+git restore --staged .
+```
+
+This command will unstage all files. 
+
+**However, use this command with caution. Without the `--staged` option, this command will reset the specified file or directory to its last known state (the state in your local repository).**
