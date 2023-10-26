@@ -3,7 +3,7 @@
 - [Table des Matières](#table-des-matières)
 - [Les commandes Git](#les-commandes-git)
   - [Initialiser Git dans un projet](#initialiser-git-dans-un-projet)
-  - [Prépaer des modifications à un commit](#prépaer-des-modifications-à-un-commit)
+  - [Préparer des modifications à un commit](#préparer-des-modifications-à-un-commit)
   - [Enregister un commit](#enregister-un-commit)
   - [Conclusion](#conclusion)
   - [Résumé](#résumé)
@@ -24,7 +24,9 @@ Cette commande aura pour effet de créer un dossier `.git` dans le répertoire d
 
 Voilà, Git est initialisé dans votre projet.
 
-## Prépaer des modifications à un commit
+## Préparer des modifications à un commit
+
+
 
 ## Enregister un commit
 
