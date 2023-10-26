@@ -8,6 +8,7 @@
     - [The Working Directory](#the-working-directory)
     - [The Stage Area](#the-stage-area)
   - [Conclusion](#conclusion)
+- [Summary](#summary)
 
 # How Git Works
 
@@ -135,3 +136,11 @@ Please note that you cannot ask Git to prepare a file that has not been modified
 ## Conclusion
 
 Now that you have a good understanding of the basics of Git, you're ready to start working with Git. However, there are still some more advanced topics and commands to discover, which we didn't cover in this brief introduction. You now have a solid foundation to begin using Git, and we'll explore those additional concepts later on.
+
+# Summary
+
+- A commit is a snapshot of the changes made to a file.
+- The working directory is where you make modifications to files.
+- The stage area is a buffer zone between the working directory and the local repository, used to prepare files for the next commit.
+- The local repository stores and tracks your commits.
+- Deleting your local repository will remove all your commits and, thus, all versions of your files (except for those in the working directory).
