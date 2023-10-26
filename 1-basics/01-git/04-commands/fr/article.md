@@ -102,4 +102,6 @@ Voilà, votre commit est fait, la version du fichier qui se trouvait dans la sta
 
 ## Conclusion
 
+Vous devriez être capable d'utiliser basiquement Git, les prochaines seront dédiées à des notions plus avancée mais aussi plus concrète.
+
 ## Résumé
