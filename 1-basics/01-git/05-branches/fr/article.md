@@ -3,6 +3,7 @@
 - [Table des Matières](#table-des-matières)
 - [Les branches](#les-branches)
   - [Ce que sont les branches](#ce-que-sont-les-branches)
+  - [Le merge (La fusion)](#le-merge-la-fusion)
 
 # Les branches
 
@@ -27,3 +28,7 @@ Nous avons dupliqué l'historique de commit, ce qui fait qu'il en existe mainten
 ![](../assets/new-commits.png)
 
 Deux commits ont étés ajoutés à l'historique de la nouvelle branche, l'utilité de faire ça peu paraître abstraite, vous saisirez pleinement l'utilité des branches lorsque nous aborderons les travaux collaboritif avec Git.
+
+## Le merge (La fusion)
+
+Il existe une fonctionnalité qui donne de la matière aux branches; le merge. Grâce au merge il est possible de fusionner 2 historiques ensemble, on dit à Git de prendre un historique de commits et d'ajouter les commits qu'il contient au sein d'un autre historique. Dans le cas où nous travaillons sur deux branches séparée, voici le résultat qu'un merge donnerait : 
