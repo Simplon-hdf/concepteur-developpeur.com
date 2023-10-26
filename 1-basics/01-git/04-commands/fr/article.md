@@ -1,7 +1,7 @@
 # Table des Matières
 
 - [Table des Matières](#table-des-matières)
-- [Les commandes Git](#les-commandes-git)
+- [Les commandes de base](#les-commandes-de-base)
   - [Initialiser Git dans un projet](#initialiser-git-dans-un-projet)
   - [Préparer des modifications à un commit](#préparer-des-modifications-à-un-commit)
   - [Retirer un fichier de la stage area](#retirer-un-fichier-de-la-stage-area)
@@ -9,7 +9,7 @@
   - [Conclusion](#conclusion)
   - [Résumé](#résumé)
 
-# Les commandes Git
+# Les commandes de base
 
 Les commandes Git sont la façon d'interagir avec Git. Elles permettent de dire à Git d'effectuer telle ou telle action. Ces commandes sont entrées dans votre terminal (shell). Cet article présente les commandes les plus basiques. Si vous n'avez pas lu l`[article](../../03-git-functions/fr/article.md) sur le fonctionnement de Git, veuillez en prendre connaissance avant de lire celui-ci.
 
