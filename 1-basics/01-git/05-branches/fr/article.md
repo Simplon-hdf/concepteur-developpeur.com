@@ -19,9 +19,9 @@ Nous allons reprendre un schéma afin de visualiser :
 
 ![one branch](../assets/one-branch-repo.png)
 
-Voilà à quoi votre dépôt ressemble, dans les faits, vous utilisez déjà une branche, nommée "main" qui signifie "principale". Donc vous effectuez vos modifications sur une branche nommée "main", vous avez donc un unique historique.
+Voilà à quoi votre dépôt ressemble, dans les faits, vous utilisez déjà une branche, nommée "main" qui signifie "principale". Donc vous effectuez vos modifications sur une branche nommée "main", vous avez donc un historique unique.
 
-Voyons voir ce qu'il se passe si nous créeions une nouvelle branche :
+Voyons voir ce qu'il se passerait si nous créeions une nouvelle branche :
 
 ![two branches](../assets/two-branch-repo.png)
 
