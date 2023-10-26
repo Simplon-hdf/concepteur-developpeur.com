@@ -15,3 +15,8 @@ Ce n'est pas la seule utilité des branches, nous verrons quelques utilisations 
 Nous allons reprendre un schéma afin de visualiser :
 
 ![branch](../assets/one-branch-repo.png)
+
+Voilà à quoi votre dépôt ressemble, dans les faits, vous utilisez déjà une branche, nommée "main" qui signifie "principale". Donc vous effectuez vos modifications sur une branche nommée "main", vous avez donc un unique historique.
+
+Voyons voir ce qu'il se passe si nous créeions une nouvelle branche :
+
