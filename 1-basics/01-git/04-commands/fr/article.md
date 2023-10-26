@@ -14,6 +14,16 @@ Les commandes Git sont la façon d'interagir avec Git. Elles permettent de dire 
 
 ## Initialiser Git dans un projet
 
+Pour initialiser Git dans un projet, entrez la commande suivante :
+
+```sh
+git init
+```
+
+Cette commande aura pour effet de créer un dossier `.git` dans le répertoire dans lequel vous vous trouvez au moment de son exécution. Par exemple si vous etiez dans `/mon_projet_git/`, alors un dossier `.git` aura été crée dans ce dossier et vous y accèderiez en vous rendant à `/mon_projet_git/.git`. Il est possible que vous ne voyez pas de dossier `.git`, le `.` avant `git` en fait un dossier caché, tapez la commande `ls -al` et vous devriez le voir apparaître.
+
+Voilà, Git est initialisé dans votre projet.
+
 ## Prépaer des modifications à un commit
 
 ## Enregister un commit
