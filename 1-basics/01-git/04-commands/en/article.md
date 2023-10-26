@@ -5,6 +5,7 @@
   - [Initializing Git in a Project](#initializing-git-in-a-project)
   - [Stage Changes for Commit](#stage-changes-for-commit)
   - [Unstage a File](#unstage-a-file)
+  - [Commit Changes](#commit-changes)
 
 # Basic Commands
 
@@ -75,3 +76,25 @@ git restore --staged .
 This command will unstage all files. 
 
 **However, use this command with caution. Without the `--staged` option, this command will reset the specified file or directory to its last known state (the state in your local repository).**
+
+## Commit Changes
+
+If you have files in your stage area, you probably want to make a commit. To do this, enter the following command:
+
+```sh
+git commit
+```
+
+This will open a text editor like Vi or Nano, depending on which one you have. This method can be a bit lengthy, which is why there is an option that streamlines the process:
+
+```sh
+git commit -m "commit message"
+```
+
+By adding this option, you can specify the commit message directly and you don't have to do anything else. For example:
+
+```sh
+git commit -m "Implementation of my super useful function"
+```
+
+There you have it, your commit is done, and the version of the file that was in the stage area has been copied to your local repository. The files that were previously in the stage area are no longer there since they have been committed.
