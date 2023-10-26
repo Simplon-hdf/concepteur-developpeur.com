@@ -5,6 +5,7 @@
   - [Ce que sont les branches](#ce-que-sont-les-branches)
   - [Le merge (La fusion)](#le-merge-la-fusion)
 - [Conclusion](#conclusion)
+- [Résumé](#résumé)
 
 # Les branches
 
@@ -41,3 +42,8 @@ Ici, nous avons fusionné l'historique de commit de la branch "*test branch*" da
 # Conclusion
 
 Nous aborderons des cas d'utilisations plus concret un peu plus tard, cet article avait simplement pour but de présenter sommairement les branches ainsi qu'un cas d'utilisation de ces dernières.
+
+# Résumé
+
+- Les branches sont un mécanisme qui duplique un historique de commit
+- Les branches peuvent être fusionnées afin "d'importer" des commits un autre historique, on appelle cette opération "un merge".
