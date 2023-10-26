@@ -42,6 +42,13 @@ Un dépôt distant est une version qui peut être différente de votre version l
 
 # Conclusion
 
-
+Cette introduction au travail collaboratif avec Git et GitHub est terminé, nous aborderons ces aspects plus en profondeur dans la prochaine section.
 
 # Résumé
+
+- Travailler en collaboration présentes de nombreux avantages mais représente aussi certaines contraintes.
+- Il existe des façon de travailler sur un projet en collaboration afin de fluidifier cette dernière, c'est ce qu'on appelle un "workflow" (flux de travail).
+- Il existe des plateformes permettant de décentraliser un projet Git.
+- GitHub est la plateforme préférée des développeurs.
+- Envoyer un dépôt local sur une de ces plateformes crée une nouvelle version de ce dépôt sur les serveurs de la plateforme.
+- Il existe des commandes Git spécialement dédiées à la gestion des dépôts distants.
