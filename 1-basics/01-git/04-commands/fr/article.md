@@ -61,6 +61,23 @@ Qui aura pour effet de déplacer tous les fichiers ayant reçu des modifications
 
 ## Retirer un fichier de la stage area
 
+Il est possible que vous vous soyez tromper dans la préparation des fichiers, par exemple que vous vous rendez compte que vous avez mis un fichier qui n'avait rien à faire dans le commit que vous avez prévu de faire. Dans ce cas, entrez la commande :
+
+```sh
+git retore --staged [nom_du_fichier_à_"dé-préparer"/dossier/]
+```
+
+Il est aussi possible d'utiliser :
+
+```sh
+git restore --staged .
+```
+
+Qui aura pour effet de vider la stage area de tous les fichiers.
+
+**Attention cependant, utilisez cette commande avec précaution, cette commande sans l'option `--staged` aura pour effet de**
+**remettre le fichier / dossier spécifié, à son dernier état connu (celui donc de votre dépôt local)**
+
 ## Enregister un commit
 
 Si vous avez des fichiers dans votre stage area, vous voulez sans doute faire un commit, pour ce faire, entrez la commande suivante :
