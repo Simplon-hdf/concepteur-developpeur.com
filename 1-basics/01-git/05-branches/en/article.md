@@ -5,6 +5,7 @@
   - [What Branches Are](#what-branches-are)
   - [Merge](#merge)
   - [Conclusion](#conclusion)
+- [Summary](#summary)
 
 # Branches
 
@@ -41,3 +42,8 @@ Here, we've merged the commit history of the "*test branch*" into "*main*". That
 ## Conclusion
 
 We will delve into more concrete use cases later. This article was meant to provide a brief overview of branches and one use case for them.
+
+# Summary
+
+- Branches are a mechanism duplicating commit history.
+- Branches can be merged to "import" commits from another history; this operation is called a "merge."
