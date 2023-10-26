@@ -25,3 +25,5 @@ Voyons voir ce qu'il se passe si nous créeions une nouvelle branche :
 Nous avons dupliqué l'historique de commit, ce qui fait qu'il en existe maintenant deux, c'est très utile pour permettre aux développeur de développer tranquillement. Voyons ce qu'il se passe si nous travaillons sur cette nouvelle branche.
 
 ![](../assets/new-commits.png)
+
+Deux commits ont étés ajoutés à l'historique de la nouvelle branche, l'utilité de faire ça peu paraître abstraite, vous saisirez pleinement l'utilité des branches lorsque nous aborderons les travaux collaboritif avec Git.
