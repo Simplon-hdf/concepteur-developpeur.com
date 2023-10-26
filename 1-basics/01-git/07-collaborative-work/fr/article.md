@@ -3,7 +3,7 @@
 - [Table des Matières](#table-des-matières)
 - [Travaillez en collaboration avec Git](#travaillez-en-collaboration-avec-git)
   - [Plateforme collaborative : GitHub](#plateforme-collaborative--github)
-  - [Un workflow (Flux de travail)](#un-workflow-flux-de-travail)
+  - [Le workflow (Flux de travail)](#le-workflow-flux-de-travail)
   - [Le dépôt distant](#le-dépôt-distant)
 - [Conclusion](#conclusion)
 - [Résumé](#résumé)
@@ -20,7 +20,7 @@ GitHub est une plateforme qui héberge tous un tas de dépôt Git. Et permet, en
 
 En plus d'être sécurisante pour votre progression, GitHub est très ergonomique et facile à utiliser. Bien qu'elle puisse paraître abrupte pour un néophyte, l'essayer c'est l'adopter. Nous consacrerons un chapitre complet à GitHub tant il y a de chose à en dire.
 
-## Un workflow (Flux de travail)
+## Le workflow (Flux de travail)
 
 Un workflow est une façon de travailler, il existe différent type de façon de travailler en collaboratioo avec Git et les dépôts distants, cela peut-être vu comme des conventions ayant pour objectif de fluidifier le travail collaboratif. Ces conventions existent pour réduire le temps passé à manipuler les outils collaboratifs.
 
@@ -28,7 +28,7 @@ Nous aborderons ce sujet bien plus tard, cette section est à but introductif et
 
 ## Le dépôt distant
 
-S'il existe des dépôt locaux, il en existe aussi des distants. Ce qu'on appelle "dépôt distant" sont simplement des dépôts locaux qui ont étés envoyés sur des plateformes en ligne (telle que Git). Il y une distinction très claire à faire entre ces deux types de dépôt :
+S'il existe des dépôt locaux, il en existe aussi des distants. Ce qu'on appelle "dépôt distant" sont simplement des dépôts locaux qui ont étés envoyés sur des plateformes en ligne (telle que GitHub). Il y une distinction très claire à faire entre ces deux types de dépôt :
 
 - Un dépôt local est un dépôt stocké sur votre machine.
 - Un dépôt distant est un dépôt stocké sur un serveur en ligne.
@@ -45,7 +45,7 @@ Cette introduction au travail collaboratif avec Git et GitHub est terminée, nou
 
 - Travailler en collaboration présente de nombreux avantages mais représente aussi certaines contraintes.
 - Il existe des façons de travailler sur un projet en collaboration afin de fluidifier cette dernière, c'est ce qu'on appelle un "workflow" (flux de travail).
-- Il existe des plateformes permettant de décentraliser un projet Git.
+- Il existe des plateformes permettant de décentraliser ainsi que de collaborer sur un projet Git.
 - GitHub est la plateforme préférée des développeurs.
 - Envoyer un dépôt local sur une de ces plateformes crée une nouvelle version de ce dépôt sur les serveurs de la plateforme.
 - Il existe des commandes Git spécialement dédiées à la gestion des dépôts distants.
