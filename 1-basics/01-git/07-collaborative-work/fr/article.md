@@ -45,7 +45,7 @@ Cette introduction au travail collaboratif avec Git et GitHub est terminée, nou
 
 - Travailler en collaboration présente de nombreux avantages mais représente aussi certaines contraintes.
 - Il existe des façons de travailler sur un projet en collaboration afin de fluidifier cette dernière, c'est ce qu'on appelle un "workflow" (flux de travail).
-- Il existe des plateformes permettant de décentraliser un projet Git.
+- Il existe des plateformes permettant de décentraliser ainsi que de collaborer sur un projet Git.
 - GitHub est la plateforme préférée des développeurs.
 - Envoyer un dépôt local sur une de ces plateformes crée une nouvelle version de ce dépôt sur les serveurs de la plateforme.
 - Il existe des commandes Git spécialement dédiées à la gestion des dépôts distants.

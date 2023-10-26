@@ -6,6 +6,7 @@
   - [Workflow](#workflow)
   - [Remote Repositories](#remote-repositories)
 - [Conclusion](#conclusion)
+- [Summary](#summary)
 
 # Collaborate with Git
 
@@ -39,3 +40,12 @@ A remote repository is a version that may be different from your local version o
 # Conclusion
 
 This introduction to collaborative work with Git and GitHub is complete. We will delve deeper into these aspects in the upcoming sections.
+
+# Summary
+
+- Collaborative work has numerous advantages but also involves certain constraints.
+- There are ways to collaborate on a project to streamline the process, known as a "workflow."
+- There are platforms that allow for decentralizing and collaborating on a Git project.
+- GitHub is the preferred platform for developers.
+- Sending a local repository to one of these platforms creates a new version of the repository on the platform's servers.
+- There are Git commands specifically dedicated to managing remote repositories.
