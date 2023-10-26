@@ -6,8 +6,8 @@
   - [Préparer des modifications à un commit](#préparer-des-modifications-à-un-commit)
   - [Retirer un fichier de la stage area](#retirer-un-fichier-de-la-stage-area)
   - [Enregister un commit](#enregister-un-commit)
-  - [Conclusion](#conclusion)
-  - [Résumé](#résumé)
+- [Conclusion](#conclusion)
+- [Résumé](#résumé)
 
 # Les commandes de base
 
@@ -100,11 +100,11 @@ git commit -m "Implémentation de ma super fonction très utile"
 
 Voilà, votre commit est fait, la version du fichier qui se trouvait dans la stage area a été copiée dans votre dépôt local, et vous pourrez la retrouver à tout moment. D'ailleurs, les fichiers qui se trouvait précédemment dans la stage area, ne s'y trouve plus, puis-ce qu'ils ont étés validés.
 
-## Conclusion
+# Conclusion
 
 Vous devriez être capable d'utiliser basiquement Git, les prochains articles seront dédiés à des notions plus avancées mais aussi plus concrètes.
 
-## Résumé
+# Résumé
 
 - Les commandes sont un moyen d'interagir avec Git pour effectuer des actions.
 - La commande `git init` dit à Git de s'initialiser dans un dossier.
