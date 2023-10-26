@@ -4,6 +4,7 @@
 - [Les commandes Git](#les-commandes-git)
   - [Initialiser Git dans un projet](#initialiser-git-dans-un-projet)
   - [Préparer des modifications à un commit](#préparer-des-modifications-à-un-commit)
+  - [Retirer un fichier de la stage area](#retirer-un-fichier-de-la-stage-area)
   - [Enregister un commit](#enregister-un-commit)
   - [Conclusion](#conclusion)
   - [Résumé](#résumé)
@@ -57,6 +58,8 @@ git add .
 Qui aura pour effet de déplacer tous les fichiers ayant reçu des modifications dans la stage area, à partir du repertoire dans lequel vous exécutez cette commande. Par exemple, si vous utilisez cette commande dans : `/mon_projet_git/articles/` alors tous les fichiers contenus dans `/mon_projet_git/articles/`, ainsi que tous ceux dans les dossiers de ce dossier. De façon récursive.
 
 Évitez au maximum cette approche, sauf si vous ne modifiez qu'un fichier à la fois et que vous faites vos commits en temps réel.
+
+## Retirer un fichier de la stage area
 
 ## Enregister un commit
 
