@@ -3,6 +3,7 @@
 - [Table Of Contents](#table-of-contents)
 - [Branches](#branches)
   - [What Branches Are](#what-branches-are)
+  - [Merge](#merge)
 
 # Branches
 
@@ -27,3 +28,11 @@ We duplicated the commit history, and now there are two branches. This is very u
 ![new commit on new branch](../assets/new-commits.png)
 
 Two commits have been added to the history of the new branch. The usefulness of doing this may seem abstract, but you'll fully grasp the benefits of branches when we delve into collaborative work with Git.
+
+## Merge
+
+There's a feature that gives branches more substance: the merge. With merge, you can combine two histories. You tell Git to take one commit history and add the commits it contains to another history. In the case where we're working on two separate branches, this is the result of a merge:
+
+![](../assets/merge.png)
+
+Here, we've merged the commit history of the "*test branch*" into "*main*". That's what a merge is all about. You'll notice that the branch from which we merged the history continues to exist; a merge doesn't involve deleting the branch.
