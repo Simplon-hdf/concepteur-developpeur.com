@@ -4,6 +4,7 @@
 - [Collaborate with Git](#collaborate-with-git)
   - [Collaborative Platform: GitHub](#collaborative-platform-github)
   - [Workflow](#workflow)
+  - [Remote Repositories](#remote-repositories)
 
 # Collaborate with Git
 
@@ -22,3 +23,14 @@ In addition to being reassuring for your progress, GitHub is very user-friendly 
 A workflow is a way of working. There are different types of workflows when working collaboratively with Git and remote repositories. These can be seen as conventions aimed at streamlining collaborative work. These conventions exist to reduce the time spent on collaborative tool management.
 
 We will discuss this topic much later. This section serves as an introduction, and it is a subject too vast to be detailed here.
+
+## Remote Repositories
+
+Just as there are local repositories, there are remote repositories. What we call a "remote repository" is simply a local repository that has been sent to online platforms (such as GitHub). There is a clear distinction to be made between these two types of repositories:
+
+- A local repository is a repository stored on your machine.
+- A remote repository is a repository stored on an online server.
+
+The distinction may seem obvious, but there are some subtleties that are good to know to get started with GitHub effectively.
+
+A remote repository is a version that may be different from your local version of the repository. There are commands to retrieve the latest version from the remote repository, which we will cover later. If you are working with other people, it is necessary to be aware that your version of the project may be outdated, so you will often need to use these commands.

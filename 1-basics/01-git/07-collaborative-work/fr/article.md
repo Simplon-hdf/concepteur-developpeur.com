@@ -28,7 +28,7 @@ Nous aborderons ce sujet bien plus tard, cette section est à but introductif et
 
 ## Le dépôt distant
 
-S'il existe des dépôt locaux, il en existe aussi des distants. Ce qu'on appelle "dépôt distant" sont simplement des dépôts locaux qui ont étés envoyés sur des plateformes en ligne (telle que Git). Il y une distinction très claire à faire entre ces deux types de dépôt :
+S'il existe des dépôt locaux, il en existe aussi des distants. Ce qu'on appelle "dépôt distant" sont simplement des dépôts locaux qui ont étés envoyés sur des plateformes en ligne (telle que GitHub). Il y une distinction très claire à faire entre ces deux types de dépôt :
 
 - Un dépôt local est un dépôt stocké sur votre machine.
 - Un dépôt distant est un dépôt stocké sur un serveur en ligne.
