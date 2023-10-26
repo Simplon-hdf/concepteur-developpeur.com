@@ -13,6 +13,8 @@
 
 ## L'enfer c'est les autres
 
+Git sert en grande partie à partager du code avec d'autres développeurs, et donc travaillez avec ces derniers sur un projet. Nous verrons dans cet article, les différentes contraintes que cela implique mais aussi les avantages que cela représente. 
+
 ## Plateforme collaborative
 
 ## Le dépôt distant
