@@ -105,3 +105,11 @@ Voilà, votre commit est fait, la version du fichier qui se trouvait dans la sta
 Vous devriez être capable d'utiliser basiquement Git, les prochaines seront dédiées à des notions plus avancée mais aussi plus concrète.
 
 ## Résumé
+
+- Les commandes sont un moyen d'interagir avec Git pour effectuer des actions.
+- La commande `git init` dit à Git de s'initialiser dans un dossier
+- La commande `git add [nom_de_fichier/nom_de_dossier]` sert à préparer des fichiers à un commit
+  - La commande `git restore --staged [nom_de_fichier/nom_de_dossier]` sert à "dé-préparer" des fichiers.
+    - Cette commande sans l'option `--staged` restore la dernière version du fichier / dossier spécifié connue (Celle du dernier commit concernant ce(s) fichier(s) du dépôt local)
+- La commande `git commit` sert à valider les modifications apportées aux fichiers préparés.
+  - L'option `-m` permet de spécifier directement un message de commit
