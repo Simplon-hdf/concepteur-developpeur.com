@@ -13,6 +13,7 @@ This documentation also exists in [english version](README.en.md).
 - [Fonctionnement de Git](1-basics/01-git/03-git-functions/fr/article.md)
 - [Les commandes de base](1-basics/01-git/04-commands/fr/article.md)
 - [Les branches](1-basics/01-git/05-branches/fr/article.md)
+- [Travaillez en collaboration avec Git](1-basics/01-git/06-collaborative-work/fr/article.md)
 
 <details>
 <summary><h2>GitFlow</h2></summary>
