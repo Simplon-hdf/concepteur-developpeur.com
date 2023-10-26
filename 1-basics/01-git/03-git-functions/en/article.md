@@ -4,6 +4,7 @@
 - [How Git Works](#how-git-works)
   - [Git Terminology](#git-terminology)
     - [The Commit](#the-commit)
+    - [The Local Repository](#the-local-repository)
 
 # How Git Works
 
@@ -79,3 +80,17 @@ In fact, when working with Git, you can ask yourself:
 - Does this change really deserve a commit?
 
 This should normally help you. So, it seems that we've covered the most important topics regarding commits.
+
+### The Local Repository
+
+Git works with repositories, and the concept of a repository is quite simple to understand. **A repository is a place where a history of commits is stored**. When we talk about a local repository, you could translate it as a folder.
+
+To be precise, a local repository is not just a folder; let's say it's **stored in a folder**. With Git, a local repository is stored in a **hidden folder** named `.git`. The presence of this folder at the root of your project makes it a Git project. Some may say this makes your project a local repository, but that's not entirely true; it's a somewhat **simplistic shortcut**.
+
+In any case, let's use a diagram to explain how a Git project is organized:
+
+![git project arrangement](../assets/local-repo.png)
+
+This diagram shows in a bit more detail how Git organizes your projects. It demonstrates that the actual local repository is contained within the `.git` folder at the root of your Git project. This is why saying a Git repository is the folder containing your files is a somewhat simplistic (and incorrect) shortcut. Saying that the `.git` folder is the local repository is also not entirely accurate. In fact, **all the files contained in the `.git` folder make up the local repository**. However, if you say that the `.git` folder is the local repository, no one will contradict you.
+
+Do you remember when we said, "*A version in which your function exists, no matter what happens to your code file*"? Well, there's an exception: if you were to delete your local repository. Since your local repository stores your commit history and therefore your commits, if you were to delete your repository, all your commits would be lost, and thus your function as well. It may seem obvious, but since what seems obvious becomes even more so when it's said, we're saying it.
