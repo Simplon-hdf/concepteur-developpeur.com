@@ -6,6 +6,7 @@
     - [The Commit](#the-commit)
     - [The Local Repository](#the-local-repository)
     - [The Working Directory](#the-working-directory)
+    - [The Stage Area](#the-stage-area)
 
 # How Git Works
 
@@ -103,3 +104,29 @@ Now we're getting into the core of Git. The working directory is the place where
 ![working directory](../assets/working-directory.png)
 
 The **working directory** is where **you make your modifications**, which is why it's called the "working directory." You'll spend most of your time working in it. This is also why saying that the folder containing your Git project is your local repository is incorrect; it's your working directory. You'll spend more time making modifications within your working directory than in any other Git area.
+
+### The Stage Area
+
+The staging area is the only Git area that is not as tangible as the working directory or the local repository. In the sense that it doesn't engrave anything in stone, this Git area is used to **prepare the modifications** you make in your files in the working directory for sending to your local repository. It acts as a "*buffer zone*" between your working directory and your local repository. Let's use a diagram to see where it's located:
+
+![stage area](../assets/stage-area.png)
+
+This is how you can represent the staging area. It is **between the working directory and the local repository**, hence the name "buffer zone." This diagram doesn't explain exactly what it's used for, but we're getting to that.
+
+Please note that this diagram is meant to provide a basic understanding of Git's structure, but it's technically inaccurate. However, for a simple explanation, this diagram will suffice. We do acknowledge that it's not 100% accurate. In reality, it's a bit more complicated than this. Just consider that we're using a shortcut to avoid getting into too much detail.
+
+Now, back to the staging area. As mentioned earlier, this area acts as a buffer between your working directory and your local repository. It's essentially a preparation area for commits. Let's create a mental image:
+
+Imagine you're in a theater. The **dressing rooms** of the actors represent the **working directory**. The **staging area** is the **backstage**, *where actors get ready to go on stage*. And the **local repository** represents **the stage**.
+
+Now, let's consider a typical use case of Git:
+
+You're working on a class, and you're in the **dressing rooms** (working directory). Then, you prepare your modifications to go on stage, and you're **behind the scenes** (staging area). You make a commit for your class, and you send it to the **front of the stage** (local repository).
+
+In practice, the staging area is just a preparation zone for commits. Let's use another diagram to understand it better:
+
+![filled stage area](../assets/stage-area-filled.png)
+
+This is what happens when you want to make a commit for two files. You ask Git to prepare your two files for a commit. Git moves these two files into the staging area, and then you simply make your commit. Both versions of your files are sent to your local repository under the same commit.
+
+Please note that you cannot ask Git to prepare a file that has not been modified since its last version in your local repository.
