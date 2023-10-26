@@ -8,6 +8,7 @@ This documentation also exists in [english version](README.en.md).
 <summary><h2>Git</h2></summary>
 
 - [Introduction à Git](1-basics/01-git/01-introduction/fr/article.md)
+- [Installation de Git](1-basics/01-git/02-installation/fr/article.md)
 - [Le versioning](1-basics/01-git/02-versioning/fr/article.md)
 - [Fonctionnement de Git](1-basics/01-git/03-git-functions/fr/article.md)
 - [Les commandes de base](1-basics/01-git/04-commands/fr/article.md)
