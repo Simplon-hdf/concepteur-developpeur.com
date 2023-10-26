@@ -17,7 +17,7 @@ Git sert en grande partie à partager du code avec d'autres développeurs, et do
 
 ## Plateforme collaborative : GitHub
 
-Une plateforme largement reconnue dans le monde du développement est GitHub. Elle est de loin la plateforme la plus populaire et les développeurs du monde entier s'en servent en guise de plateforme d'hébergement pour leurs projets. Bien qu'il existe d'autres plateformes du genre, telles que GitLab ou BitBucket, GitHub est la préférée des développeurs. C'est pourquoi nous avons decidé de la présenter ici.
+Une plateforme largement reconnue dans le monde du développement est GitHub. Elle est de loin la plateforme la plus populaire et les développeurs du monde entier s'en servent en guise de plateforme d'hébergement pour leurs projets. Bien qu'il existe d'autres plateformes du même genre, telles que GitLab ou BitBucket, GitHub est la préférée des développeurs. C'est pourquoi nous avons decidé de la présenter ici.
 
 GitHub est une plateforme qui héberge tous un tas de dépôt Git. Et permet, en plus de collaborer avec d'autres développeurs, de sauvegarder un dépôt Git de façon distante (sur le cloud), ce qui représente un avantage majeur : La décentralisation de projets. Imaginons que vous veniez à perdre toutes les données de votre disque dur, tous vos projets seraient perdus. Sauf si vous les aveiz décentralisés grâce à GitHub. Dans ce cas, vous pourriez récupérer votre projet depuis un autre ordinateur.
 
