@@ -4,8 +4,8 @@
 - [Travaillez en collaboration avec Git](#travaillez-en-collaboration-avec-git)
   - [L'enfer c'est les autres](#lenfer-cest-les-autres)
   - [Plateforme collaborative : GitHub](#plateforme-collaborative--github)
-  - [Le dépôt distant](#le-dépôt-distant)
   - [Un workflow (Flux de travail)](#un-workflow-flux-de-travail)
+  - [Le dépôt distant](#le-dépôt-distant)
 - [Conclusion](#conclusion)
 - [Résumé](#résumé)
 
@@ -23,9 +23,9 @@ GitHub est une plateforme qui héberge tous un tas de dépôt Git. Et permet, en
 
 En plus d'être sécurisant pour votre progression, GitHub est très ergonomique et facile à utiliser. Bien qu'elle puisse paraître abrupte pour un néophyte, l'essayer c'est l'adopter. Nous consacrerons un chapitre complet à GitHub tant il y a de chose à dire dessus.
 
-## Le dépôt distant
-
 ## Un workflow (Flux de travail)
+
+## Le dépôt distant
 
 # Conclusion
 
