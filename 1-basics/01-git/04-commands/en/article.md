@@ -6,8 +6,8 @@
   - [Stage Changes for Commit](#stage-changes-for-commit)
   - [Unstage a File](#unstage-a-file)
   - [Commit Changes](#commit-changes)
-  - [Conclusion](#conclusion)
-  - [Summary](#summary)
+- [Conclusion](#conclusion)
+- [Summary](#summary)
 
 # Basic Commands
 
@@ -101,11 +101,11 @@ git commit -m "Implementation of my super useful function"
 
 There you have it, your commit is done, and the version of the file that was in the stage area has been copied to your local repository. The files that were previously in the stage area are no longer there since they have been committed.
 
-## Conclusion
+# Conclusion
 
 You should now be able to use Git at a basic level. The upcoming articles will focus on more advanced and concrete concepts.
 
-## Summary
+# Summary
 
 - Commands are a way to interact with Git to perform actions.
 - The `git init` command tells Git to initialize itself in a directory.
