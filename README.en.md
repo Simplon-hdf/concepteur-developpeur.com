@@ -9,10 +9,10 @@ Cette documentation existe aussi en [version française](README.md)
 
 - [Git Introduction](1-basics/01-git/01-introduction/en/article.md)
 - [Installing Git](1-basics/01-git/02-installation/en/article.md)
-- [Versioning](1-basics/01-git/02-versioning/en/article.mdg)
-- [How Git works](1-basics/01-git/03-git-functions/en/article.md)
-- [Basics Commands](1-basics/01-git/04-commands/en/article.md)
-- [Branches](1-basics/01-git/05-branches/en/article.md)
+- [Versioning](1-basics/01-git/03-versioning/en/article.mdg)
+- [How Git works](1-basics/01-git/04-git-functions/en/article.md)
+- [Basics Commands](1-basics/01-git/05-commands/en/article.md)
+- [Branches](1-basics/01-git/06-branches/en/article.md)
 - [Collaborate with Git](1-basics/01-git/07-collaborative-work/en/article.md)
 
 <details>
